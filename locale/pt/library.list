@@ -1,0 +1,5 @@
+al_library_awesome														/css/all.min.css
+al_library_font															https://fonts.googleapis.com/css?family=Roboto
+al_library_jquery														/js/jquery.min.js
+al_library_w3css_color													/css/w3-theme-indigo.css
+al_library_w3css														/css/w3.css

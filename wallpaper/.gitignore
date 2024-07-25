@@ -1,0 +1,21 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.gitignore.zrfisaac : 0.0.3
+
+# [ gitignore ]
+
+# : - zrfisaac
+*.classified.*
+*.classified/
+*/classified/
+*classified/
+*.private.*
+*.private/
+*/private/
+*private/
+_*
+zd/
