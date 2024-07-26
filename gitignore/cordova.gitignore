@@ -1,0 +1,21 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.web.gitignore.cordova : 0.0.1
+
+# [ gitignore ]
+
+# : - cordova
+.*
+*.aab
+*.apk
+node_modules/
+platforms/
+
+# : - zrfisaac
+.git
+.vs
+_*

@@ -1,0 +1,26 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.web.gitignore.wine : 0.0.1
+
+# [ gitignore ]
+
+# : - wine
+/Makefile
+/wine
+/TAGS
+/tags
+/autom4te.cache
+/config.log
+/config.status
+include/config.h
+include/stamp-h
+tools/makedep
+
+# : - zrfisaac
+.git
+.vs
+_*

@@ -1,0 +1,29 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.web.gitignore.delphixe2 : 0.0.1
+
+# [ gitignore ]
+
+# : - delphixe2
+*.~*
+*.exe
+*.bpi
+*.bpl
+*.dcp
+*.dcu
+*.dll
+*.identcache
+*.ini
+*.local
+*.rsm
+__history/
+__recovery/
+
+# : - zrfisaac
+.git
+.vs
+_*
