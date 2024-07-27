@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.web.bash.postgres : 0.0.1
+# - version : zrfisaac.web.bash.postgres : 0.0.2
 
 # [ bash ]
 # - config
@@ -33,5 +33,6 @@ command -v sudo >/dev/null 2>&1 && sudo="sudo" || sudo=""
 # - table
 export PGPASSWORD="${c_psql_password}"
 for _file in $(find "${c_path}" \( -name "*.sql" -o -name "*.postgresql.sql" -o -name "*.postgres.sql" \)); do
+	echo "# : ${_file}"
 	${c_psql_shell} -h "${c_psql_server}" -p "${c_psql_port}" -U "${c_psql_user}" -d "${c_psql_database}" -f "${_file}"
 done
