@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.web.bash.oracle : 0.0.1
+# - version : zrfisaac.web.bash.oracle : 0.0.2
 
 # [ bash ]
 
@@ -35,5 +35,6 @@ command -v sudo >/dev/null 2>&1 && sudo="sudo" || sudo=""
 for _file in $(find "${c_path}" \( -name "*.sql" -o -name "*.oracle.sql" \)); do
 	# sqlplus 'system/"ABcd!@34"@127.0.0.1:1521/XE'
 	_data="system/\"${c_oracle_password}\"@${c_oracle_server}:${c_oracle_port}/${c_oracle_service}"
-	echo "@/mnt/storage/trash/06-develop/run.sql" | sqlplus -S "${_data}"
+	_real="$(realpath ${_file})"
+	echo "@${_real}" | sqlplus -S "${_data}"
 done
