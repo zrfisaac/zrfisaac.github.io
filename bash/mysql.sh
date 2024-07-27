@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.web.bash.mysql : 0.0.2
+# - version : zrfisaac.web.bash.mysql : 0.0.3
 
 # [ bash ]
 
@@ -33,5 +33,6 @@ command -v sudo >/dev/null 2>&1 && sudo="sudo" || sudo=""
 
 # - table
 for _file in $(find "${c_path}" \( -name "*.sql" -o -name "*.mysql.sql" -o -name "*.mariadb.sql" \)); do
+	echo "# : ${_file}"
 	${c_mysql_shell} -h "${c_mysql_server}" -P "${c_mysql_port}" -u "${c_mysql_user}" -p"${c_mysql_password}" -D "${c_mysql_database}" < "${_file}"
 done
