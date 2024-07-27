@@ -5,32 +5,33 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.web.bash.mysql : 0.0.1
+# - version : zrfisaac.web.bash.mysql : 0.0.2
 
 # [ bash ]
 
 # - config
-echo "# - config"
-c_mysql_shell="mysql"
-c_mysql_server=""
-c_mysql_user=""
-c_mysql_password=""
-c_mysql_database=""
+c_mysql_shell=$(command -v mariadb &> /dev/null && echo "mariadb" || echo "mysql")
+c_mysql_server="127.0.0.1"
+c_mysql_port="3306"
+c_mysql_user="root"
+c_mysql_password="ABcd!@34"
+c_mysql_database="mysql"
+
+# - config
+c_path="$(pwd)"
 
 # - sudo
-echo "# - sudo"
 command -v sudo >/dev/null 2>&1 && sudo="sudo" || sudo=""
 
 # - config
-echo "# - config"
 [ -f  $(pwd)/config.sh ] && source $(pwd)/config.sh
 [ -f  $(pwd)/_config.sh ] && source $(pwd)/_config.sh
 [ -f  $(pwd)/__config.sh ] && source $(pwd)/__config.sh
 
 # - clean
-echo "# - clean"
 [ -d  $(pwd)/_ ] && source $(pwd)/_
 
 # - table
-#echo ${c_mysql_shell} -h ${c_mysql_server} -u ${c_mysql_user!} -p${c_mysql_password} -D ${c_mysql_database} < "%%~z"
-echo ${c_mysql_shell} -h ${c_mysql_server} -u ${c_mysql_user} -p${c_mysql_password} -D ${c_mysql_database}
+for _file in $(find "${c_path}" \( -name "*.sql" -o -name "*.mysql.sql" -o -name "*.mariadb.sql" \)); do
+	${c_mysql_shell} -h "${c_mysql_server}" -P "${c_mysql_port}" -u "${c_mysql_user}" -p"${c_mysql_password}" -D "${c_mysql_database}" < "${_file}"
+done
