@@ -4,4 +4,14 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.web.api.pagbank : 0.0.1
+# - version : zrfisaac.web.api.pagbank : 0.1.0
+
+# [ url ]
+
+# - : https://developer.pagbank.com.br/
+
+# - : https://acesso.pagbank.com.br/portaldev
+
+# - : https://portaldev.pagbank.com.br/
+
+# - : https://developer.pagbank.com.br/reference/introducao?_gl=1*1p10xp7*_gcl_au*NTI4NDE1MjQxLjE3MjMwNDQyNzk.*_ga*ODI3NTc5MDgwLjE3MjMwNDQxMTM.*_ga_VZW8YVGM9B*MTcyMzA0NDExMy4xLjEuMTcyMzA0NDM1OS4wLjAuMA..*_ga_Q4ZPQF937E*MTcyMzA0NDExMy4xLjEuMTcyMzA0NDM1OS42MC4wLjA.
