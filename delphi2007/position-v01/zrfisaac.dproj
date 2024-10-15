@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{2006cbb4-2fed-4eff-98c8-ad3f6c489a7e}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>binary\debug\zrfisaac.exe</DCC_DependencyCheckOutputName>
+    <MainSource>zrfisaac.dpr</MainSource>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>RELEASE</DCC_Define>
+    <DCC_ExeOutput>binary\release</DCC_ExeOutput>
+    <DCC_DcuOutput>object\release</DCC_DcuOutput>
+    <DCC_ObjOutput>object\release</DCC_ObjOutput>
+    <DCC_HppOutput>object\release</DCC_HppOutput>
+    <DCC_BplOutput>object\release</DCC_BplOutput>
+    <DCC_DcpOutput>object\release</DCC_DcpOutput>
+    <DCC_UnitSearchPath>library</DCC_UnitSearchPath>
+    <DCC_ResourcePath>library</DCC_ResourcePath>
+    <DCC_ObjPath>library</DCC_ObjPath>
+    <DCC_IncludePath>library</DCC_IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Define>DEBUG</DCC_Define>
+    <DCC_ExeOutput>binary\debug</DCC_ExeOutput>
+    <DCC_DcuOutput>object\debug</DCC_DcuOutput>
+    <DCC_ObjOutput>object\debug</DCC_ObjOutput>
+    <DCC_HppOutput>object\debug</DCC_HppOutput>
+    <DCC_BplOutput>object\debug</DCC_BplOutput>
+    <DCC_DcpOutput>object\debug</DCC_DcpOutput>
+    <DCC_UnitSearchPath>library</DCC_UnitSearchPath>
+    <DCC_ResourcePath>library</DCC_ResourcePath>
+    <DCC_ObjPath>library</DCC_ObjPath>
+    <DCC_IncludePath>library</DCC_IncludePath>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1046</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">Isaac Caires / zrfisaac.github.io</VersionInfoKeys><VersionInfoKeys Name="FileDescription">zrfisaac.delphi2007.position.v01</VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName">zrfisaac.delphi2007.position.v01</VersionInfoKeys><VersionInfoKeys Name="LegalCopyright">Isaac Caires / zrfisaac.github.io</VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks">Isaac Caires / zrfisaac.github.io</VersionInfoKeys><VersionInfoKeys Name="OriginalFilename">zrfisaac</VersionInfoKeys><VersionInfoKeys Name="ProductName">zrfisaac.delphi2007.position.v01</VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments">zrfisaac.delphi2007.position.v01</VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">zrfisaac.dpr</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="zrfisaac.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="source\menu_main_data.pas">
+      <Form>MenuMainData</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="source\menu_main_form.pas">
+      <Form>MenuMainForm</Form>
+    </DCCReference>
+  </ItemGroup>
+</Project>
