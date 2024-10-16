@@ -4,13 +4,23 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 1.0.2
+# - version : zrfisaac.gitignore : 1.0.3
 
 # [ gitignore ]
+*.crack.*
+*.hidden.*
+*.old
+*.old.*
+*.pirate.*
+*.temp
+*.temp.*
+*.trash
+*.trash.*
 albedo/
 binary/*/
 bitbucket/
 clone/*/
+crack/
 data/
 docker/*/
 fork/*/
@@ -22,7 +32,7 @@ mvp/*/
 project/*/
 repository/
 source/*/
-trash/*/
+trash/*
 video/*/
 work/*/
 wiki/*/
