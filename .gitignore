@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 1.0.1
+# - version : zrfisaac.gitignore : 1.0.2
 
 # [ gitignore ]
 albedo/
@@ -18,13 +18,15 @@ game/*/
 github/
 gitlab/
 music/
+mvp/*/
 project/*/
 repository/
 source/*/
 trash/*/
 video/*/
 work/*/
-wiki*/
+wiki/*/
+wiki.*/
 
 # : - zrfisaac
 *.classified.*

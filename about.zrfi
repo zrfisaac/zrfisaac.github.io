@@ -4,4 +4,12 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac : 1.0.1
+# - version : zrfisaac : 1.0.2
+
+# [ list ]
+
+# - : github
+# . - : https://github.com/zrfisaac/zrfisaac.git
+
+# - : gitlab
+# . - : https://gitlab.com/zrfisaac/zrfisaac.git
