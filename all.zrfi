@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.all : 1.0.0
+# - version : zrfisaac.all : 1.0.1
 
 # [ list ]
 
@@ -100,9 +100,3 @@
 
 # - : project/XPlorer
 # . - : https://github.com/zrfisaac/XPlorer.git
-
-# - : wiki.en
-# . - : https://github.com/zrfisaac/wiki.en.git
-
-# - : wiki.pt
-# . - : https://github.com/zrfisaac/wiki.pt.git
