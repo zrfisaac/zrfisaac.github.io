@@ -4,7 +4,7 @@
 <!-- # - author : Isaac Caires -->
 <!-- # . - email : zrfisaac@gmail.com -->
 <!-- # . - site : zrfisaac.github.io -->
-<!-- # - version : zrfisaac.readme.pt : 1.0.0 -->
+<!-- # - version : zrfisaac.readme.pt : 1.0.1 -->
 
 <!-- # [ markdown ] -->
 [![](https://img.shields.io/badge/english--4169E1?style=for-the-badge)]([README.pt-BR.md](README.en.md))
@@ -13,7 +13,7 @@
 
 # 💻 Isaac Caires | Analista de Sistemas & Desenvolvedor de Software 🚀
 
-Olá! Eu sou Isaac Caires, um analista de sistemas e desenvolvedor de software apaixonado do Brasil, com mais de 15 anos de experiência em desenvolvimento full-stack, sistemas ERP e soluções de gestão hospitalar. Atualmente, trabalho como Analista de Sistemas Sênior na Softwell Solutions (Maker), onde desenvolvo e mantenho a Maker Platform, uma ferramenta de desenvolvimento visual para integração de ERP.
+Olá! Eu sou Isaac Caires, um analista de sistemas e desenvolvedor de software, com mais de 15 anos de experiência em desenvolvimento full-stack, sistemas ERP e soluções de gestão hospitalar. Atualmente, trabalho como Analista de Sistemas Sênior na Softwell Solutions (Maker), onde desenvolvo e mantenho a Maker Platform, uma ferramenta de desenvolvimento visual para integração de ERP.
 
 ## 🛠️ Habilidades e Tecnologias
 - **Linguagens:** Delphi, C#, ASP.NET MVC, Python, HTML, CSS, JavaScript, Bash, SQL
