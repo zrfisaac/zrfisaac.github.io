@@ -1,0 +1,75 @@
+-- # [ zrfisaac ]
+
+-- # [ about ]
+-- # - author : Isaac Caires
+-- # . - email : zrfisaac@gmail.com
+-- # . - site : zrfisaac.github.io
+-- # - version : zrfisaac.database.user.v01.mssql : 0.1.0
+
+-- # [ mssql ]
+
+-- # : - table - "TB_GROUP"
+-- /*
+IF NOT EXISTS (
+	SELECT TOP 1 NULL
+	FROM INFORMATION_SCHEMA.TABLES WITH(NOLOCK)
+	WHERE INFORMATION_SCHEMA.TABLES.TABLE_TYPE = 'BASE TABLE'
+	AND INFORMATION_SCHEMA.TABLES.TABLE_NAME = 'TB_GROUP'
+)
+BEGIN
+	CREATE TABLE TB_GROUP
+	(
+		-- # : - column
+		 CL_ID			INT	IDENTITY(1, 1)	NOT NULL
+		,CL_NAME		VARCHAR		(  80)	NOT NULL
+		,CL_ACTIVE		VARCHAR		(   1)	NOT	NULL
+			CONSTRAINT DF_TB_GROUP_CL_ACTIVE
+			DEFAULT('N')
+
+		-- # : - constraint
+		,CONSTRAINT CT_TB_GROUP_CL_ACTIVE
+		CHECK(CL_ACTIVE  IN ('Y','N'))
+
+		-- # : - primary
+		,CONSTRAINT PK_TB_GROUP_CL_ID
+		PRIMARY KEY (CL_ID)
+	)
+END
+GO
+-- */
+
+-- # : - table - "TB_USER"
+-- /*
+IF NOT EXISTS (
+	SELECT TOP 1 NULL
+	FROM INFORMATION_SCHEMA.TABLES WITH(NOLOCK)
+	WHERE INFORMATION_SCHEMA.TABLES.TABLE_TYPE = 'BASE TABLE'
+	AND INFORMATION_SCHEMA.TABLES.TABLE_NAME = 'TB_USER'
+)
+BEGIN
+	CREATE TABLE TB_USER
+	(
+		-- # : - column
+		 CL_ID			INT	IDENTITY(1, 1)	NOT NULL
+		,CL_GROUP		INT					NOT NULL
+		,CL_NAME		VARCHAR		(  80)	NOT NULL
+		,CL_ACTIVE		VARCHAR		(   1)	NOT	NULL
+			CONSTRAINT DF_TB_USER_CL_ACTIVE
+			DEFAULT('N')
+
+		-- # : - constraint
+		,CONSTRAINT CT_TB_USER_CL_ACTIVE
+		CHECK(CL_ACTIVE  IN ('Y','N'))
+
+		-- # : - primary
+		,CONSTRAINT PK_TB_USER_CL_ID
+		PRIMARY KEY (CL_ID)
+
+		-- # : - foreign
+		,CONSTRAINT FK_TB_USER_CL_GROUP
+		FOREIGN KEY (CL_GROUP)
+		REFERENCES TB_GROUP(CL_ID)
+	)
+END
+GO
+-- */

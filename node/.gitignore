@@ -1,0 +1,21 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.node.gitignore : 1.0.0
+
+# [ gitignore ]
+node_modules
+package.json
+package-lock.json
+
+# : - zrfisaac
+*.classified.*
+.DS_Store
+.git
+*.private.*
+.temp
+.vs
+_*
