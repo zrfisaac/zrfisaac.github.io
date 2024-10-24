@@ -1,0 +1,19 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+
+# [ docker-compose ]
+services:
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: main_portainer
+    ports:
+      - 9000:9000
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
+    #network_mode: "host"
+    networks: ["local"]

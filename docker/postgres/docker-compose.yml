@@ -1,0 +1,20 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+
+# [ docker-compose ]
+services:
+  postgres:
+    image: postgres:14
+    container_name: main_postgres
+    environment:
+      POSTGRES_PASSWORD: "ABcd!@34"
+    volumes:
+      - "./public:/public"
+    ports:
+      - "5432:5432"
+    #network_mode: "host"
+    networks: ["local"]

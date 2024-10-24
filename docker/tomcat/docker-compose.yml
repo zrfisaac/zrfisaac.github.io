@@ -1,0 +1,21 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+
+# [ docker-compose ]
+services:
+  tomcat:
+    image: tomcat:9-jre8
+    container_name: main_tomcat
+    volumes:
+      - "./public:/public"
+      - "./webapps:/usr/local/tomcat/webapps"
+    environment:
+      - "WEBRUN_HOME=/usr/local/tomcat/webapps"
+    ports:
+      - 8080:8080
+    #network_mode: "host"
+    networks: ["local"]

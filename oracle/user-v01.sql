@@ -8,7 +8,10 @@
 
 -- # [ shell ]
 
--- # - : C:\app\zrfis\product\21c\dbhomeXE\bin\sqlplus.exe / as sysdba
+-- # - : C:\app\%USERNAME%\product\21c\dbhomeXE\bin\sqlplus.exe / as sysdba
+-- # - : C:\app\%USERNAME%\virtual\product\12.2.0\dbhome_1\bin\sqlplus.exe / as sysdba
+-- # - : C:\oraclexe\app\oracle\product\10.2.0\server\BIN\sqlplus.exe sys as sysdba
+-- # - : C:\XEClient\bin\sqlplus.exe / as sysdba
 
 -- # [ oracle ]
 -- # : - destroy

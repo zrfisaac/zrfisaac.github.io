@@ -1,0 +1,18 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+
+# [ docker-compose ]
+networks:
+  local:
+    driver: bridge
+
+services:
+  alpine:
+    image: i386/alpine:latest
+    container_name: main_alpine
+    command: tail -f /dev/null
+    networks: ["local"]

@@ -1,0 +1,28 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+
+# [ url ]
+
+# - : https://container-registry.oracle.com
+
+# - : https://container-registry.oracle.com/ords/f?p=113:4:130296520258781:::4:P4_REPOSITORY,AI_REPOSITORY,AI_REPOSITORY_NAME,P4_REPOSITORY_NAME,P4_EULA_ID,P4_BUSINESS_AREA_ID:803,803,Oracle%20Database%20Express%20Edition,Oracle%20Database%20Express%20Edition,1,0&cs=3W-Ozo9cJdufB2BTR6sydJb48hsbMEQjLyXvI7KZozZOKk2xXUVMOdg8SbJHDIshl-DGAz3KRRckcOqNamAObsQ
+
+# [ docker-compose ]
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: main_mysql
+    user: root
+    restart: always
+    volumes:
+      - "./public:/public"
+    ports:
+      - "3306:3306"
+    environment:
+      - "MYSQL_ROOT_PASSWORD=ABcd!@34"
+    #network_mode: "host"
+    networks: ["local"]

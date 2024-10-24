@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 1.0.4
+# - version : zrfisaac.gitignore : 1.0.5
 
 # [ gitignore ]
 *.crack.*
@@ -23,7 +23,6 @@ bitbucket/
 clone/*/
 crack/
 data/
-docker/*/
 document/
 fork/*/
 game/*/

@@ -1,0 +1,16 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+
+# [ gitignore ]
+mssql/*
+public/*
+webapps/*
+
+# : - zrfisaac
+.git
+.vs
+_*
