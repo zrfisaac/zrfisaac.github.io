@@ -18,8 +18,10 @@
 *.trash.*
 albedo/
 assets/
+asset/
 binary/*/
 bitbucket/
+classified.*
 clone/*/
 crack/
 data/
@@ -30,8 +32,10 @@ github/
 gitlab/
 music/
 mvp/*/
+private.*
 project/*/
 repository/
+rom/
 source/*/
 trash/*
 video/*/

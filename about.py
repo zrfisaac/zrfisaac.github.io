@@ -5,7 +5,6 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# version : zrfisaac.python.clone : 1.0.0
 
 # [ python ]
 
@@ -17,8 +16,6 @@ import subprocess
 
 # - variable
 v_config_file = [
-    "__.zrfi",
-    "_.zrfi",
     "__about.zrfi",
     "__about.classified.zrfi",
     "__about.private.zrfi",
