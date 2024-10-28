@@ -11,6 +11,9 @@
 # - : fork/behzad-sample-project
 # . - : https://github.com/zrfisaac/fork.behzad-sample-project.git
 
+# - : fork/brasil-api
+# . - : https://github.com/zrfisaac/fork.brasil-api.git
+
 # - : fork/cef4delphi
 # . - : https://github.com/zrfisaac/fork.cef4delphi.git
 
@@ -50,14 +53,20 @@
 # - : fork/restaurant-ordering-template
 # . - : https://github.com/zrfisaac/fork.restaurant-ordering-template.git
 
-# - : fork/simple-icons
-# . - : https://github.com/zrfisaac/fork.simple-icons.git
-
 # - : fork/shinnil-godot-admob
 # . - : https://github.com/zrfisaac/fork.shinnil-godot-admob.git
 
+# - : fork/skia4delphi
+# . - : https://github.com/zrfisaac/fork.skia4delphi.git
+
+# - : fork/simple-icons
+# . - : https://github.com/zrfisaac/fork.simple-icons.git
+
 # - : fork/synedit
 # . - : https://github.com/zrfisaac/fork.synedit.git
+
+# - : fork/trello-card-numbers
+# . - : https://github.com/zrfisaac/fork.trello-card-numbers.git
 
 # - : fork/ventoy
 # . - : https://github.com/zrfisaac/fork.ventoy.git
