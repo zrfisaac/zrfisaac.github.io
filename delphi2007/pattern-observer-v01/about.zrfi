@@ -1,0 +1,9 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.delphi2007.pattern.observer.v01 : 1.0.0
+# . - description : Observer - Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+# . - example : A news application where multiple views update when new articles are published.

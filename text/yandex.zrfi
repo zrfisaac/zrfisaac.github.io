@@ -1,0 +1,33 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.text.yandex : 1.0.0
+
+# [ data ]
+
+# - ddns
+# . - ipv4 - basic - 01 : 77.88.8.8
+# . - ipv4 - basic - 02 : 77.88.8.1
+# . - ipv4 - safe - 01 : 77.88.8.88
+# . - ipv4 - safe - 02 : 77.88.8.2
+# . - ipv4 - family - 01 : 77.88.8.7
+# . - ipv4 - family - 02 : 77.88.8.3
+# . - ipv6 - basic : 2a02:6b8::feed:0ff
+# . - ipv6 - safe : 2a02:6b8::feed:bad
+# . - ipv6 - family : 2a02:6b8::feed:a11
+
+# - imap
+# . - server : imap.yandex.com
+# . - port : 993
+
+# - pop
+# . - server : pop.yandex.com
+# . - port : 995
+
+# - smtp
+# . - server : smtp.yandex.com
+# . - port : 587
+# . - port : 465

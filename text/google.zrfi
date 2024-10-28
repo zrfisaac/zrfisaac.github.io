@@ -1,0 +1,28 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.text.google : 1.0.0
+
+# [ data ]
+
+# - ddns
+# . - ipv4 - primary : 8.8.8.8
+# . - ipv4 - secondary : 8.8.4.4
+# . - ipv6 - primary : 2001:4860:4860::8888
+# . - ipv6 - secondary : 2001:4860:4860::8844
+
+# - imap
+# . - server : imap.gmail.com
+# . - port : 993
+
+# - pop
+# . - server : pop.gmail.com
+# . - port : 995
+
+# - smtp
+# . - server : smtp.gmail.com
+# . - port : 465
+# . - port : 587

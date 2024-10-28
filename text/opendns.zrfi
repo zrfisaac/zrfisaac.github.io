@@ -1,0 +1,15 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.text.opendns : 1.0.0
+
+# [ data ]
+
+# - ddns
+# . - ipv4 - primary : 208.67.222.222
+# . - ipv4 - secondary : 208.67.220.220
+# . - ipv6 - primary : 2620:119:35::35
+# . - ipv6 - secondary : 2620:119:53::53

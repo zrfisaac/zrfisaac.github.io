@@ -1,0 +1,25 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.text.microsoft : 1.0.0
+
+# [ data ]
+
+# - imap
+# . - server : outlook.office365.com
+# . - server : imap-mail.outlook.com
+# . - port : 993
+
+# - pop
+# . - server : outlook.office365.com
+# . - server : pop-mail.outlook.com
+# . - port : 995
+
+# - smtp
+# . - server : smtp.office365.com
+# . - server : smtp-mail.outlook.com
+# . - port : 587
+# . - port : 25
