@@ -28,6 +28,7 @@
 .xsession-*
 .Xauthority
 .wine
+docker/*/
 trash/*/
 virtualbox/*/
 

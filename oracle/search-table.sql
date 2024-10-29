@@ -4,7 +4,7 @@
 -- # - author : Isaac Caires
 -- # . - email : zrfisaac@gmail.com
 -- # . - site : zrfisaac.github.io
--- # - version : zrfisaac.oracle.list.table : 1.0.0
+-- # - version : zrfisaac.oracle.search.table : 1.0.0
 
 -- # [ oracle ]
 SELECT 
