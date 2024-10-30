@@ -8,8 +8,26 @@
 
 # [ list ]
 
-# - : go-sales
-# . - : https://github.com/zrfisaac/mvp.go-sales.git
+# - : AnyAction
+# . - : https://github.com/AnyAction/AnyAction.github.io.git
 
-# - : stock-guard
-# . - : https://github.com/zrfisaac/mvp.stock-guard.git
+# - : Bomfig
+# . - : https://github.com/Bomfig/Bomfig.github.io.git
+
+# - : Donply
+# . - : https://github.com/Donply/Donply.github.io.git
+
+# - : GetBrazil
+# . - : https://github.com/GetCep/GetBrazil.github.io.git
+
+# - : GetCep
+# . - : https://github.com/GetCep/GetCep.github.io.git
+
+# - : GuaraDB
+# . - : https://github.com/GuaraDB/GuaraDB.github.io.git
+
+# - : WinGetPack
+# . - : https://github.com/WinGetPack/WinGetPack.github.io.git
+
+# - : ZRFIGames
+# . - : https://github.com/ZRFIGames/ZRFIGames.github.io.git

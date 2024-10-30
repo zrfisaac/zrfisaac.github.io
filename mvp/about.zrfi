@@ -8,5 +8,8 @@
 
 # [ list ]
 
-# - : mvp/stock-guard
+# - : go-sales
+# . - : https://github.com/zrfisaac/mvp.go-sales.git
+
+# - : stock-guard
 # . - : https://github.com/zrfisaac/mvp.stock-guard.git
