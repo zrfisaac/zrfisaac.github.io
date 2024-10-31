@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://source/global/global-back.gd" type="Script" id=1]
+
+[node name="GlobalBack" type="CanvasLayer"]
+pause_mode = 2
+layer = -99
+script = ExtResource( 1 )
+
+[node name="Color" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_lock_": true
+}

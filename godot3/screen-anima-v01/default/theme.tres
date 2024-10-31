@@ -1,0 +1,118 @@
+[gd_resource type="Theme" load_steps=13 format=2]
+
+[ext_resource path="res://default/font.tres" type="DynamicFont" id=1]
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0, 0, 0, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 1, 1, 1, 1 )
+
+[sub_resource type="StyleBoxEmpty" id=3]
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 1, 1, 1, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=11]
+bg_color = Color( 1, 1, 1, 1 )
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=10]
+content_margin_left = 8.0
+content_margin_right = 8.0
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+bg_color = Color( 0, 0, 0, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 1, 1, 1, 1 )
+
+[sub_resource type="ImageTexture" id=12]
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0, 0, 0, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 1, 1, 1, 1 )
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0, 0, 0, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 1, 1, 1, 1 )
+
+[sub_resource type="StyleBoxFlat" id=7]
+bg_color = Color( 0, 0, 0, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 1, 1, 1, 1 )
+
+[sub_resource type="StyleBoxFlat" id=8]
+bg_color = Color( 1, 1, 1, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0, 0, 0, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 1, 1, 1, 1 )
+
+[resource]
+default_font = ExtResource( 1 )
+Button/styles/disabled = SubResource( 4 )
+Button/styles/focus = SubResource( 3 )
+Button/styles/hover = SubResource( 4 )
+Button/styles/normal = SubResource( 4 )
+Button/styles/pressed = SubResource( 2 )
+HScrollBar/styles/grabber = SubResource( 11 )
+HScrollBar/styles/grabber_highlight = SubResource( 11 )
+HScrollBar/styles/grabber_pressed = SubResource( 11 )
+HScrollBar/styles/scroll = SubResource( 10 )
+HScrollBar/styles/scroll_focus = SubResource( 10 )
+HSlider/icons/grabber = SubResource( 12 )
+HSlider/icons/grabber_disabled = SubResource( 12 )
+HSlider/icons/grabber_highlight = SubResource( 12 )
+HSlider/icons/tick = SubResource( 12 )
+HSlider/styles/grabber_area = SubResource( 11 )
+HSlider/styles/grabber_area_highlight = SubResource( 11 )
+HSlider/styles/slider = SubResource( 10 )
+LineEdit/styles/focus = SubResource( 5 )
+LineEdit/styles/normal = SubResource( 5 )
+LineEdit/styles/read_only = SubResource( 5 )
+Panel/styles/panel = SubResource( 1 )
+ProgressBar/styles/bg = SubResource( 7 )
+ProgressBar/styles/fg = SubResource( 8 )
+TextEdit/styles/normal = SubResource( 6 )
+VScrollBar/styles/grabber = SubResource( 11 )
+VScrollBar/styles/grabber_highlight = SubResource( 11 )
+VScrollBar/styles/grabber_pressed = SubResource( 11 )
+VScrollBar/styles/scroll = SubResource( 10 )
+VScrollBar/styles/scroll_focus = SubResource( 10 )
+VSlider/icons/grabber = SubResource( 12 )
+VSlider/icons/grabber_disabled = SubResource( 12 )
+VSlider/icons/grabber_highlight = SubResource( 12 )
+VSlider/icons/tick = SubResource( 12 )
+VSlider/styles/grabber_area = SubResource( 11 )
+VSlider/styles/grabber_area_highlight = SubResource( 11 )
+VSlider/styles/slider = SubResource( 10 )

@@ -23,13 +23,20 @@ uses
   Dialogs,
   Menus,
   ComCtrls,
-  ExtCtrls;
+  ExtCtrls, StdCtrls, Buttons;
 
 type
   TMenuMainForm = class(TForm)
     pnBack: TPanel;
     StatusBar1: TStatusBar;
     miMenu: TMainMenu;
+    pnFooter: TPanel;
+    pnBody: TPanel;
+    pnFooter03: TPanel;
+    pnFooter02: TPanel;
+    pnFooter01: TPanel;
+    btRoutine: TBitBtn;
+    meText: TMemo;
     procedure FormCreate(Sender: TObject);
   end;
 

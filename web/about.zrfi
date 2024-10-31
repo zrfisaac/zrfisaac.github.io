@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.web : 1.0.0
+# - version : zrfisaac.web : 1.0.1
 
 # [ list ]
 
@@ -17,14 +17,20 @@
 # - : Donply
 # . - : https://github.com/Donply/Donply.github.io.git
 
+# - : BrazilGet
+# . - : https://github.com/BrazilGet/BrazilGet.github.io.git
+
 # - : GetBrazil
-# . - : https://github.com/GetCep/GetBrazil.github.io.git
+# . - : https://github.com/GetBrazil/GetBrazil.github.io.git
 
 # - : GetCep
 # . - : https://github.com/GetCep/GetCep.github.io.git
 
 # - : GuaraDB
 # . - : https://github.com/GuaraDB/GuaraDB.github.io.git
+
+# - : HawkeyeNet
+# . - : https://github.com/HawkeyeNet/HawkeyeNet.github.io.git
 
 # - : WinGetPack
 # . - : https://github.com/WinGetPack/WinGetPack.github.io.git

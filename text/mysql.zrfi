@@ -1,0 +1,14 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.text.mysql : 1.0.0
+
+# [ data ]
+
+# - default
+# . - port : 3306
+# . - database : sys
+# . - user : root

@@ -1,0 +1,14 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.text.postgres : 1.0.0
+
+# [ data ]
+
+# - default
+# . - port : 5432
+# . - database : postgres
+# . - user : postgres

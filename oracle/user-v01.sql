@@ -4,7 +4,7 @@
 -- # - author : Isaac Caires
 -- # . - email : zrfisaac@gmail.com
 -- # . - site : zrfisaac.github.io
--- # - version : zrfisaac.oracle.user.v01 : 1.0.0
+-- # - version : zrfisaac.oracle.user.v01 : 1.0.1
 
 -- # [ shell ]
 
@@ -14,7 +14,13 @@
 -- # - : C:\XEClient\bin\sqlplus.exe / as sysdba
 
 -- # [ oracle ]
+
 -- # : - destroy
+ALTER SESSION SET "_ORACLE_SCRIPT"=TRUE;
+-- # : The REVOKE command removes specific privileges or roles from a user, and if not executed before dropping an administrative user, the error ORA-28014 will occur.
+-- REVOKE DBA FROM DEBUG;
+-- # : CASCADE Ensures that all objects owned by the user are also deleted. Without CASCADE, Oracle will not allow you to drop a user if they own any objects.
+DROP USER DEBUG CASCADE;
 
 -- # : - create
 ALTER SESSION SET "_ORACLE_SCRIPT"=TRUE;
