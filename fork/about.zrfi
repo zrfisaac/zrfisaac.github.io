@@ -4,66 +4,69 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.fork : 1.0.1
+# - version : zrfisaac.fork : 1.0.2
 
 # [ list ]
 
-# - : fork/behzad-sample-project
+# - : alcinoe
+# . - : https://github.com/zrfisaac/fork.alcinoe.git
+
+# - : behzad-sample-project
 # . - : https://github.com/zrfisaac/fork.behzad-sample-project.git
 
-# - : fork/cef4delphi
+# - : cef4delphi
 # . - : https://github.com/zrfisaac/fork.cef4delphi.git
 
-# - : fork/chat-gpt-wizard
+# - : chat-gpt-wizard
 # . - : https://github.com/zrfisaac/fork.chat-gpt-wizard.git
 
-# - : fork/choco
+# - : choco
 # . - : https://github.com/zrfisaac/fork.choco.git
 
-# - : fork/chocolatey-gui
+# - : chocolatey-gui
 # . - : https://github.com/zrfisaac/fork.chocolatey-gui.git
 
-# - : fork/fortes-report
+# - : fortes-report
 # . - : https://github.com/zrfisaac/fork.fortes-report.git
 
-# - : fork/godot
+# - : godot
 # . - : https://github.com/zrfisaac/fork.godot.git
 
-# - : fork/indy
+# - : indy
 # . - : https://github.com/zrfisaac/fork.indy.git
 
-# - : fork/mihon
+# - : mihon
 # . - : https://github.com/zrfisaac/fork.mihon.git
 
-# - : fork/novnc
+# - : novnc
 # . - : https://github.com/zrfisaac/fork.novnc.git
 
-# - : fork/radstudio12-demos
+# - : radstudio12-demos
 # . - : https://github.com/zrfisaac/fork.radstudio12-demos.git
 
-# - : fork/rcedit
+# - : rcedit
 # . - : https://github.com/zrfisaac/fork.rcedit.git
 
-# - : fork/shinnil-godot-admob
+# - : shinnil-godot-admob
 # . - : https://github.com/zrfisaac/fork.shinnil-godot-admob.git
 
-# - : fork/simple-icons
+# - : simple-icons
 # . - : https://github.com/zrfisaac/fork.simple-icons.git
 
-# - : fork/synedit
+# - : synedit
 # . - : https://github.com/zrfisaac/fork.synedit.git
 
-# - : fork/ventoy
+# - : ventoy
 # . - : https://github.com/zrfisaac/fork.ventoy.git
 
-# - : fork/vscode
+# - : vscode
 # . - : https://github.com/zrfisaac/fork.vscode.git
 
-# - : fork/websockify
+# - : websockify
 # . - : https://github.com/zrfisaac/fork.websockify.git
 
-# - : fork/winetricks
+# - : winetricks
 # . - : https://github.com/zrfisaac/fork.winetricks.git
 
-# - : fork/yt-dlp
+# - : yt-dlp
 # . - : https://github.com/zrfisaac/fork.yt-dlp.git

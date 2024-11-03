@@ -16,15 +16,15 @@ import subprocess
 
 # - variable
 v_config_file = [
-    "__fork.zrfi",
-    "__fork.classified.zrfi",
-    "__fork.private.zrfi",
-    "_fork.zrfi",
-    "_fork.classified.zrfi",
-    "_fork.private.zrfi",
-    "fork.zrfi",
-    "fork.classified.zrfi",
-    "fork.private.zrfi"
+    "__about.zrfi",
+    "__about.classified.zrfi",
+    "__about.private.zrfi",
+    "_about.zrfi",
+    "_about.classified.zrfi",
+    "_about.private.zrfi",
+    "about.zrfi",
+    "about.classified.zrfi",
+    "about.private.zrfi"
 ]
 v_end_error = False
 v_end_message = ""

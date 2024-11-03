@@ -8,8 +8,11 @@
 
 # [ list ]
 
-# - : go-sales
-# . - : https://github.com/zrfisaac/mvp.go-sales.git
+# - : ExtratoBancario
+# . - : https://github.com/zrfisaac/ExtratoBancario.git
 
-# - : stock-guard
-# . - : https://github.com/zrfisaac/mvp.stock-guard.git
+# - : GoSales
+# . - : https://github.com/zrfisaac/GoSales.git
+
+# - : StockGuard
+# . - : https://github.com/zrfisaac/StockGuard.git
