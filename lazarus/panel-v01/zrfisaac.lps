@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Debug"/>
+    <Units>
+      <Unit>
+        <Filename Value="zrfisaac.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="source\menu_main_form.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MenuMainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="51"/>
+        <CursorPos X="5" Y="53"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="source\menu_main_data.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MenuMainData"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="20" Y="9"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="8">
+      <Position>
+        <Filename Value="source\menu_main_form.pas"/>
+        <Caret Line="3" Column="19"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main_form.pas"/>
+        <Caret Line="21" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main_form.pas"/>
+        <Caret Line="9" Column="11"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main_form.pas"/>
+        <Caret Line="27" Column="12" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main_data.pas"/>
+        <Caret Line="9" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main_form.pas"/>
+        <Caret Line="9" Column="20"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main_data.pas"/>
+        <Caret Line="4"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main_form.pas"/>
+        <Caret Line="40" Column="21" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main_form.pas"/>
+        <Caret Line="67" TopLine="49"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

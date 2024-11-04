@@ -5,40 +5,43 @@
 // # . - email : zrfisaac@gmail.com
 // # . - site : zrfisaac.github.io
 
-// # [ delphi2007 ]
+// # [ lazarus ]
 unit menu_main_form;
+
+{$mode objfpc}
+{$H+}
 
 interface
 
 uses
-  // # : - delphi
-  Windows,
-  Messages,
-  SysUtils,
-  Variants,
+  // # : - lazarus
   Classes,
-  Graphics,
-  Controls,
+  SysUtils,
   Forms,
+  Controls,
+  Graphics,
   Dialogs,
-  Menus,
-  ComCtrls,
   ExtCtrls,
+  ComCtrls,
+  Menus,
   StdCtrls,
   Buttons;
 
 type
+
+  { TMenuMainForm }
+
   TMenuMainForm = class(TForm)
-    pnBack: TPanel;
-    StatusBar1: TStatusBar;
-    miMenu: TMainMenu;
-    pnFooter: TPanel;
-    pnBody: TPanel;
-    pnFooter03: TPanel;
-    pnFooter02: TPanel;
-    pnFooter01: TPanel;
     btRoutine: TBitBtn;
     meText: TMemo;
+    miMenu: TMainMenu;
+    pnBack: TPanel;
+    pnBody: TPanel;
+    pnFooter: TPanel;
+    pnFooter01: TPanel;
+    pnFooter02: TPanel;
+    pnFooter03: TPanel;
+    StatusBar1: TStatusBar;
     procedure FormCreate(Sender: TObject);
   end;
 
@@ -47,12 +50,22 @@ var
 
 implementation
 
-{$R *.dfm}
+uses
+  menu_main_data;
+
+{$R *.lfm}
+
+{ TMenuMainForm }
 
 procedure TMenuMainForm.FormCreate(Sender: TObject);
 begin
   // # : - title
-  Self.Caption := Application.Title
+  Self.Caption := Application.Title;
+
+  // # : - data
+  if not Assigned(MenuMainData) then
+    MenuMainData := TMenuMainData.Create(Application);
 end;
 
 end.
+

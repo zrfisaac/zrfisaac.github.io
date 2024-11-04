@@ -23,7 +23,6 @@ object MenuMainForm: TMenuMainForm
     Height = 342
     Align = alClient
     TabOrder = 0
-    ExplicitTop = -6
     object pnFooter: TPanel
       Left = 1
       Top = 300
@@ -31,8 +30,6 @@ object MenuMainForm: TMenuMainForm
       Height = 41
       Align = alBottom
       TabOrder = 0
-      ExplicitLeft = 0
-      ExplicitTop = 295
       object pnFooter03: TPanel
         Left = 396
         Top = 1
@@ -41,8 +38,6 @@ object MenuMainForm: TMenuMainForm
         Align = alRight
         BevelOuter = bvNone
         TabOrder = 0
-        ExplicitLeft = 394
-        ExplicitTop = -3
       end
       object pnFooter02: TPanel
         Left = 388
@@ -55,8 +50,6 @@ object MenuMainForm: TMenuMainForm
         ParentBackground = False
         TabOrder = 1
         Visible = False
-        ExplicitLeft = 382
-        ExplicitTop = -3
       end
       object pnFooter01: TPanel
         Left = 1
@@ -66,8 +59,6 @@ object MenuMainForm: TMenuMainForm
         Align = alClient
         BevelOuter = bvNone
         TabOrder = 2
-        ExplicitLeft = 3
-        ExplicitTop = 6
         object btRoutine: TBitBtn
           Left = 8
           Top = 8
@@ -85,10 +76,6 @@ object MenuMainForm: TMenuMainForm
       Height = 299
       Align = alClient
       TabOrder = 1
-      ExplicitLeft = 16
-      ExplicitTop = 144
-      ExplicitWidth = 185
-      ExplicitHeight = 41
       object meText: TMemo
         Left = 1
         Top = 1
@@ -210,7 +197,6 @@ object MenuMainForm: TMenuMainForm
         ScrollBars = ssVertical
         TabOrder = 0
         WantTabs = True
-        ExplicitTop = -3
       end
     end
   end
