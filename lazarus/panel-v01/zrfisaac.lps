@@ -20,9 +20,8 @@
         <ComponentName Value="MenuMainForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <TopLine Value="51"/>
-        <CursorPos X="5" Y="53"/>
+        <CursorPos X="94" Y="58"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -31,7 +30,9 @@
         <Filename Value="source\menu_main_data.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="MenuMainData"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="20" Y="9"/>
         <UsageCount Value="20"/>
