@@ -4,16 +4,22 @@
 <!-- # - author : Isaac Caires -->
 <!-- # . - email : zrfisaac@gmail.com -->
 <!-- # . - site : zrfisaac.github.io -->
-<!-- # - version : zrfisaac.readme : 1.0.1 -->
+<!-- # - version : zrfisaac.github : 1.0.8 -->
 
 <!-- # [ markdown ] -->
-[![](https://img.shields.io/badge/english-4169E1?style=for-the-badge)]([README.pt-BR.md](README.en.md))
-[![](https://img.shields.io/badge/português--f9c22b?style=for-the-badge)]([README.pt-BR.md](README.pt.md))
+[![](https://img.shields.io/badge/resume-pdf-black?style=for-the-badge)](https://github.com/zrfisaac/zrfisaac.github.io/releases/download/resume-3.2.0/resume-3.2.0-en.pdf)
+[![](https://img.shields.io/badge/-english-4169E1?style=for-the-badge)](README.en.md)
+[![](https://img.shields.io/badge/português--f9c22b?style=for-the-badge)](README.pt.md)
 
-
-# 💻 Isaac Caires | Systems Analyst & Software Developer 🚀
+# 💻 Isaac Caires | Software Developer 🚀
 
 Hi! I'm Isaac Caires, a systems analyst and software developer from Brazil, with over 15 years of experience in full-stack development, ERP systems, and hospital management solutions. I’m currently working as a Senior Systems Analyst at Softwell Solutions (Maker), where I develop and maintain the Maker Platform, a visual development tool for ERP integration.
+
+<div>
+  <a href="https://github.com/zrfisaac">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=zrfisaac&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zrfisaac&layout=compact&langs_count=7&theme=dark"/>
+</div>
 
 ## 🛠️ Skills and Technologies
 - **Languages:** Delphi, C#, ASP.NET MVC, Python, HTML, CSS, JavaScript, Bash, SQL
