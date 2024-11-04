@@ -10,13 +10,17 @@
 <html>
 	<head>
 		<!-- # : - title -->
-		<title>Isaac Caires</title>
+		<title>ZRFISAAC</title>
 		<link rel="shortcut icon" href="/favicon.ico">
 
 		<!-- # : - metadata -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="Isaac Caires"> 
+
+		<!-- # : - font -->
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
 
 		<!-- # : - bootstrap -->
 		<link rel="stylesheet" href="/library/bootstrap/css/bootstrap.min.css">
@@ -32,11 +36,78 @@
 		<link rel="stylesheet" href="/library/w3css/css/w3-theme-indigo.css">
 
 		<!-- # : - local -->
-		<link rel="stylesheet" href="/library/local/css/theme.css">
+		<link rel="stylesheet" href="/library/local/css/styles.css">
 		<script type="text/javascript" src="/library/local/js/locale.js"></script>
+		<link rel="stylesheet" href="/library/local/css/main.css">
+
+		<!-- # : - style -->
+		<style>
+			html, body {
+				overflow: hidden; /* Hide scrollbar for both html and body */
+				height: 100%; /* Ensure full height */
+				margin: 0; /* Remove default margin */
+			}
+			iframe {
+				width: 100%; /* Full width */
+				height: 91vh; /* 80% of viewport height */
+				border: none; /* No border */
+				margin-top: 0px; /* Space from the menu */
+			}
+		</style>
 	</head>
-	<body>
+	<body data-theme="dark">
+		<!-- # : - menu -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container">
+				<a class="navbar-brand" href="/">ZRFISAAC</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="/pt/"><i class="fa-solid fa-house"></i> Início</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/pt/resume/"><i class="fa-solid fa-briefcase"></i> Currículo</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/pt/product/"><i class="fa-solid fa-hand-holding-dollar"></i> Produtos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/pt/mvp/"><i class="fa-solid fa-window-restore"></i> MVP</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/pt/mobile/"><i class="fa-solid fa-mobile-screen-button"></i> Mobile</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/pt/project/"><i class="fa-brands fa-osi"></i> Projetos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/pt/game/"><i class="fa-solid fa-gamepad"></i> Jogos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="/wiki/"><i class="fa-solid fa-book"></i> WIKI</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- # : - iframe -->
+		<iframe src="https://zrfisaac.github.io/wiki.pt" title="Content">
+		</iframe>
+
 		<!-- # : - bootstrap -->
 		<script src="/library/bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- # : - popperjs -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+
+		<!-- # : - dark mode switch -->
+		<script type="text/javascript" src="/library/dark-mode-switch/dark-mode-switch.min.js"></script> 
+
+		<!-- # : - local -->
+		<script type="text/javascript" src="/library/local/js/main.js"></script>
 	</body>
 </html>

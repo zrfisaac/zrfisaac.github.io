@@ -4,10 +4,13 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 1.0.6
+# - version : zrfisaac.gitignore : 1.0.7
 
 # [ gitignore ]
+*.bin
+*.db
 *.crack.*
+*.fdb
 *.hidden.*
 *.old
 *.old.*

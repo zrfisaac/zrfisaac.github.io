@@ -10,13 +10,17 @@
 <html>
 	<head>
 		<!-- # : - title -->
-		<title>Isaac Caires</title>
+		<title>ZRFISAAC</title>
 		<link rel="shortcut icon" href="/favicon.ico">
 
 		<!-- # : - metadata -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="Isaac Caires"> 
+
+		<!-- # : - font -->
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
 
 		<!-- # : - bootstrap -->
 		<link rel="stylesheet" href="/library/bootstrap/css/bootstrap.min.css">
@@ -32,11 +36,130 @@
 		<link rel="stylesheet" href="/library/w3css/css/w3-theme-indigo.css">
 
 		<!-- # : - local -->
-		<link rel="stylesheet" href="/library/local/css/theme.css">
+		<link rel="stylesheet" href="/library/local/css/styles.css">
 		<script type="text/javascript" src="/library/local/js/locale.js"></script>
+		<link rel="stylesheet" href="/library/local/css/main.css">
 	</head>
-	<body>
+	<body data-theme="dark">
+		<!-- # : - menu -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container">
+				<a class="navbar-brand" href="/">ZRFISAAC</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="/en/"><i class="fa-solid fa-house"></i> Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/en/resume/"><i class="fa-solid fa-briefcase"></i> Resume</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/en/product/"><i class="fa-solid fa-hand-holding-dollar"></i> Products</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/en/mvp/"><i class="fa-solid fa-window-restore"></i> MVP</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/en/mobile/"><i class="fa-solid fa-mobile-screen-button"></i> Mobile</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/en/project/"><i class="fa-brands fa-osi"></i> Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="/en/game/"><i class="fa-solid fa-gamepad"></i> Games</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/en/wiki/"><i class="fa-solid fa-book"></i> WIKI</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- # : - header -->
+		<header class="header">
+			<div class="container">     
+				<div class="row align-items-center">
+					<div class="col">         
+						<img class="profile-image img-fluid float-start rounded-circle" src="/profile.jpg" alt="profile image" style="width: 160px;" />
+						<div class="profile-content">
+							<h1 class="name">Isaac Caires</h1>
+							<h2 class="desc">Software Developer</h2>   
+							<ul class="social list-inline">
+								<li class="list-inline-item"><a href="https://www.linkedin.com/in/zrfisaac" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+								<li class="list-inline-item"><a href="https://github.com/zrfisaac" target="_blank"><i class="fab fa-github-alt"></i></a></li>    
+								<li class="list-inline-item"><a href="https://www.hackerrank.com/profile/zrfisaac" target="_blank"><i class="fab fa-hackerrank"></i></a></li>
+								<li class="list-inline-item"><a href="https://stackoverflow.com/users/5098459" target="_blank"><i class="fab fa-stack-overflow"></i></a></li>   
+								<li class="list-inline-item"><a href="https://codepen.io/zrfisaac" target="_blank"><i class="fab fa-codepen"></i></a></li>                
+								<li class="list-inline-item last-item"><a href="https://zrfigames.itch.io" target="_blank"><i class="fab fa-itch-io"></i></a></li>   
+							</ul>
+						</div>
+					</div>
+					<div class="col-12 col-md-auto">
+						<div class="profile-content">
+							<h1 class="name"><i class="fa-solid fa-gamepad"></i> Games</h1>
+							<h2 class="desc">My Developed Games</h2>   
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- # : - page -->
+		<div class="container sections-wrapper py-5">
+			<div class="row">
+				<div class="primary col-lg-8 col-12">
+					<section class="about section">
+						<div class="section-inner shadow-sm rounded">
+							<h2 class="heading">Under Construction</h2>
+							<div class="content">
+								<p>This page is currently under development. I’m working hard to bring you new features and content. Please check back soon for updates!</p>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="secondary col-lg-4 col-12">
+					<!-- # : - information -->
+					<aside class="info aside section">
+						<div class="section-inner shadow-sm rounded">
+							<h2 class="heading">Basic Information</h2>
+							<div class="content">
+								<a type="button" class="btn btn-success" href="https://github.com/zrfisaac/zrfisaac.github.io/releases/download/resume-3.2.0/resume-3.2.0-en.pdf" target="_blank">Download Resume</a>
+								<p></p>
+								<ul class="list-unstyled">
+									<li><i class="fas fa-phone"></i><span class="sr-only">Phone:</span> +55 (71) 9 8398-0801</li>
+									<li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span> Salvador, Brazil</li>
+									<li><i class="fas fa-envelope"></i><span class="sr-only">Email: </span> <a href="#"> zrfisaac@gmail.com</a></li>
+									<li><i class="fab fa-linkedin-in"></i><span class="sr-only">LinkedIn: </span> <a href="https://linkedin.com/in/zrfisaac" target="_blank"> linkedin.com/in/zrfisaac</a></li>
+									<li><i class="fas fa-link"></i><span class="sr-only">Website: </span> <a href="https://zrfisaac.github.io" target="_blank"> zrfisaac.github.io</a></li>
+								</ul>
+							</div>
+						</div>
+					</aside>
+				</div>
+			</div>
+		</div>
+
+		<!-- # : - footer -->
+		<footer class="footer">
+			<div class="container text-center">
+				<small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+			</div>
+		</footer>
+
 		<!-- # : - bootstrap -->
 		<script src="/library/bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- # : - popperjs -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+
+		<!-- # : - dark mode switch -->
+		<script type="text/javascript" src="/library/dark-mode-switch/dark-mode-switch.min.js"></script> 
+
+		<!-- # : - local -->
+		<script type="text/javascript" src="/library/local/js/main.js"></script>
 	</body>
 </html>
