@@ -1,4 +1,13 @@
 #!/bin/sh
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.alpine.winetricks : 1.0.0
+
+# [ bash ]
 # shellcheck disable=SC2030,SC2031
 # SC2030: Modification of WINE is local (to subshell caused by (..) group).
 # SC2031: WINE was modified in a subshell. That change might be lost
@@ -6114,7 +6123,7 @@ load_cabinet()
     # Originally at: https://download.microsoft.com/download/3/b/f/3bf74b01-16ba-472d-9a8c-42b2b4fa0d76/mdac_typ.exe
     # Mirror list: http://www.filewatcher.com/m/MDAC_TYP.EXE.5389224-0.html (5.14 MB MDAC_TYP.EXE)
     # 2018/08/09: ftp.gunadarma.ac.id is dead, moved to archive.org
-    w_download https://web.archive.org/web/20060718123742/http://ftp.gunadarma.ac.id/pub/driver/itegno/USB%20Software/MDAC/MDAC_TYP.EXE 36d2a3099e6286ae3fab181a502a95fbd825fa5ddb30bf09b345abc7f1f620b4
+    w_download https://github.com/zrfisaac/stuff.microsoft/releases/download/mdac20060718123742/MDAC_TYP.EXE 36d2a3099e6286ae3fab181a502a95fbd825fa5ddb30bf09b345abc7f1f620b4
 
     w_try_cabextract --directory="${W_TMP}" "${W_CACHE}/${W_PACKAGE}/${file1}"
     w_try_cp_dll "${W_TMP}/cabinet.dll" "${W_SYSTEM32_DLLS}/cabinet.dll"
@@ -11510,7 +11519,7 @@ load_mdac27()
     # Originally at: https://download.microsoft.com/download/3/b/f/3bf74b01-16ba-472d-9a8c-42b2b4fa0d76/mdac_typ.exe
     # Mirror list: http://www.filewatcher.com/m/MDAC_TYP.EXE.5389224-0.html (5.14 MB MDAC_TYP.EXE)
     # 2018/08/09: ftp.gunadarma.ac.id is dead, moved to archive.org
-    w_download https://web.archive.org/web/20060718123742/http://ftp.gunadarma.ac.id/pub/driver/itegno/USB%20Software/MDAC/MDAC_TYP.EXE 36d2a3099e6286ae3fab181a502a95fbd825fa5ddb30bf09b345abc7f1f620b4
+    w_download https://github.com/zrfisaac/stuff.microsoft/releases/download/mdac20060718123742/MDAC_TYP.EXE 36d2a3099e6286ae3fab181a502a95fbd825fa5ddb30bf09b345abc7f1f620b4
 
     load_native_mdac
     w_store_winver
@@ -11535,7 +11544,7 @@ load_mdac28()
     w_package_unsupported_win64
 
     # https://www.microsoft.com/en-us/download/details.aspx?id=5793
-    w_download https://web.archive.org/web/20070127061938/https://download.microsoft.com/download/4/a/a/4aafff19-9d21-4d35-ae81-02c48dcbbbff/MDAC_TYP.EXE 157ebae46932cb9047b58aa849ac1885e8cbd2f218810cb83e57613b49c679d6
+    w_download https://github.com/zrfisaac/stuff.microsoft/releases/download/mdac20070127061938/MDAC_TYP.EXE 157ebae46932cb9047b58aa849ac1885e8cbd2f218810cb83e57613b49c679d6
     load_native_mdac
     w_store_winver
     w_set_winver nt40
