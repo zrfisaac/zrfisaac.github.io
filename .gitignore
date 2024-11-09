@@ -29,6 +29,7 @@ clone/*/
 crack/
 data/
 document/
+dockerhub/
 fork/*/
 game/*/
 github/
@@ -57,4 +58,5 @@ wiki.*/
 *.private.*
 .temp
 .vs
+.*
 _*
