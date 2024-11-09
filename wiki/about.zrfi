@@ -8,8 +8,8 @@
 
 # [ list ]
 
-# - : wiki.en
+# - : ../wiki.en
 # . - : https://github.com/zrfisaac/wiki.en.git
 
-# - : wiki.pt
+# - : ../wiki.pt
 # . - : https://github.com/zrfisaac/wiki.pt.git

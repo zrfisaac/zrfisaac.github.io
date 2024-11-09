@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# version : zrfisaac.python.ytdlp : 1.0.1
+# version : zrfisaac.python.ytdlp : 1.0.2
 
 # [ python ]
 
@@ -84,7 +84,7 @@ if not v_end_error:
                                             subprocess.run([
                                                 "yt-dlp",
                                                 "-f",
-                                                "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best",
+                                                "bestvideo[ext=mpg]+bestaudio[ext=m4a]/best[ext=mpg]/best",
                                                 "--cookies",
                                                 "cookies.txt",
                                                 "-o",
@@ -95,7 +95,7 @@ if not v_end_error:
                                             subprocess.run([
                                                 "yt-dlp",
                                                 "-f",
-                                                "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best",
+                                                "bestvideo[ext=mpg]+bestaudio[ext=m4a]/best[ext=mpg]/best",
                                                 "-o",
                                                 _name,
                                                 _value

@@ -5,6 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
+# version : zrfisaac.python.clone : 1.0.2
 
 # [ python ]
 
@@ -16,16 +17,17 @@ import subprocess
 
 # - variable
 v_config_file = [
-    "__wiki.zrfi",
-    "__wiki.classified.zrfi",
-    "__wiki.private.zrfi",
-    "_wiki.zrfi",
-    "_wiki.classified.zrfi",
-    "_wiki.private.zrfi",
-    "wiki.zrfi",
-    "wiki.classified.zrfi",
-    "wiki.private.zrfi"
+    "__about.zrfi",
+    "__about.classified.zrfi",
+    "__about.private.zrfi",
+    "_about.zrfi",
+    "_about.classified.zrfi",
+    "_about.private.zrfi",
+    "about.zrfi",
+    "about.classified.zrfi",
+    "about.private.zrfi"
 ]
+v_config_file = [item.replace("about", os.path.splitext(os.path.basename(__file__))[0]) for item in v_config_file]
 v_end_error = False
 v_end_message = ""
 
@@ -39,7 +41,7 @@ print("# [ about ]")
 print("# - author : Isaac Caires")
 print("# . - email : zrfisaac@gmail.com")
 print("# . - site : zrfisaac.github.io")
-print("# - version : zrfisaac.python.clone : 1.0.0")
+print("# - version : zrfisaac.python.clone : 1.0.2")
 print("")
 
 # : - main

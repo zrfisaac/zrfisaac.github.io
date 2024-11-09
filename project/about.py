@@ -5,6 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
+# version : zrfisaac.python.clone : 1.0.2
 
 # [ python ]
 
@@ -26,6 +27,7 @@ v_config_file = [
     "about.classified.zrfi",
     "about.private.zrfi"
 ]
+v_config_file = [item.replace("about", os.path.splitext(os.path.basename(__file__))[0]) for item in v_config_file]
 v_end_error = False
 v_end_message = ""
 
@@ -39,7 +41,7 @@ print("# [ about ]")
 print("# - author : Isaac Caires")
 print("# . - email : zrfisaac@gmail.com")
 print("# . - site : zrfisaac.github.io")
-print("# - version : zrfisaac.python.clone : 1.0.0")
+print("# - version : zrfisaac.python.clone : 1.0.2")
 print("")
 
 # : - main

@@ -4,15 +4,24 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.mvp : 1.0.0
+# - version : zrfisaac.mvp : 1.0.1
 
 # [ list ]
 
-# - : ExtratoBancario
-# . - : https://github.com/zrfisaac/ExtratoBancario.git
+# - : AchieveIt
+# . - : https://github.com/zrfisaac/AchieveIt.git
 
 # - : GoSales
 # . - : https://github.com/zrfisaac/GoSales.git
 
+# - : HomeChef
+# . - : https://github.com/zrfisaac/HomeChef.git
+
+# - : MyBalance
+# . - : https://github.com/zrfisaac/MyBalance.git
+
+# - : RoutePlan
+# . - : https://github.com/zrfisaac/RoutePlan.git
+	
 # - : StockGuard
 # . - : https://github.com/zrfisaac/StockGuard.git

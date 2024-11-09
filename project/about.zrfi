@@ -4,45 +4,21 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.project : 1.0.1
+# - version : zrfisaac.project : 1.0.2
 
 # [ list ]
-
-# - : ClipDock
-# . - : https://github.com/zrfisaac/ClipDock.git
-
-# - : CromisIPC
-# . - : https://github.com/zrfisaac/CromisIPC.git
 
 # - : Donfig
 # . - : https://github.com/zrfisaac/Donfig.git
 
-# - : Explorer4Delphi
-# . - : https://github.com/zrfisaac/Explorer4Delphi.git
-
 # - : Guara
 # . - : https://github.com/zrfisaac/Guara.git
 
-# - : Hawkeye3
-# . - : https://github.com/zrfisaac/Hawkeye3.git
-
-# - : LFS
-# . - : https://github.com/zrfisaac/LFS.git
-
-# - : LkJSON
-# . - : https://github.com/zrfisaac/LkJSON.git
+# - : Themes4Delphi
+# . - : https://github.com/zrfisaac/Themes4Delphi.git
 
 # - : TintTool
 # . - : https://github.com/zrfisaac/TintTool.git
-
-# - : uJSON
-# . - : https://github.com/zrfisaac/uJSON.git
-
-# - : ViaCEP
-# . - : https://github.com/zrfisaac/ViaCEP.git
-
-# - : XPlorer
-# . - : https://github.com/zrfisaac/XPlorer.git
 
 # - : ZRLib
 # . - : https://github.com/zrfisaac/ZRLib.git

@@ -1,0 +1,21 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.install : 1.0.1
+
+# [ list ]
+
+# - : bde
+# . - : https://github.com/zrfisaac/install.bde.git
+
+# - : eclipse
+# . - : https://github.com/zrfisaac/install.eclipse.git
+
+# - : godot3
+# . - : https://github.com/zrfisaac/install.godot3.git
+
+# - : godot4
+# . - : https://github.com/zrfisaac/install.godot4.git
