@@ -4,12 +4,18 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.project : 1.0.2
+# - version : zrfisaac.project : 1.0.3
 
 # [ list ]
 
+# - : ClipDock
+# . - : https://github.com/zrfisaac/ClipDock.git
+
 # - : Donfig
 # . - : https://github.com/zrfisaac/Donfig.git
+
+# - : Explorer4Delphi
+# . - : https://github.com/zrfisaac/Explorer4Delphi.git
 
 # - : Guara
 # . - : https://github.com/zrfisaac/Guara.git
@@ -19,6 +25,9 @@
 
 # - : TintTool
 # . - : https://github.com/zrfisaac/TintTool.git
+
+# - : Themes4Delphi
+# . - : https://github.com/zrfisaac/Themes4Delphi.git
 
 # - : ZRLib
 # . - : https://github.com/zrfisaac/ZRLib.git
