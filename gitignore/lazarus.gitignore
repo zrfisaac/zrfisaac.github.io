@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore.lazarus : 1.0.1
+# - version : zrfisaac.gitignore.lazarus : 1.0.2
 
 # [ gitignore ]
 
@@ -24,6 +24,7 @@
 backup/
 binary/*/
 object/*/
+objects/*/
 
 # : - zrfisaac
 *.classified.*
