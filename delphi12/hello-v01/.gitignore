@@ -4,11 +4,11 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore.delphi2007 : 1.0.0
+# - version : zrfisaac.gitignore.delphi12 : 1.0.0
 
 # [ gitignore ]
 
-# : - delphi2007
+# : - delphi12
 *.~*
 *.exe
 *.bpi
@@ -19,6 +19,7 @@
 *.local
 *.identcache
 *.ini
+*.rsm
 __history/
 __recovery/
 
