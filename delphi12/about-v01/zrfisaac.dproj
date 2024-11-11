@@ -109,9 +109,21 @@
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
+        <DCC_DcpOutput>object\release\x32</DCC_DcpOutput>
+        <DCC_ExeOutput>binary\release\x32</DCC_ExeOutput>
+        <DCC_BplOutput>object\release\x32</DCC_BplOutput>
+        <DCC_DcuOutput>object\release\x32</DCC_DcuOutput>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_Keys>CompanyName=Isaac Caires / zrfisaac.github.io;FileDescription=zrfisaac.delphi12.panel.v01;FileVersion=1.0.0.0;InternalName=zrfisaac.delphi12.panel.v01;LegalCopyright=Isaac Caires / zrfisaac.github.io;LegalTrademarks=Isaac Caires / zrfisaac.github.io;OriginalFilename=zrfisaac;ProductName=zrfisaac.delphi12.panel.v01;ProductVersion=1.0.0.0;Comments=zrfisaac.delphi12.panel.v01;ProgramID=zrfisaac.delphi12.panel.v01</VerInfo_Keys>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win64)'!=''">
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
+        <DCC_BplOutput>object\release\x64</DCC_BplOutput>
+        <DCC_ExeOutput>binary\release\x64</DCC_ExeOutput>
+        <DCC_DcpOutput>object\release\x64</DCC_DcpOutput>
+        <DCC_DcuOutput>object\release\x64</DCC_DcuOutput>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_Keys>CompanyName=Isaac Caires / zrfisaac.github.io;FileDescription=zrfisaac.delphi12.panel.v01;FileVersion=1.0.0.0;InternalName=zrfisaac.delphi12.panel.v01;LegalCopyright=Isaac Caires / zrfisaac.github.io;LegalTrademarks=Isaac Caires / zrfisaac.github.io;OriginalFilename=zrfisaac;ProgramID=zrfisaac.delphi12.panel.v01;ProductName=zrfisaac.delphi12.panel.v01;ProductVersion=1.0.0.0;Comments=zrfisaac.delphi12.panel.v01</VerInfo_Keys>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2)'!=''">
         <Version>7.0</Version>
@@ -133,11 +145,19 @@
         <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=;ProgramID=com.embarcadero.$(MSBuildProjectName)</VerInfo_Keys>
         <UWP_DelphiLogo44>zrfisaac.png</UWP_DelphiLogo44>
         <UWP_DelphiLogo150>zrfisaac.png</UWP_DelphiLogo150>
+        <DCC_DcpOutput>object\debug\x32</DCC_DcpOutput>
+        <DCC_ExeOutput>binary\debug\x32</DCC_ExeOutput>
+        <DCC_BplOutput>object\debug\x32</DCC_BplOutput>
+        <DCC_DcuOutput>object\debug\x32</DCC_DcuOutput>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_Win64)'!=''">
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
         <VerInfo_Locale>1033</VerInfo_Locale>
         <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <DCC_DcuOutput>object\debug\x64</DCC_DcuOutput>
+        <DCC_BplOutput>object\debug\x64</DCC_BplOutput>
+        <DCC_ExeOutput>binary\debug\x64</DCC_ExeOutput>
+        <DCC_DcpOutput>object\debug\x64</DCC_DcpOutput>
     </PropertyGroup>
     <ProjectExtensions>
         <Borland.Personality>Delphi.Personality.12</Borland.Personality>
