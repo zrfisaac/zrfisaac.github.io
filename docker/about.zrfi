@@ -38,8 +38,8 @@
 # - : oracle
 # . - : https://github.com/zrfisaac/docker.oracle.git
 
-# - : oracle21c
-# . - : https://github.com/zrfisaac/docker.oracle21c.git
+## - : oracle21c
+## . - : https://github.com/zrfisaac/docker.oracle21c.git
 
 # - : tomcat9
 # . - : https://github.com/zrfisaac/docker.tomcat9.git
