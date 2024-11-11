@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.project : 1.0.3
+# - version : zrfisaac.project : 1.0.4
 
 # [ list ]
 
@@ -16,6 +16,9 @@
 
 # - : Explorer4Delphi
 # . - : https://github.com/zrfisaac/Explorer4Delphi.git
+
+# - : ExtratoBancario
+# . - : https://github.com/zrfisaac/ExtratoBancario.git
 
 # - : Guara
 # . - : https://github.com/zrfisaac/Guara.git

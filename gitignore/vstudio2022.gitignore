@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore.vstudio2022 : 1.0.0
+# - version : zrfisaac.gitignore.vstudio2022 : 1.0.1
 
 # [ gitignore ]
 
@@ -17,6 +17,7 @@ bin/
 obj/
 
 # : - zrfisaac
+*.Identifier
 *.classified.*
 .DS_Store
 .git

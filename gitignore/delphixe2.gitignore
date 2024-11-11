@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore.delphixe2 : 1.0.0
+# - version : zrfisaac.gitignore.delphixe2 : 1.0.1
 
 # [ gitignore ]
 
@@ -24,6 +24,7 @@ __history/
 __recovery/
 
 # : - zrfisaac
+*.Identifier
 *.classified.*
 .DS_Store
 .git

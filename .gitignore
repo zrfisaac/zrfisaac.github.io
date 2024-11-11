@@ -24,6 +24,7 @@ assets/
 asset/
 binary/*/
 bitbucket/
+chocolatey/*/
 classified.*
 clone/*/
 crack/
@@ -54,6 +55,7 @@ wiki/*/
 wiki.*/
 
 # : - zrfisaac
+*.Identifier
 *.classified.*
 .DS_Store
 .git

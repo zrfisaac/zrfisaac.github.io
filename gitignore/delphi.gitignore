@@ -4,9 +4,10 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore.delphi : 1.0.0
+# - version : zrfisaac.gitignore.delphi : 1.0.1
 
 # [ gitignore ]
+*.Identifier
 # Uncomment these types if you want even more clean repository. But be careful.
 # It can make harm to an existing project source. Read explanations below.
 #

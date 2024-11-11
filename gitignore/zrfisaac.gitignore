@@ -4,11 +4,12 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore.zrfisaac : 1.0.0
+# - version : zrfisaac.gitignore.zrfisaac : 1.0.1
 
 # [ gitignore ]
 
 # : - zrfisaac
+*.Identifier
 *.classified.*
 .DS_Store
 .git
