@@ -9,6 +9,6 @@
 
 # [ bash ]
 command -v sudo >/dev/null 2>&1 && sudo="sudo" || sudo=""
-${sudo} dpkg --add-architecture i386
-${sudo} apt -y update
-${sudo} apt -y install winetricks
+[ -f "/usr/bin/winetricks" ] && ${sudo} rm -rf /usr/bin/winetricks
+${sudo} wget -O /usr/bin/winetricks https://zrfisaac.github.io/linux/winetricks
+${sudo} chmod +x /usr/bin/winetricks
