@@ -1,7 +1,7 @@
-object MenuMainForm: TMenuMainForm
+object MenuMain: TMenuMain
   Left = 0
   Top = 0
-  Caption = 'MenuMainForm'
+  Caption = 'MenuMain'
   ClientHeight = 361
   ClientWidth = 584
   Color = clBtnFace
@@ -21,7 +21,8 @@ object MenuMainForm: TMenuMainForm
     Height = 342
     Align = alClient
     TabOrder = 0
-    ExplicitTop = -6
+    ExplicitWidth = 582
+    ExplicitHeight = 334
     object pnFooter: TPanel
       Left = 1
       Top = 300
@@ -29,8 +30,8 @@ object MenuMainForm: TMenuMainForm
       Height = 41
       Align = alBottom
       TabOrder = 0
-      ExplicitLeft = 0
-      ExplicitTop = 295
+      ExplicitTop = 292
+      ExplicitWidth = 580
       object pnFooter03: TPanel
         Left = 396
         Top = 1
@@ -40,7 +41,6 @@ object MenuMainForm: TMenuMainForm
         BevelOuter = bvNone
         TabOrder = 0
         ExplicitLeft = 394
-        ExplicitTop = -3
       end
       object pnFooter02: TPanel
         Left = 388
@@ -53,8 +53,7 @@ object MenuMainForm: TMenuMainForm
         ParentBackground = False
         TabOrder = 1
         Visible = False
-        ExplicitLeft = 382
-        ExplicitTop = -3
+        ExplicitLeft = 386
       end
       object pnFooter01: TPanel
         Left = 1
@@ -64,8 +63,7 @@ object MenuMainForm: TMenuMainForm
         Align = alClient
         BevelOuter = bvNone
         TabOrder = 2
-        ExplicitLeft = 3
-        ExplicitTop = 6
+        ExplicitWidth = 385
         object btRoutine: TBitBtn
           Left = 8
           Top = 8
@@ -73,6 +71,7 @@ object MenuMainForm: TMenuMainForm
           Height = 25
           Caption = 'Routine'
           TabOrder = 0
+          OnClick = btRoutineClick
         end
       end
     end
@@ -83,10 +82,8 @@ object MenuMainForm: TMenuMainForm
       Height = 299
       Align = alClient
       TabOrder = 1
-      ExplicitLeft = 16
-      ExplicitTop = 144
-      ExplicitWidth = 185
-      ExplicitHeight = 41
+      ExplicitWidth = 580
+      ExplicitHeight = 291
       object meText: TMemo
         Left = 1
         Top = 1
@@ -208,6 +205,8 @@ object MenuMainForm: TMenuMainForm
         ScrollBars = ssVertical
         TabOrder = 0
         WantTabs = True
+        ExplicitWidth = 578
+        ExplicitHeight = 289
       end
     end
   end
@@ -217,9 +216,21 @@ object MenuMainForm: TMenuMainForm
     Width = 584
     Height = 19
     Panels = <>
+    ExplicitTop = 334
+    ExplicitWidth = 582
   end
   object miMenu: TMainMenu
-    Left = 8
+    Left = 24
     Top = 8
+  end
+  object acAction: TActionList
+    Left = 24
+    Top = 64
+    object acF1: TAction
+      Category = 'F1'
+      Caption = 'Esc'
+      ShortCut = 112
+      OnExecute = acF1Execute
+    end
   end
 end

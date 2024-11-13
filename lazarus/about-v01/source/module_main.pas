@@ -6,7 +6,7 @@
 // # . - site : zrfisaac.github.io
 
 // # [ lazarus ]
-unit menu_main_data;
+unit module_main;
 
 {$mode ObjFPC}
 {$H+}
@@ -14,15 +14,16 @@ unit menu_main_data;
 interface
 
 uses
+  // # : - lazarus
   Classes,
   SysUtils;
 
 type
-  TMenuMainData = class(TDataModule)
+  TModuleMain = class(TDataModule)
   end;
 
 var
-  MenuMainData: TMenuMainData;
+  ModuleMain: TModuleMain;
 
 implementation
 

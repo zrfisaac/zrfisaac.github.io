@@ -10,7 +10,7 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, menu_main_form, menu_main_data
+  Forms, menu_main, module_main, menu_about
   { you can add units after this };
 
 {$R *.res}
@@ -20,7 +20,7 @@ begin
   Application.Title:='ZRFISAAC';
   Application.Scaled:=True;
   Application.Initialize;
-  Application.CreateForm(TMenuMainForm, MenuMainForm);
+  Application.CreateForm(TMenuMain, MenuMain);
   Application.Run;
 end.
 

@@ -41,17 +41,24 @@
         <IsPartOfProject Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="source\menu_main_form.pas"/>
+        <Filename Value="source\menu_main.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="MenuMainForm"/>
+        <ComponentName Value="MenuMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
-        <Filename Value="source\menu_main_data.pas"/>
+        <Filename Value="source\module_main.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="MenuMainData"/>
+        <ComponentName Value="ModuleMain"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
+      </Unit>
+      <Unit>
+        <Filename Value="library\menu_about.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MenuAbout"/>
+        <ResourceBaseClass Value="Form"/>
       </Unit>
     </Units>
   </ProjectOptions>
@@ -63,8 +70,8 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="source"/>
-      <UnitOutputDirectory Value="object/debug"/>
+      <OtherUnitFiles Value="source;library"/>
+      <UnitOutputDirectory Value="object\debug"/>
     </SearchPaths>
     <Linking>
       <Debugging>

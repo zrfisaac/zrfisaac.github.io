@@ -1,7 +1,0 @@
-object MenuMainData: TMenuMainData
-  OldCreateOrder = False
-  Height = 400
-  HorizontalOffset = 240
-  VerticalOffset = 140
-  Width = 600
-end

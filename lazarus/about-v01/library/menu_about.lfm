@@ -1,0 +1,169 @@
+object MenuAbout: TMenuAbout
+  Left = 320
+  Height = 200
+  Top = 180
+  Width = 460
+  BorderStyle = bsDialog
+  Caption = 'MenuAbout'
+  ClientHeight = 200
+  ClientWidth = 460
+  DesignTimePPI = 120
+  Position = poMainFormCenter
+  LCLVersion = '3.6.0.0'
+  object pnBack: TPanel
+    Left = 0
+    Height = 200
+    Top = 0
+    Width = 460
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 200
+    ClientWidth = 460
+    Color = 2367774
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 0
+    object pnBack01: TPanel
+      Left = 0
+      Height = 200
+      Top = 0
+      Width = 169
+      Align = alLeft
+      BevelOuter = bvNone
+      ClientHeight = 200
+      ClientWidth = 169
+      Color = 2367774
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 0
+      object lbTitle01: TLabel
+        Left = 18
+        Height = 45
+        Top = 8
+        Width = 137
+        Alignment = taCenter
+        AutoSize = False
+        Caption = '</>'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clSilver
+        Font.Height = -35
+        Font.Name = 'Segoe UI Black'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object lbTitle02: TLabel
+        Left = 18
+        Height = 32
+        Top = 59
+        Width = 137
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Isaac Caires'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -24
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object lbTitle03: TLabel
+        Left = 18
+        Height = 32
+        Top = 97
+        Width = 137
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Software Developer'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clSilver
+        Font.Height = -16
+        Font.Name = 'Segoe UI'
+        ParentFont = False
+      end
+      object lbTitle04: TLabel
+        Cursor = crHandPoint
+        Left = 18
+        Height = 32
+        Top = 129
+        Width = 137
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'zrfisaac.github.io'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clSilver
+        Font.Height = -16
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsUnderline]
+        ParentFont = False
+        OnClick = lbTitle04Click
+      end
+    end
+    object pnBack02: TPanel
+      Left = 169
+      Height = 200
+      Top = 0
+      Width = 10
+      Align = alLeft
+      BevelOuter = bvNone
+      Color = clFuchsia
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 1
+      Visible = False
+    end
+    object pnBack03: TPanel
+      Left = 179
+      Height = 200
+      Top = 0
+      Width = 281
+      Align = alClient
+      BevelOuter = bvNone
+      ClientHeight = 200
+      ClientWidth = 281
+      Color = 2367774
+      ParentBackground = False
+      ParentColor = False
+      TabOrder = 2
+      object meAbout: TMemo
+        Left = 0
+        Height = 200
+        Top = 0
+        Width = 281
+        Align = alClient
+        Color = 2367774
+        Font.Color = clSilver
+        Font.Height = -12
+        Font.Name = 'Segoe UI'
+        Lines.Strings = (
+          'Hello! My name is Isaac Caires, and I''m a '
+          'passionate software developer with over 15 '
+          'years of experience in full-stack development '
+          'and hospital management solutions. I '
+          'specialize in creating robust and efficient '
+          'applications using technologies like Delphi, '
+          'C#, ASP.NET MVC, and Python.'
+        )
+        ParentFont = False
+        ReadOnly = True
+        ScrollBars = ssVertical
+        TabOrder = 0
+      end
+    end
+  end
+  object acAction: TActionList
+    Left = 16
+    Top = 16
+    object acEsc: TAction
+      Category = 'Key'
+      Caption = 'Esc'
+      OnExecute = acEscExecute
+      ShortCut = 27
+    end
+    object acEnter: TAction
+      Category = 'Key'
+      Caption = 'acEnter'
+      OnExecute = acEnterExecute
+      ShortCut = 13
+    end
+  end
+end

@@ -6,7 +6,7 @@
 // # . - site : zrfisaac.github.io
 
 // # [ lazarus ]
-unit menu_main_form;
+unit menu_main;
 
 {$mode objfpc}
 {$H+}
@@ -25,13 +25,15 @@ uses
   ComCtrls,
   Menus,
   StdCtrls,
-  Buttons;
+  Buttons, ActnList;
 
 type
 
-  { TMenuMainForm }
+  { TMenuMain }
 
-  TMenuMainForm = class(TForm)
+  TMenuMain = class(TForm)
+    acAction: TActionList;
+    acF1: TAction;
     btRoutine: TBitBtn;
     meText: TMemo;
     miMenu: TMainMenu;
@@ -42,29 +44,42 @@ type
     pnFooter02: TPanel;
     pnFooter03: TPanel;
     StatusBar1: TStatusBar;
+    procedure acF1Execute(Sender: TObject);
+    procedure btRoutineClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   end;
 
 var
-  MenuMainForm: TMenuMainForm;
+  MenuMain: TMenuMain;
 
 implementation
 
 uses
-  menu_main_data;
+  menu_about,
+  module_main;
 
 {$R *.lfm}
 
-{ TMenuMainForm }
+{ TMenuMain }
 
-procedure TMenuMainForm.FormCreate(Sender: TObject);
+procedure TMenuMain.FormCreate(Sender: TObject);
 begin
   // # : - title
   Self.Caption := Application.Title;
 
   // # : - data
-  if not Assigned(MenuMainData) then
-    MenuMainData := TMenuMainData.Create(Application);
+  if not Assigned(ModuleMain) then
+    ModuleMain := TModuleMain.Create(Application);
+end;
+
+procedure TMenuMain.btRoutineClick(Sender: TObject);
+begin
+  TMenuAbout.Start;
+end;
+
+procedure TMenuMain.acF1Execute(Sender: TObject);
+begin
+  TMenuAbout.Start;
 end;
 
 end.

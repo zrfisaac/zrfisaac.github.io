@@ -6,7 +6,7 @@
 // # . - site : zrfisaac.github.io
 
 // # [ delphi12 ]
-unit menu_main_data;
+unit module_main;
 
 interface
 
@@ -19,13 +19,13 @@ uses
   FireDAC.Comp.Client;
 
 type
-  TMenuMainData = class(TDataModule)
+  TModuleMain = class(TDataModule)
     conMain: TFDConnection;
     traMain: TFDTransaction;
   end;
 
 var
-  MenuMainData: TMenuMainData;
+  ModuleMain: TModuleMain;
 
 implementation
 

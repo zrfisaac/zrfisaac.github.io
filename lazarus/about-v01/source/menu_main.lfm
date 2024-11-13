@@ -1,47 +1,48 @@
-object MenuMainForm: TMenuMainForm
+object MenuMain: TMenuMain
   Left = 240
-  Height = 400
+  Height = 500
   Top = 140
-  Width = 600
-  Caption = 'MenuMainForm'
-  ClientHeight = 400
-  ClientWidth = 600
+  Width = 750
+  Caption = 'MenuMain'
+  ClientHeight = 500
+  ClientWidth = 750
+  DesignTimePPI = 120
   Menu = miMenu
   OnCreate = FormCreate
   Position = poScreenCenter
   LCLVersion = '3.6.0.0'
   object pnBack: TPanel
     Left = 0
-    Height = 377
+    Height = 471
     Top = 0
-    Width = 600
+    Width = 750
     Align = alClient
-    ClientHeight = 377
-    ClientWidth = 600
+    ClientHeight = 471
+    ClientWidth = 750
     TabOrder = 0
     object pnFooter: TPanel
       Left = 1
-      Height = 41
-      Top = 335
-      Width = 598
+      Height = 51
+      Top = 419
+      Width = 748
       Align = alBottom
-      ClientHeight = 41
-      ClientWidth = 598
+      ClientHeight = 51
+      ClientWidth = 748
       TabOrder = 0
       object pnFooter03: TPanel
-        Left = 412
-        Height = 39
+        Left = 516
+        Height = 49
         Top = 1
-        Width = 185
+        Width = 231
         Align = alRight
         BevelOuter = bvNone
         TabOrder = 0
       end
       object pnFooter02: TPanel
-        Left = 404
-        Height = 39
+        Left = 506
+        Height = 49
         Top = 1
-        Width = 8
+        Width = 10
         Align = alRight
         BevelOuter = bvNone
         Color = clFuchsia
@@ -52,42 +53,43 @@ object MenuMainForm: TMenuMainForm
       end
       object pnFooter01: TPanel
         Left = 1
-        Height = 39
+        Height = 49
         Top = 1
-        Width = 403
+        Width = 505
         Align = alClient
         BevelOuter = bvNone
-        ClientHeight = 39
-        ClientWidth = 403
+        ClientHeight = 49
+        ClientWidth = 505
         TabOrder = 2
         object btRoutine: TBitBtn
-          Left = 8
-          Height = 25
-          Top = 8
-          Width = 75
+          Left = 10
+          Height = 31
+          Top = 10
+          Width = 94
           Caption = 'Routine'
+          OnClick = btRoutineClick
           TabOrder = 0
         end
       end
     end
     object pnBody: TPanel
       Left = 1
-      Height = 334
+      Height = 418
       Top = 1
-      Width = 598
+      Width = 748
       Align = alClient
-      ClientHeight = 334
-      ClientWidth = 598
+      ClientHeight = 418
+      ClientWidth = 748
       TabOrder = 1
       object meText: TMemo
         Left = 1
-        Height = 332
+        Height = 416
         Top = 1
-        Width = 596
+        Width = 746
         Align = alClient
         Font.CharSet = ANSI_CHARSET
         Font.Color = clWindowText
-        Font.Height = -13
+        Font.Height = -16
         Font.Name = 'Consolas'
         Lines.Strings = (
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas a '
@@ -141,13 +143,23 @@ object MenuMainForm: TMenuMainForm
   end
   object StatusBar1: TStatusBar
     Left = 0
-    Height = 23
-    Top = 377
-    Width = 600
+    Height = 29
+    Top = 471
+    Width = 750
     Panels = <>
   end
   object miMenu: TMainMenu
-    Left = 16
-    Top = 8
+    Left = 20
+    Top = 10
+  end
+  object acAction: TActionList
+    Left = 20
+    Top = 88
+    object acF1: TAction
+      Category = 'Key'
+      Caption = 'F1'
+      OnExecute = acF1Execute
+      ShortCut = 112
+    end
   end
 end

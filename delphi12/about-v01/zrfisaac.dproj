@@ -1187,11 +1187,11 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="source\menu_main_form.pas">
-            <Form>MenuMainForm</Form>
+        <DCCReference Include="source\menu_main.pas">
+            <Form>MenuMain</Form>
         </DCCReference>
-        <DCCReference Include="source\menu_main_data.pas">
-            <Form>MenuMainData</Form>
+        <DCCReference Include="source\module_main.pas">
+            <Form>ModuleMain</Form>
             <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>

@@ -6,7 +6,7 @@
 // # . - site : zrfisaac.github.io
 
 // # [ delphi12 ]
-unit menu_main_form;
+unit menu_main;
 
 interface
 
@@ -25,10 +25,10 @@ uses
   Vcl.ComCtrls,
   Vcl.StdCtrls,
   Vcl.Buttons,
-  Vcl.ExtCtrls;
+  Vcl.ExtCtrls, System.Actions, Vcl.ActnList;
 
 type
-  TMenuMainForm = class(TForm)
+  TMenuMain = class(TForm)
     pnBack: TPanel;
     StatusBar1: TStatusBar;
     miMenu: TMainMenu;
@@ -39,20 +39,42 @@ type
     pnFooter01: TPanel;
     btRoutine: TBitBtn;
     meText: TMemo;
+    acAction: TActionList;
+    acF1: TAction;
     procedure FormCreate(Sender: TObject);
+    procedure btRoutineClick(Sender: TObject);
+    procedure acF1Execute(Sender: TObject);
   end;
 
 var
-  MenuMainForm: TMenuMainForm;
+  MenuMain: TMenuMain;
 
 implementation
 
+uses
+  module_main,
+  menu_about;
+
 {$R *.dfm}
 
-procedure TMenuMainForm.FormCreate(Sender: TObject);
+procedure TMenuMain.acF1Execute(Sender: TObject);
+begin
+  TMenuAbout.Start;
+end;
+
+procedure TMenuMain.btRoutineClick(Sender: TObject);
+begin
+  TMenuAbout.Start;
+end;
+
+procedure TMenuMain.FormCreate(Sender: TObject);
 begin
   // # : - title
-  Self.Caption := Application.Title
+  Self.Caption := Application.Title;
+
+  // # : - data
+  if not Assigned(ModuleMain) then
+    ModuleMain := TModuleMain.Create(Application);
 end;
 
 end.

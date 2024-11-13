@@ -4,4 +4,9 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.lazarus.panel.v01 : 0.1.0
+# - version : zrfisaac.jam : 1.0.0
+
+# [ list ]
+
+## - : AchieveIt
+## . - : https://github.com/zrfisaac/AchieveIt.git

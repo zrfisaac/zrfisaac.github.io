@@ -28,6 +28,7 @@ bitbucket/
 chocolatey/*/
 classified.*
 clone/*/
+course/*/
 crack/
 data/
 docker/*/
@@ -36,7 +37,9 @@ fork/*/
 game/*/
 github/
 gitlab/
+hackathon/*/
 install/*/
+jam/*/
 mobile/*/
 music/
 mvp/*/

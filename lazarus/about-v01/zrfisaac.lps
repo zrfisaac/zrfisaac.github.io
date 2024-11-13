@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Debug"/>
+    <Units>
+      <Unit>
+        <Filename Value="zrfisaac.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="58" Y="13"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="source\menu_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MenuMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="63"/>
+        <CursorPos X="71" Y="70"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="source\module_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ModuleMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="9"/>
+        <CursorPos Y="18"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="library\menu_about.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MenuAbout"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="53"/>
+        <CursorPos X="64" Y="58"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="15">
+      <Position>
+        <Filename Value="library\menu_about.pas"/>
+        <Caret Line="15" Column="31"/>
+      </Position>
+      <Position>
+        <Filename Value="library\menu_about.pas"/>
+        <Caret Line="27" Column="31" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="library\menu_about.pas"/>
+        <Caret Line="30" Column="21" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="library\menu_about.pas"/>
+        <Caret Line="60" Column="39" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="library\menu_about.pas"/>
+        <Caret Line="47" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="library\menu_about.pas"/>
+        <Caret Line="52" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="library\menu_about.pas"/>
+        <Caret Line="16" Column="11" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="library\menu_about.pas"/>
+        <Caret Line="48" Column="17" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="library\menu_about.pas"/>
+        <Caret Column="7"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main.pas"/>
+        <Caret Line="52" Column="16" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main.pas"/>
+        <Caret Line="6" Column="20"/>
+      </Position>
+      <Position>
+        <Filename Value="library\menu_about.pas"/>
+        <Caret Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="library\menu_about.pas"/>
+        <Caret Line="18" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="library\menu_about.pas"/>
+        <Caret Line="71" TopLine="68"/>
+      </Position>
+      <Position>
+        <Filename Value="library\menu_about.pas"/>
+        <Caret Line="27" Column="11" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main.pas"/>
+        <Caret Line="18" TopLine="22"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
