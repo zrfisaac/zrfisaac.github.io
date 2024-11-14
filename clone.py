@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# version : zrfisaac.python.clone : 1.0.2
+# - version : zrfisaac.python.clone : 1.0.2
 
 # [ python ]
 

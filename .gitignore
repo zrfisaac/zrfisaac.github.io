@@ -7,18 +7,29 @@
 # - version : zrfisaac.gitignore : 1.0.11
 
 # [ gitignore ]
+*.~*
+*.7z
 *.bin
-*.db
+*.bak
 *.crack.*
+*.db
+*.dcu
+*.dll
+*.exe
 *.fdb
 *.hidden.*
+*.ldf
+*.mdf
+*.o
 *.old
 *.old.*
 *.pirate.*
+*.rar
 *.temp
 *.temp.*
 *.trash
 *.trash.*
+*.zip
 albedo/
 archived/*/
 assets/
