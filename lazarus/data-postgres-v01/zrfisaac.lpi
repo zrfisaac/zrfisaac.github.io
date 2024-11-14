@@ -17,9 +17,8 @@
     </General>
     <VersionInfo>
       <UseVersionInfo Value="True"/>
-      <MinorVersionNr Value="1"/>
       <RevisionNr Value="1"/>
-      <StringTable Comments="zrfisaac.lazarus.about.v01" CompanyName="Isaac Caires / zrfisaac.github.io" FileDescription="zrfisaac.lazarus.about.v01" InternalName="zrfisaac.lazarus.about.v01" LegalCopyright="Isaac Caires / zrfisaac.github.io" LegalTrademarks="Isaac Caires / zrfisaac.github.io" OriginalFilename="zrfisaac" ProductName="zrfisaac.lazarus.about.v01" ProductVersion="0.1.1.0"/>
+      <StringTable Comments="zrfisaac.lazarus.data.sqlite.v01" CompanyName="Isaac Caires / zrfisaac.github.io" FileDescription="zrfisaac.lazarus.data.sqlite.v01" InternalName="zrfisaac.lazarus.data.sqlite.v01" LegalCopyright="Isaac Caires / zrfisaac.github.io" LegalTrademarks="Isaac Caires / zrfisaac.github.io" OriginalFilename="zrfisaac" ProductName="zrfisaac.lazarus.data.sqlite.v01" ProductVersion="0.0.1.0"/>
     </VersionInfo>
     <BuildModes>
       <Item Name="Debug" Default="True"/>
@@ -64,6 +63,12 @@
       <FormatVersion Value="2"/>
     </RunParams>
     <RequiredPackages>
+      <Item>
+        <PackageName Value="FCL"/>
+      </Item>
+      <Item>
+        <PackageName Value="SQLDBLaz"/>
+      </Item>
       <Item>
         <PackageName Value="LCL"/>
       </Item>

@@ -25,7 +25,8 @@ uses
   ComCtrls,
   Menus,
   StdCtrls,
-  Buttons, ActnList;
+  Buttons,
+  ActnList;
 
 type
 

@@ -3,13 +3,13 @@
   <ProjectSession>
     <PathDelim Value="\"/>
     <Version Value="12"/>
-    <BuildModes Active="Debug"/>
+    <BuildModes Active="Linux64"/>
     <Units>
       <Unit>
         <Filename Value="zrfisaac.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="3"/>
-        <CursorPos X="58" Y="13"/>
+        <CursorPos X="14" Y="12"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit>
@@ -20,8 +20,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="63"/>
-        <CursorPos X="71" Y="70"/>
+        <CursorPos X="37" Y="4"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -33,7 +32,6 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="9"/>
         <CursorPos Y="18"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
@@ -43,16 +41,17 @@
         <Filename Value="library\menu_about.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="MenuAbout"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="53"/>
-        <CursorPos X="64" Y="58"/>
+        <TopLine Value="19"/>
+        <CursorPos Y="81"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="15">
+    <JumpHistory HistoryIndex="17">
       <Position>
         <Filename Value="library\menu_about.pas"/>
         <Caret Line="15" Column="31"/>
@@ -115,7 +114,15 @@
       </Position>
       <Position>
         <Filename Value="source\menu_main.pas"/>
-        <Caret Line="18" TopLine="22"/>
+        <Caret Line="70" Column="71" TopLine="48"/>
+      </Position>
+      <Position>
+        <Filename Value="library\menu_about.pas"/>
+        <Caret Line="74" Column="18" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="library\menu_about.pas"/>
+        <Caret Line="81" TopLine="67"/>
       </Position>
     </JumpHistory>
     <RunParams>
