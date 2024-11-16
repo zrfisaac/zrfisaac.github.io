@@ -8,6 +8,7 @@ layer = -99
 script = ExtResource( 1 )
 
 [node name="Color" type="ColorRect" parent="."]
+visible = false
 anchor_right = 1.0
 anchor_bottom = 1.0
 color = Color( 0.117647, 0.129412, 0.141176, 1 )

@@ -4,12 +4,15 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.project : 1.0.4
+# - version : zrfisaac.project : 1.0.5
 
 # [ list ]
 
 # - : ClipDock
 # . - : https://github.com/zrfisaac/ClipDock.git
+
+# - : DebugMe
+# . - : https://github.com/zrfisaac/DebugMe.git
 
 # - : Donfig
 # . - : https://github.com/zrfisaac/Donfig.git

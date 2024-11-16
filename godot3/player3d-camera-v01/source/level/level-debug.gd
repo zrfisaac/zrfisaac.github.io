@@ -4,4 +4,6 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac : 1.0.48
+
+# [ godot3 ]
+extends Spatial

@@ -1,0 +1,91 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://source/level/level-debug.gd" type="Script" id=1]
+[ext_resource path="res://source/dome/dark.tres" type="Environment" id=2]
+[ext_resource path="res://source/game/game-camera.tscn" type="PackedScene" id=4]
+
+[sub_resource type="CubeMesh" id=1]
+
+[sub_resource type="SpatialMaterial" id=2]
+albedo_color = Color( 0.67451, 0.196078, 0.196078, 1 )
+
+[sub_resource type="SpatialMaterial" id=5]
+albedo_color = Color( 0.85098, 0.341176, 0.388235, 1 )
+
+[sub_resource type="SpatialMaterial" id=3]
+albedo_color = Color( 0.415686, 0.745098, 0.188235, 1 )
+
+[sub_resource type="SpatialMaterial" id=6]
+albedo_color = Color( 0.6, 0.898039, 0.313726, 1 )
+
+[sub_resource type="SpatialMaterial" id=4]
+albedo_color = Color( 0.356863, 0.431373, 0.882353, 1 )
+
+[sub_resource type="SpatialMaterial" id=7]
+albedo_color = Color( 0.372549, 0.803922, 0.894118, 1 )
+
+[node name="LevelDebug" type="Spatial"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Dome" type="WorldEnvironment" parent="."]
+environment = ExtResource( 2 )
+
+[node name="Camera" parent="." instance=ExtResource( 4 )]
+rotation_speed = 50.0
+pitch_limit = 35.0
+yaw_limit = 35.0
+
+[node name="SpotLight" type="SpotLight" parent="Camera"]
+light_energy = 4.0
+spot_range = 16.0
+spot_angle = 14.3226
+
+[node name="Objects" type="Spatial" parent="."]
+
+[node name="Red01" type="MeshInstance" parent="Objects"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, -8 )
+mesh = SubResource( 1 )
+material/0 = SubResource( 2 )
+
+[node name="Red02" type="MeshInstance" parent="Objects"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, -7, -8 )
+mesh = SubResource( 1 )
+material/0 = SubResource( 5 )
+
+[node name="Red03" type="MeshInstance" parent="Objects"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 7, -8 )
+mesh = SubResource( 1 )
+material/0 = SubResource( 5 )
+
+[node name="Green01" type="MeshInstance" parent="Objects"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8 )
+mesh = SubResource( 1 )
+material/0 = SubResource( 3 )
+
+[node name="Green02" type="MeshInstance" parent="Objects"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -7, -8 )
+mesh = SubResource( 1 )
+material/0 = SubResource( 6 )
+
+[node name="Green03" type="MeshInstance" parent="Objects"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7, -8 )
+mesh = SubResource( 1 )
+material/0 = SubResource( 6 )
+
+[node name="Blue01" type="MeshInstance" parent="Objects"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, -8 )
+mesh = SubResource( 1 )
+material/0 = SubResource( 4 )
+
+[node name="Blue02" type="MeshInstance" parent="Objects"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, -7, -8 )
+mesh = SubResource( 1 )
+material/0 = SubResource( 7 )
+
+[node name="Blue03" type="MeshInstance" parent="Objects"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 7, -8 )
+mesh = SubResource( 1 )
+material/0 = SubResource( 7 )
