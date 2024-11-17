@@ -10,5 +10,5 @@
 # [ bash ]
 command -v sudo >/dev/null 2>&1 && sudo="sudo" || sudo=""
 [ -f "/usr/bin/winetricks" ] && ${sudo} rm -rf /usr/bin/winetricks
-${sudo} wget -O /usr/bin/winetricks https://zrfisaac.github.io/linux/winetricks
+${sudo} wget -O /usr/bin/winetricks https://zrfisaac.github.io/winetricks
 ${sudo} chmod +x /usr/bin/winetricks
