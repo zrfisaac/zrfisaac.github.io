@@ -29,6 +29,12 @@
 # - : debian
 # . - : https://github.com/zrfisaac/docker.debian.git
 
+# - : debian-xrdp
+# . - : https://github.com/zrfisaac/docker.debian-xrdp.git
+
+# - : debian-xrdp-wine
+# . - : https://github.com/zrfisaac/docker.debian-xrdp-wine.git
+
 # - : mssql
 # . - : https://github.com/zrfisaac/docker.mssql.git
 
@@ -44,5 +50,11 @@
 # - : tomcat9
 # . - : https://github.com/zrfisaac/docker.tomcat9.git
 
+# - : ubuntu
+# . - : https://github.com/zrfisaac/docker.ubuntu.git
+
 # - : ubuntu-xrdp
 # . - : https://github.com/zrfisaac/docker.ubuntu-xrdp.git
+
+# - : ubuntu-xrdp-wine
+# . - : https://github.com/zrfisaac/docker.ubuntu-xrdp-wine.git

@@ -58,6 +58,7 @@ old/*
 private.*
 project/*/
 product/*/
+reference/*/
 repository/
 rom/
 source/*/
