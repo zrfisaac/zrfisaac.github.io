@@ -14,8 +14,14 @@
 # - : eclipse
 # . - : https://github.com/zrfisaac/install.eclipse.git
 
+# - : godot2
+# . - : https://github.com/zrfisaac/install.godot2.git
+
 # - : godot3
 # . - : https://github.com/zrfisaac/install.godot3.git
 
 # - : godot4
 # . - : https://github.com/zrfisaac/install.godot4.git
+
+# - : space-sniffer
+# . - : https://github.com/zrfisaac/install.space-sniffer.git
