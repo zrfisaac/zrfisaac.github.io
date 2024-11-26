@@ -39,83 +39,20 @@
 		<link rel="stylesheet" href="/library/local/css/styles.css">
 		<script type="text/javascript" src="/library/local/js/locale.js"></script>
 		<link rel="stylesheet" href="/library/local/css/main.css">
-
-		<!-- # : - style -->
-		<style>
-			html, body {
-				overflow: hidden; /* Hide scrollbar for both html and body */
-				height: 100%; /* Ensure full height */
-				margin: 0; /* Remove default margin */
-			}
-			iframe {
-				width: 100%; /* Full width */
-				height: 92vh; /* 80% of viewport height */
-				border: none; /* No border */
-				margin-top: 0px; /* Space from the menu */
-			}
-			@media only screen and (max-width: 768px) {
-				iframe {
-					height: 86vh; /* 80% of viewport height (for mobile) */
-				}
-			}
-		</style>
 	</head>
-	<body data-theme="dark">
-		<!-- # : - menu -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<div class="container">
-				<a class="navbar-brand" href="/">ZRFISAAC</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav ms-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="/en/"><i class="fa-solid fa-house"></i> Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/en/privacy/"><i class="fa-solid fa-shield-halved"></i> Privacy</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/en/resume/"><i class="fa-solid fa-briefcase"></i> Resume</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/en/product/"><i class="fa-solid fa-hand-holding-dollar"></i> Products</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/en/mvp/"><i class="fa-solid fa-window-restore"></i> MVP</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/en/mobile/"><i class="fa-solid fa-mobile-screen-button"></i> Mobile</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/en/project/"><i class="fa-brands fa-osi"></i> Projects</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/en/game/"><i class="fa-solid fa-gamepad"></i> Games</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" href="/en/wiki/"><i class="fa-solid fa-book"></i> WIKI</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-
-		<!-- # : - iframe -->
-		<iframe src="/wiki.en" title="Content">
-		</iframe>
-
+	<body>
 		<!-- # : - bootstrap -->
 		<script src="/library/bootstrap/js/bootstrap.min.js"></script>
-
-		<!-- # : - popperjs -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
 
 		<!-- # : - dark mode switch -->
 		<script type="text/javascript" src="/library/dark-mode-switch/dark-mode-switch.min.js"></script> 
 
 		<!-- # : - local -->
 		<script type="text/javascript" src="/library/local/js/main.js"></script>
+
+		<!-- # : - script -->
+		<script>
+			window.location.href = "/" + "wiki" + '.' + 'en';
+		</script>
 	</body>
 </html>
