@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.mvp : 1.0.1
+# - version : zrfisaac.mvp : 1.0.2
 
 # [ list ]
 
@@ -23,5 +23,8 @@
 # - : RoutePlan
 # . - : https://github.com/zrfisaac/RoutePlan.git
 	
+# - : QuickOrder
+# . - : https://github.com/zrfisaac/QuickOrder.git
+
 # - : StockGuard
 # . - : https://github.com/zrfisaac/StockGuard.git

@@ -4,12 +4,12 @@
 <!-- # - author : Isaac Caires -->
 <!-- # . - email : zrfisaac@gmail.com -->
 <!-- # . - site : zrfisaac.github.io -->
-<!-- # - version : zrfisaac.github : 1.0.8 -->
 
 <!-- # [ markdown ] -->
 [![](https://img.shields.io/badge/currículo-pdf-black?style=for-the-badge)](https://github.com/zrfisaac/zrfisaac.github.io/releases/download/resume-3.2.0/resume-3.2.0-pt.pdf)
 [![](https://img.shields.io/badge/english--4169E1?style=for-the-badge)](README.en.md)
-[![](https://img.shields.io/badge/-português-f9c22b?style=for-the-badge)](README.pt.md)
+[![](https://img.shields.io/badge/español--EE4422?style=for-the-badge)](README.es.md)
+[![](https://img.shields.io/badge/-português-28a745?style=for-the-badge)](README.pt.md)
 
 # 💻 Isaac Caires | Desenvolvedor de Software 🚀
 

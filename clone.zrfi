@@ -16,5 +16,8 @@
 # - : wiki.en
 # . - : https://github.com/zrfisaac/wiki.en.git
 
+# - : wiki.es
+# . - : https://github.com/zrfisaac/wiki.es.git
+
 # - : wiki.pt
 # . - : https://github.com/zrfisaac/wiki.pt.git

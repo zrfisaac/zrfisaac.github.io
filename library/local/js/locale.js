@@ -8,6 +8,6 @@
 // # [ javascript ]
 var _lang = navigator.language || navigator.userLanguage; 
 _lang = _lang.substr(0,2);
-if (!["en", "pt"].includes(_lang)) {
+if (!["en", "es", "pt"].includes(_lang)) {
 	_lang="en"
 }
