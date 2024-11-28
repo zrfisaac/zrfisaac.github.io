@@ -4,9 +4,12 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.personal : 1.0.0
+# - version : zrfisaac.personal : 1.0.1
 
 # [ list ]
 
 # - : wine
 # . - : https://github.com/zrfisaac/personal.wine.git
+
+# - : winetricks
+# . - : https://github.com/zrfisaac/personal.winetricks.git
