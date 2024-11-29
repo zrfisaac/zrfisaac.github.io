@@ -26,6 +26,12 @@
 # - : chocolatey-gui
 # . - : https://github.com/zrfisaac/fork.chocolatey-gui.git
 
+# - : docsify-latex
+# . - : https://github.com/zrfisaac/fork.docsify-latex.git
+
+# - : dxautoinstaller
+# . - : https://github.com/zrfisaac/fork.dxautoinstaller.git
+
 # - : fortes-report
 # . - : https://github.com/zrfisaac/fork.fortes-report.git
 
@@ -34,6 +40,9 @@
 
 # - : indy
 # . - : https://github.com/zrfisaac/fork.indy.git
+
+# - : mermaid-docsify
+# . - : https://github.com/zrfisaac/fork.mermaid-docsify.git
 
 # - : mihon
 # . - : https://github.com/zrfisaac/fork.mihon.git
