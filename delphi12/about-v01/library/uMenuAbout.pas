@@ -6,14 +6,15 @@
 // # . - site : zrfisaac.github.io
 
 // # [ delphi12 ]
-unit menu_about;
+unit uMenuAbout;
 
 interface
 
 uses
-  // # : - delphi
+  // Delphi
   Winapi.Windows,
   Winapi.Messages,
+  Winapi.ShellAPI,
   System.SysUtils,
   System.Variants,
   System.Classes,
@@ -24,8 +25,7 @@ uses
   Vcl.ExtCtrls,
   Vcl.StdCtrls,
   System.Actions,
-  Vcl.ActnList,
-  Winapi.ShellAPI;
+  Vcl.ActnList;
 
 type
   TMenuAbout = class(TForm)
@@ -46,8 +46,7 @@ type
     procedure lbTitle04Click(Sender: TObject);
   public
     procedure Exit;
-    class procedure Start; overload;
-    class procedure Start(var _pReference); overload;
+    class procedure Start;
   end;
 
 var
@@ -77,18 +76,14 @@ begin
   ShellExecute(0, 'open', PChar('https://zrfisaac.github.io'), nil, nil, SW_SHOWNORMAL);
 end;
 
-class procedure TMenuAbout.Start(var _pReference);
-var
-  _vMenuAbout: TMenuAbout;
-begin
-  _vMenuAbout := TMenuAbout.Create(TComponent(_pReference));
-  _vMenuAbout.ShowModal;
-  _vMenuAbout.Free;
-end;
-
 class procedure TMenuAbout.Start;
+var
+  _Form: TMenuAbout;
 begin
-  TMenuAbout.Start(Application);
+  _Form := TMenuAbout.Create(Application);
+  _Form.ShowModal;
+  _Form.Free;
 end;
 
 end.
+

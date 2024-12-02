@@ -209,7 +209,7 @@
                 <Platform value="Win64">True</Platform>
             </Platforms>
             <Deployment Version="4">
-                <DeployFile LocalName="binary\debug\zrfisaac.exe" Configuration="Debug" Class="ProjectOutput">
+                <DeployFile LocalName="binary\debug\x32\zrfisaac.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>zrfisaac.exe</RemoteName>
                         <Overwrite>true</Overwrite>
@@ -1195,7 +1195,7 @@
             <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
-        <DCCReference Include="library\menu_about.pas">
+        <DCCReference Include="library\uMenuAbout.pas">
             <Form>MenuAbout</Form>
             <FormType>dfm</FormType>
         </DCCReference>

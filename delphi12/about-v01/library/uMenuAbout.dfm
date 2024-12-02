@@ -1,29 +1,32 @@
-object frmMenuSobre: TfrmMenuSobre
+object MenuAbout: TMenuAbout
   Left = 0
   Top = 0
+  BiDiMode = bdLeftToRight
   BorderStyle = bsDialog
   Caption = 'Sobre'
   ClientHeight = 161
-  ClientWidth = 584
+  ClientWidth = 504
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  ParentBiDiMode = False
   Position = poMainFormCenter
   TextHeight = 15
   object pnBack: TPanel
     Left = 0
     Top = 0
-    Width = 584
+    Width = 504
     Height = 161
     Align = alClient
     BevelOuter = bvNone
     Color = 2367774
     ParentBackground = False
     TabOrder = 0
-    ExplicitWidth = 324
+    ExplicitWidth = 502
+    ExplicitHeight = 153
     object pnBack01: TPanel
       Left = 0
       Top = 0
@@ -34,6 +37,7 @@ object frmMenuSobre: TfrmMenuSobre
       Color = 2367774
       ParentBackground = False
       TabOrder = 0
+      ExplicitHeight = 153
       object lbTitle01: TLabel
         Left = 18
         Top = 16
@@ -94,6 +98,7 @@ object frmMenuSobre: TfrmMenuSobre
         Font.Name = 'Segoe UI'
         Font.Style = [fsUnderline]
         ParentFont = False
+        OnClick = lbTitle04Click
       end
     end
     object pnBack02: TPanel
@@ -107,23 +112,24 @@ object frmMenuSobre: TfrmMenuSobre
       ParentBackground = False
       TabOrder = 1
       Visible = False
+      ExplicitHeight = 153
     end
     object pnBack03: TPanel
       Left = 179
       Top = 0
-      Width = 405
+      Width = 325
       Height = 161
       Align = alClient
       BevelOuter = bvNone
       Color = 2367774
       ParentBackground = False
       TabOrder = 2
-      ExplicitLeft = 169
-      ExplicitWidth = 16
+      ExplicitWidth = 323
+      ExplicitHeight = 153
       object meAbout: TMemo
         Left = 0
         Top = 0
-        Width = 405
+        Width = 325
         Height = 161
         Align = alClient
         Color = 2367774
@@ -133,27 +139,20 @@ object frmMenuSobre: TfrmMenuSobre
         Font.Name = 'Segoe UI'
         Font.Style = []
         Lines.Strings = (
-          
-            'Ol'#225'! Meu nome '#233' Isaac Caires, e sou um desenvolvedor de software' +
-            ' '
-          
-            'apaixonado, com mais de 15 anos de experi'#234'ncia em desenvolviment' +
-            'o '
-          
-            'full-stack e solu'#231#245'es para gest'#227'o hospitalar. Sou especializado ' +
-            'em criar '
-          
-            'aplica'#231#245'es robustas e eficientes usando tecnologias como Delphi,' +
-            ' C#, '
-          'ASP.NET MVC e Python.')
+          'Hello! My name is Isaac Caires, and I'#39'm a passionate '
+          'software developer '
+          'with over 15 years of experience in full-stack '
+          'development and hospital '
+          'management solutions. I specialize in creating robust '
+          'and efficient '
+          'applications using technologies like Delphi, C#, '
+          'ASP.NET '
+          'MVC, and '
+          'Python.')
         ParentFont = False
         ReadOnly = True
         ScrollBars = ssVertical
         TabOrder = 0
-        ExplicitLeft = 56
-        ExplicitTop = 64
-        ExplicitWidth = 185
-        ExplicitHeight = 89
       end
     end
   end

@@ -8,32 +8,29 @@
 
 # [ list ]
 
-# - : AnyAction
-# . - : https://github.com/AnyAction/AnyAction.github.io.git
+# - : AssemblySimulator
+# . - : https://github.com/AssemblySimulator/Cordova.git
 
-# - : Bomfig
-# . - : https://github.com/Bomfig/Bomfig.github.io.git
+# - : AssemblySimulator/www
+# . - : https://github.com/AssemblySimulator/AssemblySimulator.github.io.git
 
-# - : Donply
-# . - : https://github.com/Donply/Donply.github.io.git
+# - : DebugMeTool
+# . - : https://github.com/DebugMeTool/DebugMeTool.github.io.git
 
-# - : BrazilGet
-# . - : https://github.com/BrazilGet/BrazilGet.github.io.git
+# - : DonfigTool
+# . - : https://github.com/DonfigTool/DonfigTool.github.io.git
 
 # - : GetBrazil
 # . - : https://github.com/GetBrazil/GetBrazil.github.io.git
 
-# - : GetCep
-# . - : https://github.com/GetCep/GetCep.github.io.git
+# - : GuaraTool
+# . - : https://github.com/GuaraTool/GuaraTool.github.io.git
 
-# - : GuaraDB
-# . - : https://github.com/GuaraDB/GuaraDB.github.io.git
+# - : HawkeyeTool
+# . - : https://github.com/HawkeyeTool/HawkeyeTool.github.io.git
 
-# - : HawkeyeNet
-# . - : https://github.com/HawkeyeNet/HawkeyeNet.github.io.git
+# - : XPlorer97
+# . - : https://github.com/XPlorer97/XPlorer97.github.io.git
 
-# - : WinGetPack
-# . - : https://github.com/WinGetPack/WinGetPack.github.io.git
-
-# - : zrfisaac
-# . - : https://github.com/zrfisaac/zrfisaac.github.io.git
+# - : WSLManager
+# . - : https://github.com/WSLManager/WSLManager.github.io.git

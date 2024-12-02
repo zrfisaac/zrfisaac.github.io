@@ -1,2 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject/>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2024/12/01 08:03:15.037,S:\zrfisaac\delphi12\about-v01\library\menu_about.pas=</Transaction>
+    <Transaction>2024/12/01 08:03:30.468,=S:\zrfisaac\delphi12\about-v01\library\uMenuAbout.pas</Transaction>
+  </Transactions>
+</BorlandProject>

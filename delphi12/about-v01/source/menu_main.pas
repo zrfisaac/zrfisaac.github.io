@@ -53,7 +53,7 @@ implementation
 
 uses
   module_main,
-  menu_about;
+  uMenuAbout;
 
 {$R *.dfm}
 

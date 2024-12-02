@@ -8,7 +8,7 @@ uses
   Forms,
   menu_main in 'source\menu_main.pas' {MenuMain},
   module_main in 'source\module_main.pas' {ModuleMain: TDataModule},
-  menu_about in 'library\menu_about.pas' {MenuAbout};
+  uMenuAbout in 'library\uMenuAbout.pas' {MenuAbout};
 
 {$R *.res}
 
