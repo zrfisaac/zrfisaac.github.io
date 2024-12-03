@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{2a95d64a-553c-4352-bdf9-9f4a3ddda204}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>binary\release\zrfisaac.exe</DCC_DependencyCheckOutputName>
+    <MainSource>zrfisaac.dpr</MainSource>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_debugInformation>False</DCC_debugInformation>
+    <DCC_LocaldebugSymbols>False</DCC_LocaldebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>release</DCC_Define>
+    <DCC_ExeOutput>binary\release</DCC_ExeOutput>
+    <DCC_DcuOutput>object</DCC_DcuOutput>
+    <DCC_ObjOutput>object</DCC_ObjOutput>
+    <DCC_HppOutput>object</DCC_HppOutput>
+    <DCC_UnitSearchPath>source</DCC_UnitSearchPath>
+    <DCC_ResourcePath>source</DCC_ResourcePath>
+    <DCC_ObjPath>source</DCC_ObjPath>
+    <DCC_IncludePath>source</DCC_IncludePath>
+    <DCC_BplOutput>object</DCC_BplOutput>
+    <DCC_DcpOutput>object</DCC_DcpOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Define>debug</DCC_Define>
+    <DCC_ExeOutput>binary\debug</DCC_ExeOutput>
+    <DCC_DcuOutput>object</DCC_DcuOutput>
+    <DCC_ObjOutput>object</DCC_ObjOutput>
+    <DCC_HppOutput>object</DCC_HppOutput>
+    <DCC_BplOutput>object</DCC_BplOutput>
+    <DCC_DcpOutput>object</DCC_DcpOutput>
+    <DCC_UnitSearchPath>source</DCC_UnitSearchPath>
+    <DCC_ResourcePath>source</DCC_ResourcePath>
+    <DCC_ObjPath>source</DCC_ObjPath>
+    <DCC_IncludePath>source</DCC_IncludePath>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="debug">False</VersionInfo><VersionInfo Name="Prerelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1046</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">Isaac Caires / zrfisaac.github.io</VersionInfoKeys><VersionInfoKeys Name="FileDescription">Isaac Caires / zrfisaac.github.io</VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName">zrfisaac.delphi2007.dbexpress.v01</VersionInfoKeys><VersionInfoKeys Name="LegalCopyright">Isaac Caires / zrfisaac.github.io</VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks">Isaac Caires / zrfisaac.github.io</VersionInfoKeys><VersionInfoKeys Name="OriginalFilename">zrfisaac</VersionInfoKeys><VersionInfoKeys Name="ProductName">zrfisaac.delphi2007.dbexpress.v01</VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">zrfisaac.dpr</Source></Source><Excluded_Packages>
+      
+      <Excluded_Packages Name="C:\Users\Public\Documents\RAD Studio\5.0\Bpl\FormDesignerDelphi2006.bpl">Greatis Form Designer Design-Time Package</Excluded_Packages>
+    </Excluded_Packages></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="zrfisaac.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="source\uDataMain.pas">
+      <Form>DataMain</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="source\uMenuMain.pas">
+      <Form>MenuMain</Form>
+    </DCCReference>
+  </ItemGroup>
+</Project>
