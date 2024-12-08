@@ -64,6 +64,7 @@ repository/
 rom/
 source/*/
 stuff/*/
+template/*/
 trash/*/
 video/*/
 web/*/
