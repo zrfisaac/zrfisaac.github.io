@@ -69,6 +69,7 @@ set c_chocolatey=!c_chocolatey! sql-server-management-studio
 set c_chocolatey=!c_chocolatey! mysql.workbench
 set c_chocolatey=!c_chocolatey! oracle-sql-developer
 set c_chocolatey=!c_chocolatey! zebradesigner-developers
+set c_chocolatey=!c_chocolatey! inkscape
 
 rem # : - special
 set s_double_quotes="
