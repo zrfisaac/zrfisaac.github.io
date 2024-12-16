@@ -1,0 +1,164 @@
+object MenuMain: TMenuMain
+  Left = 240
+  Height = 400
+  Top = 140
+  Width = 600
+  Caption = 'MenuMain'
+  ClientHeight = 400
+  ClientWidth = 600
+  Menu = miMenu
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '3.4.0.0'
+  object pnBack: TPanel
+    Left = 0
+    Height = 379
+    Top = 0
+    Width = 600
+    Align = alClient
+    ClientHeight = 379
+    ClientWidth = 600
+    TabOrder = 0
+    object pnFooter: TPanel
+      Left = 1
+      Height = 41
+      Top = 337
+      Width = 598
+      Align = alBottom
+      ClientHeight = 41
+      ClientWidth = 598
+      TabOrder = 0
+      object pnFooter03: TPanel
+        Left = 412
+        Height = 39
+        Top = 1
+        Width = 185
+        Align = alRight
+        BevelOuter = bvNone
+        TabOrder = 0
+      end
+      object pnFooter02: TPanel
+        Left = 404
+        Height = 39
+        Top = 1
+        Width = 8
+        Align = alRight
+        BevelOuter = bvNone
+        Color = clFuchsia
+        ParentBackground = False
+        ParentColor = False
+        TabOrder = 1
+        Visible = False
+      end
+      object pnFooter01: TPanel
+        Left = 1
+        Height = 39
+        Top = 1
+        Width = 403
+        Align = alClient
+        BevelOuter = bvNone
+        ClientHeight = 39
+        ClientWidth = 403
+        TabOrder = 2
+        object btRoutine: TBitBtn
+          Left = 8
+          Height = 25
+          Top = 8
+          Width = 75
+          Caption = 'Routine'
+          OnClick = btRoutineClick
+          TabOrder = 0
+        end
+      end
+    end
+    object pnBody: TPanel
+      Left = 1
+      Height = 336
+      Top = 1
+      Width = 598
+      Align = alClient
+      ClientHeight = 336
+      ClientWidth = 598
+      TabOrder = 1
+      object meText: TMemo
+        Left = 1
+        Height = 334
+        Top = 1
+        Width = 596
+        Align = alClient
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -13
+        Font.Name = 'Consolas'
+        Lines.Strings = (
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas a '
+          'turpis a pretium. Donec vel consequat lacus. Nullam quis luctus magna. Integer '
+          'a eros aliquam, dictum nisi vitae, convallis eros. Fusce viverra hendrerit '
+          'viverra. Quisque auctor, erat a tempus pretium, mauris mi iaculis ligula, eget '
+          'sagittis mi mi sed enim. Nulla facilisi. Interdum et malesuada fames ac ante '
+          'ipsum primis in faucibus.'
+          ''
+          'Nulla facilisi. Cras aliquet lorem quis augue faucibus, non ultricies sem '
+          'viverra. In vestibulum eleifend consequat. In condimentum efficitur mi '
+          'malesuada dictum. Integer vulputate, arcu vitae pretium interdum, velit odio '
+          'lacinia ipsum, id rhoncus lectus nulla sit amet urna. Cras at libero non risus '
+          'iaculis malesuada non non quam. Proin rhoncus magna nec ipsum mollis interdum. '
+          'Nam et accumsan augue. In tincidunt ante eu nibh volutpat vestibulum ac vel '
+          'enim. Phasellus pharetra arcu ac pretium tincidunt.'
+          ''
+          'Pellentesque dignissim dolor non nisl eleifend pulvinar. Nunc maximus in '
+          'lectus ac cursus. Sed sodales sem vel metus ultrices, in molestie ante tempus. '
+          'Nullam imperdiet consectetur nisl accumsan hendrerit. In tincidunt quam in '
+          'molestie pulvinar. Nam interdum vel lacus eget egestas. Cras egestas diam '
+          'mollis dui congue, ut iaculis est dictum. In sollicitudin risus non neque '
+          'maximus, a ullamcorper dolor feugiat.'
+          ''
+          'In neque lectus, volutpat quis pellentesque eget, gravida ac dui. Duis '
+          'eleifend malesuada ex id cursus. Sed mi ante, pellentesque non odio in, '
+          'pulvinar suscipit nisi. Etiam cursus arcu id ullamcorper tincidunt. Class '
+          'aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos '
+          'himenaeos. Nam aliquam varius diam, lobortis vulputate arcu lobortis quis. '
+          'Aliquam neque erat, ultricies et mauris sed, maximus fermentum eros. Nulla '
+          'volutpat metus vehicula felis tincidunt, at viverra nulla feugiat. Sed '
+          'ultricies risus sit amet mauris ornare, vitae volutpat felis sagittis.'
+          ''
+          'Cras lectus mauris, tincidunt dignissim facilisis tempor, finibus sit amet '
+          'tortor. Morbi eget laoreet arcu. Nullam egestas lacus ante, dignissim sagittis '
+          'elit posuere vel. Duis rutrum bibendum nibh nec dapibus. Morbi neque velit, '
+          'vulputate ut molestie ac, venenatis id arcu. Mauris eu purus est. Ut ut '
+          'tincidunt erat. Nunc efficitur quam at erat interdum, maximus bibendum orci '
+          'feugiat. Fusce posuere quis diam at iaculis. Maecenas quis aliquam ex. Orci '
+          'varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus '
+          'mus. Duis in eros lacinia, molestie lectus et, lobortis tellus. Nulla '
+          'facilisi. Suspendisse potenti.'
+        )
+        ParentFont = False
+        ReadOnly = True
+        ScrollBars = ssVertical
+        TabOrder = 0
+        WantTabs = True
+      end
+    end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 21
+    Top = 379
+    Width = 600
+    Panels = <>
+  end
+  object miMenu: TMainMenu
+    Left = 16
+    Top = 8
+  end
+  object acAction: TActionList
+    Left = 16
+    Top = 70
+    object acF1: TAction
+      Category = 'Key'
+      Caption = 'F1'
+      OnExecute = acF1Execute
+      ShortCut = 112
+    end
+  end
+end

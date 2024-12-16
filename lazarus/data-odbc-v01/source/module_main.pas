@@ -17,7 +17,7 @@ uses
   // # : - lazarus
   Classes,
   SysUtils,
-  SQLite3Conn,
+  odbcconn,
   SQLDB,
   DB;
 
@@ -26,12 +26,13 @@ type
   { TModuleMain }
 
   TModuleMain = class(TDataModule)
-    conData: TSQLite3Connection;
     dtsSelect: TDataSource;
+    conData: TODBCConnection;
     qryInsert: TSQLQuery;
     qryCreate: TSQLQuery;
     qrySelect: TSQLQuery;
     qryDelete: TSQLQuery;
+    SQLQuery1: TSQLQuery;
     traData: TSQLTransaction;
   public
     procedure DataClose;
@@ -77,16 +78,13 @@ begin
   with (Self.conData) do
   begin
     Close;
-    DatabaseName := (''
-      + GetCurrentDir
-      {$IFDEF WINDOWS}
-      + '\'
-      {$ENDIF}
-      {$IFDEF LINUX}
-      + '/'
-      {$ENDIF}
-      + 'database.db'
-    );
+    Driver := 'ODBC Driver 18 for SQL Server';
+    Params.Values['Server'] := 'localhost';
+    Params.Values['Database'] := 'master';
+    Params.Values['Uid'] := 'sa';
+    Params.Values['Pwd'] := 'ABcd!@34';
+    Params.Values['Encrypt'] := 'yes';
+    Params.Values['TrustServerCertificate'] := 'yes';
     Open;
   end;
 end;

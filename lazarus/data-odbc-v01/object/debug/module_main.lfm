@@ -1,0 +1,94 @@
+object ModuleMain: TModuleMain
+  OldCreateOrder = False
+  Height = 500
+  HorizontalOffset = 446
+  VerticalOffset = 270
+  Width = 750
+  PPI = 120
+  object traData: TSQLTransaction
+    Active = False
+    Action = caCommit
+    Database = conData
+    Left = 40
+    Top = 90
+  end
+  object qryInsert: TSQLQuery
+    FieldDefs = <>
+    Transaction = traData
+    SQL.Strings = (
+      'INSERT INTO TB_DEBUG (CL_NAME) VALUES'
+      '(''MARY''),'
+      '(''JANE''),'
+      '(''EMMA''),'
+      '(''OLIVIA''),'
+      '(''ALEXIS''),'
+      '(''ISLA''),'
+      '(''SOPHIA''),'
+      '(''CHARLOTTE''),'
+      '(''LUCY''),'
+      '(''LILY'');'
+      ''
+    )
+    Params = <>
+    Macros = <>
+    Left = 120
+    Top = 160
+  end
+  object qrySelect: TSQLQuery
+    FieldDefs = <>
+    Transaction = traData
+    SQL.Strings = (
+      'SELECT * FROM TB_DEBUG;'
+    )
+    Params = <>
+    Macros = <>
+    Left = 210
+    Top = 160
+  end
+  object dtsSelect: TDataSource
+    DataSet = qrySelect
+    Left = 210
+    Top = 230
+  end
+  object qryCreate: TSQLQuery
+    FieldDefs = <>
+    Transaction = traData
+    SQL.Strings = (
+      'CREATE TABLE TB_DEBUG ('
+      '    CL_ID INTEGER PRIMARY KEY AUTOINCREMENT,'
+      '    CL_NAME VARCHAR(20) NOT NULL'
+      ');'
+      ''
+    )
+    Params = <>
+    Macros = <>
+    Left = 40
+    Top = 160
+  end
+  object qryDelete: TSQLQuery
+    FieldDefs = <>
+    Transaction = traData
+    SQL.Strings = (
+      'DELETE FROM TB_DEBUG;'
+    )
+    Params = <>
+    Macros = <>
+    Left = 300
+    Top = 160
+  end
+  object conData: TODBCConnection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    Transaction = traData
+    Left = 40
+    Top = 24
+  end
+  object SQLQuery1: TSQLQuery
+    FieldDefs = <>
+    Params = <>
+    Macros = <>
+    Left = 260
+    Top = 73
+  end
+end

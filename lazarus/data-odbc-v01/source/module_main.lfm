@@ -1,28 +1,19 @@
 object ModuleMain: TModuleMain
   OldCreateOrder = False
-  Height = 400
-  HorizontalOffset = 357
-  VerticalOffset = 216
-  Width = 600
-  object conData: TSQLite3Connection
-    Connected = False
-    LoginPrompt = False
-    KeepConnection = False
-    Transaction = traData
-    AlwaysUseBigint = False
-    Left = 32
-    Top = 16
-  end
+  Height = 500
+  HorizontalOffset = 446
+  VerticalOffset = 270
+  Width = 750
+  PPI = 120
   object traData: TSQLTransaction
     Active = False
     Action = caCommit
     Database = conData
-    Left = 32
-    Top = 72
+    Left = 40
+    Top = 90
   end
   object qryInsert: TSQLQuery
     FieldDefs = <>
-    Database = conData
     Transaction = traData
     SQL.Strings = (
       'INSERT INTO TB_DEBUG (CL_NAME) VALUES'
@@ -40,29 +31,27 @@ object ModuleMain: TModuleMain
     )
     Params = <>
     Macros = <>
-    Left = 96
-    Top = 128
+    Left = 120
+    Top = 160
   end
   object qrySelect: TSQLQuery
     FieldDefs = <>
-    Database = conData
     Transaction = traData
     SQL.Strings = (
       'SELECT * FROM TB_DEBUG;'
     )
     Params = <>
     Macros = <>
-    Left = 168
-    Top = 128
+    Left = 210
+    Top = 160
   end
   object dtsSelect: TDataSource
     DataSet = qrySelect
-    Left = 168
-    Top = 184
+    Left = 210
+    Top = 230
   end
   object qryCreate: TSQLQuery
     FieldDefs = <>
-    Database = conData
     Transaction = traData
     SQL.Strings = (
       'CREATE TABLE TB_DEBUG ('
@@ -73,19 +62,33 @@ object ModuleMain: TModuleMain
     )
     Params = <>
     Macros = <>
-    Left = 32
-    Top = 128
+    Left = 40
+    Top = 160
   end
   object qryDelete: TSQLQuery
     FieldDefs = <>
-    Database = conData
     Transaction = traData
     SQL.Strings = (
       'DELETE FROM TB_DEBUG;'
     )
     Params = <>
     Macros = <>
-    Left = 240
-    Top = 128
+    Left = 300
+    Top = 160
+  end
+  object conData: TODBCConnection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    Transaction = traData
+    Left = 40
+    Top = 24
+  end
+  object SQLQuery1: TSQLQuery
+    FieldDefs = <>
+    Params = <>
+    Macros = <>
+    Left = 260
+    Top = 73
   end
 end

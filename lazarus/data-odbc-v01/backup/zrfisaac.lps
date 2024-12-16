@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Debug"/>
+    <Units>
+      <Unit>
+        <Filename Value="zrfisaac.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="14" Y="12"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="source\menu_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MenuMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="105"/>
+        <CursorPos X="3" Y="111"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="source\module_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ModuleMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="76"/>
+        <CursorPos Y="88"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="library\menu_about.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MenuAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="58"/>
+        <CursorPos Y="78"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="source\menu_main.pas"/>
+        <Caret Line="84" TopLine="67"/>
+      </Position>
+      <Position>
+        <Filename Value="source\module_main.pas"/>
+        <Caret Line="37" Column="21" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main.pas"/>
+        <Caret Line="98" Column="22" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main.pas"/>
+        <Caret Line="105" Column="22" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="source\module_main.pas"/>
+        <Caret Line="70" Column="11" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="source\module_main.pas"/>
+        <Caret Line="72" Column="11" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="source\module_main.pas"/>
+        <Caret Line="74" Column="11" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="source\module_main.pas"/>
+        <Caret Line="73" Column="11" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="source\module_main.pas"/>
+        <Caret Line="72" Column="11" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="source\module_main.pas"/>
+        <Caret Line="43" Column="25" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main.pas"/>
+        <Caret Line="82" Column="21" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main.pas"/>
+        <Caret Line="83" Column="21" TopLine="77"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main.pas"/>
+        <Caret Line="84" Column="21" TopLine="78"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main.pas"/>
+        <Caret Line="93" Column="3" TopLine="79"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main.pas"/>
+        <Caret Line="115" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main.pas"/>
+        <Caret Line="99" Column="24" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main.pas"/>
+        <Caret Line="94" Column="24" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="source\module_main.pas"/>
+        <Caret Line="73" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main.pas"/>
+        <Caret Line="114" Column="24" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main.pas"/>
+        <Caret Line="121" Column="24" TopLine="96"/>
+      </Position>
+      <Position>
+        <Filename Value="source\module_main.pas"/>
+        <Caret Line="87" Column="62" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="source\module_main.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="source\menu_main.pas"/>
+        <Caret Line="105" Column="6" TopLine="105"/>
+      </Position>
+      <Position>
+        <Filename Value="source\module_main.pas"/>
+        <Caret Line="89" TopLine="68"/>
+      </Position>
+      <Position>
+        <Filename Value="source\module_main.pas"/>
+        <Caret Line="75" Column="44" TopLine="69"/>
+      </Position>
+      <Position>
+        <Filename Value="source\module_main.pas"/>
+        <Caret Line="82" Column="26" TopLine="69"/>
+      </Position>
+      <Position>
+        <Filename Value="source\module_main.pas"/>
+        <Caret Line="20" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="source\module_main.pas"/>
+        <Caret Line="21" Column="3" TopLine="11"/>
+      </Position>
+      <Position>
+        <Filename Value="source\module_main.pas"/>
+        <Caret Line="85" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="source\module_main.pas"/>
+        <Caret Line="81" Column="45" TopLine="75"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="source\module_main.pas"/>
+        <Line Value="88"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>

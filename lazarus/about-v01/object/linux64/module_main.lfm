@@ -1,0 +1,8 @@
+object ModuleMain: TModuleMain
+  OldCreateOrder = False
+  Height = 500
+  HorizontalOffset = 300
+  VerticalOffset = 175
+  Width = 750
+  PPI = 120
+end
