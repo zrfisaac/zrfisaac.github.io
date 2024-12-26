@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# version : zrfisaac.python.ytdlp : 1.0.2
+# version : zrfisaac.python.ytdlp : 1.0.3
 
 # [ python ]
 
@@ -42,7 +42,7 @@ print("# [ about ]")
 print("# - author : Isaac Caires")
 print("# . - email : zrfisaac@gmail.com")
 print("# . - site : zrfisaac.github.io")
-print("# - version : zrfisaac.python.ytdlp : 1.0.1")
+print("# - version : zrfisaac.python.ytdlp : 1.0.3")
 print("")
 
 # : - main
@@ -78,28 +78,57 @@ if not v_end_error:
                             if _match:
                                 if _match.group(1):
                                     _value = _match.group(1)
+                                    _extension = os.path.splitext(_name)[1]
                                     if not os.path.exists(_name):
                                         print("# . - :", _name)
-                                        if os.path.exists("cookies.txt"):
-                                            subprocess.run([
-                                                "yt-dlp",
-                                                "-f",
-                                                "bestvideo[ext=mpg]+bestaudio[ext=m4a]/best[ext=mpg]/best",
-                                                "--cookies",
-                                                "cookies.txt",
-                                                "-o",
-                                                _name,
-                                                _value
-                                            ])
+                                        if (_extension == ".mp3"):
+                                            if os.path.exists("cookies.txt"):
+                                                subprocess.run([
+                                                    "yt-dlp",
+                                                    "-f",
+                                                    "bestaudio",
+                                                    "--extract-audio",
+                                                    "--audio-format",
+                                                    "mp3",
+                                                    "--cookies",
+                                                    "cookies.txt",
+                                                    "-o",
+                                                    _name,
+                                                    _value
+                                                ])
+                                            else:
+                                                subprocess.run([
+                                                    "yt-dlp",
+                                                    "-f",
+                                                    "bestaudio",
+                                                    "--extract-audio",
+                                                    "--audio-format",
+                                                    "mp3",
+                                                    "-o",
+                                                    _name,
+                                                    _value
+                                                ])
                                         else:
-                                            subprocess.run([
-                                                "yt-dlp",
-                                                "-f",
-                                                "bestvideo[ext=mpg]+bestaudio[ext=m4a]/best[ext=mpg]/best",
-                                                "-o",
-                                                _name,
-                                                _value
-                                            ])
+                                            if os.path.exists("cookies.txt"):
+                                                subprocess.run([
+                                                    "yt-dlp",
+                                                    "-f",
+                                                    "bestvideo[ext=mpg]+bestaudio[ext=m4a]/best[ext=mpg]/best",
+                                                    "--cookies",
+                                                    "cookies.txt",
+                                                    "-o",
+                                                    _name,
+                                                    _value
+                                                ])
+                                            else:
+                                               subprocess.run([
+                                                    "yt-dlp",
+                                                    "-f",
+                                                    "bestvideo[ext=mpg]+bestaudio[ext=m4a]/best[ext=mpg]/best",
+                                                   "-o",
+                                                    _name,
+                                                    _value
+                                                ])
     except Exception as _exception:
         v_end_error = True
         v_end_message = str(_exception)
@@ -113,4 +142,4 @@ else:
     print("# - success")
 if v_end_message != "":
     print("# . - message : " + v_end_message)
-input("")
+#input("")

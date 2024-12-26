@@ -73,6 +73,8 @@ web/*/
 work/*/
 wiki/*/
 wiki.*/
+zero
+zrfisaac
 
 # : - zrfisaac
 *.Identifier

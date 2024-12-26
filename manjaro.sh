@@ -12,14 +12,14 @@ command -v sudo >/dev/null 2>&1 && sudo="sudo" || sudo=""
 user=$(getent passwd 1000 | cut -d: -f1)
 kernel="linux612"
 local="/zrfisaac"
-[ ! -f "/etc/sudoers.d/${user}" ] && echo "${user} ALL=(ALL) NOPASSWD:ALL" | ${sudo} tee /etc/sudoers.d/${user} > /dev/null
-[ ! -d "${local}" ] && ${sudo} git clone https://github.com/zrfisaac/zrfisaac.github.io.git ${local}
-[ -d "${local}" ] && ${sudo} chown -R ${user}:${user} ${local}
-[ -d "${local}" ] && ${sudo} sed -i 's|/home/zrfisaac|/zrfisaac|g' /etc/passwd
-[ -d "/home/zrfisaac" ] && ${sudo} rm -rvf /home/zrfisaac
+#[ ! -f "/etc/sudoers.d/${user}" ] && echo "${user} ALL=(ALL) NOPASSWD:ALL" | ${sudo} tee /etc/sudoers.d/${user} > /dev/null
+#[ ! -d "${local}" ] && ${sudo} git clone https://github.com/zrfisaac/zrfisaac.github.io.git ${local}
+#[ -d "${local}" ] && ${sudo} chown -R ${user}:${user} ${local}
+#[ -d "${local}" ] && ${sudo} sed -i 's|/home/zrfisaac|/zrfisaac|g' /etc/passwd
+#[ -d "/home/zrfisaac" ] && ${sudo} rm -rvf /home/zrfisaac
 
 # : - user
-${sudo} usermod -a -G vboxusers ${user}
+#${sudo} usermod -a -G vboxusers ${user}
 
 # : - swap
 if [ $(stat -c%s /swapfile) -lt $((16 * 1024 * 1024 * 1024)) ]
@@ -76,6 +76,8 @@ fi
 [ ! -x "$(which dosbox)" ] && ${sudo} pacman -S --noconfirm dosbox
 [ ! -x "$(which desmume)" ] && ${sudo} pacman -S --noconfirm desmume
 [ ! -x "$(which qemu-storage-daemon)" ] && ${sudo} pacman -S --noconfirm qemu-full
+[ ! -f "usr/share/bash-completion/completions/pacstrap" ] && ${sudo} pacman -S --noconfirm arch-install-scripts
+[ ! -x "$(which steam)" ] && ${sudo} pacman -S --noconfirm steam
 
 # : - pamac
 #${sudo} sed -i 's/^#EnableAUR/EnableAUR/' /etc/pamac.conf
@@ -95,6 +97,7 @@ fi
 [ ! -x "$(which archey4)" ] && ${sudo} pamac install --no-confirm archey4
 [ ! -x "$(which blender-3.6)" ] && ${sudo} pamac install --no-confirm blender-3.6-bin
 [ ! -x "$(which simple64-gui)" ] && ${sudo} pamac install --no-confirm simple64
+[ ! -x "$(which ventoy)" ] && ${sudo} pamac install --no-confirm ventoy
 
 # : - yay
 [ ! -d "/usr/lib/flutter" ] && yay -S --noconfirm flutter
@@ -107,8 +110,8 @@ fi
 #yes | flutter doctor --android-licenses
 
 # : - permission
-[ -d "${local}" ] && ${sudo} chown -R ${user}:${user} ${local}
-[ -d "${local}" ] && ${sudo} chown -R ${user}:${user} /opt
+#[ -d "${local}" ] && ${sudo} chown -R ${user}:${user} ${local}
+#[ -d "${local}" ] && ${sudo} chown -R ${user}:${user} /opt
 
 # : xdg
 _xdg="${local}/.config"
