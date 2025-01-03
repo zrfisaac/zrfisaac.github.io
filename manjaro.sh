@@ -159,3 +159,8 @@ echo "XDG_VIDEOS_DIR=\"$HOME/video\"" >> ${_xdg}
 # : - service
 ${sudo} systemctl enable httpd && ${sudo} systemctl restart httpd 
 ${sudo} systemctl enable docker && ${sudo} systemctl restart docker
+
+# gdb
+# lazarus-gtk2
+# dbeaver
+# cordova
