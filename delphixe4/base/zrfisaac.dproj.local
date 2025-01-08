@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/01/04 17:20:01.000.379,=C:\Users\vboxuser\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/01/08 11:38:43.174.pas,C:\Users\vboxuser\Documents\RAD Studio\Projects\Unit1.pas=C:\zrfisaac\delphi2007\base\Sources\uMenuMain.pas</Transaction>
+    <Transaction>2025/01/08 11:38:43.175.dfm,C:\Users\vboxuser\Documents\RAD Studio\Projects\Unit1.dfm=C:\zrfisaac\delphi2007\base\Sources\uMenuMain.dfm</Transaction>
+    <Transaction>2025/01/08 11:39:29.544.dproj,C:\Users\vboxuser\Documents\RAD Studio\Projects\Project1.dproj=C:\zrfisaac\delphi2007\base\zrfisaac.dproj</Transaction>
+    <Transaction>2025/01/08 12:01:53.248.dfm,C:\zrfisaac\delphi2007\base\Unit1.dfm=C:\zrfisaac\delphi2007\base\Sources\uModelForm.dfm</Transaction>
+    <Transaction>2025/01/08 12:01:53.248.pas,C:\zrfisaac\delphi2007\base\Unit1.pas=C:\zrfisaac\delphi2007\base\Sources\uModelForm.pas</Transaction>
+    <Transaction>2025/01/08 12:03:01.364.dfm,C:\zrfisaac\delphi2007\base\Unit1.dfm=C:\zrfisaac\delphi2007\base\Sources\uMenuConfig.dfm</Transaction>
+    <Transaction>2025/01/08 12:03:01.364.pas,C:\zrfisaac\delphi2007\base\Unit1.pas=C:\zrfisaac\delphi2007\base\Sources\uMenuConfig.pas</Transaction>
+  </Transactions>
+</BorlandProject>
