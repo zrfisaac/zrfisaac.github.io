@@ -12,4 +12,10 @@ user=""
 [ "${user}" == "" ] && user=$(getent passwd 1000 | cut -d: -f1)
 [ "${user}" == "" ] && user=$(getent passwd 15443 | cut -d: -f1)
 command -v sudo >/dev/null 2>&1 && sudo="sudo" || sudo=""
-${sudo} pacstrap -K /mnt base linux linux-firmware
+input=""
+[ "${input}" == "" ] && input="${1}"
+[ "${input}" == "" ] && read input
+if [ "${input}" != "" ]
+then
+	${sudo} pacstrap -K ${input} base linux linux-firmware
+fi

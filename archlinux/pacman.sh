@@ -60,6 +60,48 @@ then
 	[ ! -x "$(which qemu-storage-daemon)" ] && ${sudo} pacman -S --noconfirm qemu-full
 	[ ! -f "$(which pacstrap)" ] && ${sudo} pacman -S --noconfirm arch-install-scripts
 	[ ! -x "$(which steam)" ] && ${sudo} pacman -S --noconfirm steam
+	[ ! -x "$(which dbeaver)" ] && ${sudo} pacman -S --noconfirm dbeaver
+	[ ! -x "$(which filezilla)" ] && ${sudo} pacman -S --noconfirm filezilla
+	[ ! -x "$(which lazarus)" ] && ${sudo} pacman -S --noconfirm lazarus-gtk2
+	[ ! -x "$(which vlc)" ] && ${sudo} pacman -S --noconfirm vlc
+	[ ! -x "$(which grub-install)" ] && ${sudo} pacman -S --noconfirm grub
+	[ ! -x "$(which audacity)" ] && ${sudo} pacman -S --noconfirm audacity
+	[ ! -x "$(which libreoffice)" ] && ${sudo} pacman -S --noconfirm libreoffice-still
+	[ ! -x "$(which mono)" ] && ${sudo} pacman -S --noconfirm mono
+
+	# : - file
+	[ ! -x "$(which file-roller)" ] && ${sudo} pacman -S --noconfirm file-roller
+	[ ! -x "$(which totem)" ] && ${sudo} pacman -S --noconfirm totem
+
+	# : - network
+	[ ! -f "/usr/lib/libgnutls.so" ] && ${sudo} pacman -S --noconfirm gnutls
+	[ ! -f "/usr/lib32/libgnutls.so" ] && ${sudo} pacman -S --noconfirm lib32-gnutls
+	[ ! -x "$(which samba)" ] && ${sudo} pacman -S --noconfirm samba
+
+	# : - web
+	[ ! -x "$(which firefox)" ] && ${sudo} pacman -S --noconfirm firefox
+	[ ! -x "$(which chromium)" ] && ${sudo} pacman -S --noconfirm chromium
+	[ ! -x "$(which qbittorrent)" ] && ${sudo} pacman -S --noconfirm qbittorrent
+
+	# : - audio
+	[ ! -f "/usr/lib/libasound.so" ] && ${sudo} pacman -S --noconfirm alsa-lib
+	[ ! -f "/usr/bin/alsamixer" ] && ${sudo} pacman -S --noconfirm alsa-utils
+	[ ! -f "/usr/lib/firmware/aica_firmware.bin" ] && ${sudo} pacman -S --noconfirm alsa-firmware
+	[ ! -f "/usr/bin/aoss" ] && ${sudo} pacman -S --noconfirm alsa-oss
+	[ ! -f "/usr/bin/pulseaudio" ] && ${sudo} pacman -S --noconfirm pulseaudio
+	[ ! -f "/etc/alsa/conf.d/99-pulseaudio-default.conf" ] && ${sudo} pacman -S --noconfirm pulseaudio-alsa
+	[ ! -f "/usr/lib/pulseaudio/modules/module-bluetooth-discover.so" ] && ${sudo} pacman -S --noconfirm pulseaudio-bluetooth
+	[ ! -f "/usr/lib/pulseaudio/modules/module-equalizer-sink.so" ] && ${sudo} pacman -S --noconfirm pulseaudio-equalizer
+	[ ! -f "/usr/lib/pulseaudio/modules/module-jack-sink.so" ] && ${sudo} pacman -S --noconfirm pulseaudio-jack
+	[ ! -f "/usr/lib/pulseaudio/modules/module-lirc.so" ] && ${sudo} pacman -S --noconfirm pulseaudio-lirc
+	[ ! -f "/usr/lib/pulseaudio/modules/libavahi-wrap.so" ] && ${sudo} pacman -S --noconfirm pulseaudio-zeroconf
+	[ ! -f "/usr/bin/paprefs" ] && ${sudo} pacman -S --noconfirm paprefs
+	[ ! -f "/usr/bin/pavucontrol" ] && ${sudo} pacman -S --noconfirm pavucontrol
+	[ ! -f "/usr/bin/pavucontrol-qt" ] && ${sudo} pacman -S --noconfirm pavucontrol-qt
+	[ ! -f "/usr/lib/xfce4/panel/plugins/libpulseaudio-plugin.so" ] && ${sudo} pacman -S --noconfirm xfce4-pulseaudio-plugin
+	[ ! -f "/usr/bin/pulsemixer" ] && ${sudo} pacman -S --noconfirm pulsemixer
+	[ ! -f "/usr/bin/pulseaudio-equalizer" ] && ${sudo} pacman -S --noconfirm pulseaudio-equalizer-ladspa
+	[ ! -f "/usr/share/licenses/sof-firmware/Notice.NXP" ] && ${sudo} pacman -S --noconfirm sof-firmware
 else
 	${sudo} rm -rvf ${input}/$(basename ${0})
 	${sudo} cp -rvf ${0} ${input}/$(basename ${0})
