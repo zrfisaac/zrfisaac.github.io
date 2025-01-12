@@ -30,6 +30,7 @@
 *.trash
 *.trash.*
 *.zip
+albedo
 albedo/
 archived/*/
 assets/

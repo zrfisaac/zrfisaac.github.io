@@ -29,8 +29,9 @@ then
 	[ ! -d "/opt/android-sdk/build-tools" ] && yay -S --noconfirm android-sdk-build-tools
 	[ ! -d "/opt/android-sdk/platform-tools" ] && yay -S --noconfirm android-sdk-platform-tools
 	[ ! -d "/opt/android-sdk/platforms" ] && yay -S --noconfirm android-platform
-	#[ ! -d "/usr/lib/flutter" ] && yay -S --noconfirm flutter
-	[ ! -d "/usr/lib/flutter" ] && yay -S --noconfirm eclipse-jee-bin
+	[ ! -d "/usr/lib/flutter" ] && yay -S --noconfirm flutter
+	[ ! -x "$(which eclipse)" ] && yay -S --noconfirm eclipse-jee-bin
+	[ ! -x "$(which blender)" ] && yay -S --noconfirm blender-3.6-bin
 else
 	${sudo} rm -rvf ${input}/$(basename ${0})
 	${sudo} cp -rvf ${0} ${input}/$(basename ${0})
