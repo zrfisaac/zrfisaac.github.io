@@ -45,6 +45,7 @@ data/
 default/
 docker/*/
 dockerhub/
+download
 download/
 fork/*/
 game/*/
@@ -64,6 +65,7 @@ project/*/
 product/*/
 public/
 reference/*/
+repository
 repository/
 rom/
 source/*/

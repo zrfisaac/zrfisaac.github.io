@@ -102,6 +102,15 @@ then
 	[ ! -f "/usr/bin/pulsemixer" ] && ${sudo} pacman -S --noconfirm pulsemixer
 	[ ! -f "/usr/bin/pulseaudio-equalizer" ] && ${sudo} pacman -S --noconfirm pulseaudio-equalizer-ladspa
 	[ ! -f "/usr/share/licenses/sof-firmware/Notice.NXP" ] && ${sudo} pacman -S --noconfirm sof-firmware
+
+	[ ! -f "/usr/lib/libmtp.so" ] && ${sudo} pacman -S --noconfirm libmtp
+	[ ! -x "$(which stlink-gui)" ] && ${sudo} pacman -S --noconfirm stlink
+	[ ! -f "/usr/bin/android-file-transfer" ] && ${sudo} pacman -S --noconfirm android-file-transfer
+	[ ! -f "/usr/bin/fusermount3" ] && ${sudo} pacman -S --noconfirm fuse3
+	[ ! -f "/usr/bin/mtpfs" ] && ${sudo} pacman -S --noconfirm mtpfs
+	[ ! -f "/usr/lib/gvfsd" ] && ${sudo} pacman -S --noconfirm gvfs
+	[ ! -f "/usr/lib/gvfsd-mtp" ] && ${sudo} pacman -S --noconfirm gvfs-mtp
+	[ ! -f "/usr/bin/parted" ] && ${sudo} pacman -S --noconfirm parted
 else
 	${sudo} rm -rvf ${input}/$(basename ${0})
 	${sudo} cp -rvf ${0} ${input}/$(basename ${0})

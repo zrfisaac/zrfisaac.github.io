@@ -17,5 +17,5 @@ input=""
 [ "${input}" == "" ] && read input
 if [ "${input}" != "" ]
 then
-	${sudo} pacstrap -K ${input} base linux linux-firmware
+	${sudo} pacstrap -K ${input} base linux linux-firmware git wget nano grub dosfstools efibootmgr xorg-server xfce4 xfce4-goodies file-roller networkmanager network-manager-applet lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings iwd
 fi
