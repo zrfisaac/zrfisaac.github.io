@@ -35,6 +35,7 @@ then
 	[ ! -f "/usr/share/fonts/noto/NotoKufiArabic-ExtraBold.ttf" ] && ${sudo} pacman -S --noconfirm noto-fonts-extra
 	[ ! -f "/usr/share/fonts/noto-cjk/NotoSansCJK-Black.ttc" ] && ${sudo} pacman -S --noconfirm noto-fonts-cjk
 	[ ! -f "/usr/share/fonts/noto/NotoColorEmoji.ttf" ] && ${sudo} pacman -S --noconfirm noto-fonts-emoji
+	[ ! -f "/usrusr/lib/modules-load.d/virtualbox-host-modules-arch.conf" ] && ${sudo} pacman -S --noconfirm virtualbox-host-modules-arch
 	[ ! -x "$(which virtualbox)" ] && ${sudo} pacman -S --noconfirm virtualbox
 	[ ! -x "$(which netcat)" ] && ${sudo} pacman -S --noconfirm gnu-netcat
 	[ ! -f "/etc/httpd/conf/httpd.conf" ] && ${sudo} pacman -S --noconfirm apache
