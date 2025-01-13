@@ -42,6 +42,7 @@ classified.*
 clone/*/
 course/*/
 crack/
+data
 data/
 default/
 docker/*/
@@ -68,10 +69,13 @@ public/
 reference/*/
 repository
 repository/
+rom
 rom/
+source
 source/*/
 stuff/*/
 template/*/
+trash
 trash/*/
 video/*/
 web/*/
