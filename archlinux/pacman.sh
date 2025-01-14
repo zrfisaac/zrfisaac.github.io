@@ -112,6 +112,8 @@ then
 	[ ! -f "/usr/lib/gvfsd" ] && ${sudo} pacman -S --noconfirm gvfs
 	[ ! -f "/usr/lib/gvfsd-mtp" ] && ${sudo} pacman -S --noconfirm gvfs-mtp
 	[ ! -f "/usr/bin/parted" ] && ${sudo} pacman -S --noconfirm parted
+
+	[ ! -x "$(which cordova)" ] && ${sudo} pacman -S --noconfirm cordova
 else
 	${sudo} rm -rvf ${input}/$(basename ${0})
 	${sudo} cp -rvf ${0} ${input}/$(basename ${0})
