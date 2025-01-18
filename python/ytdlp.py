@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# version : zrfisaac.python.ytdlp : 1.0.3
+# version : zrfisaac.python.ytdlp : 1.0.6
 
 # [ python ]
 
@@ -14,6 +14,13 @@ import datetime
 import os
 import re
 import subprocess
+
+# : - function - fn_filename
+def fn_filename():
+    for _vi0 in range(1, 10000):  # Arbitrary limit for filenames
+        _filename = f"{_vi0:04}.mp4"
+        if not os.path.exists(_filename):
+            return _filename
 
 # - variable
 v_config_file = [
@@ -42,7 +49,7 @@ print("# [ about ]")
 print("# - author : Isaac Caires")
 print("# . - email : zrfisaac@gmail.com")
 print("# . - site : zrfisaac.github.io")
-print("# - version : zrfisaac.python.ytdlp : 1.0.3")
+print("# - version : zrfisaac.python.ytdlp : 1.0.6")
 print("")
 
 # : - main
@@ -59,15 +66,39 @@ if not v_end_error:
                     _value = ""
                     for _line in _file:
                         _line = _line.strip()
-                        _group = re.findall(v_pattern_group, _line)
-                        if len(_group) > 0:
-                            _list = False
-                            _group = _group[0]
-                            if _group.lower() == "list":
-                                _list = True
+                        _section_match = re.match(v_pattern_group, _line)
+                        if _section_match:
+                            _section = _section_match.group(1).lower()
                         else:
-                            _group = ""
-                        if _list:
+                            _section_match = ""
+                        if (_section == "video"):
+                            if (_line.startswith("http")):
+                                _value = _line
+                            else:
+                                _value = ""
+                            if _value:
+                                _name = fn_filename()
+                                if os.path.exists("cookies.txt"):
+                                    subprocess.run([
+                                        "yt-dlp",
+                                        "-f",
+                                        "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best",
+                                        "--cookies",
+                                        "cookies.txt",
+                                        "-o",
+                                        _name,
+                                        _value
+                                    ])
+                                else:
+                                    subprocess.run([
+                                        "yt-dlp",
+                                        "-f",
+                                        "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best",
+                                        "-o",
+                                        _name,
+                                        _value
+                                    ])
+                        elif (_section == "list"):
                             _match = re.match(v_pattern_name, _line)
                             if _match:
                                 _name = ""
@@ -113,7 +144,7 @@ if not v_end_error:
                                                 subprocess.run([
                                                     "yt-dlp",
                                                     "-f",
-                                                    "bestvideo[ext=mpg]+bestaudio[ext=m4a]/best[ext=mpg]/best",
+                                                    "bv*[height<=480]+ba/b[height<=480]",
                                                     "--cookies",
                                                     "cookies.txt",
                                                     "-o",
@@ -124,7 +155,7 @@ if not v_end_error:
                                                subprocess.run([
                                                     "yt-dlp",
                                                     "-f",
-                                                    "bestvideo[ext=mpg]+bestaudio[ext=m4a]/best[ext=mpg]/best",
+                                                    "bv*[height<=480]+ba/b[height<=480]",
                                                    "-o",
                                                     _name,
                                                     _value
