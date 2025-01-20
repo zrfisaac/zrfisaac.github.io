@@ -1,9 +1,0 @@
-# [ zrfisaac ]
-
-# [ about ]
-# - author : Isaac Caires
-# . - email : zrfisaac@gmail.com
-# . - site : zrfisaac.github.io
-# - version : zrfisaac.delphi2007.pattern.singleton.v01 : 1.0.0
-# . - description : Singleton - Ensures a class has only one instance and provides a global point of access to it.
-# . - example : A configuration manager that loads settings once and provides them throughout the application.
