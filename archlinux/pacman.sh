@@ -35,7 +35,7 @@ then
 	[ ! -f "/usr/share/fonts/noto/NotoKufiArabic-ExtraBold.ttf" ] && ${sudo} pacman -S --noconfirm noto-fonts-extra
 	[ ! -f "/usr/share/fonts/noto-cjk/NotoSansCJK-Black.ttc" ] && ${sudo} pacman -S --noconfirm noto-fonts-cjk
 	[ ! -f "/usr/share/fonts/noto/NotoColorEmoji.ttf" ] && ${sudo} pacman -S --noconfirm noto-fonts-emoji
-	[ ! -f "/usrusr/lib/modules-load.d/virtualbox-host-modules-arch.conf" ] && ${sudo} pacman -S --noconfirm virtualbox-host-modules-arch
+	[ ! -f "/usr/lib/modules-load.d/virtualbox-host-modules-arch.conf" ] && ${sudo} pacman -S --noconfirm virtualbox-host-modules-arch
 	[ ! -x "$(which virtualbox)" ] && ${sudo} pacman -S --noconfirm virtualbox
 	[ ! -x "$(which netcat)" ] && ${sudo} pacman -S --noconfirm gnu-netcat
 	[ ! -f "/etc/httpd/conf/httpd.conf" ] && ${sudo} pacman -S --noconfirm apache
@@ -114,6 +114,7 @@ then
 	[ ! -f "/usr/bin/parted" ] && ${sudo} pacman -S --noconfirm parted
 
 	[ ! -x "$(which cordova)" ] && ${sudo} pacman -S --noconfirm cordova
+	[ ! -x "$(which nuget)" ] && ${sudo} pacman -S --noconfirm nuget
 else
 	${sudo} rm -rvf ${input}/$(basename ${0})
 	${sudo} cp -rvf ${0} ${input}/$(basename ${0})

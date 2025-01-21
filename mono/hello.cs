@@ -1,7 +1,20 @@
+// # [ zrfisaac ]
+
+// # [ about ]
+// # - author : Isaac Caires
+// # . - email : zrfisaac@gmail.com
+// # . - site : zrfisaac.github.io
+// # - version : zrfisaac.mono.hello : 0.0.2
+
+// # [ mono ]
 using System;
 
-public class Test {
- public static void Main(string[] args) {
-  Console.WriteLine("Hello World!");
- }
+namespace zrfisaac
+{
+	public class ZRFISAAC {
+		public static void Main(string[] args) {
+			Console.WriteLine("Hello World!");
+			//Console.ReadLine();
+		}
+	}
 }
