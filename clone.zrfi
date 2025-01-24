@@ -7,6 +7,9 @@
 
 # [ list ]
 
+# - : fork
+# . - : https://github.com/zrfisaac/zrfisaac.fork.git
+
 # - : github
 # . - : https://github.com/zrfisaac/zrfisaac.git
 
