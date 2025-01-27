@@ -32,6 +32,9 @@ then
 	[ ! -d "/usr/lib/flutter" ] && yay -S --noconfirm flutter
 	[ ! -x "$(which eclipse)" ] && yay -S --noconfirm eclipse-jee-bin
 	[ ! -x "$(which blender)" ] && yay -S --noconfirm blender-3.6-bin
+	#[ ! -d "/opt/android-sdk/platforms" ] && yay -S --noconfirm vimix-gtk-themes-git
+	#[ ! -d "/opt/android-sdk/platforms" ] && yay -S --noconfirm vimix-icon-theme
+	#[ ! -d "/opt/android-sdk/platforms" ] && yay -S --noconfirm vimix-cursors-git
 else
 	${sudo} rm -rvf ${input}/$(basename ${0})
 	${sudo} cp -rvf ${0} ${input}/$(basename ${0})

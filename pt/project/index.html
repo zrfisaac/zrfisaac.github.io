@@ -4,6 +4,7 @@
 <!-- # - author : Isaac Caires -->
 <!-- # . - email : zrfisaac@gmail.com -->
 <!-- # . - site : zrfisaac.github.io -->
+<!-- # - version : zrfisaac.pt.project : 1.0.0 -->
 
 <!-- # [ html ] -->
 <!DOCTYPE html>
@@ -23,6 +24,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
 
 		<!-- # : - bootstrap -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 		<link rel="stylesheet" href="/library/bootstrap/css/bootstrap.min.css">
 
 		<!-- # : - fontawesome -->
@@ -45,13 +47,23 @@
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div class="container">
 				<a class="navbar-brand" href="/">ZRFISAAC</a>
+				<div class="nav-item dropdown">
+					<a class="nav-link text-white" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						<i class="fa-solid fa-language"></i>
+					</a>
+					<ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="languageDropdown">
+						<li><a class="dropdown-item text-light" href="/en/">English</a></li>
+						<li><a class="dropdown-item text-light" href="/pt/">Português</a></li>
+						<li><a class="dropdown-item text-light" href="/es/">Español</a></li>
+					</ul>
+				</div>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav ms-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="/pt/"><i class="fa-solid fa-house"></i> Início</a>
+							<a class="nav-link active" href="/pt/"><i class="fa-solid fa-house"></i> Início</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="/pt/privacy/"><i class="fa-solid fa-shield-halved"></i> Privacidade</a>
@@ -69,7 +81,7 @@
 							<a class="nav-link" href="/pt/mobile/"><i class="fa-solid fa-mobile-screen-button"></i> Mobile</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link active" href="/pt/project/"><i class="fa-brands fa-osi"></i> Projetos</a>
+							<a class="nav-link" href="/pt/project/"><i class="fa-brands fa-osi"></i> Projetos</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="/pt/game/"><i class="fa-solid fa-gamepad"></i> Jogos</a>
@@ -117,10 +129,10 @@
 					<!-- # : - about -->
 					<section class="about section">
 						<div class="section-inner shadow-sm rounded">
-							<h2 class="heading">Meus Projetos Open Source</h2>
+							<h2 class="heading">My Open Source Projects</h2>
 							<div class="content">
-								<p>Bem-vindo à coleção de projetos open source em que estou trabalhando! Esta página exibe uma variedade de projetos que desenvolvi ou contribuí. Eles cobrem diferentes áreas, incluindo desenvolvimento de jogos e aplicativos utilitários, com ênfase em colaboração e código de alta qualidade. Fique à vontade para explorar, contribuir ou fazer um fork desses projetos como parte da comunidade open source. Vamos criar algo incrível juntos!</p>
-								<p>Cada projeto nesta página é open source, dando a você acesso total para explorar, usar ou modificar o código. Seja você um desenvolvedor buscando inspiração ou uma empresa interessada nas minhas habilidades técnicas, essa coleção reflete meu compromisso com um código limpo, eficiente e um design focado no usuário. Confira o código-fonte no <a href="https://github.com/zrfisaac" target="_blank">GitHub</a>, onde documentei cada projeto para facilitar a configuração e personalização.</p>
+								<p>Welcome to the collection of open-source projects I'm working on! This page showcases a variety of projects that I’ve developed or contributed to. They cover different areas, including game development and utility applications, with an emphasis on collaboration and high-quality code. Feel free to explore, contribute, or fork these projects as part of the open-source community. Let's create something amazing together!</p>
+								<p>Every project on this page is open source, giving you full access to explore, use, or modify the code. Whether you’re a developer looking for inspiration or a company interested in my technical abilities, this collection reflects my commitment to clean, efficient code and user-centered design. Check out the source code on <a href="https://github.com/zrfisaac" target="_blank">GitHub</a>, where I’ve documented each project for easy setup and customization.</p>
 							</div>
 						</div>
 					</section>
@@ -128,17 +140,17 @@
 					<!-- # : - mvp -->
 					<section class="latest section">
 						<div class="section-inner shadow-sm rounded">
-							<h2 class="heading">Em breve!</h2>
+							<h2 class="heading">Coming Soon!</h2>
 							<div class="content">    
 								<div class="item row">
 									<a class="col-md-4 col-12" href="https://github.com/zrfisaac/Guara" target="_blank">
 										<img class="img-fluid project-image rounded shadow-sm" src="/library/logo/project/Guara.png" alt="Guara" />
 									</a>
 									<div class="desc col-md-8 col-12">
-										<h3 class="title"><a href="https://github.com/zrfisaac/Themes4Delphi" target="_blank">Guara - A Ferramenta Definitiva de Gerenciamento de Banco de Dados</a></h3>
-										<p><span class="badge badge-theme">Em breve!</span></p>
-										<p class="mb-2">Guara é uma ferramenta de gerenciamento de banco de dados abrangente, projetada para versatilidade e facilidade de uso. Ela permite exportação, importação, execução de scripts SQL e conversão de dados entre formatos como CSV e Excel, além de muitas outras funcionalidades poderosas. Compatível com uma ampla gama de bancos de dados, incluindo Firebird, Oracle, SQL Server, MariaDB, PostgreSQL, MySQL, MongoDB e mais, o Guara foi desenvolvido para otimizar as tarefas de banco de dados e aumentar a produtividade de desenvolvedores e gerentes de dados.</p>
-										<p><a class="more-link" href="https://github.com/zrfisaac/Themes4Delphi" target="_blank"><i class="fas fa-external-link-alt"></i>Saiba mais</a></p>
+										<h3 class="title"><a href="https://github.com/zrfisaac/Themes4Delphi" target="_blank">Guara - The Ultimate Database Management Tool</a></h3>
+										<p><span class="badge badge-theme">Coming Soon!</span></p>
+										<p class="mb-2">Guara is a comprehensive database management tool designed for versatility and ease of use. It enables seamless exporting, importing, SQL script execution, and data conversion between formats like CSV and Excel, along with many other powerful features. Compatible with a wide range of databases—including Firebird, Oracle, SQL Server, MariaDB, PostgreSQL, MySQL, MongoDB, and more—Guara is built to streamline database tasks and enhance productivity for developers and data managers alike.</p>
+										<p><a class="more-link" href="https://github.com/zrfisaac/Themes4Delphi" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
 									</div>
 								</div>
 								<div class="item row">
@@ -146,10 +158,10 @@
 										<img class="img-fluid project-image rounded shadow-sm" src="/library/logo/project/TintTool.png" alt="ClipDock" />
 									</a>
 									<div class="desc col-md-8 col-12">
-										<h3 class="title"><a href="https://github.com/zrfisaac/TintTool" target="_blank">TintTool - Sua Solução Completa de Gerenciamento de Cores</a></h3>
-										<p><span class="badge badge-theme">Em breve!</span></p>
-										<p class="mb-2">TintTool é uma aplicação tudo-em-um para entusiastas e profissionais de cores, oferecendo recursos poderosos para converter cores, capturar cores diretamente da sua tela, gerar paletas personalizadas e muito mais. Seja você um designer, desenvolvedor ou artista, o TintTool simplifica tarefas relacionadas a cores, facilitando a exploração, organização e o trabalho com cores de forma eficiente.</p>
-										<p><a class="more-link" href="https://github.com/zrfisaac/TintTool" target="_blank"><i class="fas fa-external-link-alt"></i>Saiba mais</a></p>
+										<h3 class="title"><a href="https://github.com/zrfisaac/TintTool" target="_blank">TintTool - Your Complete Color Management Solution</a></h3>
+										<p><span class="badge badge-theme">Coming Soon!</span></p>
+										<p class="mb-2">TintTool is an all-in-one application for color enthusiasts and professionals, providing powerful features for converting colors, capturing colors directly from your screen, generating custom palettes, and more. Whether you’re a designer, developer, or artist, TintTool streamlines color-related tasks, making it easy to explore, organize, and work with colors efficiently.</p>
+										<p><a class="more-link" href="https://github.com/zrfisaac/TintTool" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
 									</div>
 								</div>
 								<div class="item row">
@@ -157,10 +169,10 @@
 										<img class="img-fluid project-image rounded shadow-sm" src="/library/logo/project/ClipDock.png" alt="ClipDock" />
 									</a>
 									<div class="desc col-md-8 col-12">
-										<h3 class="title"><a href="https://github.com/zrfisaac/ClipDock" target="_blank">ClipDock - Gerenciamento Avançado da Área de Transferência</a></h3>
-										<p><span class="badge badge-theme">Em breve!</span></p>
-										<p class="mb-2">ClipDock é um poderoso gerenciador de área de transferência que armazena seu conteúdo copiado (Ctrl + C) e colado (Ctrl + V), permitindo que você acesse e reutilize a qualquer momento. Com o ClipDock, você pode acompanhar vários itens, facilitando a recuperação de entradas anteriores da área de transferência sem perder dados valiosos. Ideal para entusiastas de produtividade e desenvolvedores, o ClipDock garante que você nunca mais perca informações copiadas importantes.</p>
-										<p><a class="more-link" href="https://github.com/zrfisaac/ClipDock" target="_blank"><i class="fas fa-external-link-alt"></i>Saiba mais</a></p>
+										<h3 class="title"><a href="https://github.com/zrfisaac/ClipDock" target="_blank">ClipDock - Enhanced Clipboard Management</a></h3>
+										<p><span class="badge badge-theme">Coming Soon!</span></p>
+										<p class="mb-2">ClipDock is a powerful clipboard manager that stores your copied (Ctrl + C) and pasted (Ctrl + V) content, allowing you to access and reuse it anytime. With ClipDock, you can keep track of multiple items, making it easy to retrieve past clipboard entries without losing valuable data. Ideal for productivity enthusiasts and developers alike, ClipDock ensures you’ll never lose track of important copied information again.</p>
+										<p><a class="more-link" href="https://github.com/zrfisaac/ClipDock" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
 									</div>
 								</div>
 								<div class="item row">
@@ -168,10 +180,10 @@
 										<img class="img-fluid project-image rounded shadow-sm" src="/library/logo/project/Donfig.png" alt="Donfig" />
 									</a>
 									<div class="desc col-md-8 col-12">
-										<h3 class="title"><a href="https://github.com/zrfisaac/Donfig" target="_blank">Donfig - Configuração Facilitada</a></h3>
-										<p><span class="badge badge-theme">Em breve!</span></p>
-										<p class="mb-2">Donfig é uma ferramenta versátil de gerenciamento de configuração, projetada para suportar múltiplas linguagens e plataformas. Ela oferece bibliotecas e utilitários de shell para otimizar e simplificar tarefas de configuração, tornando mais fácil para os desenvolvedores gerenciar configurações em ambientes diversos. Seja trabalhando em aplicativos complexos ou scripts simples, o Donfig ajuda a garantir um gerenciamento de configuração consistente e eficiente, aumentando a produtividade e a confiabilidade em seus projetos.</p>
-										<p><a class="more-link" href="https://github.com/zrfisaac/Donfig" target="_blank"><i class="fas fa-external-link-alt"></i>Saiba mais</a></p>
+										<h3 class="title"><a href="https://github.com/zrfisaac/Donfig" target="_blank">Donfig - Configuration Made Easy</a></h3>
+										<p><span class="badge badge-theme">Coming Soon!</span></p>
+										<p class="mb-2">Donfig is a versatile configuration management tool designed to support multiple languages and platforms. It provides libraries and shell utilities to streamline and simplify configuration tasks, making it easier for developers to handle setup across diverse environments. Whether you’re working on complex applications or simple scripts, Donfig helps ensure consistent and efficient configuration management, enhancing productivity and reliability in your projects.</p>
+										<p><a class="more-link" href="https://github.com/zrfisaac/Donfig" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
 									</div>
 								</div>
 								<div class="item row">
@@ -179,10 +191,10 @@
 										<img class="img-fluid project-image rounded shadow-sm" src="/library/logo/project/Explorer4Delphi.png" alt="Themes4Delphi" />
 									</a>
 									<div class="desc col-md-8 col-12">
-										<h3 class="title"><a href="https://github.com/zrfisaac/Explorer4Delphi" target="_blank">Explorer4Delphi - Componente Delphi para Ferramentas de Exploração de Arquivos</a></h3>
-										<p><span class="badge badge-theme">Em breve!</span></p>
-										<p class="mb-2">Explorer4Delphi é um componente poderoso projetado para ajudar desenvolvedores Delphi a criar ferramentas personalizadas de exploração de arquivos, semelhantes ao Windows Explorer. Com recursos voltados para navegação fácil, gerenciamento de arquivos e interfaces amigáveis, o Explorer4Delphi simplifica o desenvolvimento de aplicativos de navegação de arquivos no ambiente Delphi, oferecendo flexibilidade e controle para criar soluções intuitivas de gerenciamento de arquivos.</p>
-										<p><a class="more-link" href="https://github.com/zrfisaac/Explorer4Delphi" target="_blank"><i class="fas fa-external-link-alt"></i>Saiba mais</a></p>
+										<h3 class="title"><a href="https://github.com/zrfisaac/Explorer4Delphi" target="_blank">Explorer4Delphi - Delphi Component for File Explorer Tools</a></h3>
+										<p><span class="badge badge-theme">Coming Soon!</span></p>
+										<p class="mb-2">Explorer4Delphi is a powerful component designed to help Delphi developers build custom file explorer tools similar to Windows Explorer. With features tailored for easy navigation, file management, and user-friendly interfaces, Explorer4Delphi streamlines the development of file browsing applications within the Delphi environment, offering flexibility and control for creating intuitive file management solutions.</p>
+										<p><a class="more-link" href="https://github.com/zrfisaac/Explorer4Delphi" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
 									</div>
 								</div>
 								<div class="item row">
@@ -190,10 +202,10 @@
 										<img class="img-fluid project-image rounded shadow-sm" src="/library/logo/project/Themes4Delphi.png" alt="Themes4Delphi" />
 									</a>
 									<div class="desc col-md-8 col-12">
-										<h3 class="title"><a href="https://github.com/zrfisaac/Themes4Delphi" target="_blank">Themes4Delphi - Temas de Código Personalizáveis para a IDE Delphi</a></h3>
-										<p><span class="badge badge-theme">Em breve!</span></p>
-										<p class="mb-2">Themes4Delphi é uma solução de personalização de temas para desenvolvedores Delphi. Este projeto oferece uma variedade de temas para mudar a aparência do código na IDE Delphi, tornando o trabalho nos seus projetos mais fácil e agradável. Com o Themes4Delphi, você pode personalizar o ambiente de desenvolvimento de acordo com suas preferências, seja com um modo escuro, um tema claro ou algo intermediário.</p>
-										<p><a class="more-link" href="https://github.com/zrfisaac/Themes4Delphi" target="_blank"><i class="fas fa-external-link-alt"></i>Saiba mais</a></p>
+										<h3 class="title"><a href="https://github.com/zrfisaac/Themes4Delphi" target="_blank">Themes4Delphi - Customizable Code Themes for Delphi IDE</a></h3>
+										<p><span class="badge badge-theme">Coming Soon!</span></p>
+										<p class="mb-2">Themes4Delphi is a customizable theming solution for Delphi developers. This project provides a range of themes to change the appearance of code in the Delphi IDE, making it easier and more enjoyable to work on your projects. With Themes4Delphi, you can personalize your coding environment to suit your preferences, whether you prefer a dark mode, a light theme, or something in between.</p>
+										<p><a class="more-link" href="https://github.com/zrfisaac/Themes4Delphi" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
 									</div>
 								</div>
 								<div class="item row">
@@ -201,31 +213,137 @@
 										<img class="img-fluid project-image rounded shadow-sm" src="/library/logo/project/ZRLib.png" alt="ZRLib" />
 									</a>
 									<div class="desc col-md-8 col-12">
-										<h3 class="title"><a href="https://github.com/zrfisaac/ZRLib" target="_blank">ZRLib - Biblioteca Auxiliar para Desenvolvimento Multiplataforma</a></h3>
-										<p><span class="badge badge-theme">Em breve!</span></p>
-										<p class="mb-2">ZRLib é uma biblioteca versátil e multiplataforma projetada para simplificar o desenvolvimento, oferecendo uma variedade de utilitários essenciais. Com suporte para várias plataformas, incluindo C#, Delphi e JavaScript, a ZRLib disponibiliza soluções para tarefas como gerenciamento de arquivos de configuração, conexões com banco de dados, obtenção de versão e leitura de arquivos JSON/XML. Criada para aumentar a produtividade, esta biblioteca é um recurso valioso para facilitar tarefas complexas em diferentes ambientes de desenvolvimento.</p>
-										<p><a class="more-link" href="https://github.com/zrfisaac/ZRLib" target="_blank"><i class="fas fa-external-link-alt"></i>Saiba mais</a></p>
+										<h3 class="title"><a href="https://github.com/zrfisaac/ZRLib" target="_blank">ZRLib - Cross Platform Development Helper Library</a></h3>
+										<p><span class="badge badge-theme">Coming Soon!</span></p>
+										<p class="mb-2">ZRLib is a versatile, cross-platform library designed to streamline development by offering a variety of essential utilities. With support for multiple platforms, including C#, Delphi, and JavaScript, ZRLib provides solutions for tasks like configuration file management, database connections, version retrieval, and reading JSON/XML files. Built to boost productivity, this library is an invaluable resource for simplifying complex tasks across different development environments.</p>
+										<p><a class="more-link" href="https://github.com/zrfisaac/ZRLib" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</section>
 				</div>
+				
+				<!-- # : - secondary -->
 				<div class="secondary col-lg-4 col-12">
 					<!-- # : - information -->
 					<aside class="info aside section">
 						<div class="section-inner shadow-sm rounded">
-							<h2 class="heading">Informações Básicas</h2>
+							<h2 class="heading">Basic Information</h2>
 							<div class="content">
-								<a type="button" class="btn btn-success" href="https://github.com/zrfisaac/zrfisaac.github.io/releases/download/resume-3.2.0/resume-3.2.0-pt.pdf" target="_blank">Baixar Currículo</a>
+								<a type="button" class="btn btn-success" href="https://github.com/zrfisaac/zrfisaac.github.io/releases/download/resume-3.2.0/resume-3.2.0-en.pdf" target="_blank">Download Resume</a>
 								<p></p>
 								<ul class="list-unstyled">
-									<li><a href="https://wa.me/message/HIUVCFWYE3EXG1" target="_blank"><i class="fas fa-phone"></i><span class="sr-only">Phone:</span> +55 (71) 9 8398-0801</a></li>
-									<li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span> Salvador, Brasil</li>
-									<li><i class="fas fa-envelope"></i><span class="sr-only">Email: </span> <a href="#"> zrfisaac@gmail.com</a></li>
-									<li><i class="fab fa-linkedin-in"></i><span class="sr-only">LinkedIn: </span> <a href="https://linkedin.com/in/zrfisaac" target="_blank"> linkedin.com/in/zrfisaac</a></li>
-									<li><i class="fas fa-link"></i><span class="sr-only">Website: </span> <a href="https://zrfisaac.github.io" target="_blank"> zrfisaac.github.io</a></li>
+									<li><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/message/HIUVCFWYE3EXG1" target="_blank"> +55 (71) 9 8398-0801</a></li>
+									<li><i class="fas fa-envelope"></i><a href="#"> zrfisaac@gmail.com</a></li>
+									<li><i class="fab fa-linkedin-in"></i><a href="https://linkedin.com/in/zrfisaac" target="_blank"> linkedin.com/in/zrfisaac</a></li>
+									<li><i class="fas fa-link"></i><a href="https://zrfisaac.github.io" target="_blank"> zrfisaac.github.io</a></li>
 								</ul>
+							</div>
+						</div>
+					</aside>
+
+					<!-- # : - education -->
+					<aside class="education aside section">
+						<div class="section-inner shadow-sm rounded">
+							<h2 class="heading">Education</h2>
+							<div class="content">
+								<div class="item">                      
+									<h3 class="title"><i class="fas fa-graduation-cap"></i> <a href="/document/estacio.png" target="_blank">Bachelor's in Information Systems</a></h3>
+									<h4 class="university"><a href="https://estacio.br" target="_blank">Estácio de Sá University</a> <span class="year">(December 2020)</span></h4>
+								</div>
+								<div class="item">
+									<h3 class="title"><i class="fas fa-graduation-cap"></i> <a href="/document/minds.jpg" target="_blank">English Course</a></h3>
+									<h4 class="university"><a href="https://mindsidiomas.com.br" target="_blank">Minds English School</a> <span class="year">(October 2016)</span></h4>
+								</div>
+							</div>
+						</div>
+					</aside>
+				
+					<!-- # : - skill -->
+					<aside class="skills aside section">
+						<div class="section-inner shadow-sm rounded">
+							<h2 class="heading">Skills</h2>
+							<div class="content">
+								<div class="item">
+									<p><i class="fas fa-laptop-code"></i> <b>IDEs & Code Editors:</b> 
+										<a href="/wiki.en/#/delphi" target="_blank">Delphi</a>, 
+										<a href="/wiki.en/#/godot" target="_blank">Godot</a>, 
+										<a href="/wiki.en/#/vstudio" target="_blank">Visual Studio</a>, 
+										<a href="/wiki.en/#/vscode" target="_blank">Visual Studio Code</a>, 
+										<a href="/wiki.en/#/lazarus" target="_blank">Lazarus</a>
+									</p>
+									<p><i class="fas fa-database"></i> <b>Databases:</b> 
+										<a href="/wiki.en/#/db2" target="_blank">DB2</a>, 
+										<a href="/wiki.en/#/firebird" target="_blank">Firebird</a>, 
+										<a href="/wiki.en/#/mysql" target="_blank">MySQL</a>, 
+										<a href="/wiki.en/#/oracle" target="_blank">Oracle</a>, 
+										<a href="/wiki.en/#/postgres" target="_blank">PostgreSQL</a>, 
+										<a href="/wiki.en/#/mssql" target="_blank">SQL Server</a>
+									</p>
+									<p><i class="fas fa-code"></i> <b>Languages:</b> 
+										<a href="/wiki.en/#/bash" target="_blank">Bash</a>, 
+										<a href="/wiki.en/#/css" target="_blank">CSS</a>, 
+										<a href="/wiki.en/#/csv" target="_blank">CSV</a>, 
+										<a href="/wiki.en/#/html" target="_blank">HTML</a>, 
+										<a href="/wiki.en/#/ini" target="_blank">INI</a>, 
+										<a href="/wiki.en/#/json" target="_blank">JSON</a>, 
+										<a href="/wiki.en/#/javascript" target="_blank">JavaScript</a>, 
+										<a href="/wiki.en/#/pascal" target="_blank">Pascal</a>, 
+										<a href="/wiki.en/#/python" target="_blank">Python</a>, 
+										<a href="/wiki.en/#/sql" target="_blank">SQL</a>, 
+										<a href="/wiki.en/#/xml" target="_blank">XML</a>
+									</p>
+									<p><i class="fas fa-cogs"></i> <b>Frameworks:</b> 
+										<a href="/wiki.en/#/bootstrap" target="_blank">Bootstrap</a>, 
+										<a href="/wiki.en/#/fontawesome" target="_blank">Font Awesome</a>
+									</p>
+									<p><i class="fas fa-cogs"></i> <b>Libraries:</b> 
+										<a href="/wiki.en/#/activequerybuilder" target="_blank">ActiveQueryBuilder</a>, 
+										<a href="/wiki.en/#/cef4delphi" target="_blank">CEF4Delphi</a>, 
+										<a href="/wiki.en/#/devexpress" target="_blank">DevExpress</a>, 
+										<a href="/wiki.en/#/eurekalog" target="_blank">EurekaLog</a>, 
+										<a href="/wiki.en/#/fastreport" target="_blank">FastReport</a>, 
+										<a href="/wiki.en/#/lazarus" target="_blank">Lazarus</a>, 
+										<a href="/wiki.en/#/quickreport" target="_blank">QuickReport</a>, 
+										<a href="/wiki.en/#/reportbuilder" target="_blank">ReportBuilder</a>, 
+										<a href="/wiki.en/#/synedit" target="_blank">SynEdit</a>
+									</p>
+									<p><i class="fas fa-tools"></i> <b>Development Tools:</b> 
+										<a href="/wiki.en/#/docker" target="_blank">Docker</a>, 
+										<a href="/wiki.en/#/innosetup" target="_blank">InnoSetup</a>, 
+										<a href="/wiki.en/#/nsis" target="_blank">NSIS</a>, 
+										<a href="/wiki.en/#/virtualbox" target="_blank">VirtualBox</a>, 
+										<a href="/wiki.en/#/vmware" target="_blank">VMware</a>, 
+										<a href="/wiki.en/#/vnc" target="_blank">VNC</a>, 
+										<a href="/wiki.en/#/wine" target="_blank">Wine</a>
+									</p>
+									<p><i class="fas fa-computer"></i> <b>Operating Systems:</b> 
+										<a href="/wiki.en/#/alpine" target="_blank">Alpine</a>, 
+										<a href="/wiki.en/#/archlinux" target="_blank">ArchLinux</a>, 
+										<a href="/wiki.en/#/debian" target="_blank">Debian</a>, 
+										<a href="/wiki.en/#/macos" target="_blank">MacOS</a>, 
+										<a href="/wiki.en/#/manjaro" target="_blank">Manjaro</a>, 
+										<a href="/wiki.en/#/ubuntu" target="_blank">Ubuntu</a>, 
+										<a href="/wiki.en/#/windows" target="_blank">Windows</a>
+									</p>
+									<p><i class="fas fa-puzzle-piece"></i> <b>Design Patterns:</b> 
+										<a href="/wiki.en/#/design-factory" target="_blank">Factory</a>, 
+										<a href="/wiki.en/#/design-mvc" target="_blank">MVC</a>, 
+										<a href="/wiki.en/#/design-observer" target="_blank">Observer</a>, 
+										<a href="/wiki.en/#/design-repository" target="_blank">Repository</a>, 
+										<a href="/wiki.en/#/design-singleton" target="_blank">Singleton</a>
+									</p>
+									<p><i class="fas fa-brain"></i> <b>Design Principles:</b> 
+										<a href="/wiki.en/#/design-kiss" target="_blank">KISS</a>, 
+										<a href="/wiki.en/#/design-oop" target="_blank">Object-Oriented Programming (OOP)</a>, 
+										<a href="/wiki.en/#/design-solid" target="_blank">SOLID</a>
+									</p>
+									<p><i class="fas fa-microchip"></i> <b>Other Technologies:</b> 
+										<a href="/wiki.en/#/ai" target="_blank">Artificial Intelligence</a>, 
+										<a href="/wiki.en/#/windows-registry" target="_blank">Windows Registry</a>
+									</p>
+								</div>	
 							</div>
 						</div>
 					</aside>
@@ -240,11 +358,11 @@
 			</div>
 		</footer>
 
-		<!-- # : - bootstrap -->
-		<script src="/library/bootstrap/js/bootstrap.min.js"></script>
-
 		<!-- # : - popperjs -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+
+		<!-- # : - bootstrap -->
+		<script src="/library/bootstrap/js/bootstrap.min.js"></script>
 
 		<!-- # : - dark mode switch -->
 		<script type="text/javascript" src="/library/dark-mode-switch/dark-mode-switch.min.js"></script> 

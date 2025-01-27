@@ -4,6 +4,7 @@
 <!-- # - author : Isaac Caires -->
 <!-- # . - email : zrfisaac@gmail.com -->
 <!-- # . - site : zrfisaac.github.io -->
+<!-- # - version : zrfisaac.es.resume : 1.0.0 -->
 
 <!-- # [ html ] -->
 <!DOCTYPE html>
@@ -23,6 +24,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
 
 		<!-- # : - bootstrap -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 		<link rel="stylesheet" href="/library/bootstrap/css/bootstrap.min.css">
 
 		<!-- # : - fontawesome -->
@@ -45,37 +47,47 @@
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div class="container">
 				<a class="navbar-brand" href="/">ZRFISAAC</a>
+				<div class="nav-item dropdown">
+					<a class="nav-link text-white" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						<i class="fa-solid fa-language"></i>
+					</a>
+					<ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="languageDropdown">
+						<li><a class="dropdown-item text-light" href="/en/">English</a></li>
+						<li><a class="dropdown-item text-light" href="/pt/">Português</a></li>
+						<li><a class="dropdown-item text-light" href="/es/">Español</a></li>
+					</ul>
+				</div>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav ms-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="/pt/"><i class="fa-solid fa-house"></i> Início</a>
+							<a class="nav-link active" href="/es/"><i class="fa-solid fa-house"></i> Inicio</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/pt/privacy/"><i class="fa-solid fa-shield-halved"></i> Privacidade</a>
+							<a class="nav-link" href="/es/privacy/"><i class="fa-solid fa-shield-halved"></i> Privacidad</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link active" href="/pt/resume/"><i class="fa-solid fa-briefcase"></i> Currículo</a>
+							<a class="nav-link" href="/es/resume/"><i class="fa-solid fa-briefcase"></i> Currículum</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/pt/product/"><i class="fa-solid fa-hand-holding-dollar"></i> Produtos</a>
+							<a class="nav-link" href="/es/product/"><i class="fa-solid fa-hand-holding-dollar"></i> Productos</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/pt/mvp/"><i class="fa-solid fa-window-restore"></i> MVP</a>
+							<a class="nav-link" href="/es/mvp/"><i class="fa-solid fa-window-restore"></i> MVP</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/pt/mobile/"><i class="fa-solid fa-mobile-screen-button"></i> Mobile</a>
+							<a class="nav-link" href="/es/mobile/"><i class="fa-solid fa-mobile-screen-button"></i> Móvil</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/pt/project/"><i class="fa-brands fa-osi"></i> Projetos</a>
+							<a class="nav-link" href="/es/project/"><i class="fa-brands fa-osi"></i> Proyectos</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/pt/game/"><i class="fa-solid fa-gamepad"></i> Jogos</a>
+							<a class="nav-link" href="/es/game/"><i class="fa-solid fa-gamepad"></i> Juegos</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/pt/wiki/"><i class="fa-solid fa-book"></i> WIKI</a>
+							<a class="nav-link" href="/es/wiki/"><i class="fa-solid fa-book"></i> WIKI</a>
 						</li>
 					</ul>
 				</div>
@@ -90,22 +102,20 @@
 						<img class="profile-image img-fluid float-start rounded-circle" src="/profile.jpg" alt="profile image" style="width: 160px;" />
 						<div class="profile-content">
 							<h1 class="name">Isaac Caires</h1>
-							<h2 class="desc">Desenvolvedor de Software</h2>
+							<h2 class="desc">Software Developer</h2>   
 							<ul class="social list-inline">
+								<li class="list-inline-item"><a href="https://wa.me/message/HIUVCFWYE3EXG1" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
 								<li class="list-inline-item"><a href="https://www.linkedin.com/in/zrfisaac" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
 								<li class="list-inline-item"><a href="https://github.com/zrfisaac" target="_blank"><i class="fab fa-github-alt"></i></a></li>
 								<li class="list-inline-item"><a href="https://play.google.com/store/apps/dev?id=4664158972622830717" target="_blank"><i class="fab fa-google-play"></i></a></li>
-								<li class="list-inline-item"><a href="https://www.hackerrank.com/profile/zrfisaac" target="_blank"><i class="fab fa-hackerrank"></i></a></li>
-								<li class="list-inline-item"><a href="https://stackoverflow.com/users/5098459" target="_blank"><i class="fab fa-stack-overflow"></i></a></li>
-								<li class="list-inline-item"><a href="https://codepen.io/zrfisaac" target="_blank"><i class="fab fa-codepen"></i></a></li>
 								<li class="list-inline-item last-item"><a href="https://zrfisaac.itch.io" target="_blank"><i class="fab fa-itch-io"></i></a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-12 col-md-auto">
 						<div class="profile-content">
-							<h1 class="name"><i class="fa-solid fa-briefcase"></i> Currículo</h1>
-							<h2 class="desc">Informações Profissionais</h2>   
+							<h1 class="name"><i class="fa-solid fa-briefcase"></i> Resume</h1>
+							<h2 class="desc">Professional Information</h2>   
 						</div>
 					</div>
 				</div>
@@ -118,56 +128,67 @@
 				<div class="primary col-lg-8 col-12">
 					<section class="about section">
 						<div class="section-inner shadow-sm rounded">
-							<h2 class="heading">Sobre Mim</h2>
+							<h2 class="heading">About Me</h2>
 							<div class="content">
-								<p>Olá! Sou Isaac Caires, um desenvolvedor de software apaixonado, com mais de 15 anos de experiência em desenvolvimento full-stack e soluções para gestão hospitalar. Especializo-me em criar aplicativos robustos e eficientes usando tecnologias como Delphi, C#, ASP.NET MVC e Python.</p>
-								<p>Ao longo da minha carreira, trabalhei em diversos projetos que envolveram o desenvolvimento de novas funcionalidades, manutenção de sistemas legados e otimização de soluções existentes. Tenho um sólido entendimento de bancos de dados como SQL Server, PostgreSQL, Oracle e Firebird.</p>
-								<p>Sou particularmente entusiasta em seguir boas práticas de programação, aplicando princípios como SOLID e KISS, além de padrões de design para criar um código limpo e de fácil manutenção. Minha experiência também inclui trabalhar em ambientes Linux, utilizando ferramentas como Docker, Git e VirtualBox.</p>
-								<p>Sou fluente em português, inglês e espanhol e estou sempre pronto para aprender novas tecnologias e metodologias. Meu objetivo é aproveitar minhas habilidades para criar soluções de software inovadoras que resolvam problemas reais.</p>
-								<p>Quando não estou programando, gosto de explorar novas tecnologias e acompanhar as tendências do setor. Estou animado para me conectar com outros desenvolvedores, colaboradores e qualquer pessoa interessada em tecnologia!</p>
+								<p>Hi! I’m Isaac Caires, a passionate software developer with over 15 years of experience in full-stack development and solutions for hospital management. I specialize in creating robust and efficient software applications using technologies like Delphi, C#, ASP.NET MVC, and Python.</p>
+								<p>Throughout my career, I have worked on various projects that involved developing new features, maintaining legacy systems, and optimizing existing solutions. I have a solid understanding of databases such as SQL Server, PostgreSQL, Oracle, and Firebird.</p>
+								<p>I am particularly enthusiastic about following best practices in programming, employing principles like SOLID and KISS, and applying design patterns to create clean, maintainable code. My experience extends to working in Linux environments, utilizing tools such as Docker, Git, and VirtualBox.</p>
+								<p>I am fluent in Portuguese, English, and Spanish, and I’m always eager to learn new technologies and methodologies. My goal is to leverage my skills to create innovative software solutions that solve real-world problems.</p>
+								<p>Currently, I’m excited to transition into a new role as a Support Analyst at Minerva Foods, where I’ll apply my expertise in Delphi 10 and SQL Server to support their operations in Australia.</p>
+								<p>When I'm not coding, I enjoy exploring new technologies and keeping up with industry trends. I’m excited to connect with fellow developers, collaborators, and anyone interested in technology!</p>
 							</div>
 						</div>
 					</section>
-
 					<section class="experience section">
 						<div class="section-inner shadow-sm rounded">
-							<h2 class="heading">Experiência</h2>
+							<h2 class="heading">Experience</h2>
 							<div class="content">
+							<div class="item">
+								<h3 class="title">Minerva Foods - <span class="place"><a href="#">Support Analyst</a></span> <span class="year">(02/2025 - Present)</span></h3>
+								<ul>
+									<li>I support Minerva Foods' business in Australia by providing expertise in system maintenance and ensuring smooth operations using my knowledge of Delphi 10 and SQL Server.</li>
+									<li>My responsibilities include troubleshooting and optimizing system processes, offering technical support for the ERP systems, and ensuring efficient data management through SQL Server.</li>
+									<li>I leverage my experience in full-stack development to assist with system improvements and contribute to the integration of new technologies as needed.</li>
+									<li>Drawing from my background in Linux environments, I also help with system configuration and deployment to ensure the platform operates effectively in diverse IT environments.</li>
+									<li>As part of the team, I collaborate closely with other departments to ensure that the systems support Minerva's growth and strategic objectives in the Australian market.</li>
+								</ul>
+							</div>
 								<div class="item">
-									<h3 class="title">Softwell Solutions (Maker) - <span class="place"><a href="#">Analista de Sistemas Sênior</a></span> <span class="year">(02/2022 - Presente)</span></h3>
+									<h3 class="title">Softwell Solutions (Maker) - <span class="place"><a href="#">Senior Systems Analyst</a></span> <span class="year">(02/2022 - 02/2025)</span></h3>
 									<ul>
-										<li>Contribuo para o desenvolvimento da Plataforma Maker, uma ferramenta de desenvolvimento visual para criação e integração de sistemas ERP.</li>
-										<li>Trabalho com Delphi, PostgreSQL, Oracle, Firebird, MySQL e Docker em um ambiente Linux.</li>
-										<li>Utilizo ferramentas como ActiveQueryBuilder, DevExpress, EurekaLog e implemento soluções de Inteligência Artificial para sistemas ERP.</li>
-										<li>Aplico Programação Orientada a Objetos (POO), princípios SOLID e KISS para garantir um código de alta qualidade e fácil manutenção.</li>
-										<li>Emprego padrões de projeto como Factory, Singleton, Observer e Repository para construir soluções escaláveis e eficientes.</li>
-										<li>Desenvolvo soluções multiplataforma usando scripts Bash, diversas distribuições Linux e ferramentas de virtualização como VMware e VirtualBox.</li>
+										<li>I played a key role in the development and evolution of the Maker Platform, a visual tool designed to create, integrate, and customize ERP systems with a focus on user-friendly interfaces and cross-platform compatibility.</li>
+										<li>My work involved enabling Maker to run on Linux using Wine, which led to the creation of a web-accessible version of the platform for remote access via browsers. This significantly improved performance and reduced memory consumption compared to the Windows version.</li>
+										<li>I worked with Delphi, PostgreSQL, Oracle, Firebird, MySQL, and Docker, leveraging these technologies to optimize the platform and ensure its reliability across different environments.</li>
+										<li>I utilized advanced tools like ActiveQueryBuilder, DevExpress, and EurekaLog, and incorporated Artificial Intelligence features to enhance the ERP system's functionality and adaptability.</li>
+										<li>Applying principles such as Object-Oriented Programming (OOP), SOLID, and KISS, I focused on building maintainable, scalable solutions and improving code quality across the project.</li>
+										<li>I applied design patterns, including Factory, Singleton, Observer, and Repository, to ensure the flexibility and scalability of the Maker platform.</li>
+										<li>My cross-platform development skills were further strengthened by creating Bash scripts, configuring Linux distributions (Ubuntu, Xubuntu, Debian, Fedora, Slackware, etc.), and working with virtualization tools such as VMware and VirtualBox.</li>
 									</ul>
 								</div>
 								<div class="item">
-									<h3 class="title">Felipe Menezes (Techsallus) - <span class="place"><a href="#">Analista de Sistemas Sênior</a></span> <span class="year">(02/2012 – 01/2022)</span></h3>
+									<h3 class="title">Felipe Menezes (Techsallus) - <span class="place"><a href="#">Senior Systems Analyst</a></span> <span class="year">(02/2012 – 01/2022)</span></h3>
 									<ul>
-										<li>Desenvolvi e mantive o sistema de gestão hospitalar da Techsallus, apoiando a gestão hospitalar, gravação de endoscopia, audiometria e saúde ocupacional.</li>
-										<li>Trabalhei com Delphi, ASP.NET MVC (C#) e SQL Server, corrigindo bugs, desenvolvendo novas funcionalidades e criando relatórios.</li>
-										<li>Liderei a migração do sistema de Delphi 5 para Delphi 7, utilizando ferramentas como FastReport, NSIS e Indy.</li>
-										<li>Usei o Team Foundation Version Control (TFVC) para o projeto ASP.NET MVC.</li>
-										<li>Gerenciei servidores web com IIS e utilizei Git para controle de versão.</li>
+										<li>I developed and maintained the Techsallus hospital management system, supporting hospital management, endoscopy recording, audiometry, and occupational health.</li>
+										<li>I worked with Delphi, ASP.NET MVC (C#), and SQL Server, fixing bugs, developing new features, and creating reports.</li>
+										<li>I led the migration of the system from Delphi 5 to Delphi 7, using tools like FastReport, NSIS, and Indy.</li>
+										<li>I used Team Foundation Version Control (TFVC) for the ASP.NET MVC project.</li>
+										<li>I managed web servers with IIS and used Git for version control.</li>
 									</ul>
 								</div>
 								<div class="item">
-									<h3 class="title">Felipe Menezes (Techsallus) - <span class="place"><a href="#">Analista de Sistemas Júnior</a></span> <span class="year">(02/2010 – 05/2010)</span></h3>
+									<h3 class="title">Felipe Menezes (Techsallus) - <span class="place"><a href="#">Junior Systems Analyst</a></span> <span class="year">(02/2010 – 05/2010)</span></h3>
 									<ul>
-										<li>Desenvolvi relatórios para o sistema Techsallus usando Delphi 5, Delphi 7 e SQL Server.</li>
-										<li>Implementei soluções de relatórios com QuickReport e FortsReport, gerenciando conexões de banco de dados através do BDE.</li>
+										<li>I developed reports for the Techsallus system using Delphi 5, Delphi 7, and SQL Server</li>
+										<li>I implemented report solutions with QuickReport and FortsReport, managing database connections through BDE.</li>
 									</ul>
 								</div>
 								<div class="item">
-									<h3 class="title">GSI (Market Manager System) - <span class="place"><a href="#">Desenvolvedor de Software</a></span> <span class="year">(01/2005 - 12/2011)</span></h3>
+									<h3 class="title">GSI (Market Manager System) - <span class="place"><a href="#">Software Developer</a></span> <span class="year">(01/2005 - 12/2011)</span></h3>
 									<ul>
-										<li>Trabalhei no desenvolvimento e manutenção do GSI, um sistema de gestão de mercado para controle de vendas, estoque e financeiro para mercados, lojas de construção e sistemas PAX.</li>
-										<li>Desenvolvi usando Delphi 6 e Delphi 7, originalmente migrado de Dataflex, com atualizações contínuas para SQL Server.</li>
+										<li>I worked on the development and maintenance of GSI, a market management system for sales, stock, and financial control for markets, construction stores, and PAX systems.</li>
+										<li>I developed using Delphi 6 and Delphi 7, originally migrated from Dataflex, with continuous updates to SQL Server.</li>
 									</ul>
-								</div>								
+								</div>
 							</div>
 						</div>
 					</section>
@@ -182,9 +203,9 @@
 										<img class="img-fluid project-image rounded shadow-sm" src="/document/estacio.png" alt="Certificate" />
 									</a>
 									<div class="desc col-md-8 col-12">
-										<h3 class="title"><a href="/document/estacio.png" target="_blank">Bacharelado em Sistemas de Informação</a></h3>
-										<h3 class="title">Universidade Estácio de Sá</h3>
-										<p class="mb-2">Concluí meu Bacharelado em Sistemas de Informação na Universidade Estácio de Sá, onde adquiri uma base sólida teórica e prática em tecnologia da informação. O programa abordou uma ampla gama de tópicos, incluindo desenvolvimento de software, redes de computadores, bancos de dados, análise de sistemas e gestão de TI. Ao longo do curso, desenvolvi habilidades essenciais para projetar, implementar e gerenciar soluções tecnológicas, além de aprender a aplicar esse conhecimento em ambientes corporativos e projetos de inovação digital.</p>
+										<h3 class="title"><a href="/document/estacio.png" target="_blank">Bachelor's in Information Systems</a></h3>
+										<h3 class="title">Estácio de Sá University</h3>
+										<p class="mb-2">I completed my Bachelor's in Information Systems at Estácio de Sá University, where I gained a solid theoretical and practical foundation in information technology. The program covered a wide range of topics, including software development, computer networks, databases, systems analysis, and IT management. Throughout the course, I developed essential skills to design, implement, and manage technological solutions, while also learning to apply this knowledge in corporate environments and digital innovation projects.</p>
 									</div>
 								</div>
 								<div class="item row">
@@ -194,7 +215,7 @@
 									<div class="desc col-md-8 col-12">
 										<h3 class="title"><a href="/document/minds.jpg" target="_blank">English Course</a></h3>
 										<h3 class="title">Minds English School</h3>
-										<p class="mb-2">I Concluí um curso de inglês na Minds English School, onde me concentrei no desenvolvimento das minhas habilidades linguísticas por meio de aulas presenciais imersivas com instrutores nativos. O programa enfatizou a prática de conversação, gramática e expansão de vocabulário, permitindo-me melhorar minha fluência e habilidades de comunicação tanto em contextos cotidianos quanto profissionais. A abordagem interativa e dinâmica proporcionou uma experiência de aprendizado abrangente, aumentando minha confiança ao falar, ouvir, ler e escrever em inglês.</p>
+										<p class="mb-2">I completed an English course at Minds English School, where I focused on developing my language skills through immersive, in-person lessons with native-speaking instructors. The program emphasized conversation practice, grammar, and vocabulary expansion, allowing me to improve my fluency and communication abilities in both everyday and professional contexts. The interactive and dynamic approach provided a comprehensive learning experience, enhancing my confidence in speaking, listening, reading, and writing in English.</p>
 									</div>
 								</div>
 							</div>
@@ -211,8 +232,8 @@
 										<img class="img-fluid project-image rounded shadow-sm" src="/document/certificate-dio-mssql-01-pt.png" alt="Certificate" />
 									</a>
 									<div class="desc col-md-8 col-12">
-										<h3 class="title"><a href="/document/certificate-dio-mssql-01-pt.png" target="_blank">SQL SERVER - Criando suas primeiras consultas</a></h3>
-										<p class="mb-2">03 de Março de 2021, concluiu o curso SQL SERVER - Criando suas primeiras consultas com carga horária de 4 horas.</p>
+										<h3 class="title"><a href="/document/certificate-dio-mssql-01-pt.png" target="_blank">SQL SERVER - Creating Your First Queries</a></h3>
+										<p class="mb-2">March 3, 2021, completed the course SQL SERVER - Creating Your First Queries, with a workload of 4 hours.</p>
 									</div>
 								</div>
 								<div class="item row">
@@ -220,8 +241,8 @@
 										<img class="img-fluid project-image rounded shadow-sm" src="/document/certificate-dio-mssql-02-pt.png" alt="Certificate" />
 									</a>
 									<div class="desc col-md-8 col-12">
-										<h3 class="title"><a href="/document/certificate-dio-mssql-02-pt.png" target="_blank">Modelando um banco de dados na prática com SQL SERVER</a></h3>
-										<p class="mb-2">07 de Abril de 2021, concluiu o curso Modelando um banco de dados na prática com SQL SERVER com carga horária de 2 horas.</p>
+										<h3 class="title"><a href="/document/certificate-dio-mssql-02-pt.png" target="_blank">Modeling a Database in Practice with SQL SERVER</a></h3>
+										<p class="mb-2">April 7, 2021, completed the course Modeling a Database in Practice with SQL SERVER, with a workload of 2 hours.</p>
 									</div>
 								</div>
 								<div class="item row">
@@ -229,8 +250,8 @@
 										<img class="img-fluid project-image rounded shadow-sm" src="/document/certificate-dio-linux-01-pt.png" alt="Certificate" />
 									</a>
 									<div class="desc col-md-8 col-12">
-										<h3 class="title"><a href="/document/certificate-dio-linux-01-pt.png" target="_blank">Linux: A introdução ao sistema operacional</a></h3>
-										<p class="mb-2">03 de Março de 2021, concluiu o curso Linux: A introdução ao sistema operacional com carga horária de 10 horas.</p>
+										<h3 class="title"><a href="/document/certificate-dio-linux-01-pt.png" target="_blank">Linux: Introduction to the Operating System</a></h3>
+										<p class="mb-2">March 3, 2021, completed the course Linux: Introduction to the Operating System, with a workload of 10 hours.</p>
 									</div>
 								</div>
 								<div class="item row">
@@ -238,8 +259,8 @@
 										<img class="img-fluid project-image rounded shadow-sm" src="/document/certificate-dio-logic-01-pt.png" alt="Certificate" />
 									</a>
 									<div class="desc col-md-8 col-12">
-										<h3 class="title"><a href="/document/certificate-dio-logic-01-pt.png" target="_blank">Lógica de programação essencial</a></h3>
-										<p class="mb-2">07 de Abril de 2021, concluiu o curso Lógica de programação essencial com carga horária de 4 horas.</p>
+										<h3 class="title"><a href="/document/certificate-dio-logic-01-pt.png" target="_blank">Essential Programming Logic</a></h3>
+										<p class="mb-2">April 7, 2021, completed the course Essential Programming Logic, with a workload of 4 hours.</p>
 									</div>
 								</div>
 								<div class="item row">
@@ -247,8 +268,8 @@
 										<img class="img-fluid project-image rounded shadow-sm" src="/document/certificate-dio-shell-01-pt.png" alt="Certificate" />
 									</a>
 									<div class="desc col-md-8 col-12">
-										<h3 class="title"><a href="/document/certificate-dio-shell-01-pt.png" target="_blank">Shell script - Manipulando Arquivos</a></h3>
-										<p class="mb-2">03 de Março de 2021, concluiu o curso Shell script - Manipulando Arquivos com carga horária de 2 horas.</p>
+										<h3 class="title"><a href="/document/certificate-dio-shell-01-pt.png" target="_blank">Shell Script - Manipulating Files</a></h3>
+										<p class="mb-2">March 3, 2021, completed the course Shell Script - Manipulating Files, with a workload of 2 hours.</p>
 									</div>
 								</div>
 								<div class="item row">
@@ -256,63 +277,135 @@
 										<img class="img-fluid project-image rounded shadow-sm" src="/document/certificate-dio-web-01-pt.png" alt="Certificate" />
 									</a>
 									<div class="desc col-md-8 col-12">
-										<h3 class="title"><a href="/document/certificate-dio-web-01-pt.png" target="_blank">Introdução a criação de websites com HTML5 e CSS3</a></h3>
-										<p class="mb-2">03 de Março de 2021, concluiu o curso Introdução a criação de websites com HTML5 e CSS3 com carga horária de 6 horas.</p>
+										<h3 class="title"><a href="/document/certificate-dio-web-01-pt.png" target="_blank">Introduction to Creating Websites with HTML5 and CSS3</a></h3>
+										<p class="mb-2">March 3, 2021, completed the course Introduction to Creating Websites with HTML5 and CSS3, with a workload of 6 hours.</p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</section>
 				</div>
+				
+				<!-- # : - secondary -->
 				<div class="secondary col-lg-4 col-12">
 					<!-- # : - information -->
 					<aside class="info aside section">
 						<div class="section-inner shadow-sm rounded">
-							<h2 class="heading">Informações Básicas</h2>
+							<h2 class="heading">Basic Information</h2>
 							<div class="content">
-								<a type="button" class="btn btn-success" href="https://github.com/zrfisaac/zrfisaac.github.io/releases/download/resume-3.2.0/resume-3.2.0-pt.pdf" target="_blank">Baixar Currículo</a>
+								<a type="button" class="btn btn-success" href="https://github.com/zrfisaac/zrfisaac.github.io/releases/download/resume-3.2.0/resume-3.2.0-en.pdf" target="_blank">Download Resume</a>
 								<p></p>
 								<ul class="list-unstyled">
-									<li><i class="fas fa-phone"></i><span class="sr-only">Phone:</span> +55 (71) 9 8398-0801</li>
-									<li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span> Salvador, Brasil</li>
-									<li><i class="fas fa-envelope"></i><span class="sr-only">Email: </span> <a href="#"> zrfisaac@gmail.com</a></li>
-									<li><i class="fab fa-linkedin-in"></i><span class="sr-only">LinkedIn: </span> <a href="https://linkedin.com/in/zrfisaac" target="_blank"> linkedin.com/in/zrfisaac</a></li>
-									<li><i class="fas fa-link"></i><span class="sr-only">Website: </span> <a href="https://zrfisaac.github.io" target="_blank"> zrfisaac.github.io</a></li>
+									<li><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/message/HIUVCFWYE3EXG1" target="_blank"> +55 (71) 9 8398-0801</a></li>
+									<li><i class="fas fa-envelope"></i><a href="#"> zrfisaac@gmail.com</a></li>
+									<li><i class="fab fa-linkedin-in"></i><a href="https://linkedin.com/in/zrfisaac" target="_blank"> linkedin.com/in/zrfisaac</a></li>
+									<li><i class="fas fa-link"></i><a href="https://zrfisaac.github.io" target="_blank"> zrfisaac.github.io</a></li>
 								</ul>
 							</div>
 						</div>
 					</aside>
 
+					<!-- # : - education -->
 					<aside class="education aside section">
 						<div class="section-inner shadow-sm rounded">
-							<h2 class="heading">Educação</h2>
+							<h2 class="heading">Education</h2>
 							<div class="content">
 								<div class="item">                      
-									<h3 class="title"><i class="fas fa-graduation-cap"></i> <a href="/document/estacio.png" target="_blank">Bacharelado em Sistemas de Informação</a></h3>
-									<h4 class="university">Universidade Estácio de Sá <span class="year">(Dezembro 2020)</span></h4>
+									<h3 class="title"><i class="fas fa-graduation-cap"></i> <a href="/document/estacio.png" target="_blank">Bachelor's in Information Systems</a></h3>
+									<h4 class="university"><a href="https://estacio.br" target="_blank">Estácio de Sá University</a> <span class="year">(December 2020)</span></h4>
 								</div>
 								<div class="item">
 									<h3 class="title"><i class="fas fa-graduation-cap"></i> <a href="/document/minds.jpg" target="_blank">English Course</a></h3>
-									<h4 class="university">Minds English School <span class="year">(Outubro 2016)</span></h4>
+									<h4 class="university"><a href="https://mindsidiomas.com.br" target="_blank">Minds English School</a> <span class="year">(October 2016)</span></h4>
 								</div>
 							</div>
 						</div>
 					</aside>
 				
+					<!-- # : - skill -->
 					<aside class="skills aside section">
 						<div class="section-inner shadow-sm rounded">
-							<h2 class="heading">Habilidades</h2>
+							<h2 class="heading">Skills</h2>
 							<div class="content">
 								<div class="item">
-									<p><b>Linguagens:</b> Delphi, C#, ASP.NET MVC, Python, HTML, CSS, JavaScript, Bash, SQL</p>
-									<p><b>Bancos de Dados:</b> SQL Server, PostgreSQL, Oracle, Firebird, MySQL</p>
-									<p><b>Frameworks & Ferramentas:</b> Docker, Git, Bitbucket, FastReport, QuickReport, ActiveQueryBuilder, CEF4Delphi, DevExpress, ReportBuilder, EurekaLog, NSIS, SynEdit, Lazarus</p>
-									<p><b>Sistemas Operacionais:</b> Windows, Linux (Debian, ArchLinux, Manjaro, Alpine, Ubuntu)</p>
-									<p><b>Ferramentas de Desenvolvimento:</b> Visual Studio Code, VirtualBox, VMware, Wine, InnoSetup, VNC</p>
-									<p><b>Princípios de Design:</b> Object-Oriented Programming (OOP), SOLID, KISS</p>
-									<p><b>Padrões de Design:</b> Factory, Singleton, Observer, Repository, MVC</p>
-									<p><b>Outros:</b> JSON, XML, INI, CSV, Windows Registry, Artificial Intelligence, ERP Systems, Endoscopy Recorders, Healthcare Management Systems</p>
-								</div>
+									<p><i class="fas fa-laptop-code"></i> <b>IDEs & Code Editors:</b> 
+										<a href="/wiki.en/#/delphi" target="_blank">Delphi</a>, 
+										<a href="/wiki.en/#/godot" target="_blank">Godot</a>, 
+										<a href="/wiki.en/#/vstudio" target="_blank">Visual Studio</a>, 
+										<a href="/wiki.en/#/vscode" target="_blank">Visual Studio Code</a>, 
+										<a href="/wiki.en/#/lazarus" target="_blank">Lazarus</a>
+									</p>
+									<p><i class="fas fa-database"></i> <b>Databases:</b> 
+										<a href="/wiki.en/#/db2" target="_blank">DB2</a>, 
+										<a href="/wiki.en/#/firebird" target="_blank">Firebird</a>, 
+										<a href="/wiki.en/#/mysql" target="_blank">MySQL</a>, 
+										<a href="/wiki.en/#/oracle" target="_blank">Oracle</a>, 
+										<a href="/wiki.en/#/postgres" target="_blank">PostgreSQL</a>, 
+										<a href="/wiki.en/#/mssql" target="_blank">SQL Server</a>
+									</p>
+									<p><i class="fas fa-code"></i> <b>Languages:</b> 
+										<a href="/wiki.en/#/bash" target="_blank">Bash</a>, 
+										<a href="/wiki.en/#/css" target="_blank">CSS</a>, 
+										<a href="/wiki.en/#/csv" target="_blank">CSV</a>, 
+										<a href="/wiki.en/#/html" target="_blank">HTML</a>, 
+										<a href="/wiki.en/#/ini" target="_blank">INI</a>, 
+										<a href="/wiki.en/#/json" target="_blank">JSON</a>, 
+										<a href="/wiki.en/#/javascript" target="_blank">JavaScript</a>, 
+										<a href="/wiki.en/#/pascal" target="_blank">Pascal</a>, 
+										<a href="/wiki.en/#/python" target="_blank">Python</a>, 
+										<a href="/wiki.en/#/sql" target="_blank">SQL</a>, 
+										<a href="/wiki.en/#/xml" target="_blank">XML</a>
+									</p>
+									<p><i class="fas fa-cogs"></i> <b>Frameworks:</b> 
+										<a href="/wiki.en/#/bootstrap" target="_blank">Bootstrap</a>, 
+										<a href="/wiki.en/#/fontawesome" target="_blank">Font Awesome</a>
+									</p>
+									<p><i class="fas fa-cogs"></i> <b>Libraries:</b> 
+										<a href="/wiki.en/#/activequerybuilder" target="_blank">ActiveQueryBuilder</a>, 
+										<a href="/wiki.en/#/cef4delphi" target="_blank">CEF4Delphi</a>, 
+										<a href="/wiki.en/#/devexpress" target="_blank">DevExpress</a>, 
+										<a href="/wiki.en/#/eurekalog" target="_blank">EurekaLog</a>, 
+										<a href="/wiki.en/#/fastreport" target="_blank">FastReport</a>, 
+										<a href="/wiki.en/#/lazarus" target="_blank">Lazarus</a>, 
+										<a href="/wiki.en/#/quickreport" target="_blank">QuickReport</a>, 
+										<a href="/wiki.en/#/reportbuilder" target="_blank">ReportBuilder</a>, 
+										<a href="/wiki.en/#/synedit" target="_blank">SynEdit</a>
+									</p>
+									<p><i class="fas fa-tools"></i> <b>Development Tools:</b> 
+										<a href="/wiki.en/#/docker" target="_blank">Docker</a>, 
+										<a href="/wiki.en/#/innosetup" target="_blank">InnoSetup</a>, 
+										<a href="/wiki.en/#/nsis" target="_blank">NSIS</a>, 
+										<a href="/wiki.en/#/virtualbox" target="_blank">VirtualBox</a>, 
+										<a href="/wiki.en/#/vmware" target="_blank">VMware</a>, 
+										<a href="/wiki.en/#/vnc" target="_blank">VNC</a>, 
+										<a href="/wiki.en/#/wine" target="_blank">Wine</a>
+									</p>
+									<p><i class="fas fa-computer"></i> <b>Operating Systems:</b> 
+										<a href="/wiki.en/#/alpine" target="_blank">Alpine</a>, 
+										<a href="/wiki.en/#/archlinux" target="_blank">ArchLinux</a>, 
+										<a href="/wiki.en/#/debian" target="_blank">Debian</a>, 
+										<a href="/wiki.en/#/macos" target="_blank">MacOS</a>, 
+										<a href="/wiki.en/#/manjaro" target="_blank">Manjaro</a>, 
+										<a href="/wiki.en/#/ubuntu" target="_blank">Ubuntu</a>, 
+										<a href="/wiki.en/#/windows" target="_blank">Windows</a>
+									</p>
+									<p><i class="fas fa-puzzle-piece"></i> <b>Design Patterns:</b> 
+										<a href="/wiki.en/#/design-factory" target="_blank">Factory</a>, 
+										<a href="/wiki.en/#/design-mvc" target="_blank">MVC</a>, 
+										<a href="/wiki.en/#/design-observer" target="_blank">Observer</a>, 
+										<a href="/wiki.en/#/design-repository" target="_blank">Repository</a>, 
+										<a href="/wiki.en/#/design-singleton" target="_blank">Singleton</a>
+									</p>
+									<p><i class="fas fa-brain"></i> <b>Design Principles:</b> 
+										<a href="/wiki.en/#/design-kiss" target="_blank">KISS</a>, 
+										<a href="/wiki.en/#/design-oop" target="_blank">Object-Oriented Programming (OOP)</a>, 
+										<a href="/wiki.en/#/design-solid" target="_blank">SOLID</a>
+									</p>
+									<p><i class="fas fa-microchip"></i> <b>Other Technologies:</b> 
+										<a href="/wiki.en/#/ai" target="_blank">Artificial Intelligence</a>, 
+										<a href="/wiki.en/#/windows-registry" target="_blank">Windows Registry</a>
+									</p>
+								</div>	
 							</div>
 						</div>
 					</aside>

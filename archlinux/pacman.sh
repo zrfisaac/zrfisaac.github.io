@@ -17,23 +17,30 @@ input=""
 [ "${input}" == "" ] && read input
 if [ "${input}" == "" ]
 then
+	# : - compression
 	[ ! -x "$(which zip)" ] && ${sudo} pacman -S --noconfirm zip
 	[ ! -x "$(which unzip)" ] && ${sudo} pacman -S --noconfirm unzip
 	[ ! -x "$(which unrar)" ] && ${sudo} pacman -S --noconfirm unrar
 	[ ! -x "$(which 7z)" ] && ${sudo} pacman -S --noconfirm p7zip
+
+	# : - network
 	[ ! -x "$(which wget)" ] && ${sudo} pacman -S --noconfirm wget
 	[ ! -x "$(which curl)" ] && ${sudo} pacman -S --noconfirm curl
+
+	# : - font
+	[ ! -f "/usr/share/fontconfig/conf.avail/46-noto-mono.conf" ] && ${sudo} pacman -S --noconfirm noto-fonts
+	[ ! -f "/usr/share/fonts/noto/NotoKufiArabic-ExtraBold.ttf" ] && ${sudo} pacman -S --noconfirm noto-fonts-extra
+	[ ! -f "/usr/share/fonts/noto-cjk/NotoSansCJK-Black.ttc" ] && ${sudo} pacman -S --noconfirm noto-fonts-cjk
+
+	[ ! -x "$(which geany)" ] && ${sudo} pacman -S --noconfirm geany
+
 	[ ! -x "$(which git)" ] && ${sudo} pacman -S --noconfirm git
 	[ ! -x "$(which gh)" ] && ${sudo} pacman -S --noconfirm github-cli
-	[ ! -x "$(which geany)" ] && ${sudo} pacman -S --noconfirm geany
 	[ ! -x "$(which yt-dlp)" ] && ${sudo} pacman -S --noconfirm yt-dlp
 	[ ! -d "/lib64/jvm/java-17-openjdk" ] && ${sudo} pacman -S --noconfirm jdk17-openjdk
 	[ ! -x "$(which dhcpcd)" ] && ${sudo} pacman -S --noconfirm dhcpcd
 	[ ! -x "$(which docker)" ] && ${sudo} pacman -S --noconfirm docker
 	[ ! -x "$(which docker-compose)" ] && ${sudo} pacman -S --noconfirm docker-compose
-	[ ! -f "/usr/share/fontconfig/conf.avail/46-noto-mono.conf" ] && ${sudo} pacman -S --noconfirm noto-fonts
-	[ ! -f "/usr/share/fonts/noto/NotoKufiArabic-ExtraBold.ttf" ] && ${sudo} pacman -S --noconfirm noto-fonts-extra
-	[ ! -f "/usr/share/fonts/noto-cjk/NotoSansCJK-Black.ttc" ] && ${sudo} pacman -S --noconfirm noto-fonts-cjk
 	[ ! -f "/usr/share/fonts/noto/NotoColorEmoji.ttf" ] && ${sudo} pacman -S --noconfirm noto-fonts-emoji
 	[ ! -f "/usr/lib/modules-load.d/virtualbox-host-modules-arch.conf" ] && ${sudo} pacman -S --noconfirm virtualbox-host-modules-arch
 	[ ! -x "$(which virtualbox)" ] && ${sudo} pacman -S --noconfirm virtualbox
