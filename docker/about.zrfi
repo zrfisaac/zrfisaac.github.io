@@ -8,53 +8,5 @@
 
 # [ list ]
 
-# - : alpine
-# . - : https://github.com/zrfisaac/docker.alpine.git
-
-# - : alpine-wine
-# . - : https://github.com/zrfisaac/docker.alpine-wine.git
-
-# - : alpine-xrdp
-# . - : https://github.com/zrfisaac/docker.alpine-xrdp.git
-
-# - : alpine-xrdp-wine
-# . - : https://github.com/zrfisaac/docker.alpine-xrdp-wine.git
-
-# - : archlinux
-# . - : https://github.com/zrfisaac/docker.archlinux.git
-
 # - : compose
 # . - : https://github.com/zrfisaac/docker.compose.git
-
-# - : debian
-# . - : https://github.com/zrfisaac/docker.debian.git
-
-# - : debian-xrdp
-# . - : https://github.com/zrfisaac/docker.debian-xrdp.git
-
-# - : debian-xrdp-wine
-# . - : https://github.com/zrfisaac/docker.debian-xrdp-wine.git
-
-# - : mssql
-# . - : https://github.com/zrfisaac/docker.mssql.git
-
-# - : mssql2022
-# . - : https://github.com/zrfisaac/docker.mssql2022.git
-
-# - : oracle
-# . - : https://github.com/zrfisaac/docker.oracle.git
-
-## - : oracle21c
-## . - : https://github.com/zrfisaac/docker.oracle21c.git
-
-# - : tomcat9
-# . - : https://github.com/zrfisaac/docker.tomcat9.git
-
-# - : ubuntu
-# . - : https://github.com/zrfisaac/docker.ubuntu.git
-
-# - : ubuntu-xrdp
-# . - : https://github.com/zrfisaac/docker.ubuntu-xrdp.git
-
-# - : ubuntu-xrdp-wine
-# . - : https://github.com/zrfisaac/docker.ubuntu-xrdp-wine.git

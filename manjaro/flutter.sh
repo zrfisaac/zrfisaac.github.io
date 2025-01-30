@@ -9,20 +9,18 @@
 
 # [ bash ]
 command -v sudo >/dev/null 2>&1 && sudo="sudo" || sudo=""
-${sudo} pamac install --no-confirm paru-bin 
-${sudo} pamac install --no-confirm flutter-common
-${sudo} pamac install --no-confirm flutter-intellij-patch
-${sudo} pamac install --no-confirm flutter-tool
-${sudo} pamac install --no-confirm flutter-sky-engine-google-bin
-${sudo} pamac install --no-confirm flutter-material-fonts-google-bin
-${sudo} pamac install --no-confirm flutter-engine-common-google-bin
-${sudo} pamac install --no-confirm flutter-engine-linux-google-bin
-${sudo} pamac install --no-confirm flutter-target-linux
-${sudo} pamac install --no-confirm flutter-engine-android-google-bin
-${sudo} pamac install --no-confirm flutter-gradle
-${sudo} pamac install --no-confirm flutter-target-android
-${sudo} pamac install --no-confirm flutter-devel
-${sudo} pamac install --no-confirm flutter-engine-web-google-bin
-${sudo} pamac install --no-confirm flutter-target-web
-${sudo} pamac install --no-confirm flutter
-${sudo} paru -S --noconfirm flutter-bin
+yay -S --noconfirm flutter-common
+yay -S --noconfirm flutter-intellij-patch
+yay -S --noconfirm flutter-tool
+yay -S --noconfirm flutter-sky-engine-google-bin
+yay -S --noconfirm flutter-material-fonts-google-bin
+yay -S --noconfirm flutter-engine-common-google-bin
+yay -S --noconfirm flutter-engine-linux-google-bin
+yay -S --noconfirm flutter-target-linux
+yay -S --noconfirm flutter-engine-android-google-bin
+yay -S --noconfirm flutter-gradle
+yay -S --noconfirm flutter-target-android
+yay -S --noconfirm flutter-devel
+yay -S --noconfirm flutter-engine-web-google-bin
+yay -S --noconfirm flutter-target-web
+yay -S --noconfirm flutter
