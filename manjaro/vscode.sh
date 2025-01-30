@@ -9,4 +9,4 @@
 
 # [ bash ]
 command -v sudo >/dev/null 2>&1 && sudo="sudo" || sudo=""
-${sudo} pamac install --no-confirm visual-studio-code-bin
+yay -S --noconfirm visual-studio-code-bin
