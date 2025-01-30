@@ -85,7 +85,8 @@ stuff/*/
 template/*/
 trash
 trash/*/
-video/*/
+video/
+video
 web/*/
 work/*/
 wiki/*/
