@@ -6,7 +6,7 @@
 // - author : Isaac Caires
 // . - email : zrfisaac@gmail.com
 // . - site : zrfisaac.github.io
-// version : zrfisaac.php.base.v01 : 1.0.0
+// version : zrfisaac.php.base : 1.0.0
 
 // [ php ]
 

@@ -5,7 +5,7 @@
 // - author : Isaac Caires
 // . - email : zrfisaac@gmail.com
 // . - site : zrfisaac.github.io
-// version : zrfisaac.node.hello.v01 : 1.0.0
+// version : zrfisaac.node.hello : 1.0.0
 
 // [ shell ]
 

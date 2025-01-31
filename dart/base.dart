@@ -8,7 +8,7 @@ import 'dart:io';
 // - author : Isaac Caires
 // . - email : zrfisaac@gmail.com
 // . - site : zrfisaac.github.io
-// version : zrfisaac.dart.base.v01 : 1.0.0
+// version : zrfisaac.dart.base : 1.0.0
 
 void main() {
   // - variable
