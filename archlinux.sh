@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.archlinux : 0.0.3
+# - version : zrfisaac.archlinux : 0.0.4
 
 # [ trash ]
 
@@ -26,6 +26,7 @@ echo "# - main"
 [ ! -x "$(which curl)" ] && ${sudo} pacman -S --noconfirm curl
 [ ! -x "$(which nano)" ] && ${sudo} pacman -S --noconfirm nano
 [ ! -x "$(which pacstrap)" ] && ${sudo} pacman -S --noconfirm arch-install-scripts
+[ ! -x "$(which dpkg)" ] && ${sudo} pacman -S --noconfirm dpkg
 
 # : - base
 echo "# - base"
@@ -104,6 +105,7 @@ echo "# - web"
 [ ! -x "$(which php-cgi)" ] && ${sudo} pacman -S --noconfirm php-cgi
 [ ! -x "$(which qbittorrent)" ] && ${sudo} pacman -S --noconfirm qbittorrent
 [ ! -x "$(which filezilla)" ] && ${sudo} pacman -S --noconfirm filezilla
+[ ! -x "$(which discord)" ] && ${sudo} pacman -S --noconfirm discord
 
 # : - office
 echo "# - office"
@@ -119,11 +121,16 @@ echo "# - multimedia"
 # : - developer
 echo "# - developer"
 [ ! -x "$(which dbeaver)" ] && ${sudo} pacman -S --noconfirm dbeaver
+[ ! -x "$(which node)" ] && ${sudo} pacman -S --noconfirm nodejs
+[ ! -x "$(which npm)" ] && ${sudo} pacman -S --noconfirm npm
+[ ! -x "$(which cordova)" ] && ${sudo} pacman -S --noconfirm cordova
 
 # : - virtual
 echo "# - virtual"
 [ ! -x "$(which dosbox)" ] && ${sudo} pacman -S --noconfirm dosbox
 [ ! -x "$(which qemu-img)" ] && ${sudo} pacman -S --noconfirm qemu-full
+[ ! -f "/usr/lib/modules-load.d/virtualbox-host-modules-arch.conf" ] && ${sudo} pacman -S --noconfirm virtualbox-host-modules-arch
+[ ! -x "$(which virtualbox)" ] && ${sudo} pacman -S --noconfirm virtualbox
 [ ! -x "$(which docker)" ] && ${sudo} pacman -S --noconfirm docker
 [ ! -f "/usr/lib/docker/cli-plugins/docker-buildx" ] && ${sudo} pacman -S --noconfirm docker-buildx
 [ ! -x "$(which docker-compose)" ] && ${sudo} pacman -S --noconfirm docker-compose
@@ -134,6 +141,11 @@ echo "# - virtual"
 [ ! -f "/usr/lib/libgnutls.so" ] && ${sudo} pacman -S --noconfirm gnutls
 [ ! -f "/usr/lib32/libgnutls.so" ] && ${sudo} pacman -S --noconfirm lib32-gnutls
 [ -x "$(which docker)" ] && ${sudo} systemctl enable docker
+
+# : - ollama
+echo "# - ollama"
+[ ! -x "$(which ollama)" ] && ${sudo} pacman -S --noconfirm ollama
+[ -x "$(which ollama)" ] && ${sudo} systemctl enable ollama
 
 # : - user
 echo "# - user"
@@ -161,6 +173,13 @@ echo "# - yay"
 [ ! -d "/opt/github-desktop" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm github-desktop-bin"
 [ ! -x "$(which code)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm visual-studio-code-bin"
 
+# : - android
+[ ! -x "$(which android-studio)" ] && yay -S --noconfirm android-studio
+[ ! -d "/opt/android-sdk/cmdline-tools" ] && yay -S --noconfirm android-sdk-cmdline-tools-latest
+[ ! -d "/opt/android-sdk/build-tools" ] && yay -S --noconfirm android-sdk-build-tools
+[ ! -d "/opt/android-sdk/platform-tools" ] && yay -S --noconfirm android-sdk-platform-tools
+[ ! -d "/opt/android-sdk/platforms" ] && yay -S --noconfirm android-platform
+
 # : - github
 echo "# - github"
 if [ -d "/zrfisaac" ] && [ ! -d "/zrfisaac/.git" ]
@@ -174,41 +193,52 @@ fi
 
 # : - folder
 echo "# - folder"
-mkdir -p /zrfisaac/default
-mkdir -p /zrfisaac/default/android
-mkdir -p /zrfisaac/default/cordova
-mkdir -p /zrfisaac/default/docker
-mkdir -p /zrfisaac/default/dosbox
-mkdir -p /zrfisaac/default/flutter
-mkdir -p /zrfisaac/default/godot3
-mkdir -p /zrfisaac/default/godot4
-mkdir -p /zrfisaac/default/lazarus
-mkdir -p /zrfisaac/default/qemu
-mkdir -p /zrfisaac/default/virtualbox
-mkdir -p /zrfisaac/desktop
-mkdir -p /zrfisaac/download
-mkdir -p /zrfisaac/document
-mkdir -p /zrfisaac/model
-mkdir -p /zrfisaac/music
-mkdir -p /zrfisaac/picture
-mkdir -p /zrfisaac/public
-mkdir -p /zrfisaac/repository
-mkdir -p /zrfisaac/repository/game
-mkdir -p /zrfisaac/repository/os
-mkdir -p /zrfisaac/repository/os/alpine
-mkdir -p /zrfisaac/repository/os/archlinux
-mkdir -p /zrfisaac/repository/os/debian
-mkdir -p /zrfisaac/repository/os/macos
-mkdir -p /zrfisaac/repository/os/manjaro
-mkdir -p /zrfisaac/repository/os/msdos
-mkdir -p /zrfisaac/repository/os/ubuntu
-mkdir -p /zrfisaac/repository/os/windows
-mkdir -p /zrfisaac/repository/program
-mkdir -p /zrfisaac/template
-mkdir -p /zrfisaac/trash
-mkdir -p /zrfisaac/trash/01-any
-mkdir -p /zrfisaac/video
-	
+if [ -d "/zrfisaac" ]
+then
+	${sudo} su - zrfisaac -c "mkdir -p ~/.wine"
+	${sudo} su - zrfisaac -c "mkdir -p ~/default"
+	${sudo} su - zrfisaac -c "mkdir -p ~/default/android"
+	${sudo} su - zrfisaac -c "mkdir -p ~/default/cordova"
+	${sudo} su - zrfisaac -c "mkdir -p ~/default/docker"
+	${sudo} su - zrfisaac -c "mkdir -p ~/default/dosbox"
+	${sudo} su - zrfisaac -c "mkdir -p ~/default/flutter"
+	${sudo} su - zrfisaac -c "mkdir -p ~/default/godot3"
+	${sudo} su - zrfisaac -c "mkdir -p ~/default/godot4"
+	${sudo} su - zrfisaac -c "mkdir -p ~/default/lazarus"
+	${sudo} su - zrfisaac -c "mkdir -p ~/default/qemu"
+	${sudo} su - zrfisaac -c "mkdir -p ~/default/virtualbox"
+	${sudo} su - zrfisaac -c "mkdir -p ~/desktop"
+	${sudo} su - zrfisaac -c "mkdir -p ~/download"
+	${sudo} su - zrfisaac -c "mkdir -p ~/document"
+	${sudo} su - zrfisaac -c "mkdir -p ~/model"
+	${sudo} su - zrfisaac -c "mkdir -p ~/music"
+	${sudo} su - zrfisaac -c "mkdir -p ~/picture"
+	${sudo} su - zrfisaac -c "mkdir -p ~/public"
+	${sudo} su - zrfisaac -c "mkdir -p ~/repository"
+	${sudo} su - zrfisaac -c "mkdir -p ~/repository/game"
+	${sudo} su - zrfisaac -c "mkdir -p ~/repository/os"
+	${sudo} su - zrfisaac -c "mkdir -p ~/repository/os/alpine"
+	${sudo} su - zrfisaac -c "mkdir -p ~/repository/os/archlinux"
+	${sudo} su - zrfisaac -c "mkdir -p ~/repository/os/debian"
+	${sudo} su - zrfisaac -c "mkdir -p ~/repository/os/macos"
+	${sudo} su - zrfisaac -c "mkdir -p ~/repository/os/manjaro"
+	${sudo} su - zrfisaac -c "mkdir -p ~/repository/os/msdos"
+	${sudo} su - zrfisaac -c "mkdir -p ~/repository/os/ubuntu"
+	${sudo} su - zrfisaac -c "mkdir -p ~/repository/os/windows"
+	${sudo} su - zrfisaac -c "mkdir -p ~/repository/program"
+	${sudo} su - zrfisaac -c "mkdir -p ~/template"
+	${sudo} su - zrfisaac -c "mkdir -p ~/trash"
+	${sudo} su - zrfisaac -c "mkdir -p ~/trash/01-any"
+	${sudo} su - zrfisaac -c "mkdir -p ~/video"
+fi
+
+# : - shortcut
+echo "# - shortcut"
+if [ -d "/zrfisaac" ]
+then
+	${sudo} su - zrfisaac -c "[ ! -e ~/default/wine ] && ln -s ~/.wine/drive_c ~/default/wine"
+fi
+
 # : - xdg
 echo "# - xdg"
 if [ -x "$(which xdg-user-dirs-update)" ] && [ ! -f "/zrfisaac/.config/user-dirs.dirs" ]
