@@ -5,7 +5,13 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.archlinux : 0.0.1
+# - version : zrfisaac.archlinux : 0.0.2
+
+# [ trash ]
+
+# - : sudo pacman -S --noconfirm mingw-w64-gcc lib32-libxinerama lib32-libxcomposite lib32-libxxf86vm lib32-libosmesa lib32-opencl-icd-loader pcsclite lib32-libsane lib32-libusb lib32-libgphoto2 lib32-libpulse lib32-ffmpeg lib32-gst-plugins-base-libs lib32-sdl2 lib32-libcups lib32-libvulkan lib32-alsa-lib lib32-alsa-plugins lib32-libcanberra-pulse lib32-libpcap lib32-libnet lib32-libxrandr lib32-vulkan-icd-loader lib32-libcups lib32-libxdamage lib32-glew lib32-libldap lib32-libcap
+# . - : sudo pacman -S --noconfirm mingw-w64-gcc lib32-libxinerama lib32-libxcomposite lib32-libxxf86vm lib32-opencl-icd-loader pcsclite lib32-libusb lib32-libpulse lib32-gst-plugins-base-libs lib32-sdl2 lib32-libcups lib32-alsa-lib lib32-alsa-plugins lib32-libcanberra-pulse lib32-libpcap lib32-libxrandr lib32-vulkan-icd-loader lib32-libcups lib32-libxdamage lib32-glew lib32-libldap lib32-libcap
+# - : yay -S --noconfirm lib32-libgphoto2_port lib32-libcapi20 lib32-libnetapi
 
 # [ bash ]
 user=""
@@ -57,8 +63,10 @@ echo "# - network"
 [ ! -x "$(which gufw)" ] && ${sudo} pacman -S --noconfirm gufw
 [ ! -x "$(which git)" ] && ${sudo} pacman -S --noconfirm git
 [ ! -x "$(which gh)" ] && ${sudo} pacman -S --noconfirm github-cli
+[ ! -f "/etc/conf.d/samba" ] && ${sudo} pacman -S --noconfirm samba
+[ ! -f "/usr/lib/libwbclient.so" ] && ${sudo} pacman -S --noconfirm libwbclient
 [ -x "$(which NetworkManager)" ] && ${sudo} systemctl enable NetworkManager
-[ -x "$(which ufw)" ] && ${sudo} systemctl enable ufw
+#[ -x "$(which ufw)" ] && ${sudo} systemctl enable ufw
 
 # : - audio
 echo "# - audio"
@@ -94,6 +102,7 @@ echo "# - web"
 [ ! -f "/etc/httpd/conf/extra/php_module.conf" ] && ${sudo} pacman -S --noconfirm php-apache
 [ ! -x "$(which php-cgi)" ] && ${sudo} pacman -S --noconfirm php-cgi
 [ ! -x "$(which qbittorrent)" ] && ${sudo} pacman -S --noconfirm qbittorrent
+[ ! -x "$(which filezilla)" ] && ${sudo} pacman -S --noconfirm filezilla
 
 # : - office
 echo "# - office"
@@ -106,6 +115,10 @@ echo "# - multimedia"
 [ ! -x "$(which lmms)" ] && ${sudo} pacman -S --noconfirm lmms
 [ ! -x "$(which obs)" ] && ${sudo} pacman -S --noconfirm obs-studio
 
+# : - developer
+echo "# - developer"
+[ ! -x "$(which dbeaver)" ] && ${sudo} pacman -S --noconfirm dbeaver
+
 # : - virtual
 echo "# - virtual"
 [ ! -x "$(which dosbox)" ] && ${sudo} pacman -S --noconfirm dosbox
@@ -113,6 +126,12 @@ echo "# - virtual"
 [ ! -x "$(which docker)" ] && ${sudo} pacman -S --noconfirm docker
 [ ! -f "/usr/lib/docker/cli-plugins/docker-buildx" ] && ${sudo} pacman -S --noconfirm docker-buildx
 [ ! -x "$(which docker-compose)" ] && ${sudo} pacman -S --noconfirm docker-compose
+[ ! -x "$(which wine)" ] && ${sudo} pacman -S --noconfirm wine
+[ ! -x "$(which winetricks)" ] && ${sudo} pacman -S --noconfirm winetricks
+[ ! -d "/usr/share/wine/gecko" ] && ${sudo} pacman -S --noconfirm wine-gecko
+[ ! -d "/usr/share/wine/mono" ] && ${sudo} pacman -S --noconfirm wine-mono
+[ ! -f "/usr/lib/libgnutls.so" ] && ${sudo} pacman -S --noconfirm gnutls
+[ ! -f "/usr/lib32/libgnutls.so" ] && ${sudo} pacman -S --noconfirm lib32-gnutls
 [ -x "$(which docker)" ] && ${sudo} systemctl enable docker
 
 # : - user
@@ -139,6 +158,7 @@ echo "# - yay"
 [ ! -x "$(which ventoy)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm ventoy"
 [ ! -x "$(which google-chrome-stable)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm google-chrome"
 [ ! -d "/opt/github-desktop" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm github-desktop-bin"
+[ ! -x "$(which code)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm visual-studio-code-bin"
 
 # : - github
 echo "# - github"
