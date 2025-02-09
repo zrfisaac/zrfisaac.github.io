@@ -4,9 +4,9 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.docker.about : 0.0.1
+# - version : zrfisaac.docker.about : 0.0.2
 
 # [ list ]
 
-# - : local
-# . - : https://github.com/zrfisaac/docker.local.git
+# - : compose
+# . - : https://github.com/zrfisaac/docker.compose.git
