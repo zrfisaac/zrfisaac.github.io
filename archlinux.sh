@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.archlinux : 0.0.2
+# - version : zrfisaac.archlinux : 0.0.3
 
 # [ trash ]
 
@@ -61,6 +61,7 @@ echo "# - network"
 [ ! -x "$(which nm-applet)" ] && ${sudo} pacman -S --noconfirm network-manager-applet
 [ ! -x "$(which ufw)" ] && ${sudo} pacman -S --noconfirm ufw
 [ ! -x "$(which gufw)" ] && ${sudo} pacman -S --noconfirm gufw
+[ ! -x "$(which less)" ] && ${sudo} pacman -S --noconfirm less
 [ ! -x "$(which git)" ] && ${sudo} pacman -S --noconfirm git
 [ ! -x "$(which gh)" ] && ${sudo} pacman -S --noconfirm github-cli
 [ ! -f "/etc/conf.d/samba" ] && ${sudo} pacman -S --noconfirm samba
@@ -171,6 +172,43 @@ then
 	chown -R zrfisaac:zrfisaac /zrfisaac
 fi
 
+# : - folder
+echo "# - folder"
+mkdir -p /zrfisaac/default
+mkdir -p /zrfisaac/default/android
+mkdir -p /zrfisaac/default/cordova
+mkdir -p /zrfisaac/default/docker
+mkdir -p /zrfisaac/default/dosbox
+mkdir -p /zrfisaac/default/flutter
+mkdir -p /zrfisaac/default/godot3
+mkdir -p /zrfisaac/default/godot4
+mkdir -p /zrfisaac/default/lazarus
+mkdir -p /zrfisaac/default/qemu
+mkdir -p /zrfisaac/default/virtualbox
+mkdir -p /zrfisaac/desktop
+mkdir -p /zrfisaac/download
+mkdir -p /zrfisaac/document
+mkdir -p /zrfisaac/model
+mkdir -p /zrfisaac/music
+mkdir -p /zrfisaac/picture
+mkdir -p /zrfisaac/public
+mkdir -p /zrfisaac/repository
+mkdir -p /zrfisaac/repository/game
+mkdir -p /zrfisaac/repository/os
+mkdir -p /zrfisaac/repository/os/alpine
+mkdir -p /zrfisaac/repository/os/archlinux
+mkdir -p /zrfisaac/repository/os/debian
+mkdir -p /zrfisaac/repository/os/macos
+mkdir -p /zrfisaac/repository/os/manjaro
+mkdir -p /zrfisaac/repository/os/msdos
+mkdir -p /zrfisaac/repository/os/ubuntu
+mkdir -p /zrfisaac/repository/os/windows
+mkdir -p /zrfisaac/repository/program
+mkdir -p /zrfisaac/template
+mkdir -p /zrfisaac/trash
+mkdir -p /zrfisaac/trash/01-any
+mkdir -p /zrfisaac/video
+	
 # : - xdg
 echo "# - xdg"
 if [ -x "$(which xdg-user-dirs-update)" ] && [ ! -f "/zrfisaac/.config/user-dirs.dirs" ]
@@ -185,28 +223,6 @@ then
 	[ -d "/zrfisaac/Templates" ] && rm -rvf /zrfisaac/Templates
 	[ -d "/zrfisaac/Videos" ] && rm -rvf /zrfisaac/Videos
 	[ ! -d "{xdg}" ] && mkdir -p ${xdg}
-	[ ! -d "/zrfisaac/default" ] && mkdir /zrfisaac/default
-	[ ! -d "/zrfisaac/default/android" ] && mkdir /zrfisaac/default/android
-	[ ! -d "/zrfisaac/default/dosbox" ] && mkdir /zrfisaac/default/dosbox
-	[ ! -d "/zrfisaac/default/flutter" ] && mkdir /zrfisaac/default/flutter
-	[ ! -d "/zrfisaac/default/virtualbox" ] && mkdir /zrfisaac/default/virtualbox
-	[ ! -d "/zrfisaac/desktop" ] && mkdir /zrfisaac/desktop
-	[ ! -d "/zrfisaac/download" ] && mkdir /zrfisaac/download
-	[ ! -d "/zrfisaac/template" ] && mkdir /zrfisaac/template
-	[ ! -d "/zrfisaac/public" ] && mkdir /zrfisaac/public
-	[ ! -d "/zrfisaac/document" ] && mkdir /zrfisaac/document
-	[ ! -d "/zrfisaac/music" ] && mkdir /zrfisaac/music
-	[ ! -d "/zrfisaac/picture" ] && mkdir /zrfisaac/picture
-	[ ! -d "/zrfisaac/repository" ] && mkdir /zrfisaac/repository
-	[ ! -d "/zrfisaac/repository/game" ] && mkdir /zrfisaac/repository/game
-	[ ! -d "/zrfisaac/repository/os" ] && mkdir /zrfisaac/repository/os
-	[ ! -d "/zrfisaac/repository/os/archlinux" ] && mkdir /zrfisaac/repository/os/archlinux
-	[ ! -d "/zrfisaac/repository/os/manjaro" ] && mkdir /zrfisaac/repository/os/manjaro
-	[ ! -d "/zrfisaac/repository/os/windows" ] && mkdir /zrfisaac/repository/os/windows
-	[ ! -d "/zrfisaac/repository/program" ] && mkdir /zrfisaac/repository/program
-	[ ! -d "/zrfisaac/video" ] && mkdir /zrfisaac/video
-	[ ! -d "/zrfisaac/trash" ] && mkdir /zrfisaac/trash
-	[ ! -d "/zrfisaac/trash/01-any" ] && mkdir /zrfisaac/trash/01-any
 	xdg="/zrfisaac/.config/user-dirs.dirs"
 	echo "XDG_DESKTOP_DIR=\"$HOME/desktop\"" > ${xdg}
 	echo "XDG_DOWNLOAD_DIR=\"$HOME/download\"" >> ${xdg}
