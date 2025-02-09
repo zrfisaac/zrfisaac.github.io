@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# # - version : zrfisaac.gitignore : 0.0.5
+# # - version : zrfisaac.gitignore : 0.0.6
 
 # [ gitignore ]
 
@@ -24,6 +24,7 @@ integrator
 music
 personal/*/
 picture
+playground
 public
 research
 server
