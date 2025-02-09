@@ -4,18 +4,28 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# # - version : zrfisaac.gitignore : 0.0.4
+# # - version : zrfisaac.gitignore : 0.0.5
 
 # [ gitignore ]
+
+# : - base
 .*
 _*
+
+# : - extension
+*.log
+
+# : - folder
 data
 default
+docker/*/
 download
+integrator
 music
 personal/*/
 picture
 public
 research
+server
 trash
 video
