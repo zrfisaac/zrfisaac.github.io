@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# # - version : zrfisaac.gitconfig : 0.0.2
+# # - version : zrfisaac.gitconfig : 0.0.3
 
 # [ gitignore ]
 [filter "lfs"]
