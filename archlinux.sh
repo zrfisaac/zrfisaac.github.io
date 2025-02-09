@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.archlinux : 0.0.4
+# - version : zrfisaac.archlinux : 0.0.5
 
 # [ trash ]
 
@@ -27,6 +27,7 @@ echo "# - main"
 [ ! -x "$(which nano)" ] && ${sudo} pacman -S --noconfirm nano
 [ ! -x "$(which pacstrap)" ] && ${sudo} pacman -S --noconfirm arch-install-scripts
 [ ! -x "$(which dpkg)" ] && ${sudo} pacman -S --noconfirm dpkg
+[ ! -x "$(which jq)" ] && ${sudo} pacman -S --noconfirm jq
 
 # : - base
 echo "# - base"
@@ -34,6 +35,15 @@ echo "# - base"
 [ ! -x "$(which grub-install)" ] && ${sudo} pacman -S --noconfirm grub
 [ ! -x "$(which efibootmgr)" ] && ${sudo} pacman -S --noconfirm efibootmgr
 [ ! -x "$(which mkfs.fat)" ] && ${sudo} pacman -S --noconfirm dosfstools
+
+# : - disk
+[ ! -f "/usr/lib/libmtp.so" ] && ${sudo} pacman -S --noconfirm libmtp
+[ ! -f "/usr/bin/android-file-transfer" ] && ${sudo} pacman -S --noconfirm android-file-transfer
+[ ! -f "/usr/bin/fusermount3" ] && ${sudo} pacman -S --noconfirm fuse3
+[ ! -f "/usr/bin/mtpfs" ] && ${sudo} pacman -S --noconfirm mtpfs
+[ ! -f "/usr/lib/gvfsd" ] && ${sudo} pacman -S --noconfirm gvfs
+[ ! -f "/usr/lib/gvfsd-mtp" ] && ${sudo} pacman -S --noconfirm gvfs-mtp
+[ ! -f "/usr/bin/parted" ] && ${sudo} pacman -S --noconfirm parted
 
 # : - compression
 echo "# - compression"
@@ -53,6 +63,7 @@ echo "# - gui"
 [ ! -x "$(which lightdm-gtk-greeter)" ] && ${sudo} pacman -S --noconfirm lightdm-gtk-greeter
 [ ! -x "$(which lightdm-gtk-greeter-settings)" ] && ${sudo} pacman -S --noconfirm lightdm-gtk-greeter-settings
 [ ! -x "$(which xdg-user-dirs-update)" ] && ${sudo} pacman -S --noconfirm xdg-user-dirs
+	[ ! -x "$(which file-roller)" ] && ${sudo} pacman -S --noconfirm file-roller
 [ -x "$(which lightdm)" ] && ${sudo} systemctl enable lightdm
 
 # : - network
@@ -124,6 +135,11 @@ echo "# - developer"
 [ ! -x "$(which node)" ] && ${sudo} pacman -S --noconfirm nodejs
 [ ! -x "$(which npm)" ] && ${sudo} pacman -S --noconfirm npm
 [ ! -x "$(which cordova)" ] && ${sudo} pacman -S --noconfirm cordova
+[ ! -x "$(which stlink-gui)" ] && ${sudo} pacman -S --noconfirm stlink
+[ ! -x "$(which rustc)" ] && ${sudo} pacman -S --noconfirm rust
+[ ! -x "$(which nasm)" ] && ${sudo} pacman -S --noconfirm nasm
+[ ! -x "$(which riscv64-linux-gnu-as)" ] && ${sudo} pacman -S --noconfirm risc-v
+[ ! -f "/etc/highlight/filetypes.conf" ] && ${sudo} pacman -S --noconfirm highlight
 
 # : - virtual
 echo "# - virtual"
@@ -172,13 +188,17 @@ echo "# - yay"
 [ ! -x "$(which google-chrome-stable)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm google-chrome"
 [ ! -d "/opt/github-desktop" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm github-desktop-bin"
 [ ! -x "$(which code)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm visual-studio-code-bin"
+[ ! -x "$(which swift)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm swift-bin"
 
 # : - android
-[ ! -x "$(which android-studio)" ] && yay -S --noconfirm android-studio
-[ ! -d "/opt/android-sdk/cmdline-tools" ] && yay -S --noconfirm android-sdk-cmdline-tools-latest
-[ ! -d "/opt/android-sdk/build-tools" ] && yay -S --noconfirm android-sdk-build-tools
-[ ! -d "/opt/android-sdk/platform-tools" ] && yay -S --noconfirm android-sdk-platform-tools
-[ ! -d "/opt/android-sdk/platforms" ] && yay -S --noconfirm android-platform
+[ ! -x "$(which android-studio)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm android-studio"
+[ ! -d "/opt/android-sdk/cmdline-tools" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm android-sdk-cmdline-tools-latest"
+[ ! -d "/opt/android-sdk/build-tools" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm android-sdk-build-tools"
+[ ! -d "/opt/android-sdk/platform-tools" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm android-sdk-platform-tools"
+[ ! -d "/opt/android-sdk/platforms" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm android-platform"
+
+# : - python
+[ ! -d "/usr/lib/python3.13/site-packages/ollama" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm python-ollama"
 
 # : - github
 echo "# - github"
@@ -214,6 +234,7 @@ then
 	${sudo} su - zrfisaac -c "mkdir -p ~/music"
 	${sudo} su - zrfisaac -c "mkdir -p ~/picture"
 	${sudo} su - zrfisaac -c "mkdir -p ~/public"
+	${sudo} su - zrfisaac -c "mkdir -p ~/python"
 	${sudo} su - zrfisaac -c "mkdir -p ~/repository"
 	${sudo} su - zrfisaac -c "mkdir -p ~/repository/game"
 	${sudo} su - zrfisaac -c "mkdir -p ~/repository/os"
