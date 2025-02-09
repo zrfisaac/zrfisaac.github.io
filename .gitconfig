@@ -1,0 +1,17 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# # - version : zrfisaac.gitconfig : 0.0.1
+
+# [ gitignore ]
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Isaac Caires
+	email = zrfisaac@gmail.com
