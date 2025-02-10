@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.archlinux : 0.0.5
+# - version : zrfisaac.archlinux : 0.0.6
 
 # [ trash ]
 
@@ -63,7 +63,8 @@ echo "# - gui"
 [ ! -x "$(which lightdm-gtk-greeter)" ] && ${sudo} pacman -S --noconfirm lightdm-gtk-greeter
 [ ! -x "$(which lightdm-gtk-greeter-settings)" ] && ${sudo} pacman -S --noconfirm lightdm-gtk-greeter-settings
 [ ! -x "$(which xdg-user-dirs-update)" ] && ${sudo} pacman -S --noconfirm xdg-user-dirs
-	[ ! -x "$(which file-roller)" ] && ${sudo} pacman -S --noconfirm file-roller
+[ ! -x "$(which file-roller)" ] && ${sudo} pacman -S --noconfirm file-roller
+[ ! -x "$(which totem)" ] && ${sudo} pacman -S --noconfirm totem
 [ -x "$(which lightdm)" ] && ${sudo} systemctl enable lightdm
 
 # : - network
@@ -128,6 +129,9 @@ echo "# - multimedia"
 [ ! -x "$(which inkscape)" ] && ${sudo} pacman -S --noconfirm inkscape
 [ ! -x "$(which lmms)" ] && ${sudo} pacman -S --noconfirm lmms
 [ ! -x "$(which obs)" ] && ${sudo} pacman -S --noconfirm obs-studio
+[ ! -x "$(which ffmpeg)" ] && ${sudo} pacman -S --noconfirm ffmpeg
+[ ! -x "$(which yt-dlp)" ] && ${sudo} pacman -S --noconfirm yt-dlp
+[ ! -x "$(which vlc)" ] && ${sudo} pacman -S --noconfirm vlc
 
 # : - developer
 echo "# - developer"
