@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# # - version : zrfisaac.gitignore : 0.0.6
+# # - version : zrfisaac.gitignore : 0.0.7
 
 # [ gitignore ]
 
@@ -13,9 +13,43 @@
 _*
 
 # : - extension
+*.7z
+*.a
+*.avi
+*.bin
+*.bak
+*.dll
+*.doc
+*.docx
+*.ds
+*.exe
+*.gz
+*.img
+*.iso
 *.log
+*.mod
+*.mp3
+*.mp4
+*.mpeg
+*.mpg
+*.msi
+*.nls
+*.o
+*.ogg
+*.part
+*.pdf
+*.rar
+*.so
+*.tar
+*.vdi
+*.war
+*.wav
+*.xz
+*.ytdl
+*.zip
 
 # : - folder
+albedo
 data
 default
 docker/*/
