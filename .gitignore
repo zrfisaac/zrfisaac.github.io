@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 0.0.12
+# - version : zrfisaac.gitignore : 0.0.13
 
 # [ gitignore ]
 
@@ -53,6 +53,7 @@ _*
 albedo
 asset
 bitbucket
+config
 data
 default
 docker
