@@ -4,12 +4,12 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.about : 0.0.4
+# - version : zrfisaac.about : 0.0.5
 
 # [ list ]
 
 # - : config
-# . - : https://github.com/zrfisaac/zrfisaac.config.git
+# . - : https://github.com/zrfisaac/config.git
 
 # - : docker
 # . - : https://github.com/zrfisaac/zrfisaac.docker.git
