@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# # - version : zrfisaac.gitignore : 0.0.8
+# # - version : zrfisaac.gitignore : 0.0.9
 
 # [ gitignore ]
 
@@ -51,16 +51,19 @@ _*
 
 # : - folder
 albedo
+asset
 data
 default
-docker/*/
+docker
 download
 integrator
 music
-personal/*/
+personal
 picture
 playground
 public
+resource
+repository
 research
 server
 trash
