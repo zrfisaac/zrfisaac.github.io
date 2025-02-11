@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.archlinux : 0.0.6
+# - version : zrfisaac.archlinux : 0.0.7
 
 # [ trash ]
 
@@ -35,6 +35,7 @@ echo "# - base"
 [ ! -x "$(which grub-install)" ] && ${sudo} pacman -S --noconfirm grub
 [ ! -x "$(which efibootmgr)" ] && ${sudo} pacman -S --noconfirm efibootmgr
 [ ! -x "$(which mkfs.fat)" ] && ${sudo} pacman -S --noconfirm dosfstools
+[ ! -x "$(which mkfs.fat)" ] && ${sudo} pacman -S --noconfirm btop
 
 # : - disk
 [ ! -f "/usr/lib/libmtp.so" ] && ${sudo} pacman -S --noconfirm libmtp
@@ -80,7 +81,7 @@ echo "# - network"
 [ ! -f "/etc/conf.d/samba" ] && ${sudo} pacman -S --noconfirm samba
 [ ! -f "/usr/lib/libwbclient.so" ] && ${sudo} pacman -S --noconfirm libwbclient
 [ -x "$(which NetworkManager)" ] && ${sudo} systemctl enable NetworkManager
-#[ -x "$(which ufw)" ] && ${sudo} systemctl enable ufw
+[ -x "$(which ufw)" ] && ${sudo} systemctl enable ufw
 
 # : - audio
 echo "# - audio"
@@ -142,6 +143,7 @@ echo "# - developer"
 [ ! -x "$(which stlink-gui)" ] && ${sudo} pacman -S --noconfirm stlink
 [ ! -x "$(which rustc)" ] && ${sudo} pacman -S --noconfirm rust
 [ ! -x "$(which nasm)" ] && ${sudo} pacman -S --noconfirm nasm
+[ ! -x "$(which godot)" ] && ${sudo} pacman -S --noconfirm godot
 [ ! -x "$(which riscv64-linux-gnu-as)" ] && ${sudo} pacman -S --noconfirm risc-v
 [ ! -f "/etc/highlight/filetypes.conf" ] && ${sudo} pacman -S --noconfirm highlight
 
@@ -193,6 +195,7 @@ echo "# - yay"
 [ ! -d "/opt/github-desktop" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm github-desktop-bin"
 [ ! -x "$(which code)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm visual-studio-code-bin"
 [ ! -x "$(which swift)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm swift-bin"
+[ ! -x "$(which aseprite)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm aseprite"
 
 # : - android
 [ ! -x "$(which android-studio)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm android-studio"
