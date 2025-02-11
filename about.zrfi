@@ -4,9 +4,27 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.personal.about : 0.0.1
+# - version : zrfisaac.about : 0.0.1
 
 # [ list ]
 
-## - : music
-## . - : https://github.com/zrfisaac/zrfisaac.music.git
+# - : docker
+# . - : https://github.com/zrfisaac/zrfisaac.docker.git
+
+# - : fork
+# . - : https://github.com/zrfisaac/zrfisaac.fork.git
+
+# - : github
+# . - : https://github.com/zrfisaac/zrfisaac.git
+
+# - : personal
+# . - : https://github.com/zrfisaac/zrfisaac.personal.git
+
+# - : wiki.en
+# . - : https://github.com/zrfisaac/wiki.en.git
+
+# - : wiki.es
+# . - : https://github.com/zrfisaac/wiki.es.git
+
+# - : wiki.pt
+# . - : https://github.com/zrfisaac/wiki.pt.git
