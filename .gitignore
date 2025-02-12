@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 0.0.14
+# - version : zrfisaac.gitignore : 0.0.15
 
 # [ gitignore ]
 
@@ -71,6 +71,7 @@ linux
 macos
 music
 mvp
+novnc
 personal
 picture
 playground
