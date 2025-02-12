@@ -4,27 +4,51 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.about : 0.0.5
+# - version : zrfisaac.about : 0.0.6
 
 # [ list ]
+
+# - : binary
+# . - : https://github.com/zrfisaac/binary.git
 
 # - : config
 # . - : https://github.com/zrfisaac/config.git
 
+# - : debug
+# . - : https://github.com/zrfisaac/debug.git
+
 # - : docker
 # . - : https://github.com/zrfisaac/zrfisaac.docker.git
 
+# - : document
+# . - : https://github.com/zrfisaac/document.git
+
 # - : fork
 # . - : https://github.com/zrfisaac/zrfisaac.fork.git
+
+# - : game
+# . - : https://github.com/zrfisaac/zrfisaac.game.git
 
 # - : github
 # . - : https://github.com/zrfisaac/zrfisaac.git
 
 # - : library
-# . - : https://github.com/zrfisaac/zrfisaac.library.git
+# . - : https://github.com/zrfisaac/library.git
+
+# - : linux
+# . - : https://github.com/zrfisaac/linux.git
+
+# - : macos
+# . - : https://github.com/zrfisaac/macos.git
+
+# - : mvp
+# . - : https://github.com/zrfisaac/zrfisaac.mvp.git
 
 # - : personal
 # . - : https://github.com/zrfisaac/zrfisaac.personal.git
+
+# - : wallpaper
+# . - : https://github.com/zrfisaac/wallpaper.git
 
 # - : wiki.en
 # . - : https://github.com/zrfisaac/wiki.en.git
@@ -34,3 +58,6 @@
 
 # - : wiki.pt
 # . - : https://github.com/zrfisaac/wiki.pt.git
+
+# - : windows
+# . - : https://github.com/zrfisaac/windows.git
