@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac : 0.0.7
+# - version : zrfisaac : 0.0.8
 
 # [ list ]
 
@@ -27,7 +27,7 @@
 # . - : https://github.com/zrfisaac/zrfisaac.fork.git
 
 # - : game
-# . - : https://github.com/zrfisaac/zrfisaac.game.git
+# . - : https://github.com/zrfisaac/game.git
 
 # - : github
 # . - : https://github.com/zrfisaac/zrfisaac.git
