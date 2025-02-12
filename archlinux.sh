@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.archlinux : 0.0.7
+# - version : zrfisaac.archlinux : 0.0.8
 
 # [ trash ]
 
@@ -28,6 +28,7 @@ echo "# - main"
 [ ! -x "$(which pacstrap)" ] && ${sudo} pacman -S --noconfirm arch-install-scripts
 [ ! -x "$(which dpkg)" ] && ${sudo} pacman -S --noconfirm dpkg
 [ ! -x "$(which jq)" ] && ${sudo} pacman -S --noconfirm jq
+[ ! -x "$(which jq)" ] && ${sudo} pacman -S --noconfirm mtools
 
 # : - base
 echo "# - base"
