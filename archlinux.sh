@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.archlinux : 0.0.8
+# - version : zrfisaac.archlinux : 0.0.9
 
 # [ trash ]
 
@@ -147,6 +147,8 @@ echo "# - developer"
 [ ! -x "$(which godot)" ] && ${sudo} pacman -S --noconfirm godot
 [ ! -x "$(which riscv64-linux-gnu-as)" ] && ${sudo} pacman -S --noconfirm risc-v
 [ ! -f "/etc/highlight/filetypes.conf" ] && ${sudo} pacman -S --noconfirm highlight
+[ ! -x "$(which mariadb)" ] && ${sudo} pacman -S --noconfirm mariadb && mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+[ -x "$(which mariadb)" ] && ${sudo} systemctl enable mariadb
 
 # : - virtual
 echo "# - virtual"
@@ -197,6 +199,7 @@ echo "# - yay"
 [ ! -x "$(which code)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm visual-studio-code-bin"
 [ ! -x "$(which swift)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm swift-bin"
 [ ! -x "$(which aseprite)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm aseprite"
+[ ! -x "$(which aseprite)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm anydesk"
 
 # : - android
 [ ! -x "$(which android-studio)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm android-studio"
