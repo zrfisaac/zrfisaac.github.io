@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.archlinux : 0.0.10
+# - version : zrfisaac.archlinux : 0.0.11
 
 # [ trash ]
 
@@ -207,7 +207,8 @@ echo "# - yay"
 [ ! -x "$(which code)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm visual-studio-code-bin"
 [ ! -x "$(which swift)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm swift-bin"
 [ ! -x "$(which aseprite)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm aseprite"
-[ ! -x "$(which aseprite)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm anydesk"
+[ ! -x "$(which anydesk)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm anydesk"
+[ ! -x "$(which godot3-bin)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm godot3-bin"
 
 # : - android
 [ ! -x "$(which android-studio)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm android-studio"
@@ -215,6 +216,9 @@ echo "# - yay"
 [ ! -d "/opt/android-sdk/build-tools" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm android-sdk-build-tools"
 [ ! -d "/opt/android-sdk/platform-tools" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm android-sdk-platform-tools"
 [ ! -d "/opt/android-sdk/platforms" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm android-platform"
+[ ! -d "/etc/java17-openjdk" ] && ${sudo} pacman -S --noconfirm jdk17-openjdk
+[ ! -d "/etc/java17-openjdk" ] && ${sudo} pacman -S --noconfirm jdk21-openjdk
+[ ! -x "$(which gradle)" ] && ${sudo} pacman -S --noconfirm gradle
 
 # : - python
 [ ! -d "/usr/lib/python3.13/site-packages/ollama" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm python-ollama"
