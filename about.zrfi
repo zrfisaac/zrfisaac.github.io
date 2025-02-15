@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac : 0.0.9
+# - version : zrfisaac : 0.0.10
 
 # [ list ]
 
@@ -18,13 +18,13 @@
 # . - : https://github.com/zrfisaac/debug.git
 
 # - : docker
-# . - : https://github.com/zrfisaac/zrfisaac.docker.git
+# . - : https://github.com/zrfisaac/docker.git
 
 # - : document
 # . - : https://github.com/zrfisaac/document.git
 
 # - : fork
-# . - : https://github.com/zrfisaac/zrfisaac.fork.git
+# . - : https://github.com/zrfisaac/fork.git
 
 # - : game
 # . - : https://github.com/zrfisaac/game.git
@@ -42,7 +42,7 @@
 # . - : https://github.com/zrfisaac/macos.git
 
 # - : mvp
-# . - : https://github.com/zrfisaac/zrfisaac.mvp.git
+# . - : https://github.com/zrfisaac/mvp.git
 
 # - : novnc
 # . - : https://github.com/novnc/noVNC.git
@@ -51,7 +51,7 @@
 # . - : https://github.com/novnc/websockify.git
 
 # - : personal
-# . - : https://github.com/zrfisaac/zrfisaac.personal.git
+# . - : https://github.com/zrfisaac/personal.git
 
 # - : wallpaper
 # . - : https://github.com/zrfisaac/wallpaper.git
