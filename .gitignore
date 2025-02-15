@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 0.0.15
+# - version : zrfisaac.gitignore : 0.0.16
 
 # [ gitignore ]
 
@@ -80,6 +80,7 @@ resource
 repository
 research
 server
+source
 trash
 video
 wallpaper
