@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.archlinux : 0.0.9
+# - version : zrfisaac.archlinux : 0.0.10
 
 # [ trash ]
 
@@ -149,6 +149,14 @@ echo "# - developer"
 [ ! -f "/etc/highlight/filetypes.conf" ] && ${sudo} pacman -S --noconfirm highlight
 [ ! -x "$(which mariadb)" ] && ${sudo} pacman -S --noconfirm mariadb && mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 [ -x "$(which mariadb)" ] && ${sudo} systemctl enable mariadb
+
+# : - remote
+echo "# - remote"
+[ ! -x "$(which remmina)" ] && ${sudo} pacman -S --noconfirm remmina
+[ ! -f "/usr/lib/libvncclient.so" ] && ${sudo} pacman -S --noconfirm libvncserver
+[ ! -x "$(which xfreerdp3)" ] && ${sudo} pacman -S --noconfirm freerdp
+[ ! -x "$(which rdesktop)" ] && ${sudo} pacman -S --noconfirm rdesktop
+[ ! -x "$(which ssh)" ] && ${sudo} pacman -S --noconfirm openssh
 
 # : - virtual
 echo "# - virtual"
