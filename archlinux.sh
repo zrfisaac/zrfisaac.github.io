@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.archlinux : 0.0.11
+# - version : zrfisaac.archlinux : 0.0.12
 
 # [ trash ]
 
@@ -147,6 +147,7 @@ echo "# - developer"
 [ ! -x "$(which godot)" ] && ${sudo} pacman -S --noconfirm godot
 [ ! -x "$(which riscv64-linux-gnu-as)" ] && ${sudo} pacman -S --noconfirm risc-v
 [ ! -f "/etc/highlight/filetypes.conf" ] && ${sudo} pacman -S --noconfirm highlight
+[ ! -x "$(which go)" ] && ${sudo} pacman -S --noconfirm go
 [ ! -x "$(which mariadb)" ] && ${sudo} pacman -S --noconfirm mariadb && mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 [ -x "$(which mariadb)" ] && ${sudo} systemctl enable mariadb
 
