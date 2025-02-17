@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 0.0.17
+# - version : zrfisaac.gitignore : 0.0.18
 
 # [ gitignore ]
 
@@ -69,6 +69,8 @@ integrator
 library
 linux
 macos
+mount
+movie
 music
 mvp
 novnc
@@ -80,6 +82,7 @@ public
 resource
 repository
 research
+rom
 server
 source
 trash
