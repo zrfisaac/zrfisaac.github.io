@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.archlinux : 0.0.13
+# - version : zrfisaac.archlinux : 0.0.14
 
 # [ trash ]
 
@@ -319,6 +319,12 @@ then
 	${sudo} chown -R zrfisaac:zrfisaac /zrfisaac
 	${sudo} usermod -a -G docker zrfisaac
 fi
+
+# : - date
+echo "# - date"
+${sudo} systemctl enable --now systemd-timesyncd
+${sudo} timedatectl set-local-rtc 0 --adjust-system-clock
+${sudo} timedatectl set-timezone UTC
 
 # : - swap
 echo "# - swap"
