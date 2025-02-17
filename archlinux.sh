@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.archlinux : 0.0.12
+# - version : zrfisaac.archlinux : 0.0.13
 
 # [ trash ]
 
@@ -120,6 +120,7 @@ echo "# - web"
 [ ! -x "$(which qbittorrent)" ] && ${sudo} pacman -S --noconfirm qbittorrent
 [ ! -x "$(which filezilla)" ] && ${sudo} pacman -S --noconfirm filezilla
 [ ! -x "$(which discord)" ] && ${sudo} pacman -S --noconfirm discord
+[ ! -x "$(which uget)" ] && ${sudo} pacman -S --noconfirm uget
 
 # : - office
 echo "# - office"
@@ -156,8 +157,16 @@ echo "# - remote"
 [ ! -x "$(which remmina)" ] && ${sudo} pacman -S --noconfirm remmina
 [ ! -f "/usr/lib/libvncclient.so" ] && ${sudo} pacman -S --noconfirm libvncserver
 [ ! -x "$(which xfreerdp3)" ] && ${sudo} pacman -S --noconfirm freerdp
-[ ! -x "$(which rdesktop)" ] && ${sudo} pacman -S --noconfirm rdesktop
+[ ! -x "$(which rdesktop)" ] && ${sudo} pacman -S --noconfdirm rdesktop
 [ ! -x "$(which ssh)" ] && ${sudo} pacman -S --noconfirm openssh
+
+# : - game
+echo "# - game"
+[ ! -x "$(which snes9x)" ] && ${sudo} pacman -S --noconfirm snes9x
+[ ! -x "$(which snes9x-gtk)" ] && ${sudo} pacman -S --noconfirm snes9x-gtk
+[ ! -x "$(which desmume)" ] && ${sudo} pacman -S --noconfirm desmume
+[ ! -x "$(which dolphin-emu)" ] && ${sudo} pacman -S --noconfirm dolphin-emu
+[ ! -x "$(which mgba-qt)" ] && ${sudo} pacman -S --noconfirm mgba-qt
 
 # : - virtual
 echo "# - virtual"
