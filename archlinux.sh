@@ -5,7 +5,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.archlinux : 0.0.14
+# - version : zrfisaac.archlinux : 0.0.15
 
 # [ trash ]
 
@@ -120,7 +120,7 @@ echo "# - web"
 [ ! -x "$(which qbittorrent)" ] && ${sudo} pacman -S --noconfirm qbittorrent
 [ ! -x "$(which filezilla)" ] && ${sudo} pacman -S --noconfirm filezilla
 [ ! -x "$(which discord)" ] && ${sudo} pacman -S --noconfirm discord
-[ ! -x "$(which uget)" ] && ${sudo} pacman -S --noconfirm uget
+[ ! -x "$(which uget-gtk)" ] && ${sudo} pacman -S --noconfirm uget
 
 # : - office
 echo "# - office"
@@ -149,6 +149,7 @@ echo "# - developer"
 [ ! -x "$(which riscv64-linux-gnu-as)" ] && ${sudo} pacman -S --noconfirm risc-v
 [ ! -f "/etc/highlight/filetypes.conf" ] && ${sudo} pacman -S --noconfirm highlight
 [ ! -x "$(which go)" ] && ${sudo} pacman -S --noconfirm go
+[ ! -x "$(which lazarus)" ] && ${sudo} pacman -S --noconfirm lazarus-qt6
 [ ! -x "$(which mariadb)" ] && ${sudo} pacman -S --noconfirm mariadb && mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 [ -x "$(which mariadb)" ] && ${sudo} systemctl enable mariadb
 
@@ -219,15 +220,19 @@ echo "# - yay"
 [ ! -x "$(which aseprite)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm aseprite"
 [ ! -x "$(which anydesk)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm anydesk"
 [ ! -x "$(which godot3-bin)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm godot3-bin"
+[ ! -x "$(which eclipse)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm eclipse-jee-bin"
 
 # : - android
+echo "# - android"
 [ ! -x "$(which android-studio)" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm android-studio"
 [ ! -d "/opt/android-sdk/cmdline-tools" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm android-sdk-cmdline-tools-latest"
 [ ! -d "/opt/android-sdk/build-tools" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm android-sdk-build-tools"
 [ ! -d "/opt/android-sdk/platform-tools" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm android-sdk-platform-tools"
 [ ! -d "/opt/android-sdk/platforms" ] && ${sudo} su - zrfisaac -c "yay -S --noconfirm android-platform"
+[ ! -d "/etc/java-openjdk" ] && ${sudo} pacman -S --noconfirm jdk-openjdk
+[ ! -d "/etc/java-8-openjdk" ] && ${sudo} pacman -S --noconfirm jdk8-openjdk
 [ ! -d "/etc/java17-openjdk" ] && ${sudo} pacman -S --noconfirm jdk17-openjdk
-[ ! -d "/etc/java17-openjdk" ] && ${sudo} pacman -S --noconfirm jdk21-openjdk
+[ ! -d "/etc/java21-openjdk" ] && ${sudo} pacman -S --noconfirm jdk21-openjdk
 [ ! -x "$(which gradle)" ] && ${sudo} pacman -S --noconfirm gradle
 
 # : - python
