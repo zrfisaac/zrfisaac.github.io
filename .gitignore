@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 0.0.18
+# - version : zrfisaac.gitignore : 0.0.19
 
 # [ gitignore ]
 
@@ -90,3 +90,4 @@ video
 wallpaper
 wiki.*
 windows
+work
