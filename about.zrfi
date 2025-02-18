@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac : 0.0.11
+# - version : zrfisaac : 0.0.12
 
 # [ list ]
 
@@ -49,6 +49,9 @@
 
 # - : novnc/utils/websockify
 # . - : https://github.com/novnc/websockify.git
+
+# - : open
+# . - : https://github.com/zrfisaac/open.git
 
 # - : personal
 # . - : https://github.com/zrfisaac/personal.git
