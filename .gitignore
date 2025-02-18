@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 0.0.19
+# - version : zrfisaac.gitignore : 0.0.20
 
 # [ gitignore ]
 
@@ -74,6 +74,7 @@ movie
 music
 mvp
 novnc
+open
 personal
 picture
 playground
@@ -91,3 +92,12 @@ wallpaper
 wiki.*
 windows
 work
+
+System Volume Information/
+autorun.inf
+boot/
+bootmgr
+bootmgr.efi
+efi/
+sources/
+support/
