@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 0.0.22
+# - version : zrfisaac.gitignore : 0.0.23
 
 # [ gitignore ]
 
@@ -80,6 +80,7 @@ personal
 picture
 playground
 profile
+project
 public
 resource
 repository
