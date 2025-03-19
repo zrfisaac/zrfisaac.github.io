@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 0.0.25
+# - version : zrfisaac.gitignore : 0.0.26
 
 # [ gitignore ]
 
@@ -76,6 +76,7 @@ music
 mvp
 narberal
 novnc
+old
 open
 personal
 picture
