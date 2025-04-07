@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 0.0.26
+# - version : zrfisaac.gitignore : 0.0.27
 
 # [ gitignore ]
 
@@ -70,6 +70,7 @@ integrator
 library
 linux
 macos
+memory
 mount
 movie
 music
