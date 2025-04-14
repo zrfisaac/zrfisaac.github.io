@@ -7,6 +7,7 @@
 -- # - version : zrfisaac.mssql.list.column : 0.0.1
 
 -- # [ mssql ]
+DECLARE @SEARCH VARCHAR(64) = ''
 SELECT
 	 [DATABASE]
 	,[TABLE]
@@ -95,6 +96,11 @@ FROM
 			AND AL_TABLE.TABLE_TYPE = N'BASE TABLE'
 			AND AL_TABLE.TABLE_CATALOG = DB_NAME()
 			AND AL_TABLE.TABLE_SCHEMA = SCHEMA_NAME()
+			AND (
+				AL_TABLE.TABLE_NAME LIKE '%' + ISNULL(@SEARCH,'') + '%'
+				OR
+				AL_COLUMN.COLUMN_NAME LIKE '%' + ISNULL(@SEARCH,'') + '%'
+			)
 	) AS AL_RESULT
 ORDER BY
 	 [DATABASE]		ASC

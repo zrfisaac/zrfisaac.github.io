@@ -71,6 +71,7 @@ library
 linux
 macos
 memory
+model
 mount
 movie
 music
@@ -94,6 +95,7 @@ source
 steam
 trash
 video
+void
 wallpaper
 wiki.*
 windows
