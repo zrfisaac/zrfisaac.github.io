@@ -4,66 +4,9 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac : 0.0.19
+# - version : zrfisaac : 3.2.0
 
 # [ list ]
-
-# - : binary
-# . - : https://github.com/zrfisaac/binary.git
-
-# - : config
-# . - : https://github.com/zrfisaac/config.git
-
-# - : debug
-# . - : https://github.com/zrfisaac/debug.git
-
-# - : docker
-# . - : https://github.com/zrfisaac/docker.git
-
-# - : document
-# . - : https://github.com/zrfisaac/document.git
-
-# - : fork
-# . - : https://github.com/zrfisaac/fork.git
-
-# - : game
-# . - : https://github.com/zrfisaac/game.git
-
-# - : github
-# . - : https://github.com/zrfisaac/zrfisaac.git
-
-# - : install
-# . - : https://github.com/zrfisaac/install.git
-
-# - : library
-# . - : https://github.com/zrfisaac/library.git
-
-# - : linux
-# . - : https://github.com/zrfisaac/linux.git
-
-# - : macos
-# . - : https://github.com/zrfisaac/macos.git
-
-# - : mvp
-# . - : https://github.com/zrfisaac/mvp.git
-
-# - : novnc
-# . - : https://github.com/novnc/noVNC.git
-
-# - : novnc/utils/websockify
-# . - : https://github.com/novnc/websockify.git
-
-# - : open
-# . - : https://github.com/zrfisaac/open.git
-
-# - : personal
-# . - : https://github.com/zrfisaac/personal.git
-
-# - : profile
-# . - : https://github.com/zrfisaac/profile.git
-
-# - : project
-# . - : https://github.com/zrfisaac/project.git
 
 # - : wallpaper
 # . - : https://github.com/zrfisaac/wallpaper.git
@@ -76,6 +19,3 @@
 
 # - : wiki.pt
 # . - : https://github.com/zrfisaac/wiki.pt.git
-
-# - : windows
-# . - : https://github.com/zrfisaac/windows.git
