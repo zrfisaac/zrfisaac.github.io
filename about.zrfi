@@ -4,12 +4,15 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac : 3.2.3
+# - version : zrfisaac : 3.2.4
 
 # [ list ]
 
 # - : game
 # . - : https://github.com/zrfisaac/game.git
+
+# - : library
+# . - : https://github.com/zrfisaac/library.git
 
 # - : mvp
 # . - : https://github.com/zrfisaac/mvp.git
