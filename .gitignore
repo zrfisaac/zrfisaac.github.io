@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 0.0.27
+# - version : zrfisaac.gitignore : 3.2.1
 
 # [ gitignore ]
 
@@ -55,6 +55,7 @@ asset
 binary
 bitbucket
 config
+crack
 data
 debug
 default
@@ -83,6 +84,7 @@ open
 personal
 picture
 playground
+private
 profile
 project
 public
