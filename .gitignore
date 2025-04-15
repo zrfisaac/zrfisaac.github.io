@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 3.2.1
+# - version : zrfisaac.gitignore : 3.2.2
 
 # [ gitignore ]
 
@@ -71,6 +71,7 @@ integrator
 library
 linux
 macos
+mobile
 memory
 model
 mount
@@ -91,6 +92,7 @@ public
 resource
 repository
 research
+resume
 rom
 server
 source

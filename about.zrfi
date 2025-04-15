@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac : 3.2.1
+# - version : zrfisaac : 3.2.2
 
 # [ list ]
 
@@ -13,6 +13,18 @@
 
 # - : mvp
 # . - : https://github.com/zrfisaac/mvp.git
+
+# - : mobile
+# . - : https://github.com/zrfisaac/mobile.git
+
+# - : product
+# . - : https://github.com/zrfisaac/product.git
+
+# - : project
+# . - : https://github.com/zrfisaac/project.git
+
+# - : resume
+# . - : https://github.com/zrfisaac/resume.git
 
 # - : wallpaper
 # . - : https://github.com/zrfisaac/wallpaper.git
