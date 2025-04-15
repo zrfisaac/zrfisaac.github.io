@@ -4,7 +4,7 @@
 # - author : Isaac Caires
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 3.2.3
+# - version : zrfisaac.gitignore : 3.2.5
 
 # [ gitignore ]
 
@@ -50,62 +50,62 @@ _*
 *.zip
 
 # : - folder
-albedo
-asset
-binary
-bitbucket
-config
-crack
-data
-debug
-default
-docker
-document
-download
-fork
-game
-github
-gitlab
-install
-integrator
-library
-linux
-macos
-mobile
-memory
-model
-mount
-movie
-music
-mvp
-narberal
-novnc
-old
-open
-personal
-picture
-playground
-private
-product
-profile
-project
-public
-resource
-repository
-research
-resume
-rom
-server
-source
-steam
-trash
-video
-void
-wallpaper
-wiki.*
-windows
-work
-zero
+/albedo
+/asset
+/binary
+/bitbucket
+/config
+/crack
+/data
+/debug
+/default
+/docker
+/document
+/download
+/fork
+/game
+/github
+/gitlab
+/install
+/integrator
+/library
+/linux
+/macos
+/mobile
+/memory
+/model
+/mount
+/movie
+/music
+/mvp
+/narberal
+/novnc
+/old
+/open
+/personal
+/picture
+/playground
+/private
+/product
+/profile
+/project
+/public
+/resource
+/repository
+/research
+/resume
+/rom
+/server
+/source
+/steam
+/trash
+/video
+/void
+/wallpaper
+/wiki.*
+/windows
+/work
+/zero
 
 System Volume Information/
 autorun.inf
