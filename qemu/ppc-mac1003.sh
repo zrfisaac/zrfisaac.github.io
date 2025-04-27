@@ -2,7 +2,7 @@
 # [ zrfisaac ]
 
 # [ about ]
-# - author : Isaac Caires
+# - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
 # version : zrfisaac.qemu.ppc.mac1003 : 0.0.1

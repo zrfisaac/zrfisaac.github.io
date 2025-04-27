@@ -2,7 +2,7 @@
 # [ zrfisaac ]
 
 # [ about ]
-# - author : Isaac Caires
+# - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
 # - version : zrfisaac.python.mssql.basic : 3.2.8

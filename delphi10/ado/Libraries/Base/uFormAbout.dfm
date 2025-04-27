@@ -61,7 +61,7 @@ object FormAbout: TFormAbout
         Height = 32
         Alignment = taCenter
         AutoSize = False
-        Caption = 'Isaac Caires'
+        Caption = 'Isaac Caires Santana'
         Font.Charset = ANSI_CHARSET
         Font.Color = clWhite
         Font.Height = -24
@@ -139,7 +139,7 @@ object FormAbout: TFormAbout
         Font.Name = 'Segoe UI'
         Font.Style = []
         Lines.Strings = (
-          'Hello! My name is Isaac Caires, and I'#39'm a passionate '
+          'Hello! My name is Isaac Caires Santana, and I'#39'm a passionate '
           'software developer '
           'with over 15 years of experience in full-stack '
           'development and hospital '

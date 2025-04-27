@@ -2,7 +2,7 @@
 # [ zrfisaac ]
 
 # [ about ]
-# - author : Isaac Caires
+# - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
 # - version : zrfisaac.archlinux : 0.0.15

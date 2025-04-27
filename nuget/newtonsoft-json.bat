@@ -3,7 +3,7 @@ setlocal enabledelayedexpansion
 rem # [ zrfisaac ]
 
 rem # [ about ]
-rem # - author : Isaac Caires
+rem # - author : Isaac Caires Santana
 rem # . - email : zrfisaac@gmail.com
 rem # . - site : zrfisaac.github.io
 rem # - version : zrfisaac.nuget.newtonsoft.json : 0.0.1

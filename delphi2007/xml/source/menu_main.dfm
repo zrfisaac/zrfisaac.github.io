@@ -141,7 +141,7 @@ object MenuMain: TMenuMain
               '    <Name>MyApp</Name>'
               '    <Version>1.0.0</Version>'
               '    <Developer>'
-              '        <Name>Isaac Caires</Name>'
+              '        <Name>Isaac Caires Santana</Name>'
               '        <Website>https://zrfisaac.github.io</Website>'
               '        <Contact>zrfisaac@gmail.com</Contact>'
               '    </Developer>'

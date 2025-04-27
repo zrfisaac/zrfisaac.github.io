@@ -67,7 +67,7 @@
         <VerInfo_Release>1</VerInfo_Release>
         <DCC_Namespace>Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;System;Xml;Data;Datasnap;Web;Soap;Winapi;System.Win;$(DCC_Namespace)</DCC_Namespace>
         <VerInfo_Locale>1033</VerInfo_Locale>
-        <VerInfo_Keys>CompanyName=Isaac Caires / zrfisaac.github.io;FileDescription=Isaac Caires / zrfisaac.github.io;FileVersion=0.0.1.0;InternalName=zrfisaac.delphi10.ado;LegalCopyright=Isaac Caires / zrfisaac.github.io;LegalTrademarks=Isaac Caires / zrfisaac.github.io;OriginalFilename=zrfisaac;ProductName=zrfisaac.delphi10.ado;ProductVersion=0.0.1.0;Comments=Isaac Caires / zrfisaac.github.io</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=Isaac Caires Santana / zrfisaac.github.io;FileDescription=Isaac Caires Santana / zrfisaac.github.io;FileVersion=0.0.1.0;InternalName=zrfisaac.delphi10.ado;LegalCopyright=Isaac Caires Santana / zrfisaac.github.io;LegalTrademarks=Isaac Caires Santana / zrfisaac.github.io;OriginalFilename=zrfisaac;ProductName=zrfisaac.delphi10.ado;ProductVersion=0.0.1.0;Comments=Isaac Caires Santana / zrfisaac.github.io</VerInfo_Keys>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
         <SanitizedProjectName>zrfisaac</SanitizedProjectName>
     </PropertyGroup>
@@ -189,16 +189,16 @@
                     <VersionInfo Name="CodePage">1252</VersionInfo>
                 </VersionInfo>
                 <VersionInfoKeys>
-                    <VersionInfoKeys Name="CompanyName">Isaac Caires / zrfisaac.github.io</VersionInfoKeys>
-                    <VersionInfoKeys Name="FileDescription">Isaac Caires / zrfisaac.github.io</VersionInfoKeys>
+                    <VersionInfoKeys Name="CompanyName">Isaac Caires Santana / zrfisaac.github.io</VersionInfoKeys>
+                    <VersionInfoKeys Name="FileDescription">Isaac Caires Santana / zrfisaac.github.io</VersionInfoKeys>
                     <VersionInfoKeys Name="FileVersion">0.0.1.0</VersionInfoKeys>
                     <VersionInfoKeys Name="InternalName">zrfisaac.delphi2007.base</VersionInfoKeys>
-                    <VersionInfoKeys Name="LegalCopyright">Isaac Caires / zrfisaac.github.io</VersionInfoKeys>
-                    <VersionInfoKeys Name="LegalTrademarks">Isaac Caires / zrfisaac.github.io</VersionInfoKeys>
+                    <VersionInfoKeys Name="LegalCopyright">Isaac Caires Santana / zrfisaac.github.io</VersionInfoKeys>
+                    <VersionInfoKeys Name="LegalTrademarks">Isaac Caires Santana / zrfisaac.github.io</VersionInfoKeys>
                     <VersionInfoKeys Name="OriginalFilename">zrfisaac</VersionInfoKeys>
                     <VersionInfoKeys Name="ProductName">zrfisaac.delphi2007.base</VersionInfoKeys>
                     <VersionInfoKeys Name="ProductVersion">0.0.1.0</VersionInfoKeys>
-                    <VersionInfoKeys Name="Comments">Isaac Caires / zrfisaac.github.io</VersionInfoKeys>
+                    <VersionInfoKeys Name="Comments">Isaac Caires Santana / zrfisaac.github.io</VersionInfoKeys>
                 </VersionInfoKeys>
                 <Source>
                     <Source Name="MainSource">zrfisaac.dpr</Source>

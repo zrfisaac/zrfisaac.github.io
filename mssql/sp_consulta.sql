@@ -1,7 +1,7 @@
 -- # [ zrfisaac ]
 
 -- # [ about ]
--- # - author : Isaac Caires
+-- # - author : Isaac Caires Santana
 -- # . - email : zrfisaac@gmail.com
 -- # . - site : zrfisaac.github.io
 -- # - version : zrfisaac.mssql.sp.consulta : 0.0.1
