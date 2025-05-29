@@ -16,7 +16,7 @@ const fs = require('fs');
 const path = require('path');
 const srcDir = './src';
 const translationsFile = './translations.json';
-const languages = ['en', 'es', 'pt'];
+const languages = ['en', 'es', 'it', 'ja', 'pt', 'zh'];
 const translations = JSON.parse(fs.readFileSync(translationsFile, 'utf8'));
 
 // # - main

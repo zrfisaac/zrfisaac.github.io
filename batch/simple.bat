@@ -6,7 +6,7 @@ rem # [ about ]
 rem # - author : Isaac Caires Santana
 rem # . - email : zrfisaac@gmail.com
 rem # . - site : zrfisaac.github.io
-rem # version : zrfisaac.batch.delphi7 : 0.0.1
+rem # version : zrfisaac.batch.simple : 0.0.1
 
 rem # [ batch ]
 
@@ -21,11 +21,6 @@ set v_info_local_config=!v_info_local_path!\config.bat
 set v_info_local_extension=%~x0
 set v_info_local_extension=!v_info_local_extension:~1!
 set v_info_local_name=%~n0
-
-rem # - config
-set c_delphi7_local=!v_info_local_path!
-set c_delphi7_shell_01=C:\Program Files\Borland\Delphi7\Bin\DCC32.exe
-set c_delphi7_shell_02=C:\Program Files (x86)\Borland\Delphi7\Bin\DCC32.exe
 
 rem # - config
 if "!v_info_error!" equ "0" (
@@ -53,21 +48,10 @@ if "!v_info_error!" equ "0" (
 	echo.
 )
 
-rem # - routine
+rem # - main
 if "!v_info_error!" equ "0" (
 	rem # : - title
-	echo [ routine ]
-
-	rem # : - variable
-	set _v_delphi7_shell=
-	if "!v_info_error!" equ "0" (
-		set _v_delphi7_shell=
-		if exist "!c_delphi7_shell_01!" (
-			set _v_delphi7_shell=!c_delphi7_shell_01!
-		) else if exist "!c_delphi7_shell_02!" (
-			set _v_delphi7_shell=!c_delphi7_shell_02!
-		)
-	)
+	echo [ main ]
 
 	rem # : - routine
 	if "!v_info_error!" equ "0" (
@@ -75,12 +59,6 @@ if "!v_info_error!" equ "0" (
 		echo - routine
 
 		rem # : - routine
-		cd "!c_delphi7_local!"
-		for /r %%z in (*.dpr) do (
-			echo . - : %%z
-			call  "!_v_delphi7_shell!" -Q -B "%%z"
-		)
-		cd "!v_info_local_path!"
 	)
 
 	rem # : - end

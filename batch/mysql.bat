@@ -1,14 +1,12 @@
 @echo off
 setlocal enabledelayedexpansion
-REM [ zrfisaac ]
+rem # [ zrfisaac ]
 
-REM [ about ]
-REM - author : Isaac Caires Santana
-REM . - email : zrfisaac@gmail.com
-REM . - site : zrfisaac.github.io
-REM version : zrfisaac.batch.mysql : 0.0.1
-
-REM [ batch ]
+rem # [ about ]
+rem # - author : Isaac Caires Santana
+rem # . - email : zrfisaac@gmail.com
+rem # . - site : zrfisaac.github.io
+rem # version : zrfisaac.batch.mysql : 0.0.1
 
 rem # [ batch ]
 

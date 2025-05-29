@@ -6,10 +6,13 @@ rem # [ about ]
 rem # - author : Isaac Caires Santana
 rem # . - email : zrfisaac@gmail.com
 rem # . - site : zrfisaac.github.io
-rem # version : zrfisaac.batch.reg.write : 0.0.1
+rem # version : zrfisaac.batch.rar : 0.0.1
 
 rem # [ batch ]
-reg add "HKEY_CURRENT_USER\ZRFISAAC" /v Site /t REG_SZ /d "https://zrfisaac.github.io" /f
-echo [ end ]
-set /p _end=
-echo.
+set shell=
+if not exist "%shell%" set "shell=C:\Program Files\7-Zip\7z.exe"
+for %%z in (*.rar;*.zip) do (
+	echo %shell%
+	call "%shell%" x "%cd%\%%z"
+)
+pause

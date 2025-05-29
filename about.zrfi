@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac : 3.2.11
+# - version : zrfisaac : 3.2.12
 
 # [ list ]
 
@@ -20,6 +20,27 @@
 # - : mvp
 # . - : https://github.com/zrfisaac/mvp.git
 
+# - : mvp/AchieveIt
+# . - : https://github.com/zrfisaac/AchieveIt.git
+
+# - : mvp/GoSales
+# . - : https://github.com/zrfisaac/GoSales.git
+
+# - : mvp/HomeChef
+# . - : https://github.com/zrfisaac/HomeChef.git
+
+# - : mvp/MyBalance
+# . - : https://github.com/zrfisaac/MyBalance.git
+
+# - : mvp/QuickOrder
+# . - : https://github.com/zrfisaac/QuickOrder.git
+
+# - : mvp/RoutePlan
+# . - : https://github.com/zrfisaac/RoutePlan.git
+
+# - : mvp/StockGuard
+# . - : https://github.com/zrfisaac/StockGuard.git
+
 # - : mobile
 # . - : https://github.com/zrfisaac/mobile.git
 
@@ -31,6 +52,51 @@
 
 # - : project
 # . - : https://github.com/zrfisaac/project.git
+
+# - : project
+# . - : https://github.com/zrfisaac/project.git
+
+# - : project/BDE
+# . - : https://github.com/zrfisaac/BDE.git
+
+# - : project/ClipDock
+# . - : https://github.com/zrfisaac/ClipDock.git
+
+# - : project/curl
+# . - : https://github.com/zrfisaac/curl.git
+
+# - : project/Donfig
+# . - : https://github.com/zrfisaac/Donfig.git
+
+# - : project/Explorer4Delphi
+# . - : https://github.com/zrfisaac/Explorer4Delphi.git
+
+# - : project/Godot
+# . - : https://github.com/zrfisaac/Godot.git
+
+# - : project/Godot3
+# . - : https://github.com/zrfisaac/Godot3.git
+
+# - : project/Godot4
+# . - : https://github.com/zrfisaac/Godot4.git
+
+# - : project/Guara
+# . - : https://github.com/zrfisaac/Guara.git
+
+# - : project/Theme4Delphi
+# . - : https://github.com/zrfisaac/Theme4Delphi.git
+
+# - : project/TintTool
+# . - : https://github.com/zrfisaac/TintTool.git
+
+# - : project/Tray4Delphi
+# . - : https://github.com/zrfisaac/Tray4Delphi.git
+
+# - : project/ZRLib
+# . - : https://github.com/zrfisaac/ZRLib.git
+
+# - : project/XPlorer93
+# . - : https://github.com/zrfisaac/XPlorer93.git
 
 # - : resume
 # . - : https://github.com/zrfisaac/resume.git
@@ -44,5 +110,14 @@
 # - : wiki.es
 # . - : https://github.com/zrfisaac/wiki.es.git
 
+# - : wiki.it
+# . - : https://github.com/zrfisaac/wiki.it.git
+
+# - : wiki.ja
+# . - : https://github.com/zrfisaac/wiki.ja.git
+
 # - : wiki.pt
 # . - : https://github.com/zrfisaac/wiki.pt.git
+
+# - : wiki.zh
+# . - : https://github.com/zrfisaac/wiki.zh.git
