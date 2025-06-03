@@ -13,7 +13,7 @@
 	process = git-lfs filter-process
 	required = true
 [user]
-	name = Isaac Caires
+	name = Isaac Caires Santana
 	email = zrfisaac@gmail.com
 [credential "https://github.com"]
 	helper = 
