@@ -5,7 +5,7 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.manjaro.zrfisaac : 1.0.0
+# - version : zrfisaac.manjaro.zrfisaac : 1.0.1
 
 # [ bash ]
 
@@ -61,12 +61,36 @@ then
 	echo ""
 fi
 
-# - geany
-if ! command -v geany >/dev/null 2>&1
+# - zip
+if ! command -v unrar >/dev/null 2>&1
 then
-	echo "# - geany"
-	${sudo} pacman -S --noconfirm geany
-	yay -S --noconfirm geany-themes
+	echo "# - zip"
+	${sudo} pacman -S --noconfirm zip
+	${sudo} pacman -S --noconfirm unzip
+	${sudo} pacman -S --noconfirm 7zip
+	${sudo} pacman -S --noconfirm unrar
+	echo ""
+fi
+
+# - download
+if ! command -v yt-dlp >/dev/null 2>&1
+then
+	echo "# - download"
+	${sudo} pacman -S --noconfirm qbittorrent
+	${sudo} pacman -S --noconfirm python
+	${sudo} pacman -S --noconfirm ffmpeg
+	${sudo} pacman -S --noconfirm yt-dlp
+	${sudo} pacman -S --noconfirm uget
+	echo ""
+fi
+
+# - openssh
+if ! command -v sshd >/dev/null 2>&1
+then
+	echo "# - openssh"
+	${sudo} pacman -S --noconfirm openssh
+	${sudo} systemctl enable sshd
+	${sudo} systemctl start sshd
 	echo ""
 fi
 
@@ -79,7 +103,7 @@ then
 fi
 
 # - python
-if ! command -v vscode >/dev/null 2>&1
+if ! command -v python >/dev/null 2>&1
 then
 	echo "# - python"
 	${sudo} pacman -S --noconfirm python
@@ -125,6 +149,13 @@ then
 	${sudo} pacman -S --noconfirm virtualbox-guest-utils
 	${sudo} usermod -a -G vboxusers ${user}
 	${sudo} usermod -a -G vboxsf ${user}
+	echo ""
+fi
+
+# - retroarch
+if ! command -v retroarch >/dev/null 2>&1
+then
+	echo "# - retroarch"
 	echo ""
 fi
 
