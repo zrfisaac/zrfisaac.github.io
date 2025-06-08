@@ -6,7 +6,7 @@ rem # [ about ]
 rem # - author : Isaac Caires Santana
 rem # . - email : zrfisaac@gmail.com
 rem # . - site : zrfisaac.github.io
-rem # version : zrfisaac.batch.mssql : 25.6.7.1
+rem # version : zrfisaac.batch.mssql.script : 25.6.7.1
 
 rem # [ batch ]
 

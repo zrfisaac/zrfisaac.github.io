@@ -6,7 +6,7 @@ rem # [ about ]
 rem # - author : Isaac Caires Santana
 rem # . - email : zrfisaac@gmail.com
 rem # . - site : zrfisaac.github.io
-rem # version : zrfisaac.batch.mssql : 25.6.7.1
+rem # version : zrfisaac.batch.mssql.restore : 25.6.7.1
 
 rem # [ batch ]
 
@@ -68,21 +68,6 @@ if "!v_info_error!" equ "0" (
 	rem # : - title
 	echo [ routine ]
 
-	rem # : - database
-	if "!v_info_error!" equ "0" (
-		rem # : - title
-		echo - database
-
-		rem # : - routine
-		set _script=
-		set _script=!_script! IF DB_ID^('P_DATABASE'^) IS NULL CREATE DATABASE [P_DATABASE]
-		for %%a in (!c_mssql_database!) do set "_script=!_script:P_DATABASE=%%a!"
-		call !c_mssql_shell! -S "!c_mssql_server!" -U "!c_mssql_user!" -P "!c_mssql_password!" -Q "!_script!" -r1 > nul
-
-		rem # : - error
-		set v_info_error=!errorlevel!
-	)
-
 	rem # : - script
 	if "!v_info_error!" equ "0" (
 		rem # : - title
@@ -90,9 +75,26 @@ if "!v_info_error!" equ "0" (
 
 		rem # : - routine
 		cd "!c_mssql_local!"
-		for /r %%z in (*.sql) do (
+		for /r %%z in (*.bak) do (
 			echo . - : %%z
-			call "!c_mssql_shell!" -S "!c_mssql_server!" -U "!c_mssql_user!" -P "!c_mssql_password!" -d "!c_mssql_database!" -i "%%z" -r1 > nul
+			set _database=
+			for /f "delims=." %%y in ("%%~pz") do set _database=%%y
+			set _database=!_database:%v_info_local_path%=!
+			set _database=!_database:\=!
+			set _data=%%~nz
+			set _log=%%~nz
+			set _log=!_log:_Data=!_Log
+			set _script=
+			set _script=!_script! IF NOT EXISTS ^(SELECT TOP 1 NULL FROM SYSDATABASES WHERE NAME = '!_database!'^)
+			set _script=!_script! BEGIN
+			set _script=!_script!   RESTORE DATABASE !_database!
+			set _script=!_script!   FROM DISK = N'%%z'
+			set _script=!_script!   WITH REPLACE,
+			set _script=!_script!   MOVE '!_data!' TO '%c_mssql_target%\!_database!.mdf',
+			set _script=!_script!   MOVE '!_log!' TO '%c_mssql_target%\!_database!.ldf'
+			set _script=!_script! END
+			for %%a in (!c_mssql_database!) do set "_script=!_script:P_DATABASE=%%a!"
+			call !c_mssql_shell! -S "!c_mssql_server!" -U "!c_mssql_user!" -P "!c_mssql_password!" -Q "!_script!" -r1 > nul
 		)
 		cd "!v_info_local_path!"
 
