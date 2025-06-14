@@ -20,12 +20,15 @@ uses
   Controls,
   Forms,
   Dialogs,
-  ExtCtrls;
+  ExtCtrls, StdCtrls;
 
 type
   TModelBaseForm = class(TForm)
     pnBack: TPanel;
     pnTitle: TPanel;
+    imIcon: TImage;
+    imVoid: TImage;
+    lbTitle: TLabel;
   end;
 
 var

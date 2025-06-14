@@ -24,9 +24,6 @@ type
     pnFooter02: TPanel;
     pnFooter01: TPanel;
     btClose: TBitBtn;
-    imIcon: TImage;
-    imVoid: TImage;
-    lbTitle: TLabel;
     procedure btCloseClick(Sender: TObject);
   end;
 

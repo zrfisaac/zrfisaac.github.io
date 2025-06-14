@@ -8,30 +8,6 @@ inherited ModelPageForm: TModelPageForm
     inherited pnTitle: TPanel
       Caption = ''
       TabOrder = 2
-      object imIcon: TImage
-        Left = 1
-        Top = 1
-        Width = 32
-        Height = 31
-        Align = alLeft
-        Center = True
-      end
-      object imVoid: TImage
-        Left = 33
-        Top = 1
-        Width = 12
-        Height = 31
-        Align = alLeft
-      end
-      object lbTitle: TLabel
-        Left = 45
-        Top = 1
-        Width = 538
-        Height = 31
-        Align = alClient
-        Caption = 'lbTitle'
-        Layout = tlCenter
-      end
     end
     object pcPage: TPageControl
       Left = 0
