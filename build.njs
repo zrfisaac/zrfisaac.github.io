@@ -4,7 +4,7 @@
 // # - author : Isaac Caires Santana
 // # . - email : zrfisaac@gmail.com
 // # . - site : zrfisaac.github.io
-// # - version : zrfisaac.build : 0.0.1
+// # - version : zrfisaac.build : 25.6.14.1
 
 // # [ node ]
 
