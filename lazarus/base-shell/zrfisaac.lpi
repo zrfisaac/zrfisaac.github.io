@@ -24,7 +24,7 @@
       <StringTable CompanyName="Isaac Caires Santana / zrfisaac.github.io" InternalName="zrfisaac.lazarus.base.shell" LegalCopyright="Isaac Caires Santana / zrfisaac.github.io" LegalTrademarks="Isaac Caires Santana / zrfisaac.github.io" OriginalFilename="zrfisaac" ProductName="zrfisaac.lazarus.base.shell" ProductVersion="25.6.14.1"/>
     </VersionInfo>
     <BuildModes>
-      <Item Name="Default" Default="True"/>
+      <Item Name="DEBUG" Default="True"/>
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
@@ -56,15 +56,12 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="zrfisaac"/>
+      <Filename Value="zrfisaac_debug.bin"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
       <OtherUnitFiles Value="..\.."/>
     </SearchPaths>
-    <CodeGeneration>
-      <TargetCPU Value="i386"/>
-    </CodeGeneration>
     <Linking>
       <Debugging>
         <DebugInfoType Value="dsDwarf3"/>

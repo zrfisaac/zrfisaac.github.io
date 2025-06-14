@@ -56,7 +56,7 @@ implementation
 uses
   model_base_form,
   menu_config_form,
-  zrabout,
+  zrabout_lazarus,
   zrlib;
 
 {$R *.lfm}

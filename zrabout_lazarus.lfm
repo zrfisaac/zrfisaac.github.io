@@ -1,25 +1,24 @@
 object ZRAboutForm: TZRAboutForm
   Left = 340
-  Height = 200
+  Height = 160
   Top = 200
-  Width = 320
+  Width = 256
   Caption = 'miAbout'
-  ClientHeight = 200
-  ClientWidth = 320
-  DesignTimePPI = 120
+  ClientHeight = 160
+  ClientWidth = 256
   LCLVersion = '4.0.0.4'
   object pnBack: TPanel
     Left = 0
-    Height = 200
+    Height = 160
     Top = 0
-    Width = 320
+    Width = 256
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 0
   end
   object acAction: TActionList
-    Left = 24
-    Top = 16
+    Left = 19
+    Top = 13
     object acEscape: TAction
       Caption = 'acEscape'
       ShortCut = 27

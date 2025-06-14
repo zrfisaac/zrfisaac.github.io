@@ -3,25 +3,29 @@
   <ProjectSession>
     <PathDelim Value="\"/>
     <Version Value="12"/>
-    <BuildModes Active="Default"/>
+    <BuildModes Active="DEBUG"/>
     <Units>
       <Unit>
         <Filename Value="zrfisaac.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="44"/>
-        <CursorPos X="11" Y="18"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="5"/>
+        <CursorPos Y="18"/>
         <UsageCount Value="20"/>
       </Unit>
       <Unit>
         <Filename Value="..\..\zrlib.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="42" Y="7"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="54"/>
+        <CursorPos X="57" Y="75"/>
         <UsageCount Value="20"/>
-        <Loaded Value="True"/>
       </Unit>
     </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="-1"/>
+    </General>
     <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>

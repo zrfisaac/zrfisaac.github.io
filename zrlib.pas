@@ -12,7 +12,9 @@ unit zrlib;
 interface
 
 uses
+  {$IFDEF WINDOWS}
   Windows,
+  {$ENDIF}
   SysUtils;
 
 type
@@ -28,6 +30,14 @@ function ZRInternalName(AFileName: string = ''): string; overload;
 
 implementation
 
+{$IFDEF LINUX}
+function ZRFileVersion(AFileName: string): string; overload;
+begin
+  Result := '';
+end;
+{$ENDIF}
+
+{$IFDEF WINDOWS}
 function ZRFileVersion(AFileName: string): string; overload;
 var
   InfoSize, Handle: DWORD;
@@ -59,7 +69,16 @@ begin
     end;
   end;
 end;
+{$ENDIF}
 
+{$IFDEF LINUX}
+function ZRInternalName(AFileName: string = ''): string; overload;
+begin
+  Result := '';
+end;
+{$ENDIF}
+
+{$IFDEF WINDOWS}
 function ZRInternalName(AFileName: string = ''): string; overload;
 var
   InfoSize, Handle: DWORD;
@@ -95,6 +114,7 @@ begin
     end;
   end;
 end;
+{$ENDIF}
 
 end.
 

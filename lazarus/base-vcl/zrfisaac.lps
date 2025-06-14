@@ -20,8 +20,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="60"/>
-        <CursorPos X="36" Y="113"/>
+        <TopLine Value="44"/>
+        <CursorPos Y="59"/>
         <UsageCount Value="20"/>
       </Unit>
       <Unit>
@@ -41,11 +41,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="12"/>
-        <CursorPos X="14" Y="17"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="11" Y="17"/>
         <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="source\menu_config_form.pas"/>
@@ -59,25 +58,26 @@
       </Unit>
       <Unit>
         <Filename Value="..\..\zrabout_lazarus.pas"/>
+        <IsPartOfProject Value="True"/>
         <ComponentName Value="ZRAboutForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="39"/>
-        <CursorPos X="40" Y="42"/>
+        <CursorPos X="21" Y="9"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\zrlib.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
         <UsageCount Value="20"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="1">
-      <Position>
-        <Filename Value="source\model_page_form.pas"/>
-        <Caret Line="21" Column="9"/>
-      </Position>
-      <Position>
-        <Filename Value="source\model_page_form.pas"/>
-        <Caret Line="22" Column="3"/>
-      </Position>
-    </JumpHistory>
+    <General>
+      <ActiveWindowIndexAtStart Value="-1"/>
+    </General>
+    <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>
