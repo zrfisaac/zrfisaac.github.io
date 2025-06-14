@@ -62,6 +62,9 @@
       <IncludeFiles Value="$(ProjOutDir)"/>
       <OtherUnitFiles Value="..\.."/>
     </SearchPaths>
+    <CodeGeneration>
+      <TargetCPU Value="i386"/>
+    </CodeGeneration>
     <Linking>
       <Debugging>
         <DebugInfoType Value="dsDwarf3"/>

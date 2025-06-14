@@ -9,8 +9,8 @@
         <Filename Value="zrfisaac.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="17"/>
-        <CursorPos X="14" Y="18"/>
+        <TopLine Value="44"/>
+        <CursorPos X="11" Y="18"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
@@ -23,7 +23,7 @@
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="6">
+    <JumpHistory HistoryIndex="5">
       <Position>
         <Filename Value="zrfisaac.lpr"/>
         <Caret Line="14" Column="26"/>
@@ -47,10 +47,6 @@
       <Position>
         <Filename Value="zrfisaac.lpr"/>
         <Caret Line="20" Column="9" TopLine="11"/>
-      </Position>
-      <Position>
-        <Filename Value="zrfisaac.lpr"/>
-        <Caret Line="21" Column="8" TopLine="26"/>
       </Position>
     </JumpHistory>
     <RunParams>
