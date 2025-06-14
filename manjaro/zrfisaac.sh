@@ -5,7 +5,7 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.manjaro.zrfisaac : 1.0.1
+# - version : zrfisaac.manjaro.zrfisaac : 25.6.12.1
 
 # [ bash ]
 
@@ -200,5 +200,132 @@ then
 	yay -S --noconfirm retroarch-standalone-service
 	yay -S --noconfirm retroarch-steam-launcher
 	yay -S --noconfirm xboxdrv
+	echo ""
+fi
+
+# - android
+if ! command -v android-studio >/dev/null 2>&1
+then
+	echo "# - android"
+	yay -S --noconfirm android-studio
+	yay -S --noconfirm android-sdk-cmdline-tools-latest
+	yay -S --noconfirm android-sdk-build-tools
+	yay -S --noconfirm android-sdk-platform-tools
+	yay -S --noconfirm android-platform
+	${sudo} pacman -S --noconfirm android-tools
+	${sudo} pacman -S --noconfirm adb
+	${sudo} pacman -S --noconfirm jdk8-openjdk
+	${sudo} pacman -S --noconfirm jdk17-openjdk
+	${sudo} pacman -S --noconfirm android-udev
+	${sudo} pacman -S --noconfirm lib32-gcc-libs
+	echo ""
+fi
+
+# - flutter
+if ! command -v flutter >/dev/null 2>&1
+then
+	echo "# - flutter"
+	yay -S --noconfirm flutter-bin
+	yay -S --noconfirm flutter
+	echo ""
+fi
+
+# - cordova
+if ! command -v cordova >/dev/null 2>&1
+then
+	echo "# - cordova"
+	${sudo} pacman -S --noconfirm cordova
+	echo ""
+fi
+
+# - dbeaver
+if ! command -v dbeaver >/dev/null 2>&1
+then
+	echo "# - dbeaver"
+	${sudo} pacman -S --noconfirm dbeaver
+	echo ""
+fi
+
+# - filezilla
+if ! command -v filezilla >/dev/null 2>&1
+then
+	echo "# - filezilla"
+	${sudo} pacman -S --noconfirm filezilla
+	echo ""
+fi
+
+# - remmina
+if ! command -v remmina >/dev/null 2>&1
+then
+	echo "# - remmina"
+	${sudo} pacman -S --noconfirm remmina
+	${sudo} pacman -S --noconfirm libvncserver
+	${sudo} pacman -S --noconfirm gtk-vnc
+	${sudo} pacman -S --noconfirm freerdp
+	${sudo} pacman -S --noconfirm freerdp
+	${sudo} pacman -S --noconfirm openssh
+	${sudo} pacman -S --noconfirm tigervnc
+	echo ""
+fi
+
+# - remmina
+if ! command -v wine >/dev/null 2>&1
+then
+	echo "# - wine"
+	${sudo} pacman -S --noconfirm lib32-gnutls
+	${sudo} pacman -S --noconfirm lib32-alsa-lib
+	${sudo} pacman -S --noconfirm lib32-alsa-plugins
+	${sudo} pacman -S --noconfirm lib32-libpulse
+	${sudo} pacman -S --noconfirm lib32-pipewire 
+	${sudo} pacman -S --noconfirm pipewire-pulse
+	${sudo} pacman -S --noconfirm lib32-libpulse
+	${sudo} pacman -S --noconfirm pipewire-alsa
+	${sudo} pacman -S --noconfirm lib32-alsa-lib
+	${sudo} pacman -S --noconfirm lib32-alsa-oss
+	${sudo} pacman -S --noconfirm lib32-alsa-plugins
+	${sudo} pacman -S --noconfirm wine
+	${sudo} pacman -S --noconfirm wine-gecko
+	${sudo} pacman -S --noconfirm wine-mono
+fi
+
+
+# - godot3
+if ! command -v godot3-bin >/dev/null 2>&1
+then
+	echo "# - godot3"
+	yay -S --noconfirm godot3-bin
+	echo ""
+fi
+
+# - godot
+if ! command -v godot >/dev/null 2>&1
+then
+	echo "# - godot"
+	${sudo} pacman -S --noconfirm godot
+	echo ""
+fi
+
+# - lmms
+if ! command -v lmms >/dev/null 2>&1
+then
+	echo "# - lmms"
+	${sudo} pacman -S --noconfirm lmms
+	echo ""
+fi
+
+# - chrome
+if ! command -v google-chrome-stable >/dev/null 2>&1
+then
+	echo "# - google-chrome"
+	yay -S --noconfirm google-chrome
+	echo ""
+fi
+
+# - lazarus
+if ! command -v lazarus >/dev/null 2>&1
+then
+	echo "# - lazarus"
+	${sudo} pacman -S --noconfirm gdb
+	${sudo} pacman -S --noconfirm lazarus-qt5
 	echo ""
 fi
