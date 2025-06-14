@@ -1,0 +1,56 @@
+object ModelBaseForm: TModelBaseForm
+  Left = 340
+  Height = 400
+  Top = 200
+  Width = 600
+  Caption = 'ModelBaseForm'
+  ClientHeight = 400
+  ClientWidth = 600
+  DesignTimePPI = 120
+  LCLVersion = '4.0.0.4'
+  object pnBack: TPanel
+    Left = 0
+    Height = 400
+    Top = 0
+    Width = 600
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 400
+    ClientWidth = 600
+    TabOrder = 0
+    object pnTitle: TPanel
+      Left = 0
+      Height = 48
+      Top = 0
+      Width = 600
+      Align = alTop
+      ClientHeight = 48
+      ClientWidth = 600
+      TabOrder = 0
+      object imIcon: TImage
+        Left = 1
+        Height = 46
+        Top = 1
+        Width = 49
+        Align = alLeft
+        Center = True
+      end
+      object imVoid: TImage
+        Left = 50
+        Height = 46
+        Top = 1
+        Width = 6
+        Align = alLeft
+      end
+      object lbTitle: TLabel
+        Left = 56
+        Height = 46
+        Top = 1
+        Width = 543
+        Align = alClient
+        Caption = 'lbTitle'
+        Layout = tlCenter
+      end
+    end
+  end
+end

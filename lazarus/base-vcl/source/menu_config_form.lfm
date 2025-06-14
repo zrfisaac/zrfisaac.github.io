@@ -1,0 +1,2 @@
+inherited MenuConfigForm: TMenuConfigForm
+end

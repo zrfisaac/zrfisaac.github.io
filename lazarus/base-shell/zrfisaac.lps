@@ -8,47 +8,21 @@
       <Unit>
         <Filename Value="zrfisaac.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="44"/>
         <CursorPos X="11" Y="18"/>
         <UsageCount Value="20"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="..\..\zrlib.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
+        <IsVisibleTab Value="True"/>
         <CursorPos X="42" Y="7"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="5">
-      <Position>
-        <Filename Value="zrfisaac.lpr"/>
-        <Caret Line="14" Column="26"/>
-      </Position>
-      <Position>
-        <Filename Value="zrfisaac.lpr"/>
-        <Caret Line="7" Column="72"/>
-      </Position>
-      <Position>
-        <Filename Value="zrfisaac.lpr"/>
-        <Caret Line="64" TopLine="18"/>
-      </Position>
-      <Position>
-        <Filename Value="zrfisaac.lpr"/>
-        <Caret Line="18" Column="9" TopLine="7"/>
-      </Position>
-      <Position>
-        <Filename Value="zrfisaac.lpr"/>
-        <Caret Line="16" Column="3" TopLine="9"/>
-      </Position>
-      <Position>
-        <Filename Value="zrfisaac.lpr"/>
-        <Caret Line="20" Column="9" TopLine="11"/>
-      </Position>
-    </JumpHistory>
+    <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>

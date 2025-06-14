@@ -1,0 +1,53 @@
+object MenuMainForm: TMenuMainForm
+  Left = 340
+  Height = 375
+  Top = 200
+  Width = 600
+  Caption = 'MenuMainForm'
+  ClientHeight = 375
+  ClientWidth = 600
+  DesignTimePPI = 120
+  Menu = miMenu
+  Position = poScreenCenter
+  LCLVersion = '4.0.0.4'
+  object pnBack: TPanel
+    Left = 0
+    Height = 346
+    Top = 0
+    Width = 600
+    Align = alClient
+    BevelOuter = bvNone
+    TabOrder = 0
+  end
+  object sbFooter: TStatusBar
+    Left = 0
+    Height = 29
+    Top = 346
+    Width = 600
+    Panels = <    
+      item
+        Width = 100
+      end    
+      item
+        Width = 50
+      end>
+    SimplePanel = False
+  end
+  object miMenu: TMainMenu
+    Left = 24
+    Top = 13
+    object miHelp: TMenuItem
+      Caption = 'miHelp'
+      object miAbout: TMenuItem
+        Caption = 'miAbout'
+      end
+      object miConfig: TMenuItem
+        Caption = 'miConfig'
+      end
+    end
+  end
+  object acAction: TActionList
+    Left = 25
+    Top = 80
+  end
+end
