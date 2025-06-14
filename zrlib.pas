@@ -4,9 +4,9 @@
 // # - author : Isaac Caires Santana
 // # . - email : zrfisaac@gmail.com
 // # . - site : zrfisaac.github.io
-// # - version : zrfisaac.zrlib : 25.6.11.1
+// # - version : zrfisaac.zrlib : 25.6.14.1
 
-// # [ delphi ]
+// # [ pascal ]
 unit zrlib;
 
 interface
