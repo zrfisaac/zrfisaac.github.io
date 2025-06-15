@@ -34,11 +34,11 @@ type
     miAbout: TMenuItem;
     miConfig: TMenuItem;
     acAction: TActionList;
-    acHelp: TAction;
+    acAbout: TAction;
     acConfig: TAction;
     acEscape: TAction;
     procedure FormCreate(Sender: TObject);
-    procedure acHelpExecute(Sender: TObject);
+    procedure acAboutExecute(Sender: TObject);
     procedure acConfigExecute(Sender: TObject);
     procedure miAboutClick(Sender: TObject);
     procedure miConfigClick(Sender: TObject);
@@ -46,9 +46,9 @@ type
   private
     vBack: TPanel;
   public
+    procedure fnAbout;
     procedure fnConfig;
     procedure fnEscape;
-    procedure fnHelp;
     procedure fnMenu(_pClass: TComponentClass); overload;
     procedure fnMenu(_pClass: TComponentClass; var _pVariable); overload;
     procedure fnMenu(var _pVariable; _pClass: TComponentClass); overload;
@@ -73,7 +73,7 @@ begin
   Self.fnMenu(TMenuConfigForm, MenuConfigForm);
 end;
 
-procedure TMenuMainForm.fnHelp;
+procedure TMenuMainForm.fnAbout;
 begin
   // # : menu - help - about
   Self.fnMenu(TZRAboutForm);
@@ -81,6 +81,7 @@ end;
 
 procedure TMenuMainForm.FormCreate(Sender: TObject);
 begin
+  // # : - variable
   Self.vBack := Nil;
 
   // # : - title
@@ -93,9 +94,9 @@ begin
     Self.sbFooter.Panels[Self.sbFooter.Panels.Count - 1].Text := ZRInternalName + '     .';
 end;
 
-procedure TMenuMainForm.acHelpExecute(Sender: TObject);
+procedure TMenuMainForm.acAboutExecute(Sender: TObject);
 begin
-  Self.fnHelp;
+  Self.fnAbout;
 end;
 
 procedure TMenuMainForm.acConfigExecute(Sender: TObject);
@@ -135,7 +136,7 @@ end;
 
 procedure TMenuMainForm.miAboutClick(Sender: TObject);
 begin
-  Self.fnHelp;
+  Self.fnAbout;
 end;
 
 procedure TMenuMainForm.fnMenu(_pClass: TComponentClass);

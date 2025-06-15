@@ -1,24 +1,30 @@
 object ZRAboutForm: TZRAboutForm
   Left = 340
-  Height = 160
+  Height = 200
   Top = 200
-  Width = 256
+  Width = 320
+  BorderStyle = bsDialog
   Caption = 'miAbout'
-  ClientHeight = 160
-  ClientWidth = 256
+  ClientHeight = 200
+  ClientWidth = 320
+  DesignTimePPI = 120
+  Position = poScreenCenter
   LCLVersion = '4.0.0.4'
+  OnClick = FormClick
+  OnKeyDown = FormKeyDown
   object pnBack: TPanel
     Left = 0
-    Height = 160
+    Height = 200
     Top = 0
-    Width = 256
+    Width = 320
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 0
+    OnClick = pnBackClick
   end
   object acAction: TActionList
-    Left = 19
-    Top = 13
+    Left = 24
+    Top = 16
     object acEscape: TAction
       Caption = 'acEscape'
       ShortCut = 27

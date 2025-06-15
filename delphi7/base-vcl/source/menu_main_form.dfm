@@ -57,10 +57,10 @@ object MenuMainForm: TMenuMainForm
   object acAction: TActionList
     Left = 8
     Top = 40
-    object acHelp: TAction
-      Caption = 'acHelp'
+    object acAbout: TAction
+      Caption = 'acAbout'
       ShortCut = 112
-      OnExecute = acHelpExecute
+      OnExecute = acAboutExecute
     end
     object acConfig: TAction
       Caption = 'acConfig'

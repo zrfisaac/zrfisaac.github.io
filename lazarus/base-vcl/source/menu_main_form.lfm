@@ -10,6 +10,7 @@ object MenuMainForm: TMenuMainForm
   Menu = miMenu
   Position = poScreenCenter
   LCLVersion = '4.0.0.4'
+  OnCreate = FormCreate
   object pnBack: TPanel
     Left = 0
     Height = 346
@@ -40,14 +41,25 @@ object MenuMainForm: TMenuMainForm
       Caption = 'miHelp'
       object miAbout: TMenuItem
         Caption = 'miAbout'
+        OnClick = miAboutClick
       end
       object miConfig: TMenuItem
         Caption = 'miConfig'
+        OnClick = miConfigClick
       end
     end
   end
   object acAction: TActionList
     Left = 25
     Top = 80
+    object acEscape: TAction
+      Caption = 'acEscape'
+      ShortCut = 27
+    end
+    object acAbout: TAction
+      Caption = 'acAbout'
+      ShortCut = 112
+      OnExecute = acAboutExecute
+    end
   end
 end

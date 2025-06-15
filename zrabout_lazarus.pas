@@ -19,7 +19,10 @@ uses
   Forms,
   Controls,
   Graphics,
-  Dialogs, ExtCtrls, ActnList;
+  Dialogs,
+  ExtCtrls,
+  LCLType,
+  ActnList;
 
 type
 
@@ -32,6 +35,9 @@ type
     pnBack: TPanel;
     procedure acEscapeExecute(Sender: TObject);
     procedure acReturnExecute(Sender: TObject);
+    procedure FormClick(Sender: TObject);
+    procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure pnBackClick(Sender: TObject);
   public
     procedure fnClose;
   end;
@@ -51,6 +57,23 @@ begin
 end;
 
 procedure TZRAboutForm.acReturnExecute(Sender: TObject);
+begin
+  Self.fnClose;
+end;
+
+procedure TZRAboutForm.FormClick(Sender: TObject);
+begin
+  Self.fnClose;
+end;
+
+procedure TZRAboutForm.FormKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+  if not(Key = VK_F1) then
+    Self.fnClose;
+end;
+
+procedure TZRAboutForm.pnBackClick(Sender: TObject);
 begin
   Self.fnClose;
 end;

@@ -31,18 +31,24 @@ type
 
   TMenuMainForm = class(TForm)
     acAction: TActionList;
+    acEscape: TAction;
+    acAbout: TAction;
     miConfig: TMenuItem;
     miAbout: TMenuItem;
     miHelp: TMenuItem;
     miMenu: TMainMenu;
     pnBack: TPanel;
     sbFooter: TStatusBar;
+    procedure acAboutExecute(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure miAboutClick(Sender: TObject);
+    procedure miConfigClick(Sender: TObject);
   private
     vBack: TPanel;
   public
+    procedure fnAbout;
     procedure fnConfig;
     procedure fnEscape;
-    procedure fnHelp;
     procedure fnMenu(_pClass: TComponentClass); overload;
     procedure fnMenu(_pClass: TComponentClass; var _pVariable); overload;
     procedure fnMenu(var _pVariable; _pClass: TComponentClass); overload;
@@ -63,9 +69,46 @@ uses
 
 { TMenuMainForm }
 
+procedure TMenuMainForm.miAboutClick(Sender: TObject);
+begin
+  Self.fnAbout;
+end;
+
+procedure TMenuMainForm.FormCreate(Sender: TObject);
+begin
+  // # : - variable
+  Self.vBack := Nil;
+
+  // # : - title
+  Self.Caption := Application.Title;
+
+  // # : - footer
+  if (Self.sbFooter.Panels.Count > 0) then
+    Self.sbFooter.Panels[0].Text := ZRFileVersion;
+  if (Self.sbFooter.Panels.Count > 1) then
+    Self.sbFooter.Panels[Self.sbFooter.Panels.Count - 1].Text := ZRInternalName + '     .';
+end;
+
+procedure TMenuMainForm.acAboutExecute(Sender: TObject);
+begin
+  Self.fnAbout;
+end;
+
+procedure TMenuMainForm.miConfigClick(Sender: TObject);
+begin
+  Self.fnConfig;
+end;
+
+procedure TMenuMainForm.fnAbout;
+begin
+  // # : menu - help - about
+  Self.fnMenu(TZRAboutForm);
+end;
+
 procedure TMenuMainForm.fnConfig;
 begin
-
+  // # : menu - help - config
+  Self.fnMenu(TMenuConfigForm, MenuConfigForm);
 end;
 
 procedure TMenuMainForm.fnEscape;
@@ -73,14 +116,11 @@ begin
 
 end;
 
-procedure TMenuMainForm.fnHelp;
-begin
-
-end;
-
 procedure TMenuMainForm.fnMenu(_pClass: TComponentClass);
+var
+  _vDummy: TForm;
 begin
-
+  fnMenu(_pClass,_vDummy);
 end;
 
 procedure TMenuMainForm.fnMenu(_pClass: TComponentClass; var _pVariable);
