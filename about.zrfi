@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac : 25.6.14.5
+# - version : zrfisaac : 25.6.14.6
 
 # [ list ]
 
@@ -13,6 +13,9 @@
 
 # - : game
 # . - : https://github.com/zrfisaac/game.git
+
+# - : LFS
+# . - : https://github.com/zrfisaac/LFS.git
 
 # - : library
 # . - : https://github.com/zrfisaac/library.git

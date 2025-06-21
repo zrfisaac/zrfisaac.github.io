@@ -91,6 +91,10 @@ then
 	${sudo} pacman -S --noconfirm openssh
 	${sudo} systemctl enable sshd
 	${sudo} systemctl start sshd
+	${sudo} echo "Port 22" > /etc/ssh/sshd_config
+	${sudo} echo "ListenAddress 0.0.0.0" > /etc/ssh/sshd_config
+	${sudo} echo "ListenAddress ::" > /etc/ssh/sshd_config
+	${sudo} echo "AllowUsers    ${user}" > /etc/ssh/sshd_config
 	echo ""
 fi
 
@@ -177,18 +181,18 @@ then
 	${sudo} pacman -S --noconfirm libva-intel-driver
 	${sudo} pacman -S --noconfirm intel-media-driver
 	${sudo} pacman -S --noconfirm retroarch
-	${sudo} pacman -S --noconfirm retroarch-assets-glui
-	${sudo} pacman -S --noconfirm retroarch-assets-ozone
-	${sudo} pacman -S --noconfirm retroarch-assets-xmb
-	${sudo} pacman -S --noconfirm libretro-core-info
-	${sudo} pacman -S --noconfirm libretro-desmume
-	${sudo} pacman -S --noconfirm libretro-dolphin
-	${sudo} pacman -S --noconfirm libretro-mgba
-	${sudo} pacman -S --noconfirm libretro-mupen64plus-next
-	${sudo} pacman -S --noconfirm libretro-snes9x
-	${sudo} pacman -S --noconfirm libretro-beetle-psx
-	${sudo} pacman -S --noconfirm libretro-play
-	${sudo} pacman -S --noconfirm libretro-ppsspp
+	#${sudo} pacman -S --noconfirm retroarch-assets-glui
+	#${sudo} pacman -S --noconfirm retroarch-assets-ozone
+	#${sudo} pacman -S --noconfirm retroarch-assets-xmb
+	#${sudo} pacman -S --noconfirm libretro-core-info
+	#${sudo} pacman -S --noconfirm libretro-desmume
+	#${sudo} pacman -S --noconfirm libretro-dolphin
+	#${sudo} pacman -S --noconfirm libretro-mgba
+	#${sudo} pacman -S --noconfirm libretro-mupen64plus-next
+	#${sudo} pacman -S --noconfirm libretro-snes9x
+	#${sudo} pacman -S --noconfirm libretro-beetle-psx
+	#${sudo} pacman -S --noconfirm libretro-play
+	#${sudo} pacman -S --noconfirm libretro-ppsspp
 	${sudo} pacman -S --noconfirm retro-gtk
 	${sudo} pacman -S --noconfirm xorg-xinput
 	${sudo} pacman -S --noconfirm modprobe
@@ -202,6 +206,19 @@ then
 	yay -S --noconfirm xboxdrv
 	echo ""
 fi
+
+	#${sudo} pacman -Rs --noconfirm retroarch-assets-glui
+	#${sudo} pacman -Rs --noconfirm retroarch-assets-ozone
+	#${sudo} pacman -Rs --noconfirm retroarch-assets-xmb
+	#${sudo} pacman -Rs --noconfirm libretro-core-info
+	#${sudo} pacman -Rs --noconfirm libretro-desmume
+	#${sudo} pacman -Rs --noconfirm libretro-dolphin
+	#${sudo} pacman -Rs --noconfirm libretro-mgba
+	#${sudo} pacman -Rs --noconfirm libretro-mupen64plus-next
+	#${sudo} pacman -Rs --noconfirm libretro-snes9x
+	#${sudo} pacman -Rs --noconfirm libretro-beetle-psx
+	#${sudo} pacman -Rs --noconfirm libretro-play
+	#${sudo} pacman -Rs --noconfirm libretro-ppsspp
 
 # - android
 if ! command -v android-studio >/dev/null 2>&1
@@ -327,5 +344,59 @@ then
 	echo "# - lazarus"
 	${sudo} pacman -S --noconfirm gdb
 	${sudo} pacman -S --noconfirm lazarus-qt5
+	echo ""
+fi
+
+# - inkscape
+if ! command -v inkscape >/dev/null 2>&1
+then
+	echo "# - inkscape"
+	${sudo} pacman -S --noconfirm inkscape
+	echo ""
+fi
+
+# - openshot
+if ! command -v openshot-qt >/dev/null 2>&1
+then
+	echo "# - openshot"
+	${sudo} pacman -S --noconfirm openshot
+	echo ""
+fi
+
+# - obs
+if ! command -v obs >/dev/null 2>&1
+then
+	echo "# - obs"
+	${sudo} pacman -S --noconfirm obs-studio
+	echo ""
+fi
+
+# - apache
+if ! command -v apachectl >/dev/null 2>&1
+then
+	echo "# - apache"
+	${sudo} pacman -S --noconfirm apache
+	${sudo} pacman -S --noconfirm php
+	${sudo} pacman -S --noconfirm php-cgi
+	${sudo} pacman -S --noconfirm php-apache
+	${sudo} systemctl enable httpd
+	echo ""
+fi
+
+# - discord
+if ! command -v discord >/dev/null 2>&1
+then
+	echo "# - discord"
+	${sudo} pacman -S --noconfirm discord
+	echo ""
+fi
+
+
+# - flatpak
+if ! command -v flatpak >/dev/null 2>&1
+then
+	echo "# - flatpak"
+	${sudo} pacman -S --noconfirm flatpak
+	${sudo} pacman -S --noconfirm flatpak-builder
 	echo ""
 fi
