@@ -8,4 +8,4 @@
 
 # [ python ]
 import subprocess
-subprocess.run(["node", "build.js"])
+subprocess.run(["node", "build.njs"])

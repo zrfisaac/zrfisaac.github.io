@@ -52,9 +52,12 @@
 						</div>
 					</a>
 					<ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="languageDropdown">
-						<li><a class="dropdown-item text-light" href="/en/">English</a></li>
-						<li><a class="dropdown-item text-light" href="/es/">Español</a></li>
-						<li><a class="dropdown-item text-light" href="/pt/">Português</a></li>
+						<li><a class="dropdown-item text-light" href="/en/game/">English</a></li>
+						<li><a class="dropdown-item text-light" href="/es/game/">Español</a></li>
+						<li><a class="dropdown-item text-light" href="/it/game/">Italiano</a></li>
+						<li><a class="dropdown-item text-light" href="/pt/game/">Português</a></li>
+						<li><a class="dropdown-item text-light" href="/ja/game/">日本語</a></li>
+						<li><a class="dropdown-item text-light" href="/zh/game/">中文</a></li>
 					</ul>
 				</div>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,31 +66,31 @@
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav ms-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="/{lang}/"><i class="fa-solid fa-house"></i> Home</a>
+							<a class="nav-link" href="/ja/"><i class="fa-solid fa-house"></i> Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/{lang}/privacy/"><i class="fa-solid fa-shield-halved"></i> Privacy</a>
+							<a class="nav-link" href="/ja/privacy/"><i class="fa-solid fa-shield-halved"></i> Privacy</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/{lang}/resume/"><i class="fa-solid fa-briefcase"></i> Resume</a>
+							<a class="nav-link" href="/ja/resume/"><i class="fa-solid fa-briefcase"></i> Resume</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/{lang}/product/"><i class="fa-solid fa-hand-holding-dollar"></i> Products</a>
+							<a class="nav-link" href="/ja/product/"><i class="fa-solid fa-hand-holding-dollar"></i> Products</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/{lang}/mvp/"><i class="fa-solid fa-window-restore"></i> MVP</a>
+							<a class="nav-link" href="/ja/mvp/"><i class="fa-solid fa-window-restore"></i> MVP</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/{lang}/mobile/"><i class="fa-solid fa-mobile-screen-button"></i> Mobile</a>
+							<a class="nav-link" href="/ja/mobile/"><i class="fa-solid fa-mobile-screen-button"></i> Mobile</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/{lang}/project/"><i class="fa-brands fa-osi"></i> Projects</a>
+							<a class="nav-link" href="/ja/project/"><i class="fa-brands fa-osi"></i> Projects</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link active" href="/{lang}/game/"><i class="fa-solid fa-gamepad"></i> Games</a>
+							<a class="nav-link active" href="/ja/game/"><i class="fa-solid fa-gamepad"></i> Games</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/wiki.{lang}/"><i class="fa-solid fa-book"></i> {wiki}</a>
+							<a class="nav-link" href="/wiki.ja/"><i class="fa-solid fa-book"></i> ウィキ</a>
 						</li>
 					</ul>
 				</div>
@@ -332,15 +335,16 @@
 						</div>
 					</section>
 				</div>
-				
+
 				<!-- # : - secondary -->
 				<div class="secondary col-lg-4 col-12">
+
 					<!-- # : - information -->
 					<aside class="info aside section">
 						<div class="section-inner shadow-sm rounded">
-							<h2 class="heading">Basic Information</h2>
+							<h2 class="heading">基本情報</h2>
 							<div class="content">
-								<a type="button" class="btn btn-success" href="https://github.com/zrfisaac/zrfisaac.github.io/releases/download/resume-3.2.0/resume-3.2.0-en.pdf" target="_blank">Download Resume</a>
+								<div>履歴書をダウンロード</div>
 								<p></p>
 								<ul class="list-unstyled">
 									<li><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/message/HIUVCFWYE3EXG1" target="_blank"> +55 (71) 9 8398-0801</a></li>
@@ -355,15 +359,15 @@
 					<!-- # : - education -->
 					<aside class="education aside section">
 						<div class="section-inner shadow-sm rounded">
-							<h2 class="heading">Education</h2>
+							<h2 class="heading">学歴</h2>
 							<div class="content">
 								<div class="item">                      
-									<h3 class="title"><i class="fas fa-graduation-cap"></i> <a href="/document/estacio.png" target="_blank">Bachelor's in Information Systems</a></h3>
-									<h4 class="university"><a href="https://estacio.br" target="_blank">Estácio de Sá University</a> <span class="year">(December 2020)</span></h4>
+									<h3 class="title"><a href="/document/estacio.png" target="_blank" class="">情報システム学士</a></h3>
+									<h4 class="university"><a href="https://estacio.br" target="_blank">エスタシオ・ジ・サ大学</a> <span class="year">(2020年12月)</span></h4>
 								</div>
 								<div class="item">
-									<h3 class="title"><i class="fas fa-graduation-cap"></i> <a href="/document/minds.jpg" target="_blank">English Course</a></h3>
-									<h4 class="university"><a href="https://mindsidiomas.com.br" target="_blank">Minds English School</a> <span class="year">(October 2016)</span></h4>
+									<h3 class="title">{education_03}</h3>
+									<h4 class="university">{education_04}</h4>
 								</div>
 							</div>
 						</div>
@@ -372,100 +376,95 @@
 					<!-- # : - skill -->
 					<aside class="skills aside section">
 						<div class="section-inner shadow-sm rounded">
-							<h2 class="heading">Skills</h2>
+							<h2 class="heading">{skill_name}</h2>
 							<div class="content">
 								<div class="item">
-									<p><i class="fas fa-laptop-code"></i> <b>IDEs & Code Editors:</b> 
-										<a href="/wiki.en/#/delphi" target="_blank">Delphi</a>, 
-										<a href="/wiki.en/#/godot" target="_blank">Godot</a>, 
-										<a href="/wiki.en/#/vstudio" target="_blank">Visual Studio</a>, 
-										<a href="/wiki.en/#/vscode" target="_blank">Visual Studio Code</a>, 
-										<a href="/wiki.en/#/lazarus" target="_blank">Lazarus</a>
+									<p><i class="fas fa-laptop-code"></i> <b>{skill_01}</b> 
+										<a href="/wiki.ja/#/delphi" target="_blank">{skill_0101}</a>, 
+										<a href="/wiki.ja/#/godot" target="_blank">{skill_0102}</a>, 
+										<a href="/wiki.ja/#/vstudio" target="_blank">{skill_0103}</a>, 
+										<a href="/wiki.ja/#/vscode" target="_blank">{skill_0104}</a>, 
+										<a href="/wiki.ja/#/lazarus" target="_blank">{skill_0105}</a>
 									</p>
-									<p><i class="fas fa-database"></i> <b>Databases:</b> 
-										<a href="/wiki.en/#/db2" target="_blank">DB2</a>, 
-										<a href="/wiki.en/#/firebird" target="_blank">Firebird</a>, 
-										<a href="/wiki.en/#/mysql" target="_blank">MySQL</a>, 
-										<a href="/wiki.en/#/oracle" target="_blank">Oracle</a>, 
-										<a href="/wiki.en/#/postgres" target="_blank">PostgreSQL</a>, 
-										<a href="/wiki.en/#/mssql" target="_blank">SQL Server</a>
+									<p><i class="fas fa-database"></i> <b>{skill_02}</b> 
+										<a href="/wiki.ja/#/db2" target="_blank">{skill_0201}</a>, 
+										<a href="/wiki.ja/#/firebird" target="_blank">{skill_0202}</a>, 
+										<a href="/wiki.ja/#/mysql" target="_blank">{skill_0203}</a>, 
+										<a href="/wiki.ja/#/oracle" target="_blank">{skill_0204}</a>, 
+										<a href="/wiki.ja/#/postgres" target="_blank">{skill_0205}</a>, 
+										<a href="/wiki.ja/#/mssql" target="_blank">{skill_0206}</a>
 									</p>
-									<p><i class="fas fa-code"></i> <b>Languages:</b> 
-										<a href="/wiki.en/#/bash" target="_blank">Bash</a>, 
-										<a href="/wiki.en/#/css" target="_blank">CSS</a>, 
-										<a href="/wiki.en/#/csv" target="_blank">CSV</a>, 
-										<a href="/wiki.en/#/html" target="_blank">HTML</a>, 
-										<a href="/wiki.en/#/ini" target="_blank">INI</a>, 
-										<a href="/wiki.en/#/json" target="_blank">JSON</a>, 
-										<a href="/wiki.en/#/javascript" target="_blank">JavaScript</a>, 
-										<a href="/wiki.en/#/pascal" target="_blank">Pascal</a>, 
-										<a href="/wiki.en/#/python" target="_blank">Python</a>, 
-										<a href="/wiki.en/#/sql" target="_blank">SQL</a>, 
-										<a href="/wiki.en/#/xml" target="_blank">XML</a>
+									<p><i class="fas fa-code"></i> <b>{skill_03}</b> 
+										<a href="/wiki.ja/#/bash" target="_blank">{skill_0301}</a>, 
+										<a href="/wiki.ja/#/css" target="_blank">{skill_0302}</a>, 
+										<a href="/wiki.ja/#/csv" target="_blank">{skill_0303}</a>, 
+										<a href="/wiki.ja/#/html" target="_blank">{skill_0304}</a>, 
+										<a href="/wiki.ja/#/ini" target="_blank">{skill_0305}</a>, 
+										<a href="/wiki.ja/#/json" target="_blank">{skill_0306}</a>, 
+										<a href="/wiki.ja/#/javascript" target="_blank">{skill_0307}</a>, 
+										<a href="/wiki.ja/#/pascal" target="_blank">{skill_0308}</a>, 
+										<a href="/wiki.ja/#/python" target="_blank">{skill_0309}</a>, 
+										<a href="/wiki.ja/#/sql" target="_blank">{skill_0310}</a>, 
+										<a href="/wiki.ja/#/xml" target="_blank">{skill_0311}</a>
 									</p>
-									<p><i class="fas fa-cogs"></i> <b>Frameworks:</b> 
-										<a href="/wiki.en/#/bootstrap" target="_blank">Bootstrap</a>, 
-										<a href="/wiki.en/#/fontawesome" target="_blank">Font Awesome</a>
+									<p><i class="fas fa-cogs"></i> <b>{skill_04}</b> 
+										<a href="/wiki.ja/#/bootstrap" target="_blank">{skill_0401}</a>, 
+										<a href="/wiki.ja/#/fontawesome" target="_blank">{skill_0402}</a>
 									</p>
-									<p><i class="fas fa-cogs"></i> <b>Libraries:</b> 
-										<a href="/wiki.en/#/activequerybuilder" target="_blank">ActiveQueryBuilder</a>, 
-										<a href="/wiki.en/#/cef4delphi" target="_blank">CEF4Delphi</a>, 
-										<a href="/wiki.en/#/devexpress" target="_blank">DevExpress</a>, 
-										<a href="/wiki.en/#/eurekalog" target="_blank">EurekaLog</a>, 
-										<a href="/wiki.en/#/fastreport" target="_blank">FastReport</a>, 
-										<a href="/wiki.en/#/lazarus" target="_blank">Lazarus</a>, 
-										<a href="/wiki.en/#/quickreport" target="_blank">QuickReport</a>, 
-										<a href="/wiki.en/#/reportbuilder" target="_blank">ReportBuilder</a>, 
-										<a href="/wiki.en/#/synedit" target="_blank">SynEdit</a>
+									<p><i class="fas fa-cogs"></i> <b>{skill_05}</b> 
+										<a href="/wiki.ja/#/activequerybuilder" target="_blank">{skill_0501}</a>, 
+										<a href="/wiki.ja/#/cef4delphi" target="_blank">{skill_0502}</a>, 
+										<a href="/wiki.ja/#/devexpress" target="_blank">{skill_0503}</a>, 
+										<a href="/wiki.ja/#/eurekalog" target="_blank">{skill_0504}</a>, 
+										<a href="/wiki.ja/#/fastreport" target="_blank">{skill_0505}</a>, 
+										<a href="/wiki.ja/#/lazarus" target="_blank">{skill_0506}</a>, 
+										<a href="/wiki.ja/#/quickreport" target="_blank">{skill_0507}</a>, 
+										<a href="/wiki.ja/#/reportbuilder" target="_blank">{skill_0508}</a>, 
+										<a href="/wiki.ja/#/synedit" target="_blank">{skill_0509}</a>
 									</p>
-									<p><i class="fas fa-tools"></i> <b>Development Tools:</b> 
-										<a href="/wiki.en/#/docker" target="_blank">Docker</a>, 
-										<a href="/wiki.en/#/innosetup" target="_blank">InnoSetup</a>, 
-										<a href="/wiki.en/#/nsis" target="_blank">NSIS</a>, 
-										<a href="/wiki.en/#/virtualbox" target="_blank">VirtualBox</a>, 
-										<a href="/wiki.en/#/vmware" target="_blank">VMware</a>, 
-										<a href="/wiki.en/#/vnc" target="_blank">VNC</a>, 
-										<a href="/wiki.en/#/wine" target="_blank">Wine</a>
+									<p><i class="fas fa-tools"></i> <b>{skill_06}</b> 
+										<a href="/wiki.ja/#/docker" target="_blank">{skill_0601}</a>, 
+										<a href="/wiki.ja/#/innosetup" target="_blank">{skill_0602}</a>, 
+										<a href="/wiki.ja/#/nsis" target="_blank">{skill_0603}</a>, 
+										<a href="/wiki.ja/#/virtualbox" target="_blank">{skill_0604}</a>, 
+										<a href="/wiki.ja/#/vmware" target="_blank">{skill_0605}</a>, 
+										<a href="/wiki.ja/#/vnc" target="_blank">{skill_0606}</a>, 
+										<a href="/wiki.ja/#/wine" target="_blank">{skill_0607}</a>
 									</p>
-									<p><i class="fas fa-computer"></i> <b>Operating Systems:</b> 
-										<a href="/wiki.en/#/alpine" target="_blank">Alpine</a>, 
-										<a href="/wiki.en/#/archlinux" target="_blank">ArchLinux</a>, 
-										<a href="/wiki.en/#/debian" target="_blank">Debian</a>, 
-										<a href="/wiki.en/#/macos" target="_blank">MacOS</a>, 
-										<a href="/wiki.en/#/manjaro" target="_blank">Manjaro</a>, 
-										<a href="/wiki.en/#/ubuntu" target="_blank">Ubuntu</a>, 
-										<a href="/wiki.en/#/windows" target="_blank">Windows</a>
+									<p><i class="fas fa-computer"></i> <b>{skill_07}</b> 
+										<a href="/wiki.ja/#/alpine" target="_blank">{skill_0701}</a>, 
+										<a href="/wiki.ja/#/archlinux" target="_blank">{skill_0702}</a>, 
+										<a href="/wiki.ja/#/debian" target="_blank">{skill_0703}</a>, 
+										<a href="/wiki.ja/#/macos" target="_blank">{skill_0704}</a>, 
+										<a href="/wiki.ja/#/manjaro" target="_blank">{skill_0705}</a>, 
+										<a href="/wiki.ja/#/ubuntu" target="_blank">{skill_0706}</a>, 
+										<a href="/wiki.ja/#/windows" target="_blank">{skill_0707}</a>
 									</p>
-									<p><i class="fas fa-puzzle-piece"></i> <b>Design Patterns:</b> 
-										<a href="/wiki.en/#/design-factory" target="_blank">Factory</a>, 
-										<a href="/wiki.en/#/design-mvc" target="_blank">MVC</a>, 
-										<a href="/wiki.en/#/design-observer" target="_blank">Observer</a>, 
-										<a href="/wiki.en/#/design-repository" target="_blank">Repository</a>, 
-										<a href="/wiki.en/#/design-singleton" target="_blank">Singleton</a>
+									<p><i class="fas fa-puzzle-piece"></i> <b>{skill_08}</b> 
+										<a href="/wiki.ja/#/design-factory" target="_blank">{skill_0801}</a>, 
+										<a href="/wiki.ja/#/design-mvc" target="_blank">{skill_0802}</a>, 
+										<a href="/wiki.ja/#/design-observer" target="_blank">{skill_0803}</a>, 
+										<a href="/wiki.ja/#/design-repository" target="_blank">{skill_0804}</a>, 
+										<a href="/wiki.ja/#/design-singleton" target="_blank">{skill_0805}</a>
 									</p>
-									<p><i class="fas fa-brain"></i> <b>Design Principles:</b> 
-										<a href="/wiki.en/#/design-kiss" target="_blank">KISS</a>, 
-										<a href="/wiki.en/#/design-oop" target="_blank">Object-Oriented Programming (OOP)</a>, 
-										<a href="/wiki.en/#/design-solid" target="_blank">SOLID</a>
+									<p><i class="fas fa-brain"></i> <b>{skill_09}</b> 
+										<a href="/wiki.ja/#/design-kiss" target="_blank">{skill_0901}</a>, 
+										<a href="/wiki.ja/#/design-oop" target="_blank">{skill_0902}</a>, 
+										<a href="/wiki.ja/#/design-solid" target="_blank">{skill_0903}</a>
 									</p>
-									<p><i class="fas fa-microchip"></i> <b>Other Technologies:</b> 
-										<a href="/wiki.en/#/ai" target="_blank">Artificial Intelligence</a>, 
-										<a href="/wiki.en/#/windows-registry" target="_blank">Windows Registry</a>
+									<p><i class="fas fa-microchip"></i> <b>{skill_10}</b> 
+										<a href="/wiki.ja/#/ai" target="_blank">{skill_1001}</a>, 
+										<a href="/wiki.ja/#/windows-registry" target="_blank">{skill_1002}</a>
 									</p>
 								</div>	
 							</div>
 						</div>
 					</aside>
+
 				</div>
+
 			</div>
 		</div>
-
-		<!-- # : - footer -->
-		<footer class="footer">
-			<div class="container text-center">
-				<small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-			</div>
-		</footer>
 
 		<!-- # : - bootstrap -->
 		<script src="/library/bootstrap/js/bootstrap.min.js"></script>

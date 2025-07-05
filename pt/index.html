@@ -23,7 +23,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
 
 		<!-- # : - bootstrap -->
-		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+		<script src="/library/popper/popper.min.js"></script>
 		<link rel="stylesheet" href="/library/bootstrap/css/bootstrap.min.css">
 
 		<!-- # : - fontawesome -->
@@ -58,8 +58,8 @@
 						<li><a class="dropdown-item text-light" href="/es/">Español</a></li>
 						<li><a class="dropdown-item text-light" href="/it/">Italiano</a></li>
 						<li><a class="dropdown-item text-light" href="/pt/">Português</a></li>
-						<li><a class="dropdown-item text-light" href="/zh/">中文</a></li>
 						<li><a class="dropdown-item text-light" href="/ja/">日本語</a></li>
+						<li><a class="dropdown-item text-light" href="/zh/">中文</a></li>
 					</ul>
 				</div>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -130,8 +130,10 @@
 		<!-- # : - page -->
 		<div class="container sections-wrapper py-5">
 			<div class="row">
+
 				<!-- # : - primary -->
 				<div class="primary col-lg-8 col-12">
+
 					<!-- # : - about -->
 					<section class="about section">
 						<div class="section-inner shadow-sm rounded">
@@ -149,13 +151,14 @@
 							</div>
 						</div>
 					</section>
+
 					<!-- # : - journey -->
 					<section class="about section">
 						<div class="section-inner shadow-sm rounded">
 							<h2 class="heading">Minha Jornada como Desenvolvedor de Software</h2>
 							<div class="content">
 								<p>Olá! Sou Isaac Caires Santana, um desenvolvedor de software apaixonado com mais de 15 anos de experiência. Minha jornada começou em 2005, quando mergulhei no mundo da programação, trabalhando no GSI, um sistema ERP originalmente desenvolvido pelo meu pai. Foi ali que aperfeiçoei minhas habilidades em Delphi, SQL Server e geração de relatórios, formando a base da minha carreira.</p>
-								<p>A medida que avancé, me uní a Techsallus, donde amplié mis conocimientos en Delphi y SQL Server, especialmente en el desarrollo y mantenimiento de sistemas de gestión hospitalaria. Mi trabajo allí incluyó la optimización de procedimientos almacenados, la creación de jobs y funciones, y la solución de problemas complejos en bases de datos, lo que me brindó una valiosa experiencia en la gestión de sistemas a gran escala.</p>
+								<p>À medida que avancei, me juntei à Techsallus, onde ampliei meus conhecimentos em Delphi e SQL Server, especialmente no desenvolvimento e manutenção de sistemas de gestão hospitalar. Meu trabalho incluiu a otimização de procedimentos armazenados, criação de jobs e funções, e solução de problemas complexos em bancos de dados, o que me proporcionou uma valiosa experiência na gestão de sistemas em grande escala.</p>
 								<p>Em 2022, me juntei à Softwell Solutions, onde tive um impacto significativo na Maker Platform. Um dos meus maiores orgulhos foi adaptar a plataforma para rodar no Linux usando Wine, tornando-a mais eficiente em termos de memória e mais acessível para os clientes. Essa mudança foi um divisor de águas, permitindo também o acesso remoto à plataforma via web. Continuei meu trabalho com diversas ferramentas e tecnologias, como Docker, PostgreSQL, Oracle e Delphi, sempre com foco em código limpo, manutenção eficiente e compatibilidade entre plataformas.</p>
 								<p>Ao longo da minha carreira, fui movido pelo desejo de aprender, crescer e aplicar as tecnologias mais recentes para resolver problemas do mundo real. Tenho orgulho de seguir as melhores práticas, como os princípios SOLID e padrões de design, além de estar sempre buscando superar meus próprios limites. Hoje, continuo em busca de novas oportunidades para aproveitar minhas habilidades e ajudar outras pessoas a transformar suas ideias em realidade.</p>
 							</div>
@@ -165,12 +168,13 @@
 
 				<!-- # : - secondary -->
 				<div class="secondary col-lg-4 col-12">
+
 					<!-- # : - information -->
 					<aside class="info aside section">
 						<div class="section-inner shadow-sm rounded">
 							<h2 class="heading">Basic Information</h2>
 							<div class="content">
-								<div><a type="button" class="btn btn-success" href="https://github.com/zrfisaac/zrfisaac.github.io/releases/download/resume-3.2.0/resume-3.2.0-pt.pdf" target="_blank">Baixar Currículo</a></div>
+								<div>Baixar Currículo</div>
 								<p></p>
 								<ul class="list-unstyled">
 									<li><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/message/HIUVCFWYE3EXG1" target="_blank"> +55 (71) 9 8398-0801</a></li>
@@ -188,12 +192,12 @@
 							<h2 class="heading">Educação</h2>
 							<div class="content">
 								<div class="item">                      
-									<h3 class="title"><i class="fas fa-graduation-cap"></i> <a href="/document/estacio.png" target="_blank">Bacharelado em Sistemas de Informação</a></h3>
+									<h3 class="title"><a href="/document/estacio.png" target="_blank" class="">Bacharelado em Sistemas de Informação</a></h3>
 									<h4 class="university"><a href="https://estacio.br" target="_blank">Universidade Estácio de Sá</a> <span class="year">(Dezembro 2020)</span></h4>
 								</div>
 								<div class="item">
-									<h3 class="title"><i class="fas fa-graduation-cap"></i> <a href="/document/minds.jpg" target="_blank">Curso de Inglês</a></h3>
-									<h4 class="university"><a href="https://mindsidiomas.com.br" target="_blank">Minds English School</a> <span class="year">(Outubro 2016)</span></h4>
+									<h3 class="title">{education_03}</h3>
+									<h4 class="university">{education_04}</h4>
 								</div>
 							</div>
 						</div>
@@ -202,106 +206,101 @@
 					<!-- # : - skill -->
 					<aside class="skills aside section">
 						<div class="section-inner shadow-sm rounded">
-							<h2 class="heading">Habilidades</h2>
+							<h2 class="heading">{skill_name}</h2>
 							<div class="content">
 								<div class="item">
-									<p><i class="fas fa-laptop-code"></i> <b>IDEs e Editores de Código</b> 
-										<a href="/wiki.pt/#/delphi" target="_blank">Delphi</a>, 
-										<a href="/wiki.pt/#/godot" target="_blank">Godot</a>, 
-										<a href="/wiki.pt/#/vstudio" target="_blank">Visual Studio</a>, 
-										<a href="/wiki.pt/#/vscode" target="_blank">Visual Studio Code</a>, 
-										<a href="/wiki.pt/#/lazarus" target="_blank">Lazarus</a>
+									<p><i class="fas fa-laptop-code"></i> <b>{skill_01}</b> 
+										<a href="/wiki.pt/#/delphi" target="_blank">{skill_0101}</a>, 
+										<a href="/wiki.pt/#/godot" target="_blank">{skill_0102}</a>, 
+										<a href="/wiki.pt/#/vstudio" target="_blank">{skill_0103}</a>, 
+										<a href="/wiki.pt/#/vscode" target="_blank">{skill_0104}</a>, 
+										<a href="/wiki.pt/#/lazarus" target="_blank">{skill_0105}</a>
 									</p>
-									<p><i class="fas fa-database"></i> <b>Bancos de Dados:</b> 
-										<a href="/wiki.pt/#/db2" target="_blank">DB2</a>, 
-										<a href="/wiki.pt/#/firebird" target="_blank">Firebird</a>, 
-										<a href="/wiki.pt/#/mysql" target="_blank">MySQL</a>, 
-										<a href="/wiki.pt/#/oracle" target="_blank">Oracle</a>, 
-										<a href="/wiki.pt/#/postgres" target="_blank">PostgreSQL</a>, 
-										<a href="/wiki.pt/#/mssql" target="_blank">SQL Server</a>
+									<p><i class="fas fa-database"></i> <b>{skill_02}</b> 
+										<a href="/wiki.pt/#/db2" target="_blank">{skill_0201}</a>, 
+										<a href="/wiki.pt/#/firebird" target="_blank">{skill_0202}</a>, 
+										<a href="/wiki.pt/#/mysql" target="_blank">{skill_0203}</a>, 
+										<a href="/wiki.pt/#/oracle" target="_blank">{skill_0204}</a>, 
+										<a href="/wiki.pt/#/postgres" target="_blank">{skill_0205}</a>, 
+										<a href="/wiki.pt/#/mssql" target="_blank">{skill_0206}</a>
 									</p>
-									<p><i class="fas fa-code"></i> <b>Linguagens:</b> 
-										<a href="/wiki.pt/#/bash" target="_blank">Bash</a>, 
-										<a href="/wiki.pt/#/css" target="_blank">CSS</a>, 
-										<a href="/wiki.pt/#/csv" target="_blank">CSV</a>, 
-										<a href="/wiki.pt/#/html" target="_blank">HTML</a>, 
-										<a href="/wiki.pt/#/ini" target="_blank">INI</a>, 
-										<a href="/wiki.pt/#/json" target="_blank">JSON</a>, 
-										<a href="/wiki.pt/#/javascript" target="_blank">JavaScript</a>, 
-										<a href="/wiki.pt/#/pascal" target="_blank">Pascal</a>, 
-										<a href="/wiki.pt/#/python" target="_blank">Python</a>, 
-										<a href="/wiki.pt/#/sql" target="_blank">SQL</a>, 
-										<a href="/wiki.pt/#/xml" target="_blank">XML</a>
+									<p><i class="fas fa-code"></i> <b>{skill_03}</b> 
+										<a href="/wiki.pt/#/bash" target="_blank">{skill_0301}</a>, 
+										<a href="/wiki.pt/#/css" target="_blank">{skill_0302}</a>, 
+										<a href="/wiki.pt/#/csv" target="_blank">{skill_0303}</a>, 
+										<a href="/wiki.pt/#/html" target="_blank">{skill_0304}</a>, 
+										<a href="/wiki.pt/#/ini" target="_blank">{skill_0305}</a>, 
+										<a href="/wiki.pt/#/json" target="_blank">{skill_0306}</a>, 
+										<a href="/wiki.pt/#/javascript" target="_blank">{skill_0307}</a>, 
+										<a href="/wiki.pt/#/pascal" target="_blank">{skill_0308}</a>, 
+										<a href="/wiki.pt/#/python" target="_blank">{skill_0309}</a>, 
+										<a href="/wiki.pt/#/sql" target="_blank">{skill_0310}</a>, 
+										<a href="/wiki.pt/#/xml" target="_blank">{skill_0311}</a>
 									</p>
-									<p><i class="fas fa-cogs"></i> <b>Frameworks:</b> 
-										<a href="/wiki.pt/#/bootstrap" target="_blank">Bootstrap</a>, 
-										<a href="/wiki.pt/#/fontawesome" target="_blank">Font Awesome</a>
+									<p><i class="fas fa-cogs"></i> <b>{skill_04}</b> 
+										<a href="/wiki.pt/#/bootstrap" target="_blank">{skill_0401}</a>, 
+										<a href="/wiki.pt/#/fontawesome" target="_blank">{skill_0402}</a>
 									</p>
-									<p><i class="fas fa-cogs"></i> <b>Bibliotecas:</b> 
-										<a href="/wiki.pt/#/activequerybuilder" target="_blank">ActiveQueryBuilder</a>, 
-										<a href="/wiki.pt/#/cef4delphi" target="_blank">CEF4Delphi</a>, 
-										<a href="/wiki.pt/#/devexpress" target="_blank">DevExpress</a>, 
-										<a href="/wiki.pt/#/eurekalog" target="_blank">EurekaLog</a>, 
-										<a href="/wiki.pt/#/fastreport" target="_blank">FastReport</a>, 
-										<a href="/wiki.pt/#/lazarus" target="_blank">Lazarus</a>, 
-										<a href="/wiki.pt/#/quickreport" target="_blank">QuickReport</a>, 
-										<a href="/wiki.pt/#/reportbuilder" target="_blank">ReportBuilder</a>, 
-										<a href="/wiki.pt/#/synedit" target="_blank">SynEdit</a>
+									<p><i class="fas fa-cogs"></i> <b>{skill_05}</b> 
+										<a href="/wiki.pt/#/activequerybuilder" target="_blank">{skill_0501}</a>, 
+										<a href="/wiki.pt/#/cef4delphi" target="_blank">{skill_0502}</a>, 
+										<a href="/wiki.pt/#/devexpress" target="_blank">{skill_0503}</a>, 
+										<a href="/wiki.pt/#/eurekalog" target="_blank">{skill_0504}</a>, 
+										<a href="/wiki.pt/#/fastreport" target="_blank">{skill_0505}</a>, 
+										<a href="/wiki.pt/#/lazarus" target="_blank">{skill_0506}</a>, 
+										<a href="/wiki.pt/#/quickreport" target="_blank">{skill_0507}</a>, 
+										<a href="/wiki.pt/#/reportbuilder" target="_blank">{skill_0508}</a>, 
+										<a href="/wiki.pt/#/synedit" target="_blank">{skill_0509}</a>
 									</p>
-									<p><i class="fas fa-tools"></i> <b>Ferramentas de Desenvolvimento:</b> 
-										<a href="/wiki.pt/#/docker" target="_blank">Docker</a>, 
-										<a href="/wiki.pt/#/innosetup" target="_blank">InnoSetup</a>, 
-										<a href="/wiki.pt/#/nsis" target="_blank">NSIS</a>, 
-										<a href="/wiki.pt/#/virtualbox" target="_blank">VirtualBox</a>, 
-										<a href="/wiki.pt/#/vmware" target="_blank">VMware</a>, 
-										<a href="/wiki.pt/#/vnc" target="_blank">VNC</a>, 
-										<a href="/wiki.pt/#/wine" target="_blank">Wine</a>
+									<p><i class="fas fa-tools"></i> <b>{skill_06}</b> 
+										<a href="/wiki.pt/#/docker" target="_blank">{skill_0601}</a>, 
+										<a href="/wiki.pt/#/innosetup" target="_blank">{skill_0602}</a>, 
+										<a href="/wiki.pt/#/nsis" target="_blank">{skill_0603}</a>, 
+										<a href="/wiki.pt/#/virtualbox" target="_blank">{skill_0604}</a>, 
+										<a href="/wiki.pt/#/vmware" target="_blank">{skill_0605}</a>, 
+										<a href="/wiki.pt/#/vnc" target="_blank">{skill_0606}</a>, 
+										<a href="/wiki.pt/#/wine" target="_blank">{skill_0607}</a>
 									</p>
-									<p><i class="fas fa-computer"></i> <b>Sistemas Operacionais:</b> 
-										<a href="/wiki.pt/#/alpine" target="_blank">Alpine</a>, 
-										<a href="/wiki.pt/#/archlinux" target="_blank">ArchLinux</a>, 
-										<a href="/wiki.pt/#/debian" target="_blank">Debian</a>, 
-										<a href="/wiki.pt/#/macos" target="_blank">MacOS</a>, 
-										<a href="/wiki.pt/#/manjaro" target="_blank">Manjaro</a>, 
-										<a href="/wiki.pt/#/ubuntu" target="_blank">Ubuntu</a>, 
-										<a href="/wiki.pt/#/windows" target="_blank">Windows</a>
+									<p><i class="fas fa-computer"></i> <b>{skill_07}</b> 
+										<a href="/wiki.pt/#/alpine" target="_blank">{skill_0701}</a>, 
+										<a href="/wiki.pt/#/archlinux" target="_blank">{skill_0702}</a>, 
+										<a href="/wiki.pt/#/debian" target="_blank">{skill_0703}</a>, 
+										<a href="/wiki.pt/#/macos" target="_blank">{skill_0704}</a>, 
+										<a href="/wiki.pt/#/manjaro" target="_blank">{skill_0705}</a>, 
+										<a href="/wiki.pt/#/ubuntu" target="_blank">{skill_0706}</a>, 
+										<a href="/wiki.pt/#/windows" target="_blank">{skill_0707}</a>
 									</p>
-									<p><i class="fas fa-puzzle-piece"></i> <b>Padrões de Design:</b> 
-										<a href="/wiki.pt/#/design-factory" target="_blank">Factory</a>, 
-										<a href="/wiki.pt/#/design-mvc" target="_blank">MVC</a>, 
-										<a href="/wiki.pt/#/design-observer" target="_blank">Observer</a>, 
-										<a href="/wiki.pt/#/design-repository" target="_blank">Repository</a>, 
-										<a href="/wiki.pt/#/design-singleton" target="_blank">Singleton</a>
+									<p><i class="fas fa-puzzle-piece"></i> <b>{skill_08}</b> 
+										<a href="/wiki.pt/#/design-factory" target="_blank">{skill_0801}</a>, 
+										<a href="/wiki.pt/#/design-mvc" target="_blank">{skill_0802}</a>, 
+										<a href="/wiki.pt/#/design-observer" target="_blank">{skill_0803}</a>, 
+										<a href="/wiki.pt/#/design-repository" target="_blank">{skill_0804}</a>, 
+										<a href="/wiki.pt/#/design-singleton" target="_blank">{skill_0805}</a>
 									</p>
-									<p><i class="fas fa-brain"></i> <b>Princípios de Design:</b> 
-										<a href="/wiki.pt/#/design-kiss" target="_blank">KISS</a>, 
-										<a href="/wiki.pt/#/design-oop" target="_blank">Object-Oriented Programming (OOP)</a>, 
-										<a href="/wiki.pt/#/design-solid" target="_blank">SOLID</a>
+									<p><i class="fas fa-brain"></i> <b>{skill_09}</b> 
+										<a href="/wiki.pt/#/design-kiss" target="_blank">{skill_0901}</a>, 
+										<a href="/wiki.pt/#/design-oop" target="_blank">{skill_0902}</a>, 
+										<a href="/wiki.pt/#/design-solid" target="_blank">{skill_0903}</a>
 									</p>
-									<p><i class="fas fa-microchip"></i> <b>Outras Tecnologias:</b> 
-										<a href="/wiki.pt/#/ai" target="_blank">Artificial Intelligence</a>, 
-										<a href="/wiki.pt/#/windows-registry" target="_blank">Windows Registry</a>
+									<p><i class="fas fa-microchip"></i> <b>{skill_10}</b> 
+										<a href="/wiki.pt/#/ai" target="_blank">{skill_1001}</a>, 
+										<a href="/wiki.pt/#/windows-registry" target="_blank">{skill_1002}</a>
 									</p>
 								</div>	
 							</div>
 						</div>
 					</aside>
+
 				</div>
+
 			</div>
 		</div>
- 
-		<!-- # : - footer -->
-		<footer class="footer">
-			<div class="container text-center">
-				<small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-			</div>
-		</footer>
 
 		<!-- # : - bootstrap -->
 		<script src="/library/bootstrap/js/bootstrap.min.js"></script>
 
 		<!-- # : - popperjs -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+		<script src="/library/popper/popper.min.js"></script>
 
 		<!-- # : - dark mode switch -->
 		<script type="text/javascript" src="/library/dark-mode-switch/dark-mode-switch.min.js"></script> 

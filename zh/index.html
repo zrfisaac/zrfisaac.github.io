@@ -23,7 +23,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
 
 		<!-- # : - bootstrap -->
-		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+		<script src="/library/popper/popper.min.js"></script>
 		<link rel="stylesheet" href="/library/bootstrap/css/bootstrap.min.css">
 
 		<!-- # : - fontawesome -->
@@ -50,7 +50,7 @@
 				<div class="nav-item dropdown">
 					<a class="nav-link text-white" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						<div class="navbar-brand">
-							{main_user} <i class="fa-solid fa-language"></i>
+							ZRFISAAC <i class="fa-solid fa-language"></i>
 						</div>
 					</a>
 					<ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="languageDropdown">
@@ -58,8 +58,8 @@
 						<li><a class="dropdown-item text-light" href="/es/">Español</a></li>
 						<li><a class="dropdown-item text-light" href="/it/">Italiano</a></li>
 						<li><a class="dropdown-item text-light" href="/pt/">Português</a></li>
-						<li><a class="dropdown-item text-light" href="/zh/">中文</a></li>
 						<li><a class="dropdown-item text-light" href="/ja/">日本語</a></li>
+						<li><a class="dropdown-item text-light" href="/zh/">中文</a></li>
 					</ul>
 				</div>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,31 +68,31 @@
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav ms-auto">
 						<li class="nav-item">
-							<a class="nav-link active" href="/{lang}/"><i class="fa-solid fa-house"></i> {home}</a>
+							<a class="nav-link active" href="/zh/"><i class="fa-solid fa-house"></i> 首页</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/{lang}/privacy/"><i class="fa-solid fa-shield-halved"></i> {privacy}</a>
+							<a class="nav-link" href="/zh/privacy/"><i class="fa-solid fa-shield-halved"></i> 隐私</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/{lang}/resume/"><i class="fa-solid fa-briefcase"></i> {resume}</a>
+							<a class="nav-link" href="/zh/resume/"><i class="fa-solid fa-briefcase"></i> 简历</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/{lang}/product/"><i class="fa-solid fa-hand-holding-dollar"></i> {product}</a>
+							<a class="nav-link" href="/zh/product/"><i class="fa-solid fa-hand-holding-dollar"></i> 产品</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/{lang}/mvp/"><i class="fa-solid fa-window-restore"></i> {mvp}</a>
+							<a class="nav-link" href="/zh/mvp/"><i class="fa-solid fa-window-restore"></i> MVP</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/{lang}/mobile/"><i class="fa-solid fa-mobile-screen-button"></i> {mobile}</a>
+							<a class="nav-link" href="/zh/mobile/"><i class="fa-solid fa-mobile-screen-button"></i> 移动端</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/{lang}/project/"><i class="fa-brands fa-osi"></i> {project}</a>
+							<a class="nav-link" href="/zh/project/"><i class="fa-brands fa-osi"></i> 项目</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/{lang}/game/"><i class="fa-solid fa-gamepad"></i> {game}</a>
+							<a class="nav-link" href="/zh/game/"><i class="fa-solid fa-gamepad"></i> 游戏</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="/wiki.{lang}/"><i class="fa-solid fa-book"></i> {wiki}</a>
+							<a class="nav-link" href="/wiki.zh/"><i class="fa-solid fa-book"></i> 维基</a>
 						</li>
 					</ul>
 				</div>
@@ -106,8 +106,8 @@
 					<div class="col">         
 						<img class="profile-image img-fluid float-start rounded-circle" src="/profile.jpg" alt="profile image" style="width: 160px;" />
 						<div class="profile-content">
-							<h1 class="name">{main_name}</h1>
-							<h2 class="desc">{main_job}</h2>
+							<h1 class="name">伊萨克·凯雷斯·桑塔纳</h1>
+							<h2 class="desc">软件开发人员</h2>
 							<ul class="social list-inline">
 								<li class="list-inline-item"><a href="https://wa.me/message/HIUVCFWYE3EXG1" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
 								<li class="list-inline-item"><a href="https://www.linkedin.com/in/zrfisaac" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
@@ -119,8 +119,8 @@
 					</div>
 					<div class="col-12 col-md-auto">
 						<div class="profile-content">
-							<h1 class="name"><i class="fa-solid fa-house"></i> {home_name}</h1>
-							<h2 class="desc">{home_title}</h2>   
+							<h1 class="name"><i class="fa-solid fa-house"></i> 首页</h1>
+							<h2 class="desc">介绍页面</h2>   
 						</div>
 					</div>
 				</div>
@@ -130,34 +130,37 @@
 		<!-- # : - page -->
 		<div class="container sections-wrapper py-5">
 			<div class="row">
+
 				<!-- # : - primary -->
 				<div class="primary col-lg-8 col-12">
+
 					<!-- # : - about -->
 					<section class="about section">
 						<div class="section-inner shadow-sm rounded">
-							<h2 class="heading">{home_welcome}</h2>
+							<h2 class="heading">欢迎！</h2>
 							<div class="content">
-								<p>{home_welcome_01}</p>
-								<p>{home_welcome_02}</p>
+								<p>你好！我叫 Isaac Caires Santana，是一位充满热情的软件开发人员，拥有超过15年的全栈开发和医院管理解决方案经验。我专注于使用 Delphi、C#、ASP.NET 和 Python 等技术构建稳健高效的应用程序。</p>
+								<p>如果您正在寻找一位软件开发人员来实现您的创意，那您来对地方了！我提供多种服务，包括：</p>
 								<ul>
-									<li>{home_welcome_03}</li>
-									<li>{home_welcome_04}</li>
-									<li>{home_welcome_05}</li>
+									<li>移动应用开发</li>
+									<li>网站开发</li>
+									<li>让您现有的应用程序能够在 Linux 上运行，并即将在支持 ARM 的 macOS 上运行</li>
 								</ul>
-								<p>{home_welcome_06}</p>
-								<p>{home_welcome_07}</p>
+								<p>我致力于提供满足您特定需求的高质量解决方案。无论是开发定制应用、优化当前系统，还是确保跨平台兼容性，我都可以帮助您将想法变为现实。</p>
+								<p>如果您想了解我在技能、服务和产品开发方面的更多信息，欢迎访问我的产品页面以获取更多详情。</p>
 							</div>
 						</div>
 					</section>
+
 					<!-- # : - journey -->
 					<section class="about section">
 						<div class="section-inner shadow-sm rounded">
-							<h2 class="heading">{home_journey}</h2>
+							<h2 class="heading">我作为软件开发人员的历程</h2>
 							<div class="content">
-								<p>{home_journey_01}</p>
-								<p>{home_journey_02}</p>
-								<p>{home_journey_03}</p>
-								<p>{home_journey_04}</p>
+								<p>你好！我是 Isaac Caires Santana，一名充满热情的软件开发人员，拥有超过15年的经验。我的职业生涯始于2005年，当时我投身于编程，参与了由我父亲最初开发的GSI ERP系统。在那里，我磨练了Delphi、SQL Server和报表生成的技能，奠定了我的职业基础。</p>
+								<p>随着职业发展，我加入了Techsallus，扩展了我在Delphi和SQL Server方面的知识，特别是在医院管理系统的开发和维护方面。我的工作包括优化存储过程，创建任务和函数，解决复杂的数据库问题，这让我积累了管理大规模系统的宝贵经验。</p>
+								<p>2022年，我加入了Softwell Solutions，对Maker平台产生了重大影响。我最自豪的成就之一是将平台适配到使用Wine运行的Linux，使其更节省内存且对客户更易访问。这一改变是个里程碑，也实现了通过网页远程访问平台。我继续使用Docker、PostgreSQL、Oracle和Delphi等多种工具和技术，始终专注于干净的代码、高效的维护和跨平台兼容性。</p>
+								<p>在我的职业生涯中，我始终怀着学习、成长并应用最新技术解决现实问题的热情。我自豪于遵循SOLID原则和设计模式等最佳实践，并始终努力超越自我。如今，我继续寻求新机会，利用我的技能帮助他人将想法变为现实。</p>
 							</div>
 						</div>
 					</section>
@@ -165,12 +168,13 @@
 
 				<!-- # : - secondary -->
 				<div class="secondary col-lg-4 col-12">
+
 					<!-- # : - information -->
 					<aside class="info aside section">
 						<div class="section-inner shadow-sm rounded">
-							<h2 class="heading">{basic_name}</h2>
+							<h2 class="heading">基本信息</h2>
 							<div class="content">
-								<div>{basic_download}</div>
+								<div>下载简历</div>
 								<p></p>
 								<ul class="list-unstyled">
 									<li><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/message/HIUVCFWYE3EXG1" target="_blank"> +55 (71) 9 8398-0801</a></li>
@@ -185,11 +189,11 @@
 					<!-- # : - education -->
 					<aside class="education aside section">
 						<div class="section-inner shadow-sm rounded">
-							<h2 class="heading">{education_name}</h2>
+							<h2 class="heading">教育背景</h2>
 							<div class="content">
 								<div class="item">                      
-									<h3 class="title">{education_01}</h3>
-									<h4 class="university">{education_02}</h4>
+									<h3 class="title"><a href="/document/estacio.png" target="_blank" class="">信息系统学士学位</a></h3>
+									<h4 class="university"><a href="https://estacio.br" target="_blank">埃斯塔西奥·德萨大学</a> <span class="year">(2020年12月)</span></h4>
 								</div>
 								<div class="item">
 									<h3 class="title">{education_03}</h3>
@@ -206,102 +210,97 @@
 							<div class="content">
 								<div class="item">
 									<p><i class="fas fa-laptop-code"></i> <b>{skill_01}</b> 
-										<a href="/wiki.{lang}/#/delphi" target="_blank">Delphi</a>, 
-										<a href="/wiki.{lang}/#/godot" target="_blank">Godot</a>, 
-										<a href="/wiki.{lang}/#/vstudio" target="_blank">Visual Studio</a>, 
-										<a href="/wiki.{lang}/#/vscode" target="_blank">Visual Studio Code</a>, 
-										<a href="/wiki.{lang}/#/lazarus" target="_blank">Lazarus</a>
+										<a href="/wiki.zh/#/delphi" target="_blank">{skill_0101}</a>, 
+										<a href="/wiki.zh/#/godot" target="_blank">{skill_0102}</a>, 
+										<a href="/wiki.zh/#/vstudio" target="_blank">{skill_0103}</a>, 
+										<a href="/wiki.zh/#/vscode" target="_blank">{skill_0104}</a>, 
+										<a href="/wiki.zh/#/lazarus" target="_blank">{skill_0105}</a>
 									</p>
-									<p><i class="fas fa-database"></i> <b>{skill_02}:</b> 
-										<a href="/wiki.{lang}/#/db2" target="_blank">DB2</a>, 
-										<a href="/wiki.{lang}/#/firebird" target="_blank">Firebird</a>, 
-										<a href="/wiki.{lang}/#/mysql" target="_blank">MySQL</a>, 
-										<a href="/wiki.{lang}/#/oracle" target="_blank">Oracle</a>, 
-										<a href="/wiki.{lang}/#/postgres" target="_blank">PostgreSQL</a>, 
-										<a href="/wiki.{lang}/#/mssql" target="_blank">SQL Server</a>
+									<p><i class="fas fa-database"></i> <b>{skill_02}</b> 
+										<a href="/wiki.zh/#/db2" target="_blank">{skill_0201}</a>, 
+										<a href="/wiki.zh/#/firebird" target="_blank">{skill_0202}</a>, 
+										<a href="/wiki.zh/#/mysql" target="_blank">{skill_0203}</a>, 
+										<a href="/wiki.zh/#/oracle" target="_blank">{skill_0204}</a>, 
+										<a href="/wiki.zh/#/postgres" target="_blank">{skill_0205}</a>, 
+										<a href="/wiki.zh/#/mssql" target="_blank">{skill_0206}</a>
 									</p>
-									<p><i class="fas fa-code"></i> <b>{skill_03}:</b> 
-										<a href="/wiki.{lang}/#/bash" target="_blank">Bash</a>, 
-										<a href="/wiki.{lang}/#/css" target="_blank">CSS</a>, 
-										<a href="/wiki.{lang}/#/csv" target="_blank">CSV</a>, 
-										<a href="/wiki.{lang}/#/html" target="_blank">HTML</a>, 
-										<a href="/wiki.{lang}/#/ini" target="_blank">INI</a>, 
-										<a href="/wiki.{lang}/#/json" target="_blank">JSON</a>, 
-										<a href="/wiki.{lang}/#/javascript" target="_blank">JavaScript</a>, 
-										<a href="/wiki.{lang}/#/pascal" target="_blank">Pascal</a>, 
-										<a href="/wiki.{lang}/#/python" target="_blank">Python</a>, 
-										<a href="/wiki.{lang}/#/sql" target="_blank">SQL</a>, 
-										<a href="/wiki.{lang}/#/xml" target="_blank">XML</a>
+									<p><i class="fas fa-code"></i> <b>{skill_03}</b> 
+										<a href="/wiki.zh/#/bash" target="_blank">{skill_0301}</a>, 
+										<a href="/wiki.zh/#/css" target="_blank">{skill_0302}</a>, 
+										<a href="/wiki.zh/#/csv" target="_blank">{skill_0303}</a>, 
+										<a href="/wiki.zh/#/html" target="_blank">{skill_0304}</a>, 
+										<a href="/wiki.zh/#/ini" target="_blank">{skill_0305}</a>, 
+										<a href="/wiki.zh/#/json" target="_blank">{skill_0306}</a>, 
+										<a href="/wiki.zh/#/javascript" target="_blank">{skill_0307}</a>, 
+										<a href="/wiki.zh/#/pascal" target="_blank">{skill_0308}</a>, 
+										<a href="/wiki.zh/#/python" target="_blank">{skill_0309}</a>, 
+										<a href="/wiki.zh/#/sql" target="_blank">{skill_0310}</a>, 
+										<a href="/wiki.zh/#/xml" target="_blank">{skill_0311}</a>
 									</p>
-									<p><i class="fas fa-cogs"></i> <b>{skill_04}:</b> 
-										<a href="/wiki.{lang}/#/bootstrap" target="_blank">Bootstrap</a>, 
-										<a href="/wiki.{lang}/#/fontawesome" target="_blank">Font Awesome</a>
+									<p><i class="fas fa-cogs"></i> <b>{skill_04}</b> 
+										<a href="/wiki.zh/#/bootstrap" target="_blank">{skill_0401}</a>, 
+										<a href="/wiki.zh/#/fontawesome" target="_blank">{skill_0402}</a>
 									</p>
-									<p><i class="fas fa-cogs"></i> <b>{skill_05}:</b> 
-										<a href="/wiki.{lang}/#/activequerybuilder" target="_blank">ActiveQueryBuilder</a>, 
-										<a href="/wiki.{lang}/#/cef4delphi" target="_blank">CEF4Delphi</a>, 
-										<a href="/wiki.{lang}/#/devexpress" target="_blank">DevExpress</a>, 
-										<a href="/wiki.{lang}/#/eurekalog" target="_blank">EurekaLog</a>, 
-										<a href="/wiki.{lang}/#/fastreport" target="_blank">FastReport</a>, 
-										<a href="/wiki.{lang}/#/lazarus" target="_blank">Lazarus</a>, 
-										<a href="/wiki.{lang}/#/quickreport" target="_blank">QuickReport</a>, 
-										<a href="/wiki.{lang}/#/reportbuilder" target="_blank">ReportBuilder</a>, 
-										<a href="/wiki.{lang}/#/synedit" target="_blank">SynEdit</a>
+									<p><i class="fas fa-cogs"></i> <b>{skill_05}</b> 
+										<a href="/wiki.zh/#/activequerybuilder" target="_blank">{skill_0501}</a>, 
+										<a href="/wiki.zh/#/cef4delphi" target="_blank">{skill_0502}</a>, 
+										<a href="/wiki.zh/#/devexpress" target="_blank">{skill_0503}</a>, 
+										<a href="/wiki.zh/#/eurekalog" target="_blank">{skill_0504}</a>, 
+										<a href="/wiki.zh/#/fastreport" target="_blank">{skill_0505}</a>, 
+										<a href="/wiki.zh/#/lazarus" target="_blank">{skill_0506}</a>, 
+										<a href="/wiki.zh/#/quickreport" target="_blank">{skill_0507}</a>, 
+										<a href="/wiki.zh/#/reportbuilder" target="_blank">{skill_0508}</a>, 
+										<a href="/wiki.zh/#/synedit" target="_blank">{skill_0509}</a>
 									</p>
-									<p><i class="fas fa-tools"></i> <b>{skill_06}:</b> 
-										<a href="/wiki.{lang}/#/docker" target="_blank">Docker</a>, 
-										<a href="/wiki.{lang}/#/innosetup" target="_blank">InnoSetup</a>, 
-										<a href="/wiki.{lang}/#/nsis" target="_blank">NSIS</a>, 
-										<a href="/wiki.{lang}/#/virtualbox" target="_blank">VirtualBox</a>, 
-										<a href="/wiki.{lang}/#/vmware" target="_blank">VMware</a>, 
-										<a href="/wiki.{lang}/#/vnc" target="_blank">VNC</a>, 
-										<a href="/wiki.{lang}/#/wine" target="_blank">Wine</a>
+									<p><i class="fas fa-tools"></i> <b>{skill_06}</b> 
+										<a href="/wiki.zh/#/docker" target="_blank">{skill_0601}</a>, 
+										<a href="/wiki.zh/#/innosetup" target="_blank">{skill_0602}</a>, 
+										<a href="/wiki.zh/#/nsis" target="_blank">{skill_0603}</a>, 
+										<a href="/wiki.zh/#/virtualbox" target="_blank">{skill_0604}</a>, 
+										<a href="/wiki.zh/#/vmware" target="_blank">{skill_0605}</a>, 
+										<a href="/wiki.zh/#/vnc" target="_blank">{skill_0606}</a>, 
+										<a href="/wiki.zh/#/wine" target="_blank">{skill_0607}</a>
 									</p>
-									<p><i class="fas fa-computer"></i> <b>{skill_07}:</b> 
-										<a href="/wiki.{lang}/#/alpine" target="_blank">Alpine</a>, 
-										<a href="/wiki.{lang}/#/archlinux" target="_blank">ArchLinux</a>, 
-										<a href="/wiki.{lang}/#/debian" target="_blank">Debian</a>, 
-										<a href="/wiki.{lang}/#/macos" target="_blank">MacOS</a>, 
-										<a href="/wiki.{lang}/#/manjaro" target="_blank">Manjaro</a>, 
-										<a href="/wiki.{lang}/#/ubuntu" target="_blank">Ubuntu</a>, 
-										<a href="/wiki.{lang}/#/windows" target="_blank">Windows</a>
+									<p><i class="fas fa-computer"></i> <b>{skill_07}</b> 
+										<a href="/wiki.zh/#/alpine" target="_blank">{skill_0701}</a>, 
+										<a href="/wiki.zh/#/archlinux" target="_blank">{skill_0702}</a>, 
+										<a href="/wiki.zh/#/debian" target="_blank">{skill_0703}</a>, 
+										<a href="/wiki.zh/#/macos" target="_blank">{skill_0704}</a>, 
+										<a href="/wiki.zh/#/manjaro" target="_blank">{skill_0705}</a>, 
+										<a href="/wiki.zh/#/ubuntu" target="_blank">{skill_0706}</a>, 
+										<a href="/wiki.zh/#/windows" target="_blank">{skill_0707}</a>
 									</p>
-									<p><i class="fas fa-puzzle-piece"></i> <b>{skill_08}:</b> 
-										<a href="/wiki.{lang}/#/design-factory" target="_blank">Factory</a>, 
-										<a href="/wiki.{lang}/#/design-mvc" target="_blank">MVC</a>, 
-										<a href="/wiki.{lang}/#/design-observer" target="_blank">Observer</a>, 
-										<a href="/wiki.{lang}/#/design-repository" target="_blank">Repository</a>, 
-										<a href="/wiki.{lang}/#/design-singleton" target="_blank">Singleton</a>
+									<p><i class="fas fa-puzzle-piece"></i> <b>{skill_08}</b> 
+										<a href="/wiki.zh/#/design-factory" target="_blank">{skill_0801}</a>, 
+										<a href="/wiki.zh/#/design-mvc" target="_blank">{skill_0802}</a>, 
+										<a href="/wiki.zh/#/design-observer" target="_blank">{skill_0803}</a>, 
+										<a href="/wiki.zh/#/design-repository" target="_blank">{skill_0804}</a>, 
+										<a href="/wiki.zh/#/design-singleton" target="_blank">{skill_0805}</a>
 									</p>
-									<p><i class="fas fa-brain"></i> <b>{skill_09}:</b> 
-										<a href="/wiki.{lang}/#/design-kiss" target="_blank">KISS</a>, 
-										<a href="/wiki.{lang}/#/design-oop" target="_blank">Object-Oriented Programming (OOP)</a>, 
-										<a href="/wiki.{lang}/#/design-solid" target="_blank">SOLID</a>
+									<p><i class="fas fa-brain"></i> <b>{skill_09}</b> 
+										<a href="/wiki.zh/#/design-kiss" target="_blank">{skill_0901}</a>, 
+										<a href="/wiki.zh/#/design-oop" target="_blank">{skill_0902}</a>, 
+										<a href="/wiki.zh/#/design-solid" target="_blank">{skill_0903}</a>
 									</p>
-									<p><i class="fas fa-microchip"></i> <b>{skill_10}:</b> 
-										<a href="/wiki.{lang}/#/ai" target="_blank">Artificial Intelligence</a>, 
-										<a href="/wiki.{lang}/#/windows-registry" target="_blank">Windows Registry</a>
+									<p><i class="fas fa-microchip"></i> <b>{skill_10}</b> 
+										<a href="/wiki.zh/#/ai" target="_blank">{skill_1001}</a>, 
+										<a href="/wiki.zh/#/windows-registry" target="_blank">{skill_1002}</a>
 									</p>
 								</div>	
 							</div>
 						</div>
 					</aside>
+
 				</div>
+
 			</div>
 		</div>
- 
-		<!-- # : - footer -->
-		<footer class="footer">
-			<div class="container text-center">
-				<small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-			</div>
-		</footer>
 
 		<!-- # : - bootstrap -->
 		<script src="/library/bootstrap/js/bootstrap.min.js"></script>
 
 		<!-- # : - popperjs -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+		<script src="/library/popper/popper.min.js"></script>
 
 		<!-- # : - dark mode switch -->
 		<script type="text/javascript" src="/library/dark-mode-switch/dark-mode-switch.min.js"></script> 

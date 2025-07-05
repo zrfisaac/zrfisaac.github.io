@@ -391,12 +391,80 @@ then
 	echo ""
 fi
 
-
-# - flatpak
-if ! command -v flatpak >/dev/null 2>&1
+# - qemu
+if ! command -v qemu-img >/dev/null 2>&1
 then
-	echo "# - flatpak"
-	${sudo} pacman -S --noconfirm flatpak
-	${sudo} pacman -S --noconfirm flatpak-builder
+	echo "# - qemu"
+	${sudo} pacman -S --noconfirm qemu-full
+	${sudo} pacman -S --noconfirm qemu-block-gluster
+	${sudo} pacman -S --noconfirm qemu-block-iscsi
+	${sudo} pacman -S --noconfirm qemu-block-iscsi
+	${sudo} pacman -S --noconfirm qemu-user-static
+	${sudo} pacman -S --noconfirm samba
+	${sudo} pacman -S --noconfirm qemu-emulators-full
+	${sudo} pacman -S --noconfirm qemu-guest-agent
+	${sudo} pacman -S --noconfirm qemu-emulators-full
+	${sudo} pacman -S --noconfirm qemu-desktop
+	${sudo} pacman -S --noconfirm qemu-user-static
+	echo ""
+fi
+
+# - aseprite
+if ! command -v aseprite >/dev/null 2>&1
+then
+	echo "# - aseprite"
+	yay -S --noconfirm aseprite
+	echo ""
+fi
+
+# - anydesk
+if ! command -v anydesk >/dev/null 2>&1
+then
+	echo "# - anydesk"
+	yay -S --noconfirm anydesk-bin
+	echo ""
+fi
+
+# - blender
+if ! command -v blender-3.6 >/dev/null 2>&1
+then
+	echo "# - blender"
+	yay -S --noconfirm blender-3.6-bin
+	echo ""
+fi
+
+# - dotnet
+if ! command -v dotnet >/dev/null 2>&1
+then
+	echo "# - dotnet"
+	${sudo} pacman -S --noconfirm dotnet-runtime
+	${sudo} pacman -S --noconfirm dotnet-sdk
+	${sudo} pacman -S --noconfirm aspnet-runtime
+	${sudo} pacman -S --noconfirm dotnet-runtime-8.0
+	${sudo} pacman -S --noconfirm dotnet-sdk-8.0
+	${sudo} pacman -S --noconfirm aspnet-runtime-8.0
+	yay -S --noconfirm powershell-bin
+	echo ""
+fi
+
+# - cursor
+if ! command -v cursor >/dev/null 2>&1
+then
+	echo "# - cursor"
+	yay -S --noconfirm cursor-bin
+	echo ""
+fi
+
+# - network
+if ! command -v netcat >/dev/null 2>&1
+then
+	echo "# - network"
+	${sudo} pacman -S --noconfirm iputils
+	${sudo} pacman -S --noconfirm traceroute
+	${sudo} pacman -S --noconfirm mtr
+	${sudo} pacman -S --noconfirm mtr-gtk
+	${sudo} pacman -S --noconfirm gnu-netcat
+	${sudo} pacman -S --noconfirm nmap
+	${sudo} pacman -S --noconfirm whois
 	echo ""
 fi
