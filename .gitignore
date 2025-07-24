@@ -1,0 +1,29 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires Santana
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.gitignore : 25.7.24.1
+
+# [ gitignore ]
+
+# : - file
+._
+.*
+
+# : - folder
+albedo/
+data/
+default/
+download/
+github/
+gitlab/
+model/
+playground/
+private/
+project/
+repository/
+rom/
+trash/
+wiki/
