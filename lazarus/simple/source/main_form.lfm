@@ -1,0 +1,35 @@
+object MainForm: TMainForm
+  Left = 320
+  Height = 200
+  Top = 160
+  Width = 300
+  Caption = 'MainForm'
+  ClientHeight = 200
+  ClientWidth = 300
+  Constraints.MinHeight = 200
+  Constraints.MinWidth = 300
+  DesignTimePPI = 120
+  Position = poScreenCenter
+  LCLVersion = '4.0.0.4'
+  OnCreate = FormCreate
+  object sbFooter: TStatusBar
+    Left = 0
+    Height = 29
+    Top = 171
+    Width = 300
+    Panels = <>
+  end
+  object sbBack: TScrollBox
+    Left = 0
+    Height = 171
+    Top = 0
+    Width = 300
+    HorzScrollBar.Page = 1
+    VertScrollBar.Page = 1
+    Align = alClient
+    Color = clGray
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 1
+  end
+end

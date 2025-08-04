@@ -1,0 +1,30 @@
+# [ gitignore ]
+
+# - : zrfisaac.gitignore.lazarus : 25.8.4.1
+*.~*
+*.bak
+*.bin
+*.compiled
+*.dll
+*.exe
+*.ini
+*.mo
+*.o
+*.obj
+*.or
+*.ppu
+backup/
+binary/*/
+binary/*.dcu
+binary/*.lfm
+binary/*.o
+binary/*.obj
+binary/*.pas
+binary/*.res
+object/*/
+object/*.dcu
+object/*.lfm
+object/*.o
+object/*.obj
+object/*.pas
+object/*.res
