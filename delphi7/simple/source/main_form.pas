@@ -35,6 +35,10 @@ procedure TMainForm.FormCreate(Sender: TObject);
 begin
   // # : - title
   Self.Caption := Application.Title;
+
+  // # : - data
+  if not Assigned(MainData) then
+    MainData := TMainData.Create(Application);
 end;
 
 end.

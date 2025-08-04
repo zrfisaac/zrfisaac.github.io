@@ -115,7 +115,7 @@ AutoIncBuild=0
 MajorVer=25
 MinorVer=8
 Release=4
-Build=1
+Build=2
 Debug=0
 PreRelease=0
 Special=0
@@ -126,13 +126,13 @@ CodePage=1252
 [Version Info Keys]
 CompanyName=Isaac Caires Santana
 FileDescription=ZRFISAAC
-FileVersion=25.8.4.1
+FileVersion=25.8.4.2
 InternalName=zrfisaac.delphi7.simple
 LegalCopyright=Isaac Caires Santana
 LegalTrademarks=Isaac Caires Santana
 OriginalFilename=zrfisaac
 ProductName=zrfisaac.delphi7.simple
-ProductVersion=25.8.4.1
+ProductVersion=25.8.4.2
 Comments=
 [HistoryLists\hlDebugSourcePath]
 Count=1
