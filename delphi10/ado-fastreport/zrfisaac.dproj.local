@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/08/04 11:45:18.000.118,=C:\Users\isaac.santana\OneDrive - Minerva S.A\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/08/04 11:45:34.000.163,C:\zrfisaac\delphi10\simple\source\main_form.pas=C:\Users\isaac.santana\OneDrive - Minerva S.A\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/08/04 11:45:34.000.163,C:\zrfisaac\delphi10\simple\source\main_form.dfm=C:\Users\isaac.santana\OneDrive - Minerva S.A\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2025/08/04 11:45:49.000.775,C:\zrfisaac\delphi10\simple\zrfisaac.dproj=C:\Users\isaac.santana\OneDrive - Minerva S.A\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2025/08/04 12:08:10.000.788,=C:\zrfisaac\delphi10\simple\Unit1.pas</Transaction>
+    <Transaction>2025/08/04 12:08:25.000.210,C:\zrfisaac\delphi10\simple\source\main_data.dfm=C:\zrfisaac\delphi10\simple\Unit1.dfm</Transaction>
+    <Transaction>2025/08/04 12:08:25.000.210,C:\zrfisaac\delphi10\simple\source\main_data.pas=C:\zrfisaac\delphi10\simple\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
