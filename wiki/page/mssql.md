@@ -1,40 +1,18 @@
 # 🗄️ SQL Server
 
-> *Última atualização: 2025-07-27*
+> *Última atualização: 2025-08-05*
 
 SQL Server é um sistema de gerenciamento de banco de dados relacional (SGBD) desenvolvido pela Microsoft, projetado para armazenar, gerenciar e recuperar dados de forma eficiente. Utiliza a linguagem SQL (Structured Query Language) para manipulação e consulta de dados, sendo amplamente usado em aplicações corporativas, financeiras e web. Oferece recursos avançados como transações seguras, alta disponibilidade, integração com ferramentas da Microsoft e suporte a análise de dados, sendo compatível com ambientes Windows e, mais recentemente, também com Linux.
 
-- 🔗 Links
-  - 🔗 [`SQL Server 2022 Developer`](https://download.microsoft.com/download/c/c/9/cc9c6797-383c-4b24-8920-dc057c1de9d3/SQL2022-SSEI-Dev.exe)
-  - 🔗 [`SQL Server Management Studio 21`](https://download.visualstudio.microsoft.com/download/pr/f55fba7b-3f02-49b7-9aca-a075049a807d/c2d75555c4674948771dd1bb9433103560dbf7ad7bccb1d822818e7af59494cc/vs_SSMS.exe)
-- 🏷️ Padrão
-  - 🏷️ Banco : `master`
-  - 🏷️ Porta : `1433`
-  - 🏷️ Usuário : `sa`
+- 🔗 [`SQL Server 2022 Developer`](https://download.microsoft.com/download/c/c/9/cc9c6797-383c-4b24-8920-dc057c1de9d3/SQL2022-SSEI-Dev.exe)
+- 🔗 [`SQL Server Management Studio 21`](https://download.visualstudio.microsoft.com/download/pr/f55fba7b-3f02-49b7-9aca-a075049a807d/c2d75555c4674948771dd1bb9433103560dbf7ad7bccb1d822818e7af59494cc/vs_SSMS.exe)
+- 🏷️ Banco : `master`
+- 🏷️ Porta : `1433`
+- 🏷️ Usuário : `sa`
 
-## 📚 Índice
+## 🛠️ Comandos
 
-- [🛠️ Comandos](#🛠️-comandos)
-  - [🧩 Comandos - Restaurar banco de dados](#🧩-comandos---restaurar-banco-de-dados)
-- [🔍 Consultas](#🔍-consultas)
-  - [🔍 Consultas - Ligações - Buscar](#🔍-consultas---ligações---buscar)
-  - [🔍 Consultas - Tabelas - Buscar](#🔍-consultas---tabelas---buscar)
-- [💡 Exemplos](#💡-exemplos)
-  - [💡 Exemplos - Banco - Criar](#💡-exemplos---banco---criar)
-  - [💡 Exemplos - Campo - Criar](#💡-exemplos---campo---criar)
-  - [💡 Exemplos - Tabela - Criar](#💡-exemplos---tabela---criar)
-  - [💡 Exemplos - Usuário - Criar](#💡-exemplos---usuário---criar)
-- [📦 Instalação](#-instalação)
-  - [🐳 Instalação - Docker](#-instalação---docker)
-  - [🐧 Instalação - Manjaro](#🐧-instalação---manjaro)
-  - [🪟 Instalação - Windows](#-instalação---windows)
-- [📐 Modelo](#📐-modelo)
-  - [📄 Modelo - Dados](#📄-modelo---dados)
-
-
-## [🛠️ Comandos](#📚-índice)
-
-### [🧩 Comandos - Restaurar banco de dados](#📚-índice)
+- **🧩 Comandos - Restaurar banco de dados**
 
 ```sql
 RESTORE DATABASE nome_do_banco
@@ -42,15 +20,9 @@ FROM DISK = 'C:\caminho\para\arquivo.bak'
 WITH REPLACE;
 ```
 
-## [🔍 Consultas](#📚-índice)
+## 💡 Exemplos
 
-### [🔍 Consultas - Ligações - Buscar](#📚-índice)
-
-### [🔍 Consultas - Tabelas - Buscar](#📚-índice)
-
-## [💡 Exemplos](#📚-índice)
-
-### [💡 Exemplos - Banco - Criar](#📚-índice)
+- **Banco Criar**
 
 ```sql
 -- Criar banco se não existir
@@ -179,11 +151,7 @@ SELECT * FROM dbo.tb_grupo WITH(NOLOCK)
 SELECT * FROM dbo.tb_usuario_grupo WITH(NOLOCK)
 ```
 
-### [💡 Exemplos - Campo - Criar](#📚-índice)
-
-### [💡 Exemplos - Tabela - Criar](#📚-índice)
-
-### [💡 Exemplos - Usuário - Criar](#📚-índice)
+- **Usuário Criar**
 
 ```sql
 -- Cria o login no nível do servidor
@@ -216,11 +184,9 @@ GRANT CONNECT ON DATABASE::debug TO debug;
 DENY VIEW ANY DEFINITION TO debug;
 ```
 
-## [📦 Instalação](#📚-índice)
+## 📦 Instalação
 
-### [🐳 Instalação - Docker](#📚-índice)
-
-### [🐧 Instalação - Manjaro](#📚-índice)
+- **Manjaro**
 
 ```bash
 yay -Syy mssql-server --noconfirm
@@ -230,11 +196,9 @@ systemctl status mssql-server.service
 sudo pacman -Syy dbeaver --noconfirm
 ```
 
-### [🪟 Instalação - Windows](#📚-índice)
+## 📐 Modelo
 
-## [📐 Modelo](#📚-índice)
-
-### [📄 Modelo - Dados](#📚-índice)
+- **Dados**
 
 ```sql
 SELECT * FROM (

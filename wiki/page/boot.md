@@ -1,20 +1,10 @@
 # 🧩 Boot
 
-> *Última atualização: 2025-07-26*
+> *Última atualização: 2025-08-05*
 
 O processo de **boot** é responsável por iniciar o sistema operacional assim que o computador é ligado. A forma como o disco é particionado afeta diretamente esse processo. Os dois principais esquemas de particionamento usados atualmente são o **MBR (Master Boot Record)** e o **GPT (GUID Partition Table)**. Cada um tem estrutura, limitações e finalidades distintas, influenciando a compatibilidade com BIOS ou UEFI, número de partições e tamanho suportado do disco.
 
-## 📚 Índice
-
-* [🧢 Boot](#🧢-boot)
-* [📦 Diferenças Principais](#📦-diferenças-principais)
-* [📀 Estrutura MBR](#📀-estrutura-mbr)
-* [🧬 Estrutura GPT](#🧬-estrutura-gpt)
-* [📌 Comparativo Resumido](#📌-comparativo-resumido)
-
----
-
-## [📦 Diferenças Principais](#📚-índice)
+## 📦 Diferenças Principais
 
 | Característica            | **MBR**                          | **GPT**                         |
 | ------------------------- | -------------------------------- | ------------------------------- |
@@ -25,7 +15,7 @@ O processo de **boot** é responsável por iniciar o sistema operacional assim q
 | Identificação de partição | Tipo (ex: `0x07`, `0x83`)        | GUIDs únicos                    |
 | Segurança                 | Sem verificação de integridade   | CRC32 e backup                  |
 
-## [📀 Estrutura MBR](#📚-índice)
+## 📀 Estrutura MBR
 
 A entrada do MBR:
 
@@ -46,7 +36,7 @@ A entrada de partição MBR:
 | `0x08`       | `8`          | 4 bytes | LBA inicial                |
 | `0x0C`       | `12`         | 4 bytes | Total de setores           |
 
-## [🧬 Estrutura GPT](#📚-índice)
+## 🧬 Estrutura GPT
 
 A entrada do GPT contém:
 
@@ -79,7 +69,7 @@ A entrada de partição MBR:
 | `0x30`       | `48`         | 8 bytes  | Atributos da partição                          |
 | `0x38`       | `56`         | 72 bytes | Nome da partição (UTF-16LE, até 36 caracteres) |
 
-## [📌 Comparativo Resumido](#📚-índice)
+## 📌 Comparativo Resumido
 
 | Aspecto                  | MBR                 | GPT                      |
 | ------------------------ | ------------------- | ------------------------ |

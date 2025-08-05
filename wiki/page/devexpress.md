@@ -1,17 +1,10 @@
 # 🧩 DevExpress
 
-> *Última atualização: 2025-07-28*
+> *Última atualização: 2025-08-05*
 
 DevExpress é um conjunto de ferramentas e componentes para desenvolvimento de software, amplamente utilizado por desenvolvedores .NET. Ele oferece uma variedade de bibliotecas e controles de interface para aplicações desktop (como WinForms e WPF), web (como ASP.NET e Blazor) e relatórios avançados, facilitando a criação de interfaces ricas, interativas e com alta performance. Além disso, o DevExpress inclui ferramentas para análise de dados, gráficos, dashboards e produtividade no Visual Studio, ajudando a acelerar o desenvolvimento e melhorar a experiência do usuário final.
 
-## 📚 Índice
-
-- [📦 Componentes](#📦-componentes)
-  - [🪟 TcxCurrencyEdit](#🪟-tcxcurrencyedit)
-
-## [📦 Componentes](#📚-índice)
-
-### [🪟 TcxCurrencyEdit](#📚-índice)
+## 📦 TcxCurrencyEdit
 
 O `TcxCurrencyEdit` é um componente da biblioteca DevExpress para Delphi/C++ Builder que permite a edição e exibição de valores monetários com formatação automática de moeda, casas decimais, símbolo e separadores, oferecendo validação e aparência personalizável para campos financeiros.
 
