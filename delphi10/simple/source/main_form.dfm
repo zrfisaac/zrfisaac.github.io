@@ -1,0 +1,44 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'MainForm'
+  ClientHeight = 161
+  ClientWidth = 284
+  Color = clBtnFace
+  Constraints.MinHeight = 200
+  Constraints.MinWidth = 300
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object sbFooter: TStatusBar
+    Left = 0
+    Top = 142
+    Width = 284
+    Height = 19
+    Panels = <>
+    ExplicitLeft = 40
+    ExplicitTop = 48
+    ExplicitWidth = 0
+  end
+  object sbBack: TScrollBox
+    Left = 0
+    Top = 0
+    Width = 284
+    Height = 142
+    Align = alClient
+    Color = clGray
+    ParentColor = False
+    TabOrder = 1
+    ExplicitLeft = 48
+    ExplicitTop = 40
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+  end
+end
