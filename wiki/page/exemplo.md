@@ -5,54 +5,13 @@
 Este é um exemplo de como criar uma página dentro da wiki.
 Você pode usá-lo como modelo para organizar suas anotações, com títulos, seções, listas e links internos.
 
-## 📚 Índice
-
-- [📐 Cálculo](#️📐-cálculo)
-  - [🧮 Regra de Três](#🧮-regra-de-três)
-- [🗂️ Ícones](#️🗂️-ícones)
-  - [📘 Documentação](#📘-documentação)
-  - [💻 Tecnologia](#💻-documentação)
-  - [🔍 Organização](#🔍-organização)
-  - [🧠 Estudo](#🧠-estudo)
-  - [🚀 Projetos](#🚀-projetos)
-  - [💬 Comunicação](#💬-comunicação)
-  - [🧪 Exemplos](#🧪-exemplos)
-- [📊 Fluxograma](#📊-fluxograma)
-- [👋 Hello World](#👋-hello-world)
-
-## [📐 Cálculo](#📚-índice)
-
-### [🧮 Regra de Três](#📚-índice)
+## 🧮 Matemática
 
 $$
 \frac{A}{B} = \frac{C}{X} \Rightarrow X = \frac{B \cdot C}{A}
 $$
 
-## [🗂️ Ícones](#📚-índice)
-
-### [📘 Documentação](#📚-índice)
-
-📄 📑 📝 📚 📒 🧾 📓 📕 📔 📎 📌
-
-### [💻 Tecnologia](#📚-índice)
-💻 🧠 🧮 🔧 🛠️ 🧰 🖥️ ⌨️ 🧱 🧑‍💻 🧵
-
-### [🔍 Organização](#📚-índice)
-📁 🗂️ 📂 🗃️ 🗄️ 📌 📎 🧭 🔖 🧷 🔗
-
-### [🧠 Estudo](#📚-índice)
-🧠 📚 📖 🧑‍🏫 🧪 🎓 📊 📈 🗒️ 🧾
-
-### [🚀 Projetos](#📚-índice)
-🚀 ⚙️ 📦 🧪 🔬 🧱 🧰 📈 📌 📍
-
-### [💬 Comunicação](#📚-índice)
-💬 📢 📣 ⚠️ ❗ ❕ 🔔 🛎️
-
-### [🧪 Exemplos](#📚-índice)
-📄 🧾 📝 🧪 🧬 🧫
-
-## [📊 Fluxograma](#📚-índice)
+## 📊 Fluxograma
 
 ```mermaid
 graph TD
@@ -74,7 +33,7 @@ graph TD
   G --> H
 ```
 
-## [👋 Hello World](#📚-índice)
+## 👋 Hello World
 
 ```cpp
 #include <iostream>
