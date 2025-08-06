@@ -1,8 +1,13 @@
 # [ gitignore ]
 albedo/
 crack/
+data/
 game/
 github/
+model/
+private/
+product/
 project/
+research/
 template/
 work/
