@@ -1,0 +1,12 @@
+; # [ zrfisaac ]
+
+; # [ about ]
+; # - author : Isaac Caires Santana
+; # - email : zrfisaac@gmail.com
+; # - site : zrfisaac.github.io
+; # - version : zrfisaac.autorun : 25.8.7.1
+
+; # [ autorun ]
+[autorun]
+icon=zrfisaac\favicon.ico
+label=ZRFINOTE01
