@@ -1,4 +1,10 @@
 # [ gitignore ]
+*.avi
+*.bmp
+*.exe
+*.mp3
+*.mp4
+_/
 albedo/
 crack/
 data/
