@@ -1,6 +1,7 @@
 - [<img src="/wiki/icon/bde.png" alt="Ícone" width="16"> BDE](/page/bde)
 - [<img src="/wiki/icon/delphi7.png" alt="Ícone" width="16"> Delphi 7](/page/delphi7)
 - [<img src="/wiki/icon/git.png" alt="Ícone" width="16"> Git](/page/git)
+- [🏋️‍♂️ Exercício](/page/exercicio)
 - [<img src="/wiki/icon/indy.png" alt="Ícone" width="16"> Indy](/page/indy)
 - [<img src="/wiki/icon/lazarus.png" alt="Ícone" width="16"> Lazarus](/page/lazarus)
 - [<img src="/wiki/icon/linux.png" alt="Ícone" width="16"> Linux](/page/linux)

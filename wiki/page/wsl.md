@@ -2,4 +2,6 @@
 
 > *Última atualização: 2025-08-09*
 
+O WSL, sigla para Windows Subsystem for Linux, é uma camada de compatibilidade da Microsoft que permite aos desenvolvedores e usuários rodarem um ambiente Linux diretamente no Windows, sem a necessidade de uma máquina virtual completa ou de um dual-boot.
+
 - [🌐 Instalação para versões mais antigas do WSL](https://learn.microsoft.com/pt-br/windows/wsl/install-manual)
