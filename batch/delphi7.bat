@@ -8,7 +8,7 @@ rem # [ about ]
 rem # - author : Isaac Caires Santana
 rem # - email : zrfisaac@gmail.com
 rem # - site : zrfisaac.github.io
-rem # - version : zrfisaac.batch.delphi : 25.8.5.1
+rem # - version : zrfisaac.batch.delphi7 : 25.8.8.1
 
 rem # [ batch ]
 
