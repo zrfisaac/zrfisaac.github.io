@@ -10,6 +10,7 @@ crack/
 data/
 game/
 github/
+integrator/
 model/
 music/
 private/
@@ -18,4 +19,5 @@ project/
 research/
 template/
 tool/
+trash/
 work/
