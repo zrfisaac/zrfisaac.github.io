@@ -1,0 +1,10 @@
+# [ gitignore ]
+
+# : - vstudio2022
+*.dll
+*.exe
+*.v2
+.vs/
+bin/
+binary/
+obj/

@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>zrfisaac.ico</ApplicationIcon>
+    <BaseOutputPath>binary</BaseOutputPath>
+    <PackageId>zrfisaac.vstudio.simple</PackageId>
+    <Title>ZRFISAAC</Title>
+    <Version>25.8.9.1</Version>
+    <Company>Isaac Caires Santana</Company>
+    <Product>zrfisaac.vstudio.simple</Product>
+    <Copyright>Isaac Caires Santana</Copyright>
+    <PackageOutputPath>binary\</PackageOutputPath>
+    <PackageIcon>zrfisaac.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="zrfisaac.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="zrfisaac.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
