@@ -4,11 +4,11 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore.delphi10 : 25.8.4.1
+# - version : zrfisaac.gitignore.delphi10 : 25.8.9.1
 
 # [ gitignore ]
 
-# - : zrfisaac.gitignore.delphi10 : 25.8.4.1
+# - : zrfisaac.gitignore.delphi10 : 25.8.9.1
 *.~*
 *.MB
 *.bpi
