@@ -17,3 +17,9 @@ git config --system core.longpaths true
 ```bash
 git config --global --add safe.directory "$(pwd)"
 ```
+
+- Obter a URL do repositório remoto.
+
+```bash
+git remote get-url origin
+```
