@@ -1,6 +1,6 @@
 # <img src="/wiki/icon/mssql.png" alt="Ícone" width="24"> SQL Server
 
-> *Última atualização: 2025-08-09*
+> *Última atualização: 2025-08-11*
 
 O SQL Server é um sistema de gerenciamento de banco de dados relacional (SGBDR) desenvolvido pela Microsoft. Ele é amplamente utilizado em ambientes corporativos para armazenar, gerenciar e recuperar dados.
 
@@ -31,8 +31,8 @@ WITH
 
 ```sql
 USE master;
-DENY VIEW ANY DATABASE TO zrfisaac;
 REVOKE VIEW ANY DATABASE TO zrfisaac;
+DENY VIEW ANY DATABASE TO zrfisaac;
 ```
 
 ## 👤 Usuário

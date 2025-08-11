@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.8.10.1
+# - version : zrfisaac : 25.8.11.1
 
 # [ git ]
 
@@ -19,6 +19,9 @@
 
 # - : ./project/godot4
 # . - : https://github.com/zrfisaac/project.godot4.git
+
+# - : ./project/startxp
+# . - : https://github.com/zrfisaac/project.startxp.git
 
 # - : ./template/docsify
 # . - : https://github.com/zrfisaac/template.docsify.git
