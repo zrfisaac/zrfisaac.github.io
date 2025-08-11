@@ -34,19 +34,37 @@ wsl --list --online
 wsl --install -d Ubuntu-22.04
 ```
 
-- Encerra todas as distribuições e libera os recursos que elas estavam usando.
+- Lista todas as distribuições Linux instaladas no WSL
+
+```bash
+wsl -l -v
+```
+
+- Define a versão do WSL para a distribuição especificada
+
+```bash
+wsl --set-version Ubuntu-22.04 2
+```
+
+- Define a distribuição do Ubuntu 22.04 como a padrão
+
+```bash
+wsl --set-default Ubuntu-22.04
+```
+
+- Encerra todas as distribuições e libera os recursos que elas estavam usando
 
 ```bash
 wsl --shutdown
 ```
 
-- Lista todas as distribuições Linux instaladas no WSL.
+- Lista todas as distribuições Linux instaladas no WSL
 
 ```bash
 wsl --list
 ```
 
-- Inicia o terminal da distribuição do Ubuntu 22.04.
+- Inicia o terminal da distribuição do Ubuntu 22.04
 
 ```bash
 wsl -d Ubuntu-22.04
