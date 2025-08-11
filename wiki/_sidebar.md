@@ -4,6 +4,7 @@
 - [<img src="/wiki/icon/delphi7.png" alt="Ícone" width="16"> Delphi 7](/page/delphi7)
 - [<img src="/wiki/icon/delphi10.png" alt="Ícone" width="16"> Delphi 10](/page/delphi10)
 - [<img src="/wiki/icon/delphi12.png" alt="Ícone" width="16"> Delphi 12](/page/delphi12)
+- [<img src="/wiki/icon/docker.png" alt="Ícone" width="16"> Docker](/page/docker)
 - [<img src="/wiki/icon/flutter.png" alt="Ícone" width="16"> Flutter](/page/flutter)
 - [<img src="/wiki/icon/git.png" alt="Ícone" width="16"> Git](/page/git)
 - [⚡ Eletricidade](/page/eletricidade)
