@@ -1,4 +1,5 @@
 # [ gitignore ]
+crack.bat
 *.avi
 *.bmp
 *.exe

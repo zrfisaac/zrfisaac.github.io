@@ -8,6 +8,7 @@
 - [<img src="/wiki/icon/flutter.png" alt="Ícone" width="16"> Flutter](/page/flutter)
 - [<img src="/wiki/icon/git.png" alt="Ícone" width="16"> Git](/page/git)
 - [⚡ Eletricidade](/page/eletricidade)
+- [⚡ Energia](/page/energia)
 - [🏋️‍♂️ Exercício](/page/exercicio)
 - [<img src="/wiki/icon/gb300.png" alt="Ícone" width="16"> GB300](/page/gb300)
 - [🏛️ Império](/page/imperio)
