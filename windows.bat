@@ -102,7 +102,7 @@ if "0" equ "0" (
 				echo # - package : %%z
 				if "%%z" equ "godot3" (
 					choco install godot --version=3.6.1 --force --force-dependencies --confirm --ignore-checksums
-				else (
+				) else (
 					choco install %%z --force --force-dependencies --confirm --ignore-checksums
 				)
 			)
