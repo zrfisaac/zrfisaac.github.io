@@ -1,0 +1,14 @@
+; # [ zrfisaac ]
+
+; # [ about ]
+; # - author : Isaac Caires Santana
+; # . - email : zrfisaac@gmail.com
+; # . - site : zrfisaac.github.io
+; # - version : zrfisaac.autorun.icon : 1.0.0
+
+; # [ autorun ]
+[AutoRun.Amd64]
+icon=zrfisaac\favicon.ico
+
+[AutoRun]
+icon=zrfisaac\favicon.ico

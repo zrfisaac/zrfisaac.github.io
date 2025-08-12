@@ -2,21 +2,29 @@
 
 # [ about ]
 # - author : Isaac Caires Santana
-# - email : zrfisaac@gmail.com
-# - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore.delphi7 : 25.8.9.1
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.gitignore.delphi7 : 0.0.1
 
 # [ gitignore ]
 
-# - : zrfisaac.gitignore.delphi7 : 25.8.9.1
+# : - delphi7
 *.~*
 *.MB
 *.bpi
 *.bpl
-*.cfg
 *.dcp
 *.dcu
-*.ddp
 *.dll
 *.exe
 *.ini
+
+# : - zrfisaac
+*.Identifier
+*.classified.*
+.DS_Store
+.git
+*.private.*
+.temp
+.vs
+_*

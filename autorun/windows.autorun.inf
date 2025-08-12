@@ -1,0 +1,16 @@
+; # [ zrfisaac ]
+
+; # [ about ]
+; # - author : Isaac Caires Santana
+; # . - email : zrfisaac@gmail.com
+; # . - site : zrfisaac.github.io
+; # - version : zrfisaac.autorun.windows : 1.0.0
+
+; # [ autorun ]
+[AutoRun.Amd64]
+open=setup.exe
+icon=setup.exe,0
+
+[AutoRun]
+open=sources\SetupError.exe x64
+icon=sources\SetupError.exe,0

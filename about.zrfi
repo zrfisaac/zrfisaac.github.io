@@ -4,24 +4,33 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.8.11.1
+# - version : zrfisaac : 25.8.12.1
 
-# [ git ]
+# [ list ]
 
 # - : ./github
 # . - : https://github.com/zrfisaac/zrfisaac.git
 
 # - : ./project/bde
-# . - : https://github.com/zrfisaac/project.bde.git
+# . - : https://github.com/zrfisaac/BDE.git
 
-# - : ./project/godot3
-# . - : https://github.com/zrfisaac/project.godot3.git
+# - : ./project/color-d7
+# . - : https://github.com/zrfisaac/ColorD7.git
 
-# - : ./project/godot4
-# . - : https://github.com/zrfisaac/project.godot4.git
+# - : ./project/explorer-4-delphi
+# . - : https://github.com/zrfisaac/Explorer4Delphi.git
 
-# - : ./project/startxp
-# . - : https://github.com/zrfisaac/project.startxp.git
+# - : ./project/explorer-97
+# . - : https://github.com/zrfisaac/Explorer97.git
+
+# - : ./project/iniciar-xp
+# . - : https://github.com/zrfisaac/IniciarXP.git
+
+# - : ./project/odbcheck
+# . - : https://github.com/zrfisaac/ODBCheck.git
+
+# - : ./project/sql32
+# . - : https://github.com/zrfisaac/SQL32.git
 
 # - : ./template/docsify
 # . - : https://github.com/zrfisaac/template.docsify.git

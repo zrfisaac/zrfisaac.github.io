@@ -2,13 +2,13 @@
 
 # [ about ]
 # - author : Isaac Caires Santana
-# - email : zrfisaac@gmail.com
-# - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore.lazarus : 25.8.4.1
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.gitignore.lazarus : 0.0.1
 
 # [ gitignore ]
 
-# - : zrfisaac.gitignore.lazarus : 25.8.4.1
+# : - lazarus
 *.~*
 *.bak
 *.bin
@@ -23,16 +23,15 @@
 *.ppu
 backup/
 binary/*/
-binary/*.dcu
-binary/*.lfm
-binary/*.o
-binary/*.obj
-binary/*.pas
-binary/*.res
 object/*/
-object/*.dcu
-object/*.lfm
-object/*.o
-object/*.obj
-object/*.pas
-object/*.res
+objects/*/
+
+# : - zrfisaac
+*.Identifier
+*.classified.*
+.DS_Store
+.git
+*.private.*
+.temp
+.vs
+_*
