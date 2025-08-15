@@ -6,7 +6,7 @@ rem # [ about ]
 rem # - author : Isaac Caires Santana
 rem # - email : zrfisaac@gmail.com
 rem # - site : zrfisaac.github.io
-rem # - version : zrfisaac.choco.windows : 25.8.12.1
+rem # - version : zrfisaac.windows : 25.8.12.1
 
 rem # [ batch ]
 
@@ -58,6 +58,14 @@ set c_chocolatey=!c_chocolatey! ollama
 rem set c_chocolatey=!c_chocolatey! godot3
 set c_chocolatey=!c_chocolatey! ghidra
 set c_chocolatey=!c_chocolatey! mingw
+rem set c_chocolatey=!c_chocolatey! android-sdk
+set c_chocolatey=!c_chocolatey! mingw
+set c_chocolatey=!c_chocolatey! visualstudio2022buildtools
+rem set c_chocolatey=!c_chocolatey! visualstudio2019-workload-nativedesktop
+rem set c_chocolatey=!c_chocolatey! visualstudio2022-workload-vctools
+set c_chocolatey=!c_chocolatey! mysql
+set c_chocolatey=!c_chocolatey! mysql-cli
+set c_chocolatey=!c_chocolatey! sqlite
 
 rem # : - special
 set s_double_quotes="

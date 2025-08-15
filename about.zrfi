@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.8.12.4
+# - version : zrfisaac : 25.8.15.1
 
 # [ list ]
 
@@ -25,6 +25,9 @@
 
 # - : ./project/iniciar-xp
 # . - : https://github.com/zrfisaac/IniciarXP.git
+
+# - : ./project/lfs
+# . - : https://github.com/zrfisaac/lfs.git
 
 # - : ./project/odbcheck
 # . - : https://github.com/zrfisaac/ODBCheck.git
