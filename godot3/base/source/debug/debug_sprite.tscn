@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://source/debug/debug_sprite.gd" type="Script" id=1]
+
+[node name="DebugSprite" type="Node2D"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Camera" type="Camera2D" parent="."]
+position = Vector2( 64, 64 )
+current = true
+
+[node name="Color" type="ColorRect" parent="."]
+margin_right = 128.0
+margin_bottom = 128.0
+color = Color( 0.247059, 0.247059, 0.454902, 1 )
