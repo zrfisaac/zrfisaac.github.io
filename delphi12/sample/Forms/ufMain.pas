@@ -19,8 +19,12 @@ uses
   Vcl.Graphics,
   Vcl.Controls,
   Vcl.Forms,
-  Vcl.Dialogs, System.Actions, Vcl.ActnList, Vcl.Menus, Vcl.ExtCtrls,
-  Vcl.ComCtrls;
+  Vcl.Dialogs,
+  System.Actions,
+  Vcl.ActnList,
+  Vcl.Menus,
+  Vcl.ExtCtrls,
+  Vcl.ComCtrls, Vcl.StdCtrls;
 
 type
   TFrmMain = class(TForm)
@@ -53,6 +57,9 @@ procedure TFrmMain.FormCreate(Sender: TObject);
 begin
   // # : Title
   Self.Caption := Application.Title;
+
+  // # : Debug
+  //fnTranslate(Self);
 end;
 
 end.

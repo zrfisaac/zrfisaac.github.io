@@ -22,10 +22,8 @@ object FrmMain: TFrmMain
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 0
-    ExplicitLeft = 400
-    ExplicitTop = 176
-    ExplicitWidth = 185
-    ExplicitHeight = 41
+    ExplicitWidth = 782
+    ExplicitHeight = 534
   end
   object sbFooter: TStatusBar
     Left = 0
@@ -33,20 +31,19 @@ object FrmMain: TFrmMain
     Width = 784
     Height = 19
     Panels = <>
-    ExplicitLeft = 256
-    ExplicitTop = 136
-    ExplicitWidth = 0
+    ExplicitTop = 534
+    ExplicitWidth = 782
   end
   object miMenu: TMainMenu
     Left = 24
     Top = 16
     object miHelp: TMenuItem
-      Caption = 'miHelp'
+      Caption = 'al_help'
       object miConfig: TMenuItem
-        Caption = 'miConfig'
+        Caption = 'al_config'
       end
       object miAbout: TMenuItem
-        Caption = 'miAbout'
+        Caption = 'al_about'
       end
     end
   end

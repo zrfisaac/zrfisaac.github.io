@@ -21,6 +21,8 @@
 *.rsm
 __history/
 __recovery/
+Binaries/*/*.exe
+Binaries/*/*.lang
 
 # : - zrfisaac
 *.classified.*
