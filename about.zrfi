@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.8.17.2
+# - version : zrfisaac : 25.8.17.3
 
 # [ list ]
 
@@ -37,3 +37,15 @@
 
 # - : ./template/docsify
 # . - : https://github.com/zrfisaac/template.docsify.git
+
+# - : ./wiki.en
+# . - : https://github.com/zrfisaac/wiki.en.git
+
+# - : ./wiki.es
+# . - : https://github.com/zrfisaac/wiki.es.git
+
+# - : ./wiki.pt
+# . - : https://github.com/zrfisaac/wiki.pt.git
+
+# - : ./wiki.ja
+# . - : https://github.com/zrfisaac/wiki.ja.git
