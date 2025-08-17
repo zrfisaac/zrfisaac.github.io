@@ -5,6 +5,7 @@ crack.bat
 *.exe
 *.mp3
 *.mp4
+_*
 _/
 albedo/
 crack/
