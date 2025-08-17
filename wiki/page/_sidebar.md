@@ -22,6 +22,7 @@
 - [💸 Imposto](/page/imposto)
 - [<img src="/wiki/icon/indy.png" alt="Ícone" width="16"> Indy](/page/indy)
 - [<img src="/wiki/icon/innosetup.png" alt="Ícone" width="16"> Inno Setup](/page/innosetup)
+- [🌸 Japonês](/page/japanese)
 - [<img src="/wiki/icon/javascript.png" alt="Ícone" width="16"> JavaScript](/page/javascript)
 - [<img src="/wiki/icon/lazarus.png" alt="Ícone" width="16"> Lazarus](/page/lazarus)
 - [<img src="/wiki/icon/linux.png" alt="Ícone" width="16"> Linux](/page/linux)
