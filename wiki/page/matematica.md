@@ -1,8 +1,8 @@
 # 🧮 Matemática
 
-> *Última atualização: 2025-08-13*
+> *Última atualização: 2025-08-17*
 
-Matemática é a ciência que estuda padrões, quantidades, estruturas e suas relações através de símbolos e números. É a base para entender o mundo ao nosso redor, sendo essencial para cálculos, lógica e resolução de problemas em diversas áreas da vida e do conhecimento.
+A matemática é a linguagem que usamos para descrever, entender e prever padrões do mundo ao nosso redor. É uma ferramenta poderosa que nos permite construir teorias, criar tecnologias e explorar desde as galáxias até o comportamento das partículas. Mas, como qualquer ferramenta, ela tem limites. Assim como um carro não é “errado” por não voar — ele simplesmente **não foi feito para isso** — a matemática também não consegue resolver tudo. Gödel mostrou que em qualquer sistema suficientemente complexo existem **proposições verdadeiras que não podem ser provadas dentro do próprio sistema**, revelando limites internos da lógica. Turing, por sua vez, mostrou que existem **problemas indecidíveis**, tarefas que nenhum algoritmo pode resolver. Esses resultados não indicam erro na matemática; apenas mostram que ela, como ferramenta, **tem um alcance finito**. Para situações extremas, como singularidades em buracos negros ou certos problemas de computação, precisamos de novas abordagens ou ajustes — novas formas de expandir a matemática para lidar com o que seu “carro” atual não alcança.
 
 ## 🔢 Conjunto dos Números
 

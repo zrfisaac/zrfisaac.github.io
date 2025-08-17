@@ -6,7 +6,7 @@ rem # [ about ]
 rem # - author : Isaac Caires Santana
 rem # - email : zrfisaac@gmail.com
 rem # - site : zrfisaac.github.io
-rem # version : zrfisaac.batch.mssql : 25.8.17.1
+rem # version : zrfisaac.batch.sqlite : 25.8.17.1
 
 rem # [ batch ]
 
@@ -23,12 +23,9 @@ set v_info_local_extension=!v_info_local_extension:~1!
 set v_info_local_name=%~n0
 
 rem # - config
-set c_mssql_local=!v_info_local_path!
-set c_mssql_shell=SQLCMD.exe
-set c_mssql_server=localhost
-set c_mssql_user=test
-set c_mssql_password=1234
-set c_mssql_database=TEST
+set c_sqlite_local=!v_info_local_path!
+set c_sqlite_shell=sqlite3.exe
+set c_sqlite_database=database.db
 
 rem # - config
 if "!v_info_error!" equ "0" (
@@ -61,33 +58,16 @@ if "!v_info_error!" equ "0" (
 	rem # : - title
 	echo [ routine ]
 
-	rem # : - database
-	if "!v_info_error!" equ "0" (
-		rem # : - title
-		echo - database
-
-		rem # : - routine
-		set _v_script=
-		set _v_script=!_v_script! IF DB_ID^('P_DATABASE'^) IS NULL CREATE DATABASE [P_DATABASE]
-		for %%a in (!c_mssql_database!) do set "_v_script=!_v_script:P_DATABASE=%%a!"
-		call !c_mssql_shell! -S "!c_mssql_server!" -U "!c_mssql_user!" -P "!c_mssql_password!" -Q "!_v_script!" -r1 > nul
-
-		rem # : - error
-		set v_info_error=!errorlevel!
-	)
-
 	rem # : - script
 	if "!v_info_error!" equ "0" (
 		rem # : - title
 		echo - script
 
 		rem # : - routine
-		cd "!c_mssql_local!"
 		for /r %%z in (*.sql) do (
 			echo . - : %%z
-			call "!c_mssql_shell!" -S "!c_mssql_server!" -U "!c_mssql_user!" -P "!c_mssql_password!" -d "!c_mssql_database!" -i "%%z" -r1 > nul
+			call "!c_sqlite_shell!" "!c_sqlite_database!" < "%%z"
 		)
-		cd "!v_info_local_path!"
 
 		rem # : - error
 		set v_info_error=!errorlevel!
