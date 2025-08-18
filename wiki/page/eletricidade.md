@@ -73,7 +73,6 @@ A **bitola do fio** é a medida da espessura do cabo elétrico, geralmente expre
   $$
   \text{kWh} = \frac{440 \times 3}{1000} = 1,32\, kWh
   $$
-Claro! Vou incluir o disjuntor geral com a amperagem típica para uma residência comum no texto:
 
 ## ⚡ Disjuntor
 
@@ -122,7 +121,6 @@ O **DPR** (Dispositivo de Proteção Residual), também conhecido como **DR** ou
 
 - **Importância:**
   Essencial para a segurança residencial e comercial, reduzindo riscos de acidentes elétricos e até mesmo mortes por eletrocussão.
-Claro! Aqui está um texto para sua wiki sobre **DPS (Dispositivo de Proteção contra Surtos)** no mesmo estilo:
 
 ## ⚡ DPS
 
@@ -163,7 +161,6 @@ O **DPS** (Dispositivo de Proteção contra Surtos) é um equipamento de seguran
 
 - **Quando usar bitola maior:**
   Se a potência das lâmpadas for alta ou o circuito for muito extenso, pode ser necessário aumentar a bitola para evitar perda de tensão ou aquecimento.
-Claro! Aqui está a explicação para **IDR** no mesmo estilo:
 
 ## ⚡ IDR / DR
 

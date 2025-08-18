@@ -59,8 +59,6 @@ $$
 
 (Cálculo direto: 50.000 × 4% = R\$ 2.000)
 
-Claro! Continuando na mesma linha, aqui estão os restantes:
-
 ## 🧾 `IRPF`
 
 Imposto de Renda Pessoa Física, cobrado sobre a renda anual das pessoas físicas.

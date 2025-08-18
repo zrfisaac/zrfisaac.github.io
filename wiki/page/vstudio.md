@@ -2,6 +2,8 @@
 
 > *Última atualização: 2025-08-09*
 
+- [📦 Visual Studio Community 2022](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030:baf2f972e3cd43cb9f5e647b1da597f7)
+
 ## 🗂️ Estrutura
 
 ```cpp

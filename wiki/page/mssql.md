@@ -42,10 +42,6 @@ REVOKE VIEW ANY DATABASE TO zrfisaac;
 DENY VIEW ANY DATABASE TO zrfisaac;
 ```
 
-Claro! Aqui está a versão completa, desde o início, com **tipos em maiúsculo** conforme o SQL Server:
-
----
-
 ## 🔢 Tipos
 
 * `TINYINT` – 1 byte, sem sinal → 0..255
