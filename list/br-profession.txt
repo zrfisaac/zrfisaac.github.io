@@ -1,0 +1,20 @@
+Advogado
+Agrônomo
+Arquiteto
+Ator/Atriz
+Bibliotecário
+Biomédico
+Chef de cozinha
+Contador
+Dentista
+Engenheiro civil
+Enfermeiro
+Farmacêutico
+Jornalista
+Médico
+Motorista
+Professor
+Psicólogo
+Técnico de informática
+Veterinário
+Zoólogo

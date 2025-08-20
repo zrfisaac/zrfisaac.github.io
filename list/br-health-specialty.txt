@@ -1,0 +1,20 @@
+Alergologia
+Angiologia
+Cardiologia
+Cirurgia geral
+Cirurgia plástica
+Clínica médica
+Dermatologia
+Endocrinologia
+Gastroenterologia
+Geriatria
+Ginecologia e obstetrícia
+Hematologia
+Infectologia
+Nefrologia
+Neurologia
+Oftalmologia
+Oncologia
+Ortopedia
+Pediatria
+Psiquiatria
