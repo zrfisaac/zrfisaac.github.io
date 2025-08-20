@@ -4,12 +4,39 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.8.18.1
+# - version : zrfisaac : 25.8.20.1
 
 # [ list ]
 
 # - : ./github
 # . - : https://github.com/zrfisaac/zrfisaac.git
+
+# - : ./game/blind-lab
+# . - : https://github.com/zrfisaac/BlindLab.git
+
+# - : ./jam/the-indie-den-game-jam
+# . - : https://github.com/zrfisaac/jam.the-indie-den-game-jam.git
+
+# - : ./mvp/achieve-it
+# . - : https://github.com/zrfisaac/AchieveIt.git
+
+# - : ./mvp/go-sales
+# . - : https://github.com/zrfisaac/GoSales.git
+
+# - : ./mvp/home-chef
+# . - : https://github.com/zrfisaac/HomeChef.git
+
+# - : ./mvp/my-balance
+# . - : https://github.com/zrfisaac/MyBalance.git
+
+# - : ./mvp/quick-order
+# . - : https://github.com/zrfisaac/QuickOrder.git
+
+# - : ./mvp/route-plan
+# . - : https://github.com/zrfisaac/RoutePlan.git
+
+# - : ./mvp/stock-guard
+# . - : https://github.com/zrfisaac/StockGuard.git
 
 # - : ./project/bde
 # . - : https://github.com/zrfisaac/BDE.git
