@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.8.20.2
+# - version : zrfisaac : 25.8.20.3
 
 # [ list ]
 
@@ -71,8 +71,14 @@
 # - : ./wiki.es
 # . - : https://github.com/zrfisaac/wiki.es.git
 
+# - : ./wiki.it
+# . - : https://github.com/zrfisaac/wiki.it.git
+
 # - : ./wiki.pt
 # . - : https://github.com/zrfisaac/wiki.pt.git
 
 # - : ./wiki.ja
 # . - : https://github.com/zrfisaac/wiki.ja.git
+
+# - : ./wiki.zr
+# . - : https://github.com/zrfisaac/wiki.zr.git
