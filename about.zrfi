@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.8.21.2
+# - version : zrfisaac : 25.8.22.1
 
 # [ list ]
 
@@ -13,6 +13,9 @@
 
 # - : ./game/blind-lab
 # . - : https://github.com/zrfisaac/BlindLab.git
+
+# - : ./game/super-paulo
+# . - : https://github.com/zrfisaac/SuperPaulo.git
 
 # - : ./jam/the-indie-den-game-jam
 # . - : https://github.com/zrfisaac/jam.the-indie-den-game-jam.git
@@ -50,8 +53,11 @@
 # - : ./project/explorer-97
 # . - : https://github.com/zrfisaac/Explorer97.git
 
-# - : ./project/iniciar-xp
-# . - : https://github.com/zrfisaac/IniciarXP.git
+# - : ./project/explorer-97
+# . - : https://github.com/zrfisaac/Explorer97.git
+
+# - : ./project/freecep
+# . - : https://github.com/FreeCep/FreeCep.github.io.git
 
 # - : ./project/lfs
 # . - : https://github.com/zrfisaac/lfs.git
