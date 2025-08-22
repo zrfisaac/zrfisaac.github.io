@@ -11,6 +11,7 @@
 		<meta name="author" content="Isaac Caires Santana"> 
 
 		<!-- # : - bootstrap -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 		<link rel="stylesheet" href="/library/bootstrap/css/bootstrap.min.css" />
 
 		<!-- # : - fontawesome -->
@@ -23,17 +24,35 @@
 		<!-- # : - header -->
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 			<div class="container-fluid px-4">
-				<a class="navbar-brand" href="#">
-					<img src="/favicon.png" alt="ícone" style="width: 24px; height: 24px; margin-right: 8px; vertical-align: middle;">
-					ZRFISAAC
-				</a>
+				<div class="nav-item dropdown">
+					<a class="nav-link text-white" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						<div class="navbar-brand">
+							ZRFISAAC <i class="fa-solid fa-language"></i>
+						</div>
+					</a>
+					<ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="languageDropdown">
+						<li><a class="dropdown-item text-light" href="/en">English</a></li>
+						<li><a class="dropdown-item text-light" href="/es">Español</a></li>
+						<li><a class="dropdown-item text-light" href="/it">Italiano</a></li>
+						<li><a class="dropdown-item text-light" href="/pt">Português</a></li>
+						<li><a class="dropdown-item text-light" href="/ja">日本語</a></li>
+						<li><a class="dropdown-item text-light" href="/zh">中文</a></li>
+					</ul>
+				</div>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
 					<ul class="navbar-nav">
 						<li class="nav-item"><a class="nav-link" href="/"><i class="fa-solid fa-house"></i> Início</a></li>
-						<li class="nav-item"><a class="nav-link" href="/wiki"><i class="fa-solid fa-book"></i> WIKI</a></li>
+						<li class="nav-item"><a class="nav-link" href="/pt/privacy"><i class="fa-solid fa-shield-halved"></i> Privacidade</a></li>
+						<li class="nav-item"><a class="nav-link" href="/pt/resume"><i class="fa-solid fa-briefcase"></i> Currículo</a></li>
+						<li class="nav-item"><a class="nav-link" href="/pt/product"><i class="fa-solid fa-hand-holding-dollar"></i> Produtos</a></li>
+						<li class="nav-item"><a class="nav-link" href="/pt/mvp"><i class="fa-solid fa-window-restore"></i> MVP</a></li>
+						<li class="nav-item"><a class="nav-link" href="/pt/mobile"><i class="fa-solid fa-mobile-screen-button"></i> Mobile</a></li>
+						<li class="nav-item"><a class="nav-link" href="/pt/project"><i class="fa-brands fa-osi"></i> Projetos</a></li>
+						<li class="nav-item"><a class="nav-link" href="/pt/game"><i class="fa-solid fa-gamepad"></i> Jogos</a></li>
+						<li class="nav-item"><a class="nav-link" href="/wiki.pt"><i class="fa-solid fa-book"></i> WIKI</a></li>
 					</ul>
 				</div>
 			</div>
@@ -46,7 +65,7 @@
 			<div class="text-center">
 				<img src="/profile.jpg" alt="Isaac Caires Santana" class="profile-img mb-3" />
 				<h1>Isaac Caires Santana</h1>
-				<h5 class="text-white">Programador desde 2012</h5>
+				<h5 class="text-white">Programador desde 2007</h5>
 				<div class="social-icons mt-3">
 					<a href="https://wa.me/message/HIUVCFWYE3EXG1" target="_blank"><i class="fab fa-whatsapp"></i></a>
 					<a href="https://www.linkedin.com/in/zrfisaac" target="_blank"><i class="fab fa-linkedin-in"></i></a>

@@ -11,6 +11,7 @@
 		<meta name="author" content="Isaac Caires Santana"> 
 
 		<!-- # : - bootstrap -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 		<link rel="stylesheet" href="/library/bootstrap/css/bootstrap.min.css" />
 
 		<!-- # : - fontawesome -->
@@ -23,17 +24,35 @@
 		<!-- # : - header -->
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 			<div class="container-fluid px-4">
-				<a class="navbar-brand" href="#">
-					<img src="/favicon.png" alt="ícone" style="width: 24px; height: 24px; margin-right: 8px; vertical-align: middle;">
-					ZRFISAAC
-				</a>
+				<div class="nav-item dropdown">
+					<a class="nav-link text-white" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						<div class="navbar-brand">
+							ZRFISAAC <i class="fa-solid fa-language"></i>
+						</div>
+					</a>
+					<ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="languageDropdown">
+						<li><a class="dropdown-item text-light" href="/en">English</a></li>
+						<li><a class="dropdown-item text-light" href="/es">Español</a></li>
+						<li><a class="dropdown-item text-light" href="/it">Italiano</a></li>
+						<li><a class="dropdown-item text-light" href="/pt">Português</a></li>
+						<li><a class="dropdown-item text-light" href="/ja">日本語</a></li>
+						<li><a class="dropdown-item text-light" href="/zh">中文</a></li>
+					</ul>
+				</div>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
 					<ul class="navbar-nav">
-						<li class="nav-item"><a class="nav-link" href="/"><i class="fa-solid fa-house"></i> Início</a></li>
-						<li class="nav-item"><a class="nav-link" href="/wiki"><i class="fa-solid fa-book"></i> WIKI</a></li>
+						<li class="nav-item"><a class="nav-link" href="/"><i class="fa-solid fa-house"></i> 首页</a></li>
+						<li class="nav-item"><a class="nav-link" href="/zh/privacy"><i class="fa-solid fa-shield-halved"></i> 隐私</a></li>
+						<li class="nav-item"><a class="nav-link" href="/zh/resume"><i class="fa-solid fa-briefcase"></i> 简历</a></li>
+						<li class="nav-item"><a class="nav-link" href="/zh/product"><i class="fa-solid fa-hand-holding-dollar"></i> 产品</a></li>
+						<li class="nav-item"><a class="nav-link" href="/zh/mvp"><i class="fa-solid fa-window-restore"></i> MVP</a></li>
+						<li class="nav-item"><a class="nav-link" href="/zh/mobile"><i class="fa-solid fa-mobile-screen-button"></i> 移动端</a></li>
+						<li class="nav-item"><a class="nav-link" href="/zh/project"><i class="fa-brands fa-osi"></i> 项目</a></li>
+						<li class="nav-item"><a class="nav-link" href="/zh/game"><i class="fa-solid fa-gamepad"></i> 游戏</a></li>
+						<li class="nav-item"><a class="nav-link" href="/wiki.zh"><i class="fa-solid fa-book"></i> 维基</a></li>
 					</ul>
 				</div>
 			</div>
@@ -44,9 +63,9 @@
 
 			<!-- # : - title -->
 			<div class="text-center">
-				<img src="/profile.jpg" alt="Isaac Caires Santana" class="profile-img mb-3" />
-				<h1>Isaac Caires Santana</h1>
-				<h5 class="text-white">Programador desde 2012</h5>
+				<img src="/profile.jpg" alt="艾萨克·凯雷斯·桑塔纳" class="profile-img mb-3" />
+				<h1>艾萨克·凯雷斯·桑塔纳</h1>
+				<h5 class="text-white">自2012年以来的程序员</h5>
 				<div class="social-icons mt-3">
 					<a href="https://wa.me/message/HIUVCFWYE3EXG1" target="_blank"><i class="fab fa-whatsapp"></i></a>
 					<a href="https://www.linkedin.com/in/zrfisaac" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -58,10 +77,10 @@
 
 			<!-- # : - about -->
 			<div class="section mt-5">
-				<h2>🧑‍💻 Sobre</h2>
-				<p>Sou desenvolvedor de software desde 2012, com ampla experiência em Delphi e SQL Server, atuando principalmente na manutenção e desenvolvimento de sistemas corporativos. Com o tempo, expandi minhas habilidades para outras linguagens e ferramentas como Python, Bash, HTML/CSS/JS, Docker e ambientes Linux, especialmente o Arch Linux, que uso no meu dia a dia.</p>
-				<p>Tenho um forte interesse por tecnologia, organização e aprendizado contínuo. Por isso, mantenho uma wiki técnica pessoal, onde documento tudo o que aprendo — desde comandos úteis até conceitos mais avançados de desenvolvimento.</p>
-				<p>Falo português, inglês e espanhol, e sou autodidata desde sempre. Gosto de resolver problemas com eficiência e clareza, e busco constantemente melhorar como programador e como pessoa. Sou um pouco tímido no começo, mas com o tempo me solto e gosto muito de trocar ideias e experiências com outras pessoas da área.</p>
+				<h2>🧑‍💻 关于</h2>
+				<p>自2012年以来，我一直是一名软件开发人员，拥有丰富的Delphi和SQL Server经验，主要从事企业系统的维护和开发。随着时间的推移，我将技能扩展到其他语言和工具，如Python、Bash、HTML/CSS/JS、Docker以及Linux环境，特别是我日常使用的Arch Linux。</p>
+				<p>我对技术、组织和持续学习有着浓厚的兴趣。因此，我维护着一个个人技术维基，在那里记录我学到的一切——从实用命令到更高级的开发概念。</p>
+				<p>我会说葡萄牙语、英语和西班牙语，并且一直以来都是自学成才。我喜欢高效而清晰地解决问题，并不断努力提升自己作为程序员和个人的水平。我一开始有点害羞，但随着时间的推移，我会变得开朗，并且非常喜欢与业内人士交流想法和经验。</p>
 			</div>
 			<br />
 			<br />
@@ -70,7 +89,7 @@
 
 		<!-- # : - footer -->
 		<footer>
-			&copy; 2025 Isaac Caires Santana – <a href="https://zrfisaac.github.io" class="text-decoration-none text-light">zrfisaac.github.io</a>
+			© 2025 艾萨克·凯雷斯·桑塔纳 – <a href="https://zrfisaac.github.io" class="text-decoration-none text-light">zrfisaac.github.io</a>
 		</footer>
 
 		<!-- # : - bootstrap -->

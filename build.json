@@ -1,11 +1,35 @@
 {
-	"base": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
+	"about_title": {
+		"en": "🧑‍💻 About",
+		"es": "🧑‍💻 Acerca de",
+		"it": "🧑‍💻 Informazioni",
+		"pt": "🧑‍💻 Sobre",
+		"ja": "🧑‍💻 概要",
+		"zh": "🧑‍💻 关于"
+	},
+	"about_text_01": {
+		"en": "I have been a software developer since 2012, with extensive experience in Delphi and SQL Server, mainly working on the maintenance and development of corporate systems. Over time, I expanded my skills to other languages and tools such as Python, Bash, HTML/CSS/JS, Docker, and Linux environments, especially Arch Linux, which I use daily.",
+		"es": "Soy desarrollador de software desde 2012, con amplia experiencia en Delphi y SQL Server, trabajando principalmente en el mantenimiento y desarrollo de sistemas corporativos. Con el tiempo, amplié mis habilidades a otros lenguajes y herramientas como Python, Bash, HTML/CSS/JS, Docker y entornos Linux, especialmente Arch Linux, que utilizo a diario.",
+		"it": "Sono sviluppatore software dal 2012, con ampia esperienza in Delphi e SQL Server, lavorando principalmente alla manutenzione e allo sviluppo di sistemi aziendali. Con il tempo ho ampliato le mie competenze ad altri linguaggi e strumenti come Python, Bash, HTML/CSS/JS, Docker e ambienti Linux, in particolare Arch Linux, che utilizzo quotidianamente.",
+		"pt": "Sou desenvolvedor de software desde 2012, com ampla experiência em Delphi e SQL Server, atuando principalmente na manutenção e desenvolvimento de sistemas corporativos. Com o tempo, expandi minhas habilidades para outras linguagens e ferramentas como Python, Bash, HTML/CSS/JS, Docker e ambientes Linux, especialmente o Arch Linux, que uso no meu dia a dia.",
+		"ja": "2012年からソフトウェア開発者として活動しており、DelphiとSQL Serverに豊富な経験があり、主に企業システムの保守と開発に携わっています。時間とともに、Python、Bash、HTML/CSS/JS、Docker、そして特に日常的に使用しているArch LinuxなどのLinux環境など、他の言語やツールへとスキルを広げてきました。",
+		"zh": "自2012年以来，我一直是一名软件开发人员，拥有丰富的Delphi和SQL Server经验，主要从事企业系统的维护和开发。随着时间的推移，我将技能扩展到其他语言和工具，如Python、Bash、HTML/CSS/JS、Docker以及Linux环境，特别是我日常使用的Arch Linux。"
+	},
+	"about_text_02": {
+		"en": "I have a strong interest in technology, organization, and continuous learning. That’s why I maintain a personal technical wiki, where I document everything I learn — from useful commands to more advanced development concepts.",
+		"es": "Tengo un gran interés por la tecnología, la organización y el aprendizaje continuo. Por eso mantengo una wiki técnica personal, donde documento todo lo que aprendo, desde comandos útiles hasta conceptos más avanzados de desarrollo.",
+		"it": "Ho un forte interesse per la tecnologia, l'organizzazione e l'apprendimento continuo. Per questo motivo mantengo una wiki tecnica personale, dove documento tutto ciò che imparo — dai comandi utili ai concetti di sviluppo più avanzati.",
+		"pt": "Tenho um forte interesse por tecnologia, organização e aprendizado contínuo. Por isso, mantenho uma wiki técnica pessoal, onde documento tudo o que aprendo — desde comandos úteis até conceitos mais avançados de desenvolvimento.",
+		"ja": "私は技術、整理、そして継続的な学習に強い関心を持っています。そのため、学んだすべてのことを記録する個人的な技術Wikiを維持しています — 便利なコマンドから高度な開発概念まで。",
+		"zh": "我对技术、组织和持续学习有着浓厚的兴趣。因此，我维护着一个个人技术维基，在那里记录我学到的一切——从实用命令到更高级的开发概念。"
+	},
+	"about_text_03": {
+		"en": "I speak Portuguese, English, and Spanish, and I have always been self-taught. I like solving problems efficiently and clearly, and I constantly strive to improve as a programmer and as a person. I am a bit shy at first, but over time I open up and really enjoy exchanging ideas and experiences with others in the field.",
+		"es": "Hablo portugués, inglés y español, y siempre he sido autodidacta. Me gusta resolver problemas con eficiencia y claridad, y busco constantemente mejorar como programador y como persona. Soy un poco tímido al principio, pero con el tiempo me suelto y disfruto mucho intercambiar ideas y experiencias con otras personas del área.",
+		"it": "Parlo portoghese, inglese e spagnolo e sono sempre stato autodidatta. Mi piace risolvere problemi in modo efficiente e chiaro e cerco costantemente di migliorare come programmatore e come persona. Sono un po' timido all'inizio, ma col tempo mi apro e mi piace molto scambiare idee ed esperienze con altre persone del settore.",
+		"pt": "Falo português, inglês e espanhol, e sou autodidata desde sempre. Gosto de resolver problemas com eficiência e clareza, e busco constantemente melhorar como programador e como pessoa. Sou um pouco tímido no começo, mas com o tempo me solto e gosto muito de trocar ideias e experiências com outras pessoas da área.",
+		"ja": "ポルトガル語、英語、スペイン語を話し、ずっと独学で学んできました。効率的かつ明確に問題を解決するのが好きで、プログラマーとしても人としても常に成長しようと努めています。最初は少し内気ですが、時間が経つと打ち解け、同業の人々とアイデアや経験を交換することをとても楽しんでいます。",
+		"zh": "我会说葡萄牙语、英语和西班牙语，并且一直以来都是自学成才。我喜欢高效而清晰地解决问题，并不断努力提升自己作为程序员和个人的水平。我一开始有点害羞，但随着时间的推移，我会变得开朗，并且非常喜欢与业内人士交流想法和经验。"
 	},
 	"lang": {
 		"en": "en",
@@ -15,39 +39,7 @@
 		"ja": "ja",
 		"zh": "zh"
 	},
-	"basic_01": {
-		"en": " +55 (71) 9 8398-0801",
-		"es": " +55 (71) 9 8398-0801",
-		"it": " +55 (71) 9 8398-0801",
-		"pt": " +55 (71) 9 8398-0801",
-		"ja": " +55 (71) 9 8398-0801",
-		"zh": " +55 (71) 9 8398-0801"
-	},
-	"basic_02": {
-		"en": " zrfisaac@gmail.com",
-		"es": " zrfisaac@gmail.com",
-		"it": " zrfisaac@gmail.com",
-		"pt": " zrfisaac@gmail.com",
-		"ja": " zrfisaac@gmail.com",
-		"zh": " zrfisaac@gmail.com"
-	},
-	"basic_03": {
-		"en": " linkedin.com/in/zrfisaac",
-		"es": " linkedin.com/in/zrfisaac",
-		"it": " linkedin.com/in/zrfisaac",
-		"pt": " linkedin.com/in/zrfisaac",
-		"ja": " linkedin.com/in/zrfisaac",
-		"zh": " linkedin.com/in/zrfisaac"
-	},
-	"basic_04": {
-		"en": " zrfisaac.github.io",
-		"es": " zrfisaac.github.io",
-		"it": " zrfisaac.github.io",
-		"pt": " zrfisaac.github.io",
-		"ja": " zrfisaac.github.io",
-		"zh": " zrfisaac.github.io"
-	},
-	"home": {
+	"menu_home": {
 		"en": "Home",
 		"es": "Inicio",
 		"it": "Home",
@@ -55,7 +47,7 @@
 		"ja": "ホーム",
 		"zh": "首页"
 	},
-	"privacy": {
+	"menu_privacy": {
 		"en": "Privacy",
 		"es": "Privacidad",
 		"it": "Privacy",
@@ -63,7 +55,7 @@
 		"ja": "プライバシー",
 		"zh": "隐私"
 	},
-	"resume": {
+	"menu_resume": {
 		"en": "Resume",
 		"es": "Currículum",
 		"it": "Curriculum",
@@ -71,7 +63,7 @@
 		"ja": "履歴書",
 		"zh": "简历"
 	},
-	"product": {
+	"menu_product": {
 		"en": "Products",
 		"es": "Productos",
 		"it": "Prodotti",
@@ -79,7 +71,7 @@
 		"ja": "製品",
 		"zh": "产品"
 	},
-	"mvp": {
+	"menu_mvp": {
 		"en": "MVP",
 		"es": "MVP",
 		"it": "MVP",
@@ -87,7 +79,7 @@
 		"ja": "MVP",
 		"zh": "MVP"
 	},
-	"mobile": {
+	"menu_mobile": {
 		"en": "Mobile",
 		"es": "Móvil",
 		"it": "Mobile",
@@ -95,7 +87,7 @@
 		"ja": "モバイル",
 		"zh": "移动端"
 	},
-	"project": {
+	"menu_project": {
 		"en": "Projects",
 		"es": "Proyectos",
 		"it": "Progetti",
@@ -103,7 +95,7 @@
 		"ja": "プロジェクト",
 		"zh": "项目"
 	},
-	"game": {
+	"menu_game": {
 		"en": "Games",
 		"es": "Juegos",
 		"it": "Giochi",
@@ -111,15 +103,39 @@
 		"ja": "ゲーム",
 		"zh": "游戏"
 	},
-	"wiki": {
-		"en": "WIKI",
-		"es": "WIKI",
-		"it": "WIKI",
+	"menu_wiki": {
+		"en": "Wiki",
+		"es": "Wiki",
+		"it": "Wiki",
 		"pt": "WIKI",
 		"ja": "ウィキ",
 		"zh": "维基"
 	},
-	"main_user": {
+	"zrfisaac_copyright": {
+		"en": "© 2025 Isaac Caires Santana",
+		"es": "© 2025 Isaac Caires Santana",
+		"it": "© 2025 Isaac Caires Santana",
+		"pt": "&copy; 2025 Isaac Caires Santana",
+		"ja": "© 2025 アイザック・カイレス・サンタナ",
+		"zh": "© 2025 艾萨克·凯雷斯·桑塔纳"
+	},
+	"zrfisaac_name": {
+		"en": "Isaac Caires Santana",
+		"es": "Isaac Caires Santana",
+		"it": "Isaac Caires Santana",
+		"pt": "Isaac Caires Santana",
+		"ja": "アイザック・カイレス・サンタナ",
+		"zh": "艾萨克·凯雷斯·桑塔纳"
+	},
+	"zrfisaac_phrase": {
+		"en": "Programmer since 2007",
+		"es": "Programador desde 2007",
+		"it": "Programmatore dal 2007",
+		"pt": "Programador desde 2007",
+		"ja": "2012年からプログラマー",
+		"zh": "自2012年以来的程序员"
+	},
+	"zrfisaac_user": {
 		"en": "ZRFISAAC",
 		"es": "ZRFISAAC",
 		"it": "ZRFISAAC",
@@ -127,476 +143,5 @@
 		"ja": "ZRFISAAC",
 		"zh": "ZRFISAAC"
 	},
-	"main_name": {
-		"en": "Isaac Caires Santana",
-		"es": "Isaac Caires Santana",
-		"it": "Isaac Caires Santana",
-		"pt": "Isaac Caires Santana",
-		"ja": "アイザック・カイレス・サンタナ",
-		"zh": "伊萨克·凯雷斯·桑塔纳"
-	},
-	"main_job": {
-		"en": "Software Developer",
-		"es": "Desarrollador de Software",
-		"it": "Sviluppatore Software",
-		"pt": "Desenvolvedor de Software",
-		"ja": "ソフトウェア開発者",
-		"zh": "软件开发人员"
-	},
-	"basic_name": {
-		"en": "Basic Information",
-		"es": "Información Básica",
-		"it": "Informazioni di Base",
-		"pt": "Basic Information",
-		"ja": "基本情報",
-		"zh": "基本信息"
-	},
-	"basic_download": {
-		"en": "Download Resume",
-		"es": "Descargar Currículum",
-		"it": "Scarica il Curriculum",
-		"pt": "Baixar Currículo",
-		"ja": "履歴書をダウンロード",
-		"zh": "下载简历"
-	},
-	"education_name": {
-		"en": "Education",
-		"es": "Educación",
-		"it": "Istruzione",
-		"pt": "Educação",
-		"ja": "学歴",
-		"zh": "教育背景"
-	},
-	"education_01": {
-		"en": "<a href=\"/document/estacio.png\" target=\"_blank\" class=\"\">Bachelor’s Degree in Information Systems</a>",
-		"es": "<a href=\"/document/estacio.png\" target=\"_blank\" class=\"\">Licenciatura en Sistemas de Información</a>",
-		"it": "<a href=\"/document/estacio.png\" target=\"_blank\" class=\"\">Laurea in Sistemi Informativi</a>",
-		"pt": "<a href=\"/document/estacio.png\" target=\"_blank\" class=\"\">Bacharelado em Sistemas de Informação</a>",
-		"ja": "<a href=\"/document/estacio.png\" target=\"_blank\" class=\"\">情報システム学士</a>",
-		"zh": "<a href=\"/document/estacio.png\" target=\"_blank\" class=\"\">信息系统学士学位</a>"
-	},
-	"education_02": {
-		"en": "<a href=\"https://estacio.br\" target=\"_blank\">Estácio de Sá University</a> <span class=\"year\">(December 2020)</span>",
-		"es": "<a href=\"https://estacio.br\" target=\"_blank\">Universidad Estácio de Sá</a> <span class=\"year\">(Diciembre de 2020)</span>",
-		"it": "<a href=\"https://estacio.br\" target=\"_blank\">Università Estácio de Sá</a> <span class=\"year\">(Dicembre 2020)</span>",
-		"pt": "<a href=\"https://estacio.br\" target=\"_blank\">Universidade Estácio de Sá</a> <span class=\"year\">(Dezembro 2020)</span>",
-		"ja": "<a href=\"https://estacio.br\" target=\"_blank\">エスタシオ・ジ・サ大学</a> <span class=\"year\">(2020年12月)</span>",
-		"zh": "<a href=\"https://estacio.br\" target=\"_blank\">埃斯塔西奥·德萨大学</a> <span class=\"year\">(2020年12月)</span>"
-	},
-	"education_03": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"education_04": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"skill_name": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"skill_01": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"skill_02": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"skill_03": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"skill_04": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"skill_05": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"skill_06": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"skill_07": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"skill_08": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"skill_09": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"skill_10": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"home_name": {
-		"en": "Home",
-		"es": "Inicio",
-		"it": "Home",
-		"pt": "Início",
-		"ja": "ホーム",
-		"zh": "首页"
-	},
-	"home_title": {
-		"en": "Introduction Page",
-		"es": "Página de Introducción",
-		"it": "Pagina di Introduzione",
-		"pt": "Página de Introdução",
-		"ja": "紹介ページ",
-		"zh": "介绍页面"
-	},
-	"home_welcome": {
-		"en": "Welcome!",
-		"es": "¡Bienvenido!",
-		"it": "Benvenuto!",
-		"pt": "Bem-vindo!",
-		"ja": "ようこそ！",
-		"zh": "欢迎！"
-	},
-	"home_welcome_01": {
-		"en": "Hello! My name is Isaac Caires Santana and I’m a passionate software developer with over 15 years of experience in full-stack development and hospital management solutions. I specialize in building robust and efficient applications using technologies like Delphi, C#, ASP.NET, and Python.",
-		"es": "¡Hola! Mi nombre es Isaac Caires Santana y soy un desarrollador de software apasionado, con más de 15 años de experiencia en desarrollo full-stack y soluciones de gestión hospitalaria. Me especializo en crear aplicaciones robustas y eficientes utilizando tecnologías como Delphi, C#, ASP.NET y Python.",
-		"it": "Ciao! Mi chiamo Isaac Caires Santana e sono uno sviluppatore software appassionato, con oltre 15 anni di esperienza nello sviluppo full-stack e nelle soluzioni di gestione ospedaliera. Mi specializzo nella creazione di applicazioni robuste ed efficienti utilizzando tecnologie come Delphi, C#, ASP.NET e Python.",
-		"pt": "Olá! Meu nome é Isaac Caires Santana e sou um desenvolvedor de software apaixonado, com mais de 15 anos de experiência em desenvolvimento full-stack e soluções de gestão hospitalar. Especializo-me na criação de aplicações robustas e eficientes utilizando tecnologias como Delphi, C#, ASP.NET e Python.",
-		"ja": "こんにちは！私の名前はアイザック・カイレス・サンタナです。私は情熱的なソフトウェア開発者で、フルスタック開発と病院管理ソリューションに15年以上の経験があります。Delphi、C#、ASP.NET、Pythonなどの技術を用いた堅牢で効率的なアプリケーションの構築を専門としています。",
-		"zh": "你好！我叫 Isaac Caires Santana，是一位充满热情的软件开发人员，拥有超过15年的全栈开发和医院管理解决方案经验。我专注于使用 Delphi、C#、ASP.NET 和 Python 等技术构建稳健高效的应用程序。"
-	},
-	"home_welcome_02": {
-		"en": "If you're looking for a software developer to bring your ideas to life, you're in the right place! I offer a wide range of services, including:",
-		"es": "Si estás buscando un desarrollador de software para dar vida a tus ideas, ¡estás en el lugar correcto! Ofrezco una amplia gama de servicios, que incluyen:",
-		"it": "Se stai cercando uno sviluppatore software per dare vita alle tue idee, sei nel posto giusto! Offro una vasta gamma di servizi, tra cui:",
-		"pt": "Se você está procurando um desenvolvedor de software para dar vida às suas ideias, você veio ao lugar certo! Ofereço uma ampla gama de serviços, incluindo:",
-		"ja": "あなたのアイデアを実現するソフトウェア開発者をお探しなら、ここが最適な場所です！私は以下を含む幅広いサービスを提供しています：",
-		"zh": "如果您正在寻找一位软件开发人员来实现您的创意，那您来对地方了！我提供多种服务，包括："
-	},
-	"home_welcome_03": {
-		"en": "Mobile app development",
-		"es": "Desarrollo de aplicaciones móviles",
-		"it": "Sviluppo di app mobili",
-		"pt": "Desenvolvimento de aplicativos móveis",
-		"ja": "モバイルアプリ開発",
-		"zh": "移动应用开发"
-	},
-	"home_welcome_04": {
-		"en": "Web development",
-		"es": "Desarrollo web",
-		"it": "Sviluppo web",
-		"pt": "Desenvolvimento web",
-		"ja": "ウェブ開発",
-		"zh": "网站开发"
-	},
-	"home_welcome_05": {
-		"en": "Making your existing application run on Linux and soon on macOS with ARM support",
-		"es": "Hacer que tu aplicación existente funcione en Linux y, próximamente, en macOS con soporte para ARM",
-		"it": "Rendere la tua applicazione esistente compatibile con Linux e presto anche con macOS con supporto ARM",
-		"pt": "Fazer seu aplicativo existente rodar no Linux e, em breve, no MacOS com suporte para ARM",
-		"ja": "既存のアプリケーションをLinuxで動作させ、さらにARM対応のmacOSにも対応予定です",
-		"zh": "让您现有的应用程序能够在 Linux 上运行，并即将在支持 ARM 的 macOS 上运行"
-	},
-	"home_welcome_06": {
-		"en": "I'm committed to delivering high-quality solutions that meet your specific needs. Whether it's building a custom app, optimizing your current systems, or ensuring cross-platform compatibility, I can help turn your ideas into reality.",
-		"es": "Estoy comprometido a ofrecer soluciones de alta calidad que se ajusten a tus necesidades específicas. Ya sea desarrollando una aplicación personalizada, optimizando tus sistemas actuales o garantizando la compatibilidad entre plataformas, puedo ayudarte a convertir tus ideas en realidad.",
-		"it": "Mi impegno è offrire soluzioni di alta qualità che soddisfino le tue esigenze specifiche. Che si tratti di creare un'app personalizzata, ottimizzare i tuoi sistemi attuali o garantire la compatibilità tra piattaforme, posso aiutarti a trasformare le tue idee in realtà.",
-		"pt": "Estou comprometido em fornecer soluções de alta qualidade que atendam às suas necessidades específicas. Seja desenvolvendo um aplicativo personalizado, otimizando seus sistemas atuais ou garantindo compatibilidade entre plataformas, posso ajudar a transformar suas ideias em realidade.",
-		"ja": "お客様の特定のニーズに応える高品質なソリューションの提供をお約束します。カスタムアプリの開発、既存システムの最適化、クロスプラットフォーム対応など、あなたのアイデアを現実にするお手伝いをいたします。",
-		"zh": "我致力于提供满足您特定需求的高质量解决方案。无论是开发定制应用、优化当前系统，还是确保跨平台兼容性，我都可以帮助您将想法变为现实。"
-	},
-	"home_welcome_07": {
-		"en": "If you want to learn more about my skills, services, and the products I've developed, feel free to explore my Products page for more information.",
-		"es": "Si deseas saber más sobre mis habilidades, servicios y los productos que he desarrollado, no dudes en explorar mi página de Productos para más información.",
-		"it": "Se vuoi saperne di più sulle mie competenze, i miei servizi e i prodotti che ho sviluppato, sentiti libero di esplorare la mia pagina dei Prodotti per ulteriori informazioni.",
-		"pt": "Se quiser saber mais sobre minhas habilidades, serviços e os produtos que desenvolvi, sinta-se à vontade para explorar minha página de Produtos para mais informações.",
-		"ja": "私のスキル、サービス、開発した製品についてもっと知りたい方は、「製品」ページをご覧ください。",
-		"zh": "如果您想了解我在技能、服务和产品开发方面的更多信息，欢迎访问我的产品页面以获取更多详情。"
-	},
-	"home_journey": {
-		"en": "My Journey as a Software Developer",
-		"es": "Mi Trayectoria como Desarrollador de Software",
-		"it": "Il Mio Percorso come Sviluppatore Software",
-		"pt": "Minha Jornada como Desenvolvedor de Software",
-		"ja": "ソフトウェア開発者としての私の歩み",
-		"zh": "我作为软件开发人员的历程"
-	},
-	"home_journey_01": {
-		"en": "Hello! I’m Isaac Caires Santana, a passionate software developer with over 15 years of experience. My journey began in 2005 when I dived into programming, working on GSI, an ERP system originally developed by my father. It was there that I honed my skills in Delphi, SQL Server, and report generation, forming the foundation of my career.",
-		"es": "¡Hola! Soy Isaac Caires Santana, un desarrollador de software apasionado con más de 15 años de experiencia. Mi viaje comenzó en 2005, cuando me sumergí en la programación trabajando en GSI, un sistema ERP desarrollado originalmente por mi padre. Allí perfeccioné mis habilidades en Delphi, SQL Server y generación de informes, formando la base de mi carrera.",
-		"it": "Ciao! Sono Isaac Caires Santana, uno sviluppatore software appassionato con oltre 15 anni di esperienza. Il mio percorso è iniziato nel 2005, quando mi sono immerso nella programmazione lavorando su GSI, un sistema ERP originariamente sviluppato da mio padre. È lì che ho affinato le mie competenze in Delphi, SQL Server e generazione di report, formando le basi della mia carriera.",
-		"pt": "Olá! Sou Isaac Caires Santana, um desenvolvedor de software apaixonado com mais de 15 anos de experiência. Minha jornada começou em 2005, quando mergulhei no mundo da programação, trabalhando no GSI, um sistema ERP originalmente desenvolvido pelo meu pai. Foi ali que aperfeiçoei minhas habilidades em Delphi, SQL Server e geração de relatórios, formando a base da minha carreira.",
-		"ja": "こんにちは！私はアイザック・カイレス・サンタナ、情熱的なソフトウェア開発者であり、15年以上の経験があります。私のキャリアは2005年に始まり、父が開発したERPシステムGSIに携わりました。そこでDelphi、SQL Server、レポート生成のスキルを磨き、キャリアの基盤を築きました。",
-		"zh": "你好！我是 Isaac Caires Santana，一名充满热情的软件开发人员，拥有超过15年的经验。我的职业生涯始于2005年，当时我投身于编程，参与了由我父亲最初开发的GSI ERP系统。在那里，我磨练了Delphi、SQL Server和报表生成的技能，奠定了我的职业基础。"
-	},
-	"home_journey_02": {
-		"en": "As I progressed, I joined Techsallus, where I expanded my knowledge in Delphi and SQL Server, especially in the development and maintenance of hospital management systems. My work included optimizing stored procedures, creating jobs and functions, and solving complex database issues, which gave me valuable experience managing large-scale systems.",
-		"es": "A medida que avancé, me uní a Techsallus, donde amplié mis conocimientos en Delphi y SQL Server, especialmente en el desarrollo y mantenimiento de sistemas de gestión hospitalaria. Mi trabajo incluyó la optimización de procedimientos almacenados, la creación de jobs y funciones, y la solución de problemas complejos en bases de datos, lo que me brindó una valiosa experiencia en la gestión de sistemas a gran escala.",
-		"it": "Man mano che avanzavo, mi sono unito a Techsallus, dove ho ampliato le mie conoscenze in Delphi e SQL Server, specialmente nello sviluppo e manutenzione di sistemi di gestione ospedaliera. Il mio lavoro includeva l'ottimizzazione di stored procedure, la creazione di job e funzioni, e la risoluzione di problemi complessi nei database, che mi ha fornito una preziosa esperienza nella gestione di sistemi su larga scala.",
-		"pt": "À medida que avancei, me juntei à Techsallus, onde ampliei meus conhecimentos em Delphi e SQL Server, especialmente no desenvolvimento e manutenção de sistemas de gestão hospitalar. Meu trabalho incluiu a otimização de procedimentos armazenados, criação de jobs e funções, e solução de problemas complexos em bancos de dados, o que me proporcionou uma valiosa experiência na gestão de sistemas em grande escala.",
-		"ja": "キャリアを進める中で、Techsallusに参加し、DelphiやSQL Serverの知識を深め、特に病院管理システムの開発と保守に携わりました。ストアドプロシージャの最適化、ジョブや関数の作成、複雑なデータベース問題の解決など、大規模システムの管理に貴重な経験を積みました。",
-		"zh": "随着职业发展，我加入了Techsallus，扩展了我在Delphi和SQL Server方面的知识，特别是在医院管理系统的开发和维护方面。我的工作包括优化存储过程，创建任务和函数，解决复杂的数据库问题，这让我积累了管理大规模系统的宝贵经验。"
-	},
-	"home_journey_03": {
-		"en": "In 2022, I joined Softwell Solutions, where I had a significant impact on the Maker Platform. One of my proudest achievements was adapting the platform to run on Linux using Wine, making it more memory-efficient and accessible for clients. This change was a game-changer, also enabling remote access to the platform via the web. I continued working with various tools and technologies such as Docker, PostgreSQL, Oracle, and Delphi, always focusing on clean code, efficient maintenance, and cross-platform compatibility.",
-		"es": "En 2022, me uní a Softwell Solutions, donde tuve un impacto significativo en la plataforma Maker. Uno de mis mayores logros fue adaptar la plataforma para que funcionara en Linux usando Wine, haciéndola más eficiente en memoria y accesible para los clientes. Este cambio fue un punto de inflexión, permitiendo también el acceso remoto a la plataforma vía web. Continué trabajando con diversas herramientas y tecnologías como Docker, PostgreSQL, Oracle y Delphi, siempre enfocándome en código limpio, mantenimiento eficiente y compatibilidad multiplataforma.",
-		"it": "Nel 2022, sono entrato in Softwell Solutions, dove ho avuto un impatto significativo sulla Maker Platform. Uno dei miei più grandi successi è stato adattare la piattaforma per farla funzionare su Linux usando Wine, rendendola più efficiente in termini di memoria e più accessibile per i clienti. Questo cambiamento è stato fondamentale, permettendo anche l'accesso remoto alla piattaforma tramite web. Ho continuato a lavorare con vari strumenti e tecnologie come Docker, PostgreSQL, Oracle e Delphi, sempre concentrandomi su codice pulito, manutenzione efficiente e compatibilità multipiattaforma.",
-		"pt": "Em 2022, me juntei à Softwell Solutions, onde tive um impacto significativo na Maker Platform. Um dos meus maiores orgulhos foi adaptar a plataforma para rodar no Linux usando Wine, tornando-a mais eficiente em termos de memória e mais acessível para os clientes. Essa mudança foi um divisor de águas, permitindo também o acesso remoto à plataforma via web. Continuei meu trabalho com diversas ferramentas e tecnologias, como Docker, PostgreSQL, Oracle e Delphi, sempre com foco em código limpo, manutenção eficiente e compatibilidade entre plataformas.",
-		"ja": "2022年にSoftwell Solutionsに参加し、Makerプラットフォームに大きな影響を与えました。最も誇りに思う成果の一つは、Wineを使ってLinux上でプラットフォームを動作させるように適応し、メモリ効率を高め、クライアントにとってより使いやすくしたことです。この変化は大きな転換点となり、ウェブ経由でのリモートアクセスも可能にしました。Docker、PostgreSQL、Oracle、Delphiなどの様々なツールと技術を使い続け、常にクリーンコード、効率的なメンテナンス、クロスプラットフォーム互換性に注力しています。",
-		"zh": "2022年，我加入了Softwell Solutions，对Maker平台产生了重大影响。我最自豪的成就之一是将平台适配到使用Wine运行的Linux，使其更节省内存且对客户更易访问。这一改变是个里程碑，也实现了通过网页远程访问平台。我继续使用Docker、PostgreSQL、Oracle和Delphi等多种工具和技术，始终专注于干净的代码、高效的维护和跨平台兼容性。"
-	},
-	"home_journey_04": {
-		"en": "Throughout my career, I’ve been driven by a desire to learn, grow, and apply the latest technologies to solve real-world problems. I take pride in following best practices such as SOLID principles and design patterns, always striving to push my limits. Today, I continue seeking new opportunities to leverage my skills and help others turn their ideas into reality.",
-		"es": "A lo largo de mi carrera, me ha impulsado el deseo de aprender, crecer y aplicar las últimas tecnologías para resolver problemas del mundo real. Me enorgullezco de seguir las mejores prácticas como los principios SOLID y los patrones de diseño, siempre esforzándome por superar mis propios límites. Hoy, continúo buscando nuevas oportunidades para aprovechar mis habilidades y ayudar a otros a convertir sus ideas en realidad.",
-		"it": "Durante la mia carriera, sono stato guidato dal desiderio di imparare, crescere e applicare le ultime tecnologie per risolvere problemi reali. Sono orgoglioso di seguire le migliori pratiche come i principi SOLID e i design pattern, cercando sempre di superare i miei limiti. Oggi continuo a cercare nuove opportunità per sfruttare le mie competenze e aiutare gli altri a trasformare le loro idee in realtà.",
-		"pt": "Ao longo da minha carreira, fui movido pelo desejo de aprender, crescer e aplicar as tecnologias mais recentes para resolver problemas do mundo real. Tenho orgulho de seguir as melhores práticas, como os princípios SOLID e padrões de design, além de estar sempre buscando superar meus próprios limites. Hoje, continuo em busca de novas oportunidades para aproveitar minhas habilidades e ajudar outras pessoas a transformar suas ideias em realidade.",
-		"ja": "私のキャリアを通じて、学び、成長し、最新技術を活用して実世界の問題を解決することに情熱を注いできました。SOLID原則やデザインパターンなどのベストプラクティスを守り、自分の限界を常に超えることを目指しています。現在もスキルを活かし、他者のアイデアを実現するための新しい機会を追求し続けています。",
-		"zh": "在我的职业生涯中，我始终怀着学习、成长并应用最新技术解决现实问题的热情。我自豪于遵循SOLID原则和设计模式等最佳实践，并始终努力超越自我。如今，我继续寻求新机会，利用我的技能帮助他人将想法变为现实。"
-	},
-	"privacy_name": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_title": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_01": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_02": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_03": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_04": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_05": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_06": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_07": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_08": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_09": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_10": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_11": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_12": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_13": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_14": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_15": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_16": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_17": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_18": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_19": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_20": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_21": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	},
-	"privacy_22": {
-		"en": "",
-		"es": "",
-		"it": "",
-		"pt": "",
-		"ja": "",
-		"zh": ""
-	}
+	"dummy": {}
 }
