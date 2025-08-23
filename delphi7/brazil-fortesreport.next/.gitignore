@@ -1,0 +1,13 @@
+# [ gitignore ]
+
+# - : zrfisaac.gitignore.delphi7 : 25.8.4.1
+*.~*
+*.MB
+*.bpi
+*.bpl
+*.dcp
+*.dcu
+*.ddp
+*.dll
+*.exe
+*.ini

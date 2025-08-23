@@ -19,35 +19,174 @@ object FrmRelatorio: TFrmRelatorio
     Top = 8
     Width = 794
     Height = 1123
-    DataSource = bdeData
+    DataSource = dtsBase
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clBlack
     Font.Height = -13
     Font.Name = 'Arial'
     Font.Style = []
     ShowProgress = False
-    object rbLinha: TRLBand
+    object RLGroup1: TRLGroup
       Left = 38
       Top = 38
       Width = 718
-      Height = 16
-      object dbBaseNome: TRLDBText
+      Height = 99
+      DataFields = 'EMPRESA'
+      AfterPrint = RLGroup1AfterPrint
+      object rbLinha: TRLBand
+        Left = 0
+        Top = 32
+        Width = 718
+        Height = 16
+        object dbBaseNome: TRLDBText
+          Left = 137
+          Top = 0
+          Width = 511
+          Height = 16
+          Align = faClient
+          AutoSize = False
+          DataField = 'PRODUTO'
+          DataSource = dtsBase
+        end
+        object RLDBText2: TRLDBText
+          Left = 648
+          Top = 0
+          Width = 70
+          Height = 16
+          Align = faRight
+          Alignment = taRightJustify
+          AutoSize = False
+          DataField = 'VALOR'
+          DataSource = dtsBase
+        end
+        object RLLabel1: TRLLabel
+          Left = 0
+          Top = 0
+          Width = 137
+          Height = 16
+          Align = faLeft
+          AutoSize = False
+          Caption = ' '
+        end
+      end
+      object RLBand2: TRLBand
         Left = 0
         Top = 0
-        Width = 721
+        Width = 718
         Height = 16
-        AutoSize = False
-        DataField = 'NOME'
-        DataSource = bdeData
+        BandType = btHeader
+        object RLLabel2: TRLLabel
+          Left = 0
+          Top = 0
+          Width = 58
+          Height = 16
+          Align = faLeft
+          AutoSize = False
+          Caption = 'Empresa'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          ParentFont = False
+        end
+        object RLDBText3: TRLDBText
+          Left = 58
+          Top = 0
+          Width = 660
+          Height = 16
+          Align = faClient
+          AutoSize = False
+          DataField = 'EMPRESA'
+          DataSource = dtsBase
+        end
+      end
+      object RLBand4: TRLBand
+        Left = 0
+        Top = 16
+        Width = 718
+        Height = 16
+        BandType = btHeader
+        object RLLabel3: TRLLabel
+          Left = 137
+          Top = 0
+          Width = 58
+          Height = 16
+          Align = faLeft
+          AutoSize = False
+          Caption = 'Produto'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          ParentFont = False
+        end
+        object RLLabel4: TRLLabel
+          Left = 0
+          Top = 0
+          Width = 137
+          Height = 16
+          Align = faLeft
+          AutoSize = False
+          Caption = ' '
+        end
+        object RLLabel5: TRLLabel
+          Left = 195
+          Top = 0
+          Width = 454
+          Height = 16
+          Align = faLeft
+          AutoSize = False
+          Caption = ' '
+        end
+        object RLLabel6: TRLLabel
+          Left = 649
+          Top = 0
+          Width = 58
+          Height = 16
+          Align = faLeft
+          AutoSize = False
+          Caption = 'Valor'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          ParentFont = False
+        end
+      end
+    end
+    object RLSubDetail1: TRLSubDetail
+      Left = 38
+      Top = 137
+      Width = 718
+      Height = 64
+      DataSource = dtsTotal
+      object RLBand3: TRLBand
+        Left = 0
+        Top = 0
+        Width = 718
+        Height = 16
+        object RLDBText4: TRLDBText
+          Left = 0
+          Top = 0
+          Width = 718
+          Height = 16
+          Align = faClient
+          AutoSize = False
+          DataField = 'COR'
+          DataSource = dtsTotal
+        end
       end
     end
   end
-  object RLReport1: TRLReport
+  object rlRelatorioTotal: TRLReport
     Left = 8
     Top = 230
     Width = 794
     Height = 1123
-    DataSource = bdeData
+    DataSource = dtsTotal
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -62,11 +201,12 @@ object FrmRelatorio: TFrmRelatorio
       object RLDBText1: TRLDBText
         Left = 0
         Top = 0
-        Width = 721
+        Width = 718
         Height = 16
+        Align = faClient
         AutoSize = False
-        DataField = 'NOME'
-        DataSource = bdeData
+        DataField = 'COR'
+        DataSource = dtsTotal
       end
     end
   end
@@ -94,15 +234,17 @@ object FrmRelatorio: TFrmRelatorio
     Left = 112
     Top = 16
   end
-  object bdeQuery: TQuery
+  object qryBase: TQuery
     DatabaseName = 'BDE'
     SQL.Strings = (
-      '                    SELECT '#39'Ana'#39' AS NOME'
-      'UNION ALL SELECT '#39'Andr'#233#39
-      'UNION ALL SELECT '#39'Carlos'#39
-      'UNION ALL SELECT '#39'Juliana'#39
-      'UNION ALL SELECT '#39'Sabrina'#39
-      'UNION ALL SELECT '#39'Vit'#243'ria'#39)
+      
+        '          SELECT '#39#39' AS EMPRESA, '#39#39' AS PRODUTO, 0.0 AS VALOR WHER' +
+        'E 0 <> 0'
+      'UNION ALL SELECT '#39'Empresa 1'#39', '#39'Produto 1'#39', 10.00'
+      'UNION ALL SELECT '#39'Empresa 2'#39', '#39'Produto 2'#39', 20.00'
+      'UNION ALL SELECT '#39'Empresa 3'#39', '#39'Produto 3'#39', 30.00'
+      'UNION ALL SELECT '#39'Empresa 4'#39', '#39'Produto 4'#39', 40.00'
+      'UNION ALL SELECT '#39'Empresa 5'#39', '#39'Produto 5'#39', 50.00')
     Left = 208
     Top = 16
   end
@@ -117,9 +259,28 @@ object FrmRelatorio: TFrmRelatorio
     Left = 144
     Top = 16
   end
-  object bdeData: TDataSource
-    DataSet = bdeQuery
+  object dtsBase: TDataSource
+    DataSet = qryBase
     Left = 240
+    Top = 16
+  end
+  object qryTotal: TQuery
+    DatabaseName = 'BDE'
+    SQL.Strings = (
+      
+        '          SELECT '#39#39' AS EMPRESA, '#39#39' AS PRODUTO, 0.0 AS VALOR WHER' +
+        'E 0 <> 0'
+      'UNION ALL SELECT '#39'Empresa 1'#39', '#39'Produto 1'#39', 10.00'
+      'UNION ALL SELECT '#39'Empresa 2'#39', '#39'Produto 2'#39', 20.00'
+      'UNION ALL SELECT '#39'Empresa 3'#39', '#39'Produto 3'#39', 30.00'
+      'UNION ALL SELECT '#39'Empresa 4'#39', '#39'Produto 4'#39', 40.00'
+      'UNION ALL SELECT '#39'Empresa 5'#39', '#39'Produto 5'#39', 50.00')
+    Left = 272
+    Top = 16
+  end
+  object dtsTotal: TDataSource
+    DataSet = qryTotal
+    Left = 304
     Top = 16
   end
 end

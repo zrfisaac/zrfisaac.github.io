@@ -29,16 +29,33 @@ type
     RLHTMLFilter: TRLHTMLFilter;
     RLPDFFilter: TRLPDFFilter;
     RLXLSFilter: TRLXLSFilter;
-    bdeQuery: TQuery;
+    qryBase: TQuery;
     bdeConexao: TDatabase;
     RLDraftFilter: TRLDraftFilter;
-    bdeData: TDataSource;
-    rbLinha: TRLBand;
-    dbBaseNome: TRLDBText;
-    RLReport1: TRLReport;
+    dtsBase: TDataSource;
+    rlRelatorioTotal: TRLReport;
     RLBand1: TRLBand;
     RLDBText1: TRLDBText;
+    RLGroup1: TRLGroup;
+    rbLinha: TRLBand;
+    dbBaseNome: TRLDBText;
+    RLDBText2: TRLDBText;
+    RLBand2: TRLBand;
+    RLLabel1: TRLLabel;
+    RLLabel2: TRLLabel;
+    RLBand4: TRLBand;
+    RLLabel3: TRLLabel;
+    RLLabel4: TRLLabel;
+    RLDBText3: TRLDBText;
+    RLLabel5: TRLLabel;
+    RLLabel6: TRLLabel;
+    qryTotal: TQuery;
+    dtsTotal: TDataSource;
+    RLSubDetail1: TRLSubDetail;
+    RLBand3: TRLBand;
+    RLDBText4: TRLDBText;
     procedure FormCreate(Sender: TObject);
+    procedure RLGroup1AfterPrint(Sender: TObject);
   public
     Config: TStrings;
     class procedure Visualizar;
@@ -58,7 +75,7 @@ var
   _Relatorio: TFrmRelatorio;
 begin
   _Relatorio := TFrmRelatorio.Create(Application);
-  _Relatorio.rlRelatorio.PreviewModal;
+  _Relatorio.rlRelatorioBase.PreviewModal;
   _Relatorio.Free;
 end;
 
@@ -88,7 +105,13 @@ begin
   Self.bdeConexao.Params.Values['DATABASE NAME'] := Self.Config.Values['Banco'];
   Self.bdeConexao.Params.Values['PASSWORD'] := Self.Config.Values['Senha'];
   Self.bdeConexao.Open;
-  Self.bdeQuery.Open;
+  Self.qryBase.Open;
+  Self.qryTotal.Open;
+end;
+
+procedure TFrmRelatorio.RLGroup1AfterPrint(Sender: TObject);
+begin
+  rlRelatorioBase.NewInstance
 end;
 
 end.
