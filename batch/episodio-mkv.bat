@@ -6,9 +6,10 @@ rem # [ about ]
 rem # - author : Isaac Caires Santana
 rem # - email : zrfisaac@gmail.com
 rem # - site : zrfisaac.github.io
-rem # - version : zrfisaac.batch.episodio : 25.8.23.1
+rem # - version : zrfisaac.batch.episodio.mkv : 25.8.23.2
 
 rem # [ batch ]
+set end=.mkv
 set /a _result=0
 set _number=
 for %%z in (*!end!) do (

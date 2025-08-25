@@ -4,15 +4,17 @@
 // # - author : Isaac Caires Santana
 // # . - email : zrfisaac@gmail.com
 // # . - site : zrfisaac.github.io
-// # - version : zrfisaac.flutter.login : 25.6.12.1
+// # - version : zrfisaac.flutter.login : 25.8.25.1
 
 // # [ flutter ] : pubspec.yaml
+ /*
 dependencies:
   flutter:
     sdk: flutter
   sqflite: ^2.3.2 # Android
   sqflite_common_ffi: ^2.3.1 # Windows
   path: ^1.8.3
+// */
 
 // # [ flutter ] : main.dart
 import 'package:flutter/material.dart';
