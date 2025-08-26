@@ -4,9 +4,15 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.8.25.1
+# - version : zrfisaac : 25.8.26.1
 
 # [ list ]
+
+# - : ./bulnix
+# . - : https://github.com/bulnix/bulnix.git
+
+# - : ./bulnix/web
+# . - : https://github.com/bulnix/bulnix.github.io.git
 
 # - : ./github
 # . - : https://github.com/zrfisaac/zrfisaac.git
@@ -64,6 +70,9 @@
 
 # - : ./project/odbcheck
 # . - : https://github.com/zrfisaac/ODBCheck.git
+
+# - : ./project/potencia-motores
+# . - : https://github.com/PotenciaMotores/PotenciaMotores.github.io.git
 
 # - : ./project/sql32
 # . - : https://github.com/zrfisaac/SQL32.git
