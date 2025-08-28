@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.8.26.1
+# - version : zrfisaac : 25.8.28.1
 
 # [ list ]
 
@@ -53,17 +53,23 @@
 # - : ./project/color-d7
 # . - : https://github.com/zrfisaac/ColorD7.git
 
+# - : ./project/dear-sql
+# . - : https://github.com/zrfisaac/DearSQL.git
+
+# - : ./project/email-sender
+# . - : https://github.com/zrfisaac/EmailSender.git
+
 # - : ./project/explorer-4-delphi
 # . - : https://github.com/zrfisaac/Explorer4Delphi.git
 
 # - : ./project/explorer-97
 # . - : https://github.com/zrfisaac/Explorer97.git
 
-# - : ./project/explorer-97
-# . - : https://github.com/zrfisaac/Explorer97.git
-
 # - : ./project/freecep
 # . - : https://github.com/FreeCep/FreeCep.github.io.git
+
+# - : ./project/mdeditor
+# . - : https://github.com/zrfisaac/MDEditor.git
 
 # - : ./project/lfs
 # . - : https://github.com/zrfisaac/lfs.git
@@ -74,8 +80,14 @@
 # - : ./project/potencia-motores
 # . - : https://github.com/PotenciaMotores/PotenciaMotores.github.io.git
 
+# - : ./project/prn-viewer
+# . - : https://github.com/zrfisaac/PRNViewer.git
+
 # - : ./project/sql32
 # . - : https://github.com/zrfisaac/SQL32.git
+
+# - : ./project/winconfig
+# . - : https://github.com/zrfisaac/WinConfig.git
 
 # - : ./template/docsify
 # . - : https://github.com/zrfisaac/template.docsify.git
