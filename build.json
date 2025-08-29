@@ -1,4 +1,100 @@
 {
+	"404_name": {
+		"en": "404",
+		"es": "404",
+		"it": "404",
+		"pt": "404",
+		"ja": "404",
+		"zh": "404"
+	},
+	"404_title": {
+		"en": "Page Not Found",
+		"es": "Página No Encontrada",
+		"it": "Pagina Non Trovata",
+		"pt": "Página Não Encontrada",
+		"ja": "ページが見つかりません",
+		"zh": "页面未找到"
+	},
+	"404_01": {
+		"en": "Information",
+		"es": "Información",
+		"it": "Informazioni",
+		"pt": "Informação",
+		"ja": "情報",
+		"zh": "信息"
+	},
+	"404_02": {
+		"en": "I'm sorry, but the page you're looking for does not exist. It may have been removed, changed its name, or is temporarily unavailable.",
+		"es": "Lo sentimos, pero la página que busca no existe. Puede haber sido eliminada, cambiado de nombre o estar temporalmente no disponible.",
+		"it": "Ci dispiace, ma la pagina che stai cercando non esiste. Potrebbe essere stata rimossa, rinominata o temporaneamente non disponibile.",
+		"pt": "Desculpe, mas a página que você procura não existe. Ela pode ter sido removida, ter mudado de nome ou estar temporariamente indisponível.",
+		"ja": "申し訳ありませんが、お探しのページは存在しません。削除されたか、名前が変更されたか、一時的に利用できない可能性があります。",
+		"zh": "抱歉，您查找的页面不存在。它可能已被删除、改名或暂时不可用。"
+	},
+	"404_03": {
+		"en": "Please check the URL for errors, or return to the <a href=\"/en/\">homepage</a> to continue browsing.",
+		"es": "Por favor, verifique que la URL no contenga errores, o regrese a la <a href=\"/en/\">página principal</a> para continuar navegando.",
+		"it": "Si prega di controllare che l'URL non contenga errori, oppure torna alla <a href=\"/en/\">homepage</a> per continuare a navigare.",
+		"pt": "Por favor, verifique se o URL está correto ou volte para a <a href=\"/en/\">página inicial</a> para continuar navegando.",
+		"ja": "URLに誤りがないか確認するか、<a href=\"/en/\">ホームページ</a>に戻って閲覧を続けてください。",
+		"zh": "请检查网址是否有错误，或返回<a href=\"/en/\">首页</a>继续浏览。"
+	},
+	"404_04": {
+		"en": "If you believe this is an error, please open an issue <a href=\"https://github.com/zrfisaac/zrfisaac.github.io/issues\">here</a> so I can investigate further. Thank you for your understanding!",
+		"es": "Si cree que esto es un error, por favor abra un issue <a href=\"https://github.com/zrfisaac/zrfisaac.github.io/issues\">aquí</a> para que pueda investigarlo más a fondo. ¡Gracias por su comprensión!",
+		"it": "Se ritieni che questo sia un errore, apri un issue <a href=\"https://github.com/zrfisaac/zrfisaac.github.io/issues\">qui</a> così posso indagare ulteriormente. Grazie per la comprensione!",
+		"pt": "Se você acredita que isto é um erro, por favor abra uma issue <a href=\"https://github.com/zrfisaac/zrfisaac.github.io/issues\">aqui</a> para que eu possa investigar mais a fundo. Obrigado pela compreensão!",
+		"ja": "これがエラーだと思われる場合は、<a href=\"https://github.com/zrfisaac/zrfisaac.github.io/issues\">こちら</a>からissueを開いていただき、さらに調査できるようにしてください。ご理解ありがとうございます！",
+		"zh": "如果您认为这是一个错误，请在<a href=\"https://github.com/zrfisaac/zrfisaac.github.io/issues\">这里</a>提交问题，以便我进一步调查。感谢您的理解！"
+	},
+	"500_name": {
+		"en": "500",
+		"es": "500",
+		"it": "500",
+		"pt": "500",
+		"ja": "500",
+		"zh": "500"
+	},
+	"500_title": {
+		"en": "Internal Server Error",
+		"es": "Error Interno del Servidor",
+		"it": "Errore Interno del Server",
+		"pt": "Erro Interno do Servidor",
+		"ja": "サーバー内部エラー",
+		"zh": "服务器内部错误"
+	},
+	"500_01": {
+		"en": "Information",
+		"es": "Información",
+		"it": "Informazioni",
+		"pt": "Informação",
+		"ja": "情報",
+		"zh": "信息"
+	},
+	"500_02": {
+		"en": "I'm sorry, but something went wrong on my end. The page you're trying to access is currently unavailable due to an internal error.",
+		"es": "Lo sentimos, pero algo salió mal de mi lado. La página a la que intenta acceder no está disponible actualmente debido a un error interno.",
+		"it": "Ci dispiace, ma si è verificato un problema da parte mia. La pagina a cui stai tentando di accedere non è attualmente disponibile a causa di un errore interno.",
+		"pt": "Desculpe, mas algo deu errado do meu lado. A página que você está tentando acessar está temporariamente indisponível devido a um erro interno.",
+		"ja": "申し訳ありませんが、こちら側で問題が発生しました。アクセスしようとしているページは、内部エラーにより現在利用できません。",
+		"zh": "抱歉，我这边出现了一些问题。您尝试访问的页面由于内部错误目前无法使用。"
+	},
+	"500_03": {
+		"en": "Please try refreshing the page, and if the problem persists, return to the <a href=\"/en/\">homepage</a>.",
+		"es": "Por favor, intente actualizar la página, y si el problema persiste, regrese a la <a href=\"/en/\">página principal</a>.",
+		"it": "Si prega di provare a ricaricare la pagina e, se il problema persiste, torna alla <a href=\"/en/\">homepage</a>.",
+		"pt": "Por favor, tente atualizar a página e, se o problema persistir, volte para a <a href=\"/en/\">página inicial</a>.",
+		"ja": "ページを更新してみてください。それでも問題が続く場合は、<a href=\"/en/\">ホームページ</a>に戻ってください。",
+		"zh": "请尝试刷新页面，如果问题仍然存在，请返回<a href=\"/en/\">首页</a>。"
+	},
+	"500_04": {
+		"en": "If you believe this is an error, please open an issue <a href=\"https://github.com/zrfisaac/zrfisaac.github.io/issues\">here</a> so I can investigate further. Thank you for your understanding!",
+		"es": "Si cree que esto es un error, por favor abra un issue <a href=\"https://github.com/zrfisaac/zrfisaac.github.io/issues\">aquí</a> para que pueda investigarlo más a fondo. ¡Gracias por su comprensión!",
+		"it": "Se ritieni che questo sia un errore, apri un issue <a href=\"https://github.com/zrfisaac/zrfisaac.github.io/issues\">qui</a> così posso indagare ulteriormente. Grazie per la comprensione!",
+		"pt": "Se você acredita que isto é um erro, por favor abra uma issue <a href=\"https://github.com/zrfisaac/zrfisaac.github.io/issues\">aqui</a> para que eu possa investigar mais a fundo. Obrigado pela compreensão!",
+		"ja": "これがエラーだと思われる場合は、<a href=\"https://github.com/zrfisaac/zrfisaac.github.io/issues\">こちら</a>からissueを開いていただき、さらに調査できるようにしてください。ご理解ありがとうございます！",
+		"zh": "如果您认为这是一个错误，请在<a href=\"https://github.com/zrfisaac/zrfisaac.github.io/issues\">这里</a>提交问题，以便我进一步调查。感谢您的理解！"
+	},
 	"about_title": {
 		"en": "🧑‍💻 About",
 		"es": "🧑‍💻 Acerca de",
@@ -31,6 +127,22 @@
 		"ja": "ポルトガル語、英語、スペイン語を話し、ずっと独学で学んできました。効率的かつ明確に問題を解決するのが好きで、プログラマーとしても人としても常に成長しようと努めています。最初は少し内気ですが、時間が経つと打ち解け、同業の人々とアイデアや経験を交換することをとても楽しんでいます。",
 		"zh": "我会说葡萄牙语、英语和西班牙语，并且一直以来都是自学成才。我喜欢高效而清晰地解决问题，并不断努力提升自己作为程序员和个人的水平。我一开始有点害羞，但随着时间的推移，我会变得开朗，并且非常喜欢与业内人士交流想法和经验。"
 	},
+	"download_resume": {
+		"en": "Download Curriculum",
+		"es": "Descargar Currículum",
+		"it": "Scarica Curriculum",
+		"pt": "Baixar Currículo",
+		"ja": "履歴書をダウンロード",
+		"zh": "下载简历"
+	},
+	"download_resume_link": {
+		"en": "https://github.com/zrfisaac/zrfisaac.github.io/releases/download/curriculum-3.2.1/curriculum-3.2.1-en.pdf",
+		"es": "https://github.com/zrfisaac/zrfisaac.github.io/releases/download/curriculum-3.2.1/curriculum-3.2.1-pt.pdf",
+		"it": "https://github.com/zrfisaac/zrfisaac.github.io/releases/download/curriculum-3.2.1/curriculum-3.2.1-en.pdf",
+		"pt": "https://github.com/zrfisaac/zrfisaac.github.io/releases/download/curriculum-3.2.1/curriculum-3.2.1-pt.pdf",
+		"ja": "https://github.com/zrfisaac/zrfisaac.github.io/releases/download/curriculum-3.2.1/curriculum-3.2.1-en.pdf",
+		"zh": "https://github.com/zrfisaac/zrfisaac.github.io/releases/download/curriculum-3.2.1/curriculum-3.2.1-en.pdf"
+	},
 	"lang": {
 		"en": "en",
 		"es": "es",
@@ -47,6 +159,22 @@
 		"ja": "ホーム",
 		"zh": "首页"
 	},
+	"menu_home_name": {
+		"en": "Home",
+		"es": "Inicio",
+		"it": "Home",
+		"pt": "Início",
+		"ja": "ホーム",
+		"zh": "首页"
+	},
+	"menu_home_title": {
+		"en": "Introduction Page",
+		"es": "Página de Introducción",
+		"it": "Pagina di Introduzione",
+		"pt": "Página de Introdução",
+		"ja": "イントロダクションページ",
+		"zh": "介绍页面"
+	},
 	"menu_privacy": {
 		"en": "Privacy",
 		"es": "Privacidad",
@@ -54,6 +182,22 @@
 		"pt": "Privacidade",
 		"ja": "プライバシー",
 		"zh": "隐私"
+	},
+	"menu_privacy_name": {
+		"en": "Privacy Policy",
+		"es": "Política de Privacidad",
+		"it": "Informativa sulla Privacy",
+		"pt": "Política de Privacidade",
+		"ja": "プライバシーポリシー",
+		"zh": "隐私政策"
+	},
+	"menu_privacy_title": {
+		"en": "My Privacy Policy",
+		"es": "Mi Política de Privacidad",
+		"it": "La Mia Informativa sulla Privacy",
+		"pt": "Minha Política de Privacidade",
+		"ja": "私のプライバシーポリシー",
+		"zh": "我的隐私政策"
 	},
 	"menu_resume": {
 		"en": "Resume",
@@ -63,6 +207,22 @@
 		"ja": "履歴書",
 		"zh": "简历"
 	},
+	"menu_resume_name": {
+		"en": "Resume",
+		"es": "Currículum",
+		"it": "Curriculum",
+		"pt": "Currículo",
+		"ja": "履歴書",
+		"zh": "简历"
+	},
+	"menu_resume_title": {
+		"en": "Professional Information",
+		"es": "Información Profesional",
+		"it": "Informazioni Professionali",
+		"pt": "Informações Profissionais",
+		"ja": "職業情報",
+		"zh": "职业信息"
+	},
 	"menu_product": {
 		"en": "Products",
 		"es": "Productos",
@@ -70,6 +230,22 @@
 		"pt": "Produtos",
 		"ja": "製品",
 		"zh": "产品"
+	},
+	"menu_product_name": {
+		"en": "Products",
+		"es": "Productos",
+		"it": "Prodotti",
+		"pt": "Produtos",
+		"ja": "製品",
+		"zh": "产品"
+	},
+	"menu_product_title": {
+		"en": "Products and Services",
+		"es": "Productos y Servicios",
+		"it": "Prodotti e Servizi",
+		"pt": "Produtos e Serviços",
+		"ja": "製品とサービス",
+		"zh": "产品与服务"
 	},
 	"menu_mvp": {
 		"en": "MVP",
@@ -79,6 +255,22 @@
 		"ja": "MVP",
 		"zh": "MVP"
 	},
+	"menu_mvp_name": {
+		"en": "MVP",
+		"es": "MVP",
+		"it": "MVP",
+		"pt": "MVP",
+		"ja": "MVP",
+		"zh": "MVP"
+	},
+	"menu_mvp_title": {
+		"en": "Minimum Viable Product",
+		"es": "Producto Mínimo Viable",
+		"it": "Prodotto Minimo Funzionante",
+		"pt": "Produto Mínimo Viável",
+		"ja": "最小実用製品",
+		"zh": "最小可行产品"
+	},
 	"menu_mobile": {
 		"en": "Mobile",
 		"es": "Móvil",
@@ -86,6 +278,22 @@
 		"pt": "Mobile",
 		"ja": "モバイル",
 		"zh": "移动端"
+	},
+	"menu_mobile_name": {
+		"en": "Mobile",
+		"es": "Móvil",
+		"it": "Mobile",
+		"pt": "Mobile",
+		"ja": "モバイル",
+		"zh": "移动端"
+	},
+	"menu_mobile_title": {
+		"en": "My Mobile Apps",
+		"es": "Mis Aplicaciones Móviles",
+		"pt": "Meus Aplicativos Móveis",
+		"it": "Le Mie App Mobili",
+		"ja": "私のモバイルアプリ",
+		"zh": "我的移动应用"
 	},
 	"menu_project": {
 		"en": "Projects",
@@ -95,6 +303,22 @@
 		"ja": "プロジェクト",
 		"zh": "项目"
 	},
+	"menu_project_name": {
+		"en": "Projects",
+		"es": "Proyectos",
+		"it": "Progetti",
+		"pt": "Projetos",
+		"ja": "プロジェクト",
+		"zh": "项目"
+	},
+	"menu_project_title": {
+		"en": "Open Source Projects",
+		"es": "Proyectos de Código Abierto",
+		"it": "Progetti Open Source",
+		"pt": "Projetos de Código Aberto",
+		"ja": "オープンソースプロジェクト",
+		"zh": "开源项目"
+	},
 	"menu_game": {
 		"en": "Games",
 		"es": "Juegos",
@@ -103,6 +327,22 @@
 		"ja": "ゲーム",
 		"zh": "游戏"
 	},
+	"menu_game_name": {
+		"en": "Games",
+		"es": "Juegos",
+		"it": "Giochi",
+		"pt": "Jogos",
+		"ja": "ゲーム",
+		"zh": "游戏"
+	},
+	"menu_game_title": {
+		"en": "My Developed Games",
+		"es": "Mis Juegos Desarrollados",
+		"it": "I Miei Giochi Sviluppati",
+		"pt": "Meus Jogos Desenvolvidos",
+		"ja": "私が開発したゲーム",
+		"zh": "我开发的游戏"
+	},
 	"menu_wiki": {
 		"en": "Wiki",
 		"es": "Wiki",
@@ -110,6 +350,454 @@
 		"pt": "WIKI",
 		"ja": "ウィキ",
 		"zh": "维基"
+	},
+	"privacy_name": {
+		"en": "Privacy Policy",
+		"es": "Política de Privacidad",
+		"it": "Informativa sulla Privacy",
+		"pt": "Política de Privacidade",
+		"ja": "プライバシーポリシー",
+		"zh": "隐私政策"
+	},
+	"privacy_title": {
+		"en": "My Privacy Policy",
+		"es": "Mi Política de Privacidad",
+		"it": "La Mia Informativa sulla Privacy",
+		"pt": "Minha Política de Privacidade",
+		"ja": "私のプライバシーポリシー",
+		"zh": "我的隐私政策"
+	},
+	"privacy_01": {
+		"en": "Effective Date:",
+		"es": "Fecha de entrada en vigor:",
+		"it": "Data di entrata in vigore:",
+		"pt": "Data de vigência:",
+		"ja": "施行日：",
+		"zh": "生效日期："
+	},
+	"privacy_02": {
+		"en": "2024-11-10",
+		"es": "2024-11-10",
+		"it": "2024-11-10",
+		"pt": "2024-11-10",
+		"ja": "2024-11-10",
+		"zh": "2024-11-10"
+	},
+	"privacy_03": {
+		"en": "I, <b>Isaac Caires Santana</b>, am committed to protecting and respecting your privacy. This Privacy Policy outlines the types of personal data I collect, how I use, share, and protect it, and your rights regarding your data.",
+		"es": "Yo, <b>Isaac Caires Santana</b>, me comprometo a proteger y respetar su privacidad. Esta Política de Privacidad describe los tipos de datos personales que recopilo, cómo los uso, comparto y protejo, y sus derechos con respecto a sus datos.",
+		"it": "Io, <b>Isaac Caires Santana</b>, mi impegno a proteggere e rispettare la tua privacy. Questa Informativa sulla Privacy descrive i tipi di dati personali che raccolgo, come li utilizzo, condivido e proteggo, e i tuoi diritti riguardo ai tuoi dati.",
+		"pt": "Eu, <b>Isaac Caires Santana</b>, estou comprometido em proteger e respeitar a sua privacidade. Esta Política de Privacidade descreve os tipos de dados pessoais que coleto, como os utilizo, compartilho e protejo, e os seus direitos em relação a esses dados.",
+		"ja": "私は<b>Isaac Caires Santana</b>として、あなたのプライバシーを保護し尊重することを約束します。本プライバシーポリシーでは、収集する個人データの種類、それをどのように使用・共有・保護するか、そしてあなたのデータに関する権利について説明します。",
+		"zh": "我，<b>Isaac Caires Santana</b>，承诺保护并尊重您的隐私。本隐私政策说明了我收集的个人数据类型、如何使用、共享和保护这些数据，以及您对您的数据所享有的权利。"
+	},
+	"privacy_04": {
+		"en": "By using my mobile apps, desktop apps, web apps, games, components, and code libraries (collectively referred to as \"Services\"), you consent to the practices described in this policy.",
+		"es": "Al utilizar mis aplicaciones móviles, aplicaciones de escritorio, aplicaciones web, juegos, componentes y bibliotecas de código (denominados colectivamente como \"Servicios\"), usted acepta las prácticas descritas en esta política.",
+		"it": "Utilizzando le mie applicazioni mobili, applicazioni desktop, applicazioni web, giochi, componenti e librerie di codice (collettivamente denominati \"Servizi\"), acconsenti alle pratiche descritte in questa informativa.",
+		"pt": "Ao usar meus aplicativos móveis, aplicativos para desktop, aplicativos web, jogos, componentes e bibliotecas de código (coletivamente denominados \"Serviços\"), você concorda com as práticas descritas nesta política.",
+		"ja": "私のモバイルアプリ、デスクトップアプリ、Webアプリ、ゲーム、コンポーネント、コードライブラリ（総称して「サービス」）を使用することにより、あなたは本ポリシーに記載された取り扱いに同意したものとみなされます。",
+		"zh": "使用我的移动应用程序、桌面应用程序、网页应用程序、游戏、组件和代码库（统称为“服务”）即表示您同意本政策中所述的做法。"
+	},
+	"privacy_05": {
+		"en": "1. Information I Collect",
+		"es": "1. Información que recopilo",
+		"it": "1. Informazioni che raccolgo",
+		"pt": "1. Informações que coleto",
+		"ja": "1. 私が収集する情報",
+		"zh": "1. 我收集的信息"
+	},
+	"privacy_06": {
+		"en": "I may collect the following types of information:",
+		"es": "Puedo recopilar los siguientes tipos de información:",
+		"it": "Posso raccogliere i seguenti tipi di informazioni:",
+		"pt": "Posso coletar os seguintes tipos de informações:",
+		"ja": "私は次の種類の情報を収集する場合があります：",
+		"zh": "我可能会收集以下类型的信息："
+	},
+	"privacy_07": {
+		"en": "1.1 Personal Information",
+		"es": "1.1 Información personal",
+		"it": "1.1 Informazioni personali",
+		"pt": "1.1 Informações pessoais",
+		"ja": "1.1 個人情報",
+		"zh": "1.1 个人信息"
+	},
+	"privacy_08": {
+		"en": "<b>Account Information:</b> When you register an account or use certain features of my Services, I may collect your name, email address, phone number, and any other information you provide.",
+		"es": "<b>Información de la cuenta:</b> Cuando registre una cuenta o utilice ciertas funciones de mis Servicios, puedo recopilar su nombre, dirección de correo electrónico, número de teléfono y cualquier otra información que proporcione.",
+		"it": "<b>Informazioni sull'account:</b> Quando registri un account o utilizzi determinate funzionalità dei miei Servizi, posso raccogliere il tuo nome, indirizzo email, numero di telefono e qualsiasi altra informazione che fornisci.",
+		"pt": "<b>Informações da conta:</b> Quando você registra uma conta ou utiliza determinados recursos dos meus Serviços, posso coletar seu nome, endereço de e-mail, número de telefone e quaisquer outras informações que você fornecer.",
+		"ja": "<b>アカウント情報:</b> アカウントを登録する際、または私のサービスの特定の機能を利用する際に、あなたの名前、メールアドレス、電話番号、その他提供された情報を収集する場合があります。",
+		"zh": "<b>账户信息：</b> 当您注册账户或使用我的服务的某些功能时，我可能会收集您的姓名、电子邮件地址、电话号码以及您提供的任何其他信息。"
+	},
+	"privacy_09": {
+		"en": "<b>Payment Information:</b> For transactions, I may collect payment details (e.g., credit card information) processed by third-party payment providers.",
+		"es": "<b>Información de pago:</b> Para las transacciones, puedo recopilar los detalles de pago (por ejemplo, información de tarjeta de crédito) procesados por proveedores de pago externos.",
+		"it": "<b>Informazioni di pagamento:</b> Per le transazioni, posso raccogliere i dettagli di pagamento (ad esempio, informazioni della carta di credito) elaborati da fornitori di pagamento terzi.",
+		"pt": "<b>Informações de pagamento:</b> Para transações, posso coletar os detalhes de pagamento (por exemplo, informações de cartão de crédito) processados por provedores de pagamento terceirizados.",
+		"ja": "<b>支払い情報:</b> 取引のために、第三者の決済プロバイダーによって処理される支払い詳細（例: クレジットカード情報）を収集する場合があります。",
+		"zh": "<b>支付信息：</b> 在交易过程中，我可能会收集由第三方支付提供商处理的支付详情（例如信用卡信息）。"
+	},
+	"privacy_10": {
+		"en": "1.2 Usage Data",
+		"es": "1.2 Datos de uso",
+		"it": "1.2 Dati di utilizzo",
+		"pt": "1.2 Dados de uso",
+		"ja": "1.2 利用データ",
+		"zh": "1.2 使用数据"
+	},
+	"privacy_11": {
+		"en": "<b>Device Information:</b> I may collect information about the devices you use to access my Services, including device type, operating system, IP address, browser type, and app version.",
+		"es": "<b>Información del dispositivo:</b> Puedo recopilar información sobre los dispositivos que utiliza para acceder a mis Servicios, incluyendo el tipo de dispositivo, sistema operativo, dirección IP, tipo de navegador y versión de la aplicación.",
+		"it": "<b>Informazioni sul dispositivo:</b> Posso raccogliere informazioni sui dispositivi che utilizzi per accedere ai miei Servizi, incluso il tipo di dispositivo, sistema operativo, indirizzo IP, tipo di browser e versione dell'app.",
+		"pt": "<b>Informações do dispositivo:</b> Posso coletar informações sobre os dispositivos que você utiliza para acessar meus Serviços, incluindo tipo de dispositivo, sistema operacional, endereço IP, tipo de navegador e versão do aplicativo.",
+		"ja": "<b>デバイス情報:</b> 私のサービスにアクセスするために使用するデバイスに関する情報を収集する場合があります。これには、デバイスの種類、オペレーティングシステム、IPアドレス、ブラウザの種類、アプリのバージョンが含まれます。",
+		"zh": "<b>设备信息：</b> 我可能会收集您用于访问我的服务的设备信息，包括设备类型、操作系统、IP地址、浏览器类型和应用版本。"
+	},
+	"privacy_12": {
+		"en": "<b>Log Data:</b> When you use my Services, I may automatically collect log data, such as your interactions with the apps or websites, crash reports, and performance data.",
+		"es": "<b>Datos de registro:</b> Cuando utiliza mis Servicios, puedo recopilar automáticamente datos de registro, como sus interacciones con las aplicaciones o sitios web, informes de fallos y datos de rendimiento.",
+		"it": "<b>Dati di registro:</b> Quando utilizzi i miei Servizi, potrei raccogliere automaticamente dati di registro, come le tue interazioni con le app o i siti web, rapporti di crash e dati sulle prestazioni.",
+		"pt": "<b>Dados de registro:</b> Ao usar meus Serviços, posso coletar automaticamente dados de registro, como suas interações com os aplicativos ou sites, relatórios de falhas e dados de desempenho.",
+		"ja": "<b>ログデータ:</b> サービスを使用する際に、アプリやウェブサイトでの操作、クラッシュレポート、パフォーマンスデータなどのログデータを自動的に収集することがあります。",
+		"zh": "<b>日志数据：</b> 当您使用我的服务时，我可能会自动收集日志数据，例如您与应用或网站的互动、崩溃报告和性能数据。"
+	},
+	"privacy_13": {
+		"en": "1.3 Game Data (For Games)",
+		"es": "1.3 Datos del Juego (Para Juegos)",
+		"it": "1.3 Dati di Gioco (Per Giochi)",
+		"pt": "1.3 Dados do Jogo (Para Jogos)",
+		"ja": "1.3 ゲームデータ（ゲーム用）",
+		"zh": "1.3 游戏数据（适用于游戏）"
+	},
+	"privacy_14": {
+		"en": "<b>In-Game Information:</b> In my games, I may collect data related to your gameplay experience, such as game progress, high scores, and virtual items.",
+		"es": "<b>Información en el juego:</b> En mis juegos, puedo recopilar datos relacionados con tu experiencia de juego, como el progreso del juego, las puntuaciones más altas y los objetos virtuales.",
+		"it": "<b>Informazioni di gioco:</b> Nei miei giochi, potrei raccogliere dati relativi alla tua esperienza di gioco, come il progresso nel gioco, i punteggi più alti e gli oggetti virtuali.",
+		"pt": "<b>Informações do Jogo:</b> Nos meus jogos, posso coletar dados relacionados à sua experiência de jogo, como progresso, pontuações altas e itens virtuais.",
+		"ja": "<b>ゲーム内情報：</b> 私のゲームでは、ゲームの進行状況、高スコア、仮想アイテムなど、ゲームプレイに関連するデータを収集する場合があります。",
+		"zh": "<b>游戏内信息：</b> 在我的游戏中，我可能会收集与您的游戏体验相关的数据，例如游戏进度、高分和虚拟物品。"
+	},
+	"privacy_15": {
+		"en": "1.4 Cookies and Tracking Technologies",
+		"es": "1.4 Cookies y Tecnologías de Seguimiento",
+		"it": "1.4 Cookie e Tecnologie di Tracciamento",
+		"pt": "1.4 Cookies e Tecnologias de Rastreamento",
+		"ja": "1.4 クッキーおよび追跡技術",
+		"zh": "1.4 Cookie 与跟踪技术"
+	},
+	"privacy_16": {
+		"en": "I may use cookies, web beacons, and similar technologies to track your activity across my websites, apps, and services. These tools help me improve the user experience, provide personalized content, and analyze usage patterns.",
+		"es": "Puedo usar cookies, balizas web y tecnologías similares para rastrear su actividad en mis sitios web, aplicaciones y servicios. Estas herramientas me ayudan a mejorar la experiencia del usuario, proporcionar contenido personalizado y analizar patrones de uso.",
+		"it": "Potrei utilizzare cookie, web beacon e tecnologie simili per monitorare la tua attività sui miei siti web, app e servizi. Questi strumenti mi aiutano a migliorare l'esperienza utente, fornire contenuti personalizzati e analizzare i modelli di utilizzo.",
+		"pt": "Posso usar cookies, web beacons e tecnologias semelhantes para rastrear sua atividade em meus sites, aplicativos e serviços. Essas ferramentas me ajudam a melhorar a experiência do usuário, fornecer conteúdo personalizado e analisar padrões de uso.",
+		"ja": "私は、ウェブサイト、アプリ、サービス全体でのユーザーの活動を追跡するために、クッキー、ウェブビーコン、その他の類似技術を使用する場合があります。これらのツールは、ユーザー体験の向上、パーソナライズされたコンテンツの提供、使用パターンの分析に役立ちます。",
+		"zh": "我可能会使用 Cookie、网络信标和类似技术来跟踪您在我的网站、应用和服务上的活动。这些工具帮助我改善用户体验、提供个性化内容并分析使用模式。"
+	},
+	"privacy_17": {
+		"en": "2. How I Use Your Information",
+		"es": "2. Cómo Utilizo Su Información",
+		"it": "2. Come Utilizzo le Tue Informazioni",
+		"pt": "2. Como Uso Suas Informações",
+		"ja": "2. 情報の使用方法",
+		"zh": "2. 我如何使用您的信息"
+	},
+	"privacy_18": {
+		"en": "I use the collected data for the following purposes:",
+		"es": "Utilizo los datos recopilados para los siguientes fines:",
+		"it": "Utilizzo i dati raccolti per i seguenti scopi:",
+		"pt": "Eu uso os dados coletados para os seguintes fins:",
+		"ja": "収集したデータは、以下の目的で使用します：",
+		"zh": "我将收集的数据用于以下目的："
+	},
+	"privacy_19": {
+		"en": "<b>Provide and Improve Services:</b> To operate, maintain, and enhance my mobile apps, desktop apps, web apps, games, components, and code libraries.",
+		"es": "<b>Proporcionar y Mejorar los Servicios:</b> Para operar, mantener y mejorar mis aplicaciones móviles, aplicaciones de escritorio, aplicaciones web, juegos, componentes y bibliotecas de código.",
+		"it": "<b>Fornire e Migliorare i Servizi:</b> Per gestire, mantenere e migliorare le mie app mobili, app desktop, app web, giochi, componenti e librerie di codice.",
+		"pt": "<b>Fornecer e Melhorar Serviços:</b> Para operar, manter e aprimorar meus aplicativos móveis, aplicativos de desktop, aplicativos web, jogos, componentes e bibliotecas de código.",
+		"ja": "<b>サービスの提供と改善：</b> モバイルアプリ、デスクトップアプリ、ウェブアプリ、ゲーム、コンポーネント、コードライブラリを運用、維持、改善するため。",
+		"zh": "<b>提供和改进服务：</b> 用于操作、维护和增强我的移动应用、桌面应用、网页应用、游戏、组件和代码库。"
+	},
+	"privacy_20": {
+		"en": "<b>Personalization:</b> To personalize content, services, and advertisements based on your preferences and usage.",
+		"es": "<b>Personalización:</b> Para personalizar contenido, servicios y anuncios según tus preferencias y uso.",
+		"it": "<b>Personalizzazione:</b> Per personalizzare contenuti, servizi e pubblicità in base alle tue preferenze e al tuo utilizzo.",
+		"pt": "<b>Personalização:</b> Para personalizar conteúdos, serviços e anúncios com base em suas preferências e uso.",
+		"ja": "<b>パーソナライズ：</b> あなたの好みや利用状況に基づいて、コンテンツ、サービス、広告をパーソナライズするため。",
+		"zh": "<b>个性化：</b> 根据您的偏好和使用情况个性化内容、服务和广告。"
+	},
+	"privacy_21": {
+		"en": "<b>Communication:</b> To send you important updates, notifications, and promotional content (only if you have opted in).",
+		"es": "<b>Comunicación:</b> Para enviarte actualizaciones importantes, notificaciones y contenido promocional (solo si has aceptado recibirlo).",
+		"it": "<b>Comunicazione:</b> Per inviarti aggiornamenti importanti, notifiche e contenuti promozionali (solo se hai acconsentito).",
+		"pt": "<b>Comunicação:</b> Para enviar atualizações importantes, notificações e conteúdos promocionais (apenas se você tiver optado por receber).",
+		"ja": "<b>コミュニケーション：</b> 重要な更新、通知、およびプロモーションコンテンツを送信するため（オプトインした場合のみ）。",
+		"zh": "<b>通讯：</b> 向您发送重要更新、通知和推广内容（仅在您选择接收时）。"
+	},
+	"privacy_22": {
+		"en": "<b>Analytics:</b> To analyze trends, monitor performance, and identify issues to improve my Services.",
+		"es": "<b>Analítica:</b> Para analizar tendencias, monitorear el rendimiento e identificar problemas para mejorar mis Servicios.",
+		"it": "<b>Analisi:</b> Per analizzare le tendenze, monitorare le prestazioni e identificare problemi per migliorare i miei Servizi.",
+		"pt": "<b>Análise:</b> Para analisar tendências, monitorar desempenho e identificar problemas para melhorar meus Serviços.",
+		"ja": "<b>分析：</b> トレンドを分析し、パフォーマンスを監視し、問題を特定してサービスを改善するため。",
+		"zh": "<b>分析：</b> 用于分析趋势、监控性能并识别问题，以改进我的服务。"
+	},
+	"privacy_23": {
+		"en": "<b>Legal Compliance:</b> To comply with legal obligations and protect my rights, including resolving disputes and enforcing agreements.",
+		"es": "<b>Cumplimiento Legal:</b> Para cumplir con las obligaciones legales y proteger mis derechos, incluyendo la resolución de disputas y la aplicación de acuerdos.",
+		"it": "<b>Conformità Legale:</b> Per rispettare gli obblighi legali e proteggere i miei diritti, incluso risolvere controversie e far rispettare gli accordi.",
+		"pt": "<b>Conformidade Legal:</b> Para cumprir obrigações legais e proteger meus direitos, incluindo resolver disputas e fazer cumprir acordos.",
+		"ja": "<b>法令遵守：</b> 法的義務を遵守し、紛争の解決や契約の執行を含め、自分の権利を保護するため。",
+		"zh": "<b>法律合规：</b> 遵守法律义务并保护我的权利，包括解决争议和执行协议。"
+	},
+	"privacy_24": {
+		"en": "3. How I Share Your Information",
+		"es": "3. Cómo Comparto Su Información",
+		"it": "3. Come Condivido le Tue Informazioni",
+		"pt": "3. Como Compartilho Suas Informações",
+		"ja": "3. 情報の共有方法",
+		"zh": "3. 我如何分享您的信息"
+	},
+	"privacy_25": {
+		"en": "I may share your data with:",
+		"es": "Puedo compartir sus datos con:",
+		"it": "Potrei condividere i tuoi dati con:",
+		"pt": "Posso compartilhar seus dados com:",
+		"ja": "データを次の相手と共有する場合があります：",
+		"zh": "我可能会与以下方共享您的数据："
+	},
+	"privacy_26": {
+		"en": "<b>Service Providers:</b> Third-party companies that help me operate and improve my Services (e.g., cloud storage providers, analytics services, payment processors). These providers are bound by confidentiality agreements and are only permitted to use your data for specific services.",
+		"es": "<b>Proveedores de Servicios:</b> Empresas externas que me ayudan a operar y mejorar mis Servicios (por ejemplo, proveedores de almacenamiento en la nube, servicios de análisis, procesadores de pagos). Estos proveedores están sujetos a acuerdos de confidencialidad y solo pueden usar sus datos para servicios específicos.",
+		"it": "<b>Fornitori di Servizi:</b> Aziende terze che mi aiutano a gestire e migliorare i miei Servizi (ad es. fornitori di archiviazione cloud, servizi di analisi, processori di pagamenti). Questi fornitori sono vincolati da accordi di riservatezza e possono utilizzare i tuoi dati solo per servizi specifici.",
+		"pt": "<b>Prestadores de Serviços:</b> Empresas terceirizadas que me ajudam a operar e melhorar meus Serviços (por exemplo, provedores de armazenamento em nuvem, serviços de análise, processadores de pagamento). Esses prestadores estão vinculados a acordos de confidencialidade e só podem usar seus dados para serviços específicos.",
+		"ja": "<b>サービスプロバイダー：</b> サービスの運営と改善を支援する第三者企業（例：クラウドストレージプロバイダー、分析サービス、決済処理業者）。これらのプロバイダーは機密保持契約に拘束され、特定のサービスにのみデータを使用することが許可されています。",
+		"zh": "<b>服务提供商：</b> 帮助我运营和改进服务的第三方公司（例如云存储提供商、分析服务、支付处理商）。这些提供商受保密协议约束，仅被允许将您的数据用于特定服务。"
+	},
+	"privacy_27": {
+		"en": "<b>Business Transfers:</b> If I merge with or am acquired by another company, your information may be transferred as part of the transaction.",
+		"es": "<b>Transferencias Comerciales:</b> Si me fusiono con otra empresa o soy adquirido por ella, su información puede ser transferida como parte de la transacción.",
+		"it": "<b>Trasferimenti Aziendali:</b> Se mi fusione con o vengo acquisito da un'altra azienda, le tue informazioni potrebbero essere trasferite come parte della transazione.",
+		"pt": "<b>Transferências Comerciais:</b> Se eu me fundir com outra empresa ou for adquirido por ela, suas informações podem ser transferidas como parte da transação.",
+		"ja": "<b>事業譲渡：</b> 私が他の会社と合併する場合、または買収される場合、あなたの情報は取引の一部として譲渡されることがあります。",
+		"zh": "<b>业务转让：</b> 如果我与另一家公司合并或被其收购，您的信息可能会作为交易的一部分被转移。"
+	},
+	"privacy_28": {
+		"en": "<b>Legal Requirements:</b> I may share your data if required by law or in response to a valid request by public authorities (e.g., a court or government agency).",
+		"es": "<b>Requisitos Legales:</b> Puedo compartir sus datos si la ley lo exige o en respuesta a una solicitud válida de autoridades públicas (por ejemplo, un tribunal o agencia gubernamental).",
+		"it": "<b>Obblighi Legali:</b> Potrei condividere i tuoi dati se richiesto dalla legge o in risposta a una richiesta valida da parte delle autorità pubbliche (ad esempio, un tribunale o un'agenzia governativa).",
+		"pt": "<b>Exigências Legais:</b> Posso compartilhar seus dados se exigido por lei ou em resposta a uma solicitação válida de autoridades públicas (por exemplo, um tribunal ou agência governamental).",
+		"ja": "<b>法的要件：</b> 法律で要求される場合や、裁判所や政府機関など公的機関からの有効な要請に応じて、あなたのデータを共有する場合があります。",
+		"zh": "<b>法律要求：</b> 如果法律要求或应公共当局（例如法院或政府机构）的有效请求，我可能会共享您的数据。"
+	},
+	"privacy_29": {
+		"en": "4. Data Retention",
+		"es": "4. Retención de Datos",
+		"it": "4. Conservazione dei Dati",
+		"pt": "4. Retenção de Dados",
+		"ja": "4. データの保持",
+		"zh": "4. 数据保留"
+	},
+	"privacy_30": {
+		"en": "I retain your personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy or as required by law.",
+		"es": "Conservo su información personal mientras sea necesario para cumplir los fines descritos en esta Política de Privacidad o según lo requiera la ley.",
+		"it": "Conservo le tue informazioni personali per tutto il tempo necessario a soddisfare le finalità descritte in questa Informativa sulla Privacy o secondo quanto richiesto dalla legge.",
+		"pt": "Eu mantenho suas informações pessoais pelo tempo necessário para cumprir os propósitos descritos nesta Política de Privacidade ou conforme exigido por lei.",
+		"ja": "個人情報は、本プライバシーポリシーで定められた目的を達成するため、または法律で要求される期間、保持します。",
+		"zh": "我会在必要期间保留您的个人信息，以实现本隐私政策中列出的目的，或依法要求。"
+	},
+	"privacy_31": {
+		"en": "5. Security of Your Information",
+		"es": "5. Seguridad de Su Información",
+		"it": "5. Sicurezza delle Tue Informazioni",
+		"pt": "5. Segurança das Suas Informações",
+		"ja": "5. 情報のセキュリティ",
+		"zh": "5. 您信息的安全性"
+	},
+	"privacy_32": {
+		"en": "I take appropriate technical and organizational measures to protect your personal data from unauthorized access, disclosure, alteration, or destruction. However, no method of transmission over the internet is 100% secure, and I cannot guarantee absolute security.",
+		"es": "Tomo medidas técnicas y organizativas apropiadas para proteger sus datos personales contra el acceso no autorizado, la divulgación, la alteración o la destrucción. Sin embargo, ningún método de transmisión por Internet es 100% seguro y no puedo garantizar seguridad absoluta.",
+		"it": "Adotto misure tecniche e organizzative appropriate per proteggere i tuoi dati personali da accessi non autorizzati, divulgazioni, alterazioni o distruzioni. Tuttavia, nessun metodo di trasmissione su Internet è sicuro al 100% e non posso garantire una sicurezza assoluta.",
+		"pt": "Tomo medidas técnicas e organizacionais adequadas para proteger seus dados pessoais contra acesso não autorizado, divulgação, alteração ou destruição. No entanto, nenhum método de transmissão pela internet é 100% seguro, e não posso garantir segurança absoluta.",
+		"ja": "個人データを不正アクセス、開示、改ざん、破壊から保護するために、適切な技術的および組織的対策を講じています。ただし、インターネット上の送信方法は100％安全ではなく、絶対的な安全性を保証することはできません。",
+		"zh": "我采取适当的技术和组织措施来保护您的个人数据免受未经授权的访问、披露、更改或破坏。然而，互联网上的传输方式没有百分之百的安全性，我无法保证绝对安全。"
+	},
+	"privacy_33": {
+		"en": "6. Your Rights",
+		"es": "6. Sus Derechos",
+		"it": "6. I Tuoi Diritti",
+		"pt": "6. Seus Direitos",
+		"ja": "6. あなたの権利",
+		"zh": "6. 您的权利"
+	},
+	"privacy_34": {
+		"en": "Depending on your location and applicable data protection laws, you may have the following rights:",
+		"es": "Dependiendo de su ubicación y de las leyes de protección de datos aplicables, usted puede tener los siguientes derechos:",
+		"it": "A seconda della tua posizione e delle leggi sulla protezione dei dati applicabili, potresti avere i seguenti diritti:",
+		"pt": "Dependendo da sua localização e das leis de proteção de dados aplicáveis, você pode ter os seguintes direitos:",
+		"ja": "お住まいの地域および適用されるデータ保護法に応じて、次の権利を有する場合があります：",
+		"zh": "根据您的所在地和适用的数据保护法律，您可能享有以下权利："
+	},
+	"privacy_35": {
+		"en": "<b>Access:</b> You can request a copy of your personal data.",
+		"es": "<b>Acceso:</b> Puede solicitar una copia de sus datos personales.",
+		"it": "<b>Accesso:</b> Puoi richiedere una copia dei tuoi dati personali.",
+		"pt": "<b>Acesso:</b> Você pode solicitar uma cópia de seus dados pessoais.",
+		"ja": "<b>アクセス：</b> ご自身の個人データのコピーを請求できます。",
+		"zh": "<b>访问：</b> 您可以请求获取您的个人数据副本。"
+	},
+	"privacy_36": {
+		"en": "<b>Correction:</b> You can request corrections to your personal data if it is inaccurate or incomplete.",
+		"es": "<b>Corrección:</b> Puede solicitar correcciones a sus datos personales si son inexactos o incompletos.",
+		"it": "<b>Correzione:</b> Puoi richiedere correzioni ai tuoi dati personali se sono inaccurati o incompleti.",
+		"pt": "<b>Correção:</b> Você pode solicitar correções em seus dados pessoais se estiverem incorretos ou incompletos.",
+		"ja": "<b>修正：</b> 個人データが不正確または不完全な場合、修正を要求できます。",
+		"zh": "<b>更正：</b> 如果您的个人数据不准确或不完整，您可以请求更正。"
+	},
+	"privacy_37": {
+		"en": "<b>Deletion:</b> You can request the deletion of your personal data, subject to certain exceptions.",
+		"es": "<b>Eliminación:</b> Puede solicitar la eliminación de sus datos personales, sujeto a ciertas excepciones.",
+		"it": "<b>Eliminazione:</b> Puoi richiedere la cancellazione dei tuoi dati personali, salvo alcune eccezioni.",
+		"pt": "<b>Exclusão:</b> Você pode solicitar a exclusão de seus dados pessoais, sujeita a certas exceções.",
+		"ja": "<b>削除：</b> 個人データの削除を要求できますが、特定の例外が適用される場合があります。",
+		"zh": "<b>删除：</b> 您可以请求删除您的个人数据，但需遵守某些例外情况。"
+	},
+	"privacy_38": {
+		"en": "<b>Restriction of Processing:</b> You can request the restriction of processing your personal data under specific conditions.",
+		"es": "<b>Limitación del Procesamiento:</b> Puede solicitar la limitación del procesamiento de sus datos personales bajo condiciones específicas.",
+		"it": "<b>Limitazione del Trattamento:</b> Puoi richiedere la limitazione del trattamento dei tuoi dati personali in determinate condizioni.",
+		"pt": "<b>Restrição do Processamento:</b> Você pode solicitar a restrição do processamento de seus dados pessoais em condições específicas.",
+		"ja": "<b>処理の制限：</b> 特定の条件下で個人データの処理の制限を要求できます。",
+		"zh": "<b>处理限制：</b> 您可以在特定条件下请求限制对您的个人数据的处理。"
+	},
+	"privacy_39": {
+		"en": "<b>Data Portability:</b> You can request a copy of your data in a structured, commonly used, and machine-readable format.",
+		"es": "<b>Portabilidad de Datos:</b> Puede solicitar una copia de sus datos en un formato estructurado, de uso común y legible por máquina.",
+		"it": "<b>Portabilità dei Dati:</b> Puoi richiedere una copia dei tuoi dati in un formato strutturato, comunemente usato e leggibile da macchina.",
+		"pt": "<b>Portabilidade de Dados:</b> Você pode solicitar uma cópia de seus dados em um formato estruturado, comumente usado e legível por máquina.",
+		"ja": "<b>データポータビリティ：</b> データを構造化された、一般的に使用される、機械可読形式で取得することができます。",
+		"zh": "<b>数据可携性：</b> 您可以请求以结构化、常用且机器可读的格式获取您的数据副本。"
+	},
+	"privacy_40": {
+		"en": "<b>Opt-out:</b> You can withdraw your consent to receive marketing communications at any time by following the unsubscribe instructions in my emails or contacting me directly.",
+		"es": "<b>Cancelar suscripción:</b> Puede retirar su consentimiento para recibir comunicaciones de marketing en cualquier momento siguiendo las instrucciones de cancelación en mis correos electrónicos o contactándome directamente.",
+		"it": "<b>Opt-out:</b> Puoi ritirare il tuo consenso a ricevere comunicazioni di marketing in qualsiasi momento seguendo le istruzioni per annullare l'iscrizione nelle mie email o contattandomi direttamente.",
+		"pt": "<b>Cancelar inscrição:</b> Você pode retirar seu consentimento para receber comunicações de marketing a qualquer momento seguindo as instruções de cancelamento em meus e-mails ou entrando em contato diretamente comigo.",
+		"ja": "<b>オプトアウト：</b> メールの配信停止手順に従うか、直接ご連絡いただくことで、いつでもマーケティング通信の受信同意を撤回できます。",
+		"zh": "<b>退出订阅：</b> 您可以随时撤回接收营销信息的同意，方法是按照我邮件中的退订说明操作或直接联系我。"
+	},
+	"privacy_41": {
+		"en": "To exercise these rights, please contact me at <a href=\"#\">zrfisaac@gmail.com</a>.",
+		"es": "Para ejercer estos derechos, contácteme en <a href=\"#\">zrfisaac@gmail.com</a>.",
+		"it": "Per esercitare questi diritti, contattami a <a href=\"#\">zrfisaac@gmail.com</a>.",
+		"pt": "Para exercer esses direitos, entre em contato comigo em <a href=\"#\">zrfisaac@gmail.com</a>.",
+		"ja": "これらの権利を行使するには、<a href=\"#\">zrfisaac@gmail.com</a> までご連絡ください。",
+		"zh": "要行使这些权利，请通过 <a href=\"#\">zrfisaac@gmail.com</a> 联系我。"
+	},
+	"privacy_42": {
+		"en": "7. Third-Party Links and Services",
+		"es": "7. Enlaces y Servicios de Terceros",
+		"it": "7. Collegamenti e Servizi di Terze Parti",
+		"pt": "7. Links e Serviços de Terceiros",
+		"ja": "7. サードパーティのリンクとサービス",
+		"zh": "7. 第三方链接和服务"
+	},
+	"privacy_43": {
+		"en": "My Services may contain links to third-party websites, applications, or services that are not operated by me. This Privacy Policy does not apply to third-party services. I encourage you to review the privacy policies of these third parties before providing any personal data.",
+		"es": "Mis Servicios pueden contener enlaces a sitios web, aplicaciones o servicios de terceros que no son operados por mí. Esta Política de Privacidad no se aplica a los servicios de terceros. Le recomiendo revisar las políticas de privacidad de estos terceros antes de proporcionar cualquier dato personal.",
+		"it": "I miei Servizi possono contenere collegamenti a siti web, applicazioni o servizi di terze parti non gestiti da me. Questa Informativa sulla Privacy non si applica ai servizi di terze parti. Ti invito a consultare le politiche sulla privacy di questi terzi prima di fornire dati personali.",
+		"pt": "Meus Serviços podem conter links para sites, aplicativos ou serviços de terceiros que não são operados por mim. Esta Política de Privacidade não se aplica aos serviços de terceiros. Recomendo que você revise as políticas de privacidade desses terceiros antes de fornecer qualquer dado pessoal.",
+		"ja": "私のサービスには、私が運営していない第三者のウェブサイト、アプリケーション、サービスへのリンクが含まれている場合があります。本プライバシーポリシーは第三者のサービスには適用されません。個人データを提供する前に、これら第三者のプライバシーポリシーを確認することをお勧めします。",
+		"zh": "我的服务可能包含指向第三方网站、应用程序或服务的链接，这些服务不由我运营。本隐私政策不适用于第三方服务。建议您在提供任何个人数据之前，先查看这些第三方的隐私政策。"
+	},
+	"privacy_44": {
+		"en": "8. Children’s Privacy",
+		"es": "8. Privacidad de los Niños",
+		"it": "8. Privacy dei Bambini",
+		"pt": "8. Privacidade das Crianças",
+		"ja": "8. 子どものプライバシー",
+		"zh": "8. 儿童隐私"
+	},
+	"privacy_45": {
+		"en": "My Services are not intended for children under the age of 13 (or 16 in some jurisdictions). I do not knowingly collect personal data from children. If I learn that I have inadvertently collected personal information from a child, I will take steps to delete that information.",
+		"es": "Mis Servicios no están destinados a niños menores de 13 años (o 16 en algunas jurisdicciones). No recopilo conscientemente datos personales de niños. Si descubro que he recopilado inadvertidamente información personal de un niño, tomaré medidas para eliminar esa información.",
+		"it": "I miei Servizi non sono destinati a bambini di età inferiore ai 13 anni (o 16 in alcune giurisdizioni). Non raccolgo consapevolmente dati personali dai bambini. Se scopro di aver raccolto involontariamente informazioni personali da un bambino, prenderò provvedimenti per eliminarle.",
+		"pt": "Meus Serviços não se destinam a crianças menores de 13 anos (ou 16 em algumas jurisdições). Não coleto conscientemente dados pessoais de crianças. Se eu descobrir que coletei inadvertidamente informações pessoais de uma criança, tomarei medidas para excluir essas informações.",
+		"ja": "私のサービスは13歳未満の子ども（または一部の地域では16歳未満）を対象としていません。私は子どもから意図的に個人データを収集しません。もし誤って子どもから個人情報を収集したことが判明した場合、その情報を削除する手続きを取ります。",
+		"zh": "我的服务不面向13岁以下的儿童（在某些地区为16岁以下）。我不会刻意收集儿童的个人数据。如果我发现自己不小心收集了儿童的个人信息，我会采取措施删除这些信息。"
+	},
+	"privacy_46": {
+		"en": "9. International Data Transfers",
+		"es": "9. Transferencias Internacionales de Datos",
+		"it": "9. Trasferimenti Internazionali di Dati",
+		"pt": "9. Transferências Internacionais de Dados",
+		"ja": "9. 国際的なデータ転送",
+		"zh": "9. 国际数据传输"
+	},
+	"privacy_47": {
+		"en": "If you access my Services from outside your country, your data may be transferred to and stored in a country that does not have the same data protection laws as your jurisdiction. By using my Services, you consent to such transfers.",
+		"es": "Si accede a mis Servicios desde fuera de su país, sus datos pueden ser transferidos y almacenados en un país que no tiene las mismas leyes de protección de datos que su jurisdicción. Al utilizar mis Servicios, usted acepta dichas transferencias.",
+		"it": "Se accedi ai miei Servizi dall'esterno del tuo paese, i tuoi dati potrebbero essere trasferiti e archiviati in un paese che non ha le stesse leggi sulla protezione dei dati della tua giurisdizione. Utilizzando i miei Servizi, acconsenti a tali trasferimenti.",
+		"pt": "Se você acessar meus Serviços de fora do seu país, seus dados podem ser transferidos e armazenados em um país que não possui as mesmas leis de proteção de dados da sua jurisdição. Ao usar meus Serviços, você consente com tais transferências.",
+		"ja": "お住まいの国以外から私のサービスにアクセスした場合、データはお住まいの地域と同じデータ保護法を持たない国に転送・保存されることがあります。私のサービスを使用することにより、これらの転送に同意したものとみなされます。",
+		"zh": "如果您从本国以外访问我的服务，您的数据可能会被传输并存储在一个数据保护法律与您所在司法辖区不同的国家。使用我的服务即表示您同意此类传输。"
+	},
+	"privacy_48": {
+		"en": "10. Updates to This Privacy Policy",
+		"es": "10. Actualizaciones de Esta Política de Privacidad",
+		"it": "10. Aggiornamenti di Questa Informativa sulla Privacy",
+		"pt": "10. Atualizações Desta Política de Privacidade",
+		"ja": "10. 本プライバシーポリシーの更新",
+		"zh": "10. 本隐私政策的更新"
+	},
+	"privacy_49": {
+		"en": "I may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated \"Effective Date.\" I encourage you to review this policy periodically to stay informed about how I protect your privacy.",
+		"es": "Es posible que actualice esta Política de Privacidad de vez en cuando. Cualquier cambio se publicará en esta página con una \"Fecha de vigencia\" actualizada. Le recomiendo que revise esta política periódicamente para mantenerse informado sobre cómo protejo su privacidad.",
+		"it": "Potrei aggiornare questa Informativa sulla privacy di tanto in tanto. Eventuali modifiche verranno pubblicate su questa pagina con una \"Data di entrata in vigore\" aggiornata. Ti incoraggio a rivedere periodicamente questa politica per rimanere informato su come proteggo la tua privacy.",
+		"pt": "Eu poderei atualizar esta Política de Privacidade periodicamente. Quaisquer alterações serão publicadas nesta página com uma \"Data de Vigência\" atualizada. Eu o encorajo a rever esta política periodicamente para se manter informado sobre como eu protejo sua privacidade.",
+		"ja": "本プライバシーポリシーは、随時更新される場合があります。変更があった場合は、更新された「発効日」とともにこのページに掲載されます。お客様のプライバシーをどのように保護しているかについて常に情報を得るために、定期的に本ポリシーをご確認いただくことをお勧めします。",
+		"zh": "我可能会不时更新本隐私政策。任何更改都将在此页面上发布，并附有更新的“生效日期”。我鼓励您定期查阅本政策，以随时了解我如何保护您的隐私。"
+	},
+	"privacy_50": {
+		"en": "11. Contact Me",
+		"es": "11. Contáctame",
+		"it": "11. Contattami",
+		"pt": "11. Fale Comigo",
+		"ja": "11. お問い合わせ",
+		"zh": "11. 联系我"
+	},
+	"privacy_51": {
+		"en": "If you have any questions or concerns about this Privacy Policy or my data practices, please contact me at:",
+		"es": "Si tiene alguna pregunta o inquietud acerca de esta Política de Privacidad o mis prácticas de datos, por favor, contácteme en:",
+		"it": "In caso di domande o dubbi sulla presente Informativa sulla privacy o sulle mie pratiche relative ai dati, si prega di contattarmi all'indirizzo:",
+		"pt": "Se você tiver alguma dúvida ou preocupação sobre esta Política de Privacidade ou sobre as minhas práticas de dados, por favor, entre em contato comigo em:",
+		"ja": "本プライバシーポリシーまたは当方のデータ取り扱いについてご質問やご不明な点がございましたら、下記までご連絡ください：",
+		"zh": "如果您对此隐私政策或我的数据处理实践有任何疑问或疑虑，请通过以下方式联系我："
+	},
+	"privacy_52": {
+		"en": "<b>Email:</b> <a href=\"#\">zrfisaac@gmail.com</a>",
+		"es": "<b>Correo electrónico:</b> <a href=\"#\">zrfisaac@gmail.com</a>",
+		"it": "<b>Email:</b> <a href=\"#\">zrfisaac@gmail.com</a>",
+		"pt": "<b>E-mail:</b> <a href=\"#\">zrfisaac@gmail.com</a>",
+		"ja": "<b>Eメール:</b> <a href=\"#\">zrfisaac@gmail.com</a>",
+		"zh": "<b>邮箱：</b> <a href=\"#\">zrfisaac@gmail.com</a>"
+	},
+	"privacy_53": {
+		"en": "<b>Address:</b> Salvador, Bahia, Brazil",
+		"es": "<b>Dirección:</b> Salvador, Bahía, Brasil",
+		"it": "<b>Indirizzo:</b> Salvador, Bahia, Brasile",
+		"pt": "<b>Endereço:</b> Salvador, Bahia, Brasil",
+		"ja": "<b>住所:</b> サルバドール、バイーア州、ブラジル",
+		"zh": "<b>地址：</b> 巴西巴伊亚州萨尔瓦多"
+	},
+	"soon": {
+		"en": "Coming Soon",
+		"es": "Próximamente",
+		"it": "Prossimamente",
+		"pt": "Em Breve",
+		"ja": "近日公開",
+		"zh": "即将推出"
 	},
 	"zrfisaac_copyright": {
 		"en": "© 2025 Isaac Caires Santana",
@@ -128,12 +816,12 @@
 		"zh": "艾萨克·凯雷斯·桑塔纳"
 	},
 	"zrfisaac_phrase": {
-		"en": "Programmer since 2007",
-		"es": "Programador desde 2007",
-		"it": "Programmatore dal 2007",
-		"pt": "Programador desde 2007",
-		"ja": "2012年からプログラマー",
-		"zh": "自2012年以来的程序员"
+		"en": "Full Stack Software Developer",
+		"es": "Desarrollador de Software Full Stack",
+		"it": "Sviluppatore Software Full Stack",
+		"pt": "Desenvolvedor de Software Full Stack",
+		"ja": "フルスタックソフトウェア開発者",
+		"zh": "全栈软件开发工程师"
 	},
 	"zrfisaac_user": {
 		"en": "ZRFISAAC",
