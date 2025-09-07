@@ -791,6 +791,38 @@
 		"ja": "<b>住所:</b> サルバドール、バイーア州、ブラジル",
 		"zh": "<b>地址：</b> 巴西巴伊亚州萨尔瓦多"
 	},
+	"project_bde_01": {
+		"en": "BDE Installer",
+		"es": "Instalador de BDE",
+		"it": "Programma di installazione BDE",
+		"pt": "Instalador do BDE",
+		"ja": "BDEインストーラー",
+		"zh": "BDE安装程序"
+	},
+	"project_bde_02": {
+		"en": "Custom BDE installation, created by me to simplify and speed up the setup on client machines, ensuring practicality and standardization in the process.",
+		"es": "Instalación personalizada de BDE, creada por mí para facilitar y agilizar la configuración en las máquinas clientes, garantizando practicidad y estandarización en el proceso.",
+		"it": "Installazione personalizzata di BDE, creata da me per semplificare e velocizzare la configurazione sui computer client, garantendo praticità e standardizzazione nel processo.",
+		"pt": "Instalação do BDE personalizada, criada por mim para facilitar e agilizar a configuração em máquinas clientes, garantindo praticidade e padronização no processo.",
+		"ja": "クライアントマシンでの設定を簡単かつ迅速に行えるよう、私が作成したカスタムBDEインストールで、実用性と標準化を保証します。",
+		"zh": "由我创建的自定义BDE安装，用于简化和加快客户端计算机上的配置，确保过程中的实用性和标准化。"
+	},
+	"project_prnviewer_01": {
+		"en": "PRN Viewer",
+		"es": "PRN Viewer",
+		"it": "PRN Viewer",
+		"pt": "PRN Viewer",
+		"ja": "PRNビューア",
+		"zh": "PRN查看器"
+	},
+	"project_prnviewer_02": {
+		"en": "PRN Viewer is a project developed in Lazarus that generates PDFs from existing PDF files using FortesReport CE.",
+		"es": "PRN Viewer es un proyecto desarrollado en Lazarus que genera archivos PDF a partir de archivos PDF existentes utilizando FortesReport CE.",
+		"it": "PRN Viewer è un progetto sviluppato in Lazarus che genera PDF da file PDF esistenti utilizzando FortesReport CE.",
+		"pt": "O PRN Viewer é um projeto feito em Lazarus que gera PDFs a partir de arquivos PDF existentes, utilizando o FortesReport CE.",
+		"ja": "PRN Viewerは、Lazarusで開発されたプロジェクトで、既存のPDFファイルからPDFを生成し、FortesReport CEを使用します。",
+		"zh": "PRN Viewer 是一个用 Lazarus 开发的项目，它使用 FortesReport CE 从现有的 PDF 文件生成新的 PDF。"
+	},
 	"soon": {
 		"en": "Coming Soon",
 		"es": "Próximamente",
