@@ -351,6 +351,22 @@
 		"ja": "ウィキ",
 		"zh": "维基"
 	},
+	"mobile_clickcounter_01": {
+		"en": "Click Counter",
+		"es": "Contador de Clics",
+		"it": "Contatore di Click",
+		"pt": "Contador de Cliques",
+		"ja": "クリックカウンター",
+		"zh": "点击计数器"
+	},
+	"mobile_clickcounter_02": {
+		"en": "This is my Click Counter program, created to help with general counting tasks. It’s a simple and practical tool that lets you keep track of clicks for any purpose whether it’s counting points, repetitions, tasks, or anything else that requires an easy-to-use counter.",
+		"es": "Este es mi programa Contador de Clics, creado para ayudar con tareas generales de conteo. Es una herramienta simple y práctica que permite llevar un registro de los clics para cualquier propósito, ya sea contar puntos, repeticiones, tareas o cualquier otra cosa que requiera un contador fácil de usar.",
+		"it": "Questo è il mio programma Contatore di Click, creato per aiutare con compiti di conteggio generali. È uno strumento semplice e pratico che consente di tenere traccia dei click per qualsiasi scopo, che si tratti di contare punti, ripetizioni, compiti o qualsiasi altra cosa che richieda un contatore facile da usare.",
+		"pt": "Este é o meu programa Contador de Cliques, criado para auxiliar em tarefas gerais de contagem. É uma ferramenta simples e prática que permite acompanhar cliques para qualquer finalidade, seja contar pontos, repetições, tarefas ou qualquer outra atividade que precise de um contador fácil de usar.",
+		"ja": "これは私のクリックカウンタープログラムで、一般的なカウント作業を手助けするために作成されました。ポイント、繰り返し作業、タスクなど、あらゆる目的のクリックを簡単に記録できるシンプルで実用的なツールです。",
+		"zh": "这是我的点击计数器程序，用于帮助进行一般的计数任务。它是一个简单实用的工具，可让您跟踪任何目的的点击，无论是计分、重复操作、任务，还是任何需要易用计数器的场景。"
+	},
 	"privacy_name": {
 		"en": "Privacy Policy",
 		"es": "Política de Privacidad",
