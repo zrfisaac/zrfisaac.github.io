@@ -10,3 +10,4 @@ rem # - version : zrfisaac.flutter.apk : 25.9.3.1
 
 rem # [ batch ]
 call flutter build apk
+pause
