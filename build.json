@@ -96,12 +96,12 @@
 		"zh": "如果您认为这是一个错误，请在<a href=\"https://github.com/zrfisaac/zrfisaac.github.io/issues\">这里</a>提交问题，以便我进一步调查。感谢您的理解！"
 	},
 	"about_title": {
-		"en": "🧑‍💻 About",
-		"es": "🧑‍💻 Acerca de",
-		"it": "🧑‍💻 Informazioni",
-		"pt": "🧑‍💻 Sobre",
-		"ja": "🧑‍💻 概要",
-		"zh": "🧑‍💻 关于"
+		"en": "👋 About",
+		"es": "👋 Acerca de",
+		"it": "👋 Informazioni",
+		"pt": "👋 Sobre",
+		"ja": "👋 概要",
+		"zh": "👋 关于"
 	},
 	"about_text_01": {
 		"en": "I have been a software developer since 2012, with extensive experience in Delphi and SQL Server, mainly working on the maintenance and development of corporate systems. Over time, I expanded my skills to other languages and tools such as Python, Bash, HTML/CSS/JS, Docker, and Linux environments, especially Arch Linux, which I use daily.",
