@@ -839,7 +839,55 @@
 		"ja": "PRN Viewerは、Lazarusで開発されたプロジェクトで、既存のPDFファイルからPDFを生成し、FortesReport CEを使用します。",
 		"zh": "PRN Viewer 是一个用 Lazarus 开发的项目，它使用 FortesReport CE 从现有的 PDF 文件生成新的 PDF。"
 	},
+	"project_sql32_01": {
+		"en": "SQL32",
+		"es": "SQL32",
+		"it": "SQL32",
+		"pt": "SQL32",
+		"ja": "SQL32",
+		"zh": "SQL32"
+	},
+	"project_sql32_02": {
+		"en": "SQL32 is a project developed in Delphi 7 to assist in testing SQL queries in legacy systems.",
+		"es": "SQL32 es un proyecto desarrollado en Delphi 7 para ayudar en las pruebas de consultas SQL en sistemas heredados.",
+		"it": "SQL32 è un progetto sviluppato in Delphi 7 per assistere nei test delle query SQL nei sistemi legacy.",
+		"pt": "O SQL32 é um projeto desenvolvido em Delphi 7 com o objetivo de auxiliar na realização de testes em consultas SQL em sistemas legados.",
+		"ja": "SQL32は、レガシーシステムでのSQLクエリのテストを支援するためにDelphi 7で開発されたプロジェクトです。",
+		"zh": "SQL32 是一个使用 Delphi 7 开发的项目，用于协助在遗留系统中测试 SQL 查询。"
+	},
 	"soon": {
+		"en": "Coming Soon",
+		"es": "Próximamente",
+		"it": "Prossimamente",
+		"pt": "Em Breve",
+		"ja": "近日公開",
+		"zh": "即将推出"
+	},
+	"word_download": {
+		"en": "Download",
+		"es": "Download",
+		"it": "Download",
+		"pt": "Download",
+		"ja": "Download",
+		"zh": "Download"
+	},
+	"word_github": {
+		"en": "GitHub",
+		"es": "GitHub",
+		"it": "GitHub",
+		"pt": "GitHub",
+		"ja": "GitHub",
+		"zh": "GitHub"
+	},
+	"word_google_play": {
+		"en": "Google Play",
+		"es": "Google Play",
+		"it": "Google Play",
+		"pt": "Google Play",
+		"ja": "Google Play",
+		"zh": "Google Play"
+	},
+	"word_soon": {
 		"en": "Coming Soon",
 		"es": "Próximamente",
 		"it": "Prossimamente",
