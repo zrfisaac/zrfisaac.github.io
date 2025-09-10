@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.9.10.5
+# - version : zrfisaac : 25.9.10.6
 
 # [ list ]
 
@@ -98,7 +98,7 @@
 # - : ./project/email-sender
 # . - : https://github.com/zrfisaac/EmailSender.git
 
-# - : ./project/explorer-4-delphi
+# - : ./project/explorer4delphi
 # . - : https://github.com/zrfisaac/Explorer4Delphi.git
 
 # - : ./project/explorer-97
