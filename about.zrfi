@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.9.9.1
+# - version : zrfisaac : 25.9.10.1
 
 # [ list ]
 
@@ -22,9 +22,6 @@
 
 # - : ./game/super-paulo
 # . - : https://github.com/zrfisaac/SuperPaulo.git
-
-# - : ./jam/the-indie-den-game-jam
-# . - : https://github.com/zrfisaac/jam.the-indie-den-game-jam.git
 
 # - : ./mvp/achieve-it
 # . - : https://github.com/zrfisaac/AchieveIt.git

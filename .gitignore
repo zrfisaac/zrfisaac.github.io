@@ -1,5 +1,4 @@
 # [ gitignore ]
-crack.bat
 *.avi
 *.bmp
 *.exe
@@ -7,6 +6,14 @@ crack.bat
 *.mp4
 _*
 _/
+.bash_history
+.bash_logout
+.bashrc
+.landscape/
+.motd_shown
+.profile
+.sudo_as_admin_successful
+crack.bat
 albedo/
 bulnix/
 class/
