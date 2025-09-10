@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.9.10.2
+# - version : zrfisaac : 25.9.10.3
 
 # [ list ]
 
@@ -13,6 +13,39 @@
 
 # - : ./bulnix/web
 # . - : https://github.com/bulnix/bulnix.github.io.git
+
+# - : ./docker
+# . - : https://github.com/zrfisaac/zrfisaac.docker.git
+
+# - : ./docker/alpine
+# . - : https://github.com/zrfisaac/docker.alpine.git
+
+# - : ./docker/archlinux
+# . - : https://github.com/zrfisaac/docker.archlinux.git
+
+# - : ./docker/debian
+# . - : https://github.com/zrfisaac/docker.debian.git
+
+# - : ./docker/mssql
+# . - : https://github.com/zrfisaac/docker.mssql.git
+
+# - : ./docker/novnc
+# . - : https://github.com/zrfisaac/docker.novnc.git
+
+# - : ./docker/oracle
+# . - : https://github.com/zrfisaac/docker.oracle.git
+
+# - : ./docker/tomcat
+# . - : https://github.com/zrfisaac/docker.tomcat.git
+
+# - : ./docker/ubuntu
+# . - : https://github.com/zrfisaac/docker.ubuntu.git
+
+# - : ./docker/wine
+# . - : https://github.com/zrfisaac/docker.wine.git
+
+# - : ./docker/xfce
+# . - : https://github.com/zrfisaac/docker.xfce.git
 
 # - : ./github
 # . - : https://github.com/zrfisaac/zrfisaac.git
@@ -94,6 +127,9 @@
 
 # - : ./project/winconfig
 # . - : https://github.com/zrfisaac/WinConfig.git
+
+# - : ./project/zrlib
+# . - : https://github.com/zrfisaac/ZRLib.git
 
 # - : ./template/docsify
 # . - : https://github.com/zrfisaac/template.docsify.git
