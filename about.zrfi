@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.9.10.3
+# - version : zrfisaac : 25.9.10.4
 
 # [ list ]
 
@@ -91,6 +91,9 @@
 
 # - : ./project/dear-sql
 # . - : https://github.com/zrfisaac/DearSQL.git
+
+# - : ./project/delphi-config
+# . - : https://github.com/zrfisaac/DelphiConfig.git
 
 # - : ./project/email-sender
 # . - : https://github.com/zrfisaac/EmailSender.git
