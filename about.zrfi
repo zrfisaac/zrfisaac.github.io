@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.9.10.4
+# - version : zrfisaac : 25.9.10.5
 
 # [ list ]
 
@@ -127,6 +127,9 @@
 
 # - : ./project/sql32
 # . - : https://github.com/zrfisaac/SQL32.git
+
+# - : ./project/tray-d7
+# . - : https://github.com/zrfisaac/TrayD7.git
 
 # - : ./project/winconfig
 # . - : https://github.com/zrfisaac/WinConfig.git
