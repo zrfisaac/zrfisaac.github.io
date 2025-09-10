@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.9.10.1
+# - version : zrfisaac : 25.9.10.2
 
 # [ list ]
 
@@ -20,7 +20,7 @@
 # - : ./game/blind-lab
 # . - : https://github.com/zrfisaac/BlindLab.git
 
-# - : ./game/super-paulo
+# - : ./game/paulo
 # . - : https://github.com/zrfisaac/SuperPaulo.git
 
 # - : ./mvp/achieve-it
@@ -47,8 +47,14 @@
 # - : ./project/bde
 # . - : https://github.com/zrfisaac/BDE.git
 
+# - : ./project/clip-note
+# . - : https://github.com/zrfisaac/ClipNote.git
+
 # - : ./project/color-d7
 # . - : https://github.com/zrfisaac/ColorD7.git
+
+# - : ./project/color-pick
+# . - : https://github.com/zrfisaac/ColorPick.git
 
 # - : ./project/dear-sql
 # . - : https://github.com/zrfisaac/DearSQL.git
@@ -79,6 +85,9 @@
 
 # - : ./project/prn-viewer
 # . - : https://github.com/zrfisaac/PRNViewer.git
+
+# - : ./project/quick-clip
+# . - : https://github.com/zrfisaac/QuickClip.git
 
 # - : ./project/sql32
 # . - : https://github.com/zrfisaac/SQL32.git
