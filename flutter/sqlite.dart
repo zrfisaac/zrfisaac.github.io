@@ -6,15 +6,14 @@
 // # . - site : zrfisaac.github.io
 // # - version : zrfisaac.flutter.login : 25.8.25.1
 
-// # [ flutter ] : pubspec.yaml
- /*
+// # [ pubspec ]
+/*
 dependencies:
-  flutter:
-    sdk: flutter
+  cupertino_icons: ^1.0.8
   sqflite: ^2.3.2 # Android
   sqflite_common_ffi: ^2.3.1 # Windows
   path: ^1.8.3
-// */
+*/
 
 // # [ flutter ] : main.dart
 import 'package:flutter/material.dart';

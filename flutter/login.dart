@@ -6,7 +6,7 @@
 // # . - site : zrfisaac.github.io
 // # - version : zrfisaac.flutter.login : 25.6.12.1
 
-// # [ flutter ] : main dart
+// # [ flutter ]
 import 'package:flutter/material.dart';
 
 void main() {
