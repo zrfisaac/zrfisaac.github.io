@@ -3,7 +3,7 @@
 
 # [ about ]
 # - author : Isaac Caires Santana
-# . - email : zrfisaac@gmail.com
+# - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
 # version : zrfisaac.qemu.amd64.win11.br : 0.0.1
 

@@ -3,7 +3,7 @@
 
 # [ about ]
 # - author : Isaac Caires Santana
-# . - email : zrfisaac@gmail.com
+# - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
 # - version : zrfisaac.bash.hello : 0.0.1
 

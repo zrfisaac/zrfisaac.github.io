@@ -2,7 +2,7 @@
 
 // # [ about ]
 // # - author : Isaac Caires Santana
-// # . - email : zrfisaac@gmail.com
+// # - email : zrfisaac@gmail.com
 // # . - site : zrfisaac.github.io
 // # - version : zrfisaac.flutter.demo : 25.6.12.1
 

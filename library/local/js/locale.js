@@ -2,7 +2,7 @@
 
 // # [ about ]
 // # - author : Isaac Caires
-// # . - email : zrfisaac@gmail.com
+// # - email : zrfisaac@gmail.com
 // # . - site : zrfisaac.github.io
 
 // # [ javascript ]
