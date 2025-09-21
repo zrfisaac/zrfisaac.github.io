@@ -855,6 +855,262 @@
 		"ja": "SQL32は、レガシーシステムでのSQLクエリのテストを支援するためにDelphi 7で開発されたプロジェクトです。",
 		"zh": "SQL32 是一个使用 Delphi 7 开发的项目，用于协助在遗留系统中测试 SQL 查询。"
 	},
+	"resume_01": {
+		"en": "About Me",
+		"es": "Sobre Mí",
+		"it": "Su di me",
+		"pt": "Sobre Mim",
+		"ja": "私について",
+		"zh": "关于我"
+	},
+	"resume_02": {
+		"en": "I am a software developer and systems analyst with over 15 years of experience. I have strong expertise in full-stack development, ERP systems, and hospital management solutions. I have worked extensively with Delphi, SQL Server, and various other technologies, operating in both Windows and Linux environments. I am passionate about object-oriented programming (OOP), the application of design patterns, and good software development practices, such as the SOLID and KISS principles. I am fluent in Portuguese, English, and Spanish.",
+		"es": "Soy desarrollador de software y analista de sistemas con más de 15 años de experiencia. Tengo una sólida experiencia en desarrollo full-stack, sistemas ERP y soluciones de gestión hospitalaria. He trabajado extensamente con Delphi, SQL Server y varias otras tecnologías, operando en entornos de Windows y Linux. Me apasiona la programación orientada a objetos (POO), la aplicación de patrones de diseño y las buenas prácticas de desarrollo de software, como los principios SOLID y KISS. Hablo con fluidez portugués, inglés y español.",
+		"it": "Sono uno sviluppatore software e analista di sistemi con oltre 15 anni di esperienza. Ho una forte competenza nello sviluppo full-stack, nei sistemi ERP e nelle soluzioni di gestione ospedaliera. Ho lavorato a lungo con Delphi, SQL Server e diverse altre tecnologie, operando in ambienti Windows e Linux. Sono appassionato di programmazione orientata agli oggetti (OOP), dell'applicazione di pattern di progettazione e di buone pratiche di sviluppo software, come i principi SOLID e KISS. Parlo fluentemente portoghese, inglese e spagnolo.",
+		"pt": "Sou desenvolvedor de software e analista de sistemas com mais de 15 anos de experiência. Tenho forte expertise em desenvolvimento full-stack, sistemas ERP e soluções de gestão hospitalar. Trabalhei extensivamente com Delphi, SQL Server e diversas outras tecnologias, atuando em ambientes Windows e Linux. Sou apaixonado por programação orientada a objetos (OOP), aplicação de padrões de projeto e boas práticas de desenvolvimento de software, como os princípios SOLID e KISS. Sou fluente em português, inglês e espanhol.",
+		"ja": "私は15年以上の経験を持つソフトウェア開発者兼システムアナリストです。フルスタック開発、ERPシステム、病院管理ソリューションに豊富な専門知識を持っています。Delphi、SQL Server、その他さまざまなテクノロジーを幅広く使用し、WindowsとLinuxの両方の環境で作業してきました。オブジェクト指向プログラミング（OOP）、デザインパターンの適用、SOLIDやKISSの原則などの優れたソフトウェア開発プラクティスに情熱を注いでいます。ポルトガル語、英語、スペイン語に堪能です。",
+		"zh": "我是一名拥有超过15年经验的软件开发人员和系统分析师。我在全栈开发、ERP系统和医院管理解决方案方面拥有深厚的专业知识。我曾广泛使用Delphi、SQL Server和各种其他技术，在Windows和Linux环境下工作。我热衷于面向对象编程（OOP）、设计模式的应用以及良好的软件开发实践，例如SOLID和KISS原则。我能流利使用葡萄牙语、英语和西班牙语。"
+	},
+	"resume_03": {
+		"en": "Education",
+		"es": "Educación",
+		"it": "Formazione",
+		"pt": "Educação",
+		"ja": "学歴",
+		"zh": "教育"
+	},
+	"resume_04": {
+		"en": "<b>Bachelor of Information Systems</b> : December 2020",
+		"es": "<b>Licenciatura en Sistemas de Información</b> : Diciembre 2020",
+		"it": "<b>Laurea in Sistemi Informativi</b> : Dicembre 2020",
+		"pt": "<b>Bacharel em Sistemas de Informação</b> : Dezembro 2020",
+		"ja": "<b>情報システム学士</b> : 2020年12月",
+		"zh": "<b>信息系统学士</b> : 2020年12月"
+	},
+	"resume_05": {
+		"en": "Estácio de Sá University",
+		"es": "Universidad Estácio de Sá",
+		"it": "Università Estácio de Sá",
+		"pt": "Universidade Estácio de Sá",
+		"ja": "エスタシオ・デ・サ大学",
+		"zh": "埃斯塔西奥德萨大学"
+	},
+	"resume_06": {
+		"en": "<b>English Course</b> : October 2016",
+		"es": "<b>Curso de Inglés</b> : Octubre 2016",
+		"it": "<b>Corso di Inglese</b> : Ottobre 2016",
+		"pt": "<b>English Course</b> : Outubro 2016",
+		"ja": "<b>英語コース</b> : 2016年10月",
+		"zh": "<b>英语课程</b> : 2016年10月"
+	},
+	"resume_07": {
+		"en": "Minds English School",
+		"es": "Minds English School",
+		"it": "Minds English School",
+		"pt": "Minds English School",
+		"ja": "マインズ・イングリッシュ・スクール",
+		"zh": "Minds 英语学校"
+	},
+	"resume_08": {
+		"en": "Skills",
+		"es": "Habilidades",
+		"it": "Competenze",
+		"pt": "Habilidades",
+		"ja": "スキル",
+		"zh": "技能"
+	},
+	"resume_09": {
+		"en": "<b>Languages:</b> Delphi, C#, ASP.NET MVC, Python, HTML, CSS, JavaScript, Bash, SQL",
+		"es": "<b>Lenguajes:</b> Delphi, C#, ASP.NET MVC, Python, HTML, CSS, JavaScript, Bash, SQL",
+		"it": "<b>Linguaggi:</b> Delphi, C#, ASP.NET MVC, Python, HTML, CSS, JavaScript, Bash, SQL",
+		"pt": "<b>Linguagens:</b> Delphi, C#, ASP.NET MVC, Python, HTML, CSS, JavaScript, Bash, SQL",
+		"ja": "<b>言語:</b> Delphi, C#, ASP.NET MVC, Python, HTML, CSS, JavaScript, Bash, SQL",
+		"zh": "<b>语言:</b> Delphi, C#, ASP.NET MVC, Python, HTML, CSS, JavaScript, Bash, SQL"
+	},
+	"resume_10": {
+		"en": "<b>Databases:</b> SQL Server, PostgreSQL, Oracle, Firebird, MySQL",
+		"es": "<b>Bases de datos:</b> SQL Server, PostgreSQL, Oracle, Firebird, MySQL",
+		"it": "<b>Database:</b> SQL Server, PostgreSQL, Oracle, Firebird, MySQL",
+		"pt": "<b>Bancos de Dados:</b> SQL Server, PostgreSQL, Oracle, Firebird, MySQL",
+		"ja": "<b>データベース:</b> SQL Server, PostgreSQL, Oracle, Firebird, MySQL",
+		"zh": "<b>数据库:</b> SQL Server, PostgreSQL, Oracle, Firebird, MySQL"
+	},
+	"resume_11": {
+		"en": "<b>Frameworks & Tools:</b> Docker, Git, Bitbucket, FastReport, QuickReport, ActiveQueryBuilder, CEF4Delphi, DevExpress, ReportBuilder, EurekaLog, NSIS, SynEdit, Lazarus",
+		"es": "<b>Frameworks y Herramientas:</b> Docker, Git, Bitbucket, FastReport, QuickReport, ActiveQueryBuilder, CEF4Delphi, DevExpress, ReportBuilder, EurekaLog, NSIS, SynEdit, Lazarus",
+		"it": "<b>Framework e Strumenti:</b> Docker, Git, Bitbucket, FastReport, QuickReport, ActiveQueryBuilder, CEF4Delphi, DevExpress, ReportBuilder, EurekaLog, NSIS, SynEdit, Lazarus",
+		"pt": "<b>Frameworks & Ferramentas:</b> Docker, Git, Bitbucket, FastReport, QuickReport, ActiveQueryBuilder, CEF4Delphi, DevExpress, ReportBuilder, EurekaLog, NSIS, SynEdit, Lazarus",
+		"ja": "<b>フレームワークとツール:</b> Docker, Git, Bitbucket, FastReport, QuickReport, ActiveQueryBuilder, CEF4Delphi, DevExpress, ReportBuilder, EurekaLog, NSIS, SynEdit, Lazarus",
+		"zh": "<b>框架与工具:</b> Docker, Git, Bitbucket, FastReport, QuickReport, ActiveQueryBuilder, CEF4Delphi, DevExpress, ReportBuilder, EurekaLog, NSIS, SynEdit, Lazarus"
+	},
+	"resume_12": {
+		"en": "<b>Operating Systems:</b> Windows, Linux (Debian, ArchLinux, Manjaro, Alpine, Ubuntu)",
+		"es": "<b>Sistemas Operativos:</b> Windows, Linux (Debian, ArchLinux, Manjaro, Alpine, Ubuntu)",
+		"it": "<b>Sistemi Operativi:</b> Windows, Linux (Debian, ArchLinux, Manjaro, Alpine, Ubuntu)",
+		"pt": "<b>Sistemas Operacionais:</b> Windows, Linux (Debian,ArchLinux, Manjaro, Alpine, Ubuntu)",
+		"ja": "<b>オペレーティングシステム:</b> Windows, Linux (Debian, ArchLinux, Manjaro, Alpine, Ubuntu)",
+		"zh": "<b>操作系统:</b> Windows, Linux (Debian, ArchLinux, Manjaro, Alpine, Ubuntu)"
+	},
+	"resume_13": {
+		"en": "<b>Development Tools:</b> Visual Studio Code, VirtualBox, VMware, Wine, InnoSetup, VNC",
+		"es": "<b>Herramientas de desarrollo:</b> Visual Studio Code, VirtualBox, VMware, Wine, InnoSetup, VNC",
+		"it": "<b>Strumenti di sviluppo:</b> Visual Studio Code, VirtualBox, VMware, Wine, InnoSetup, VNC",
+		"pt": "<b>Ferramentas de desenvolvimento:</b> Visual Studio Code, VirtualBox, VMware, Wine, InnoSetup, VNC",
+		"ja": "<b>開発ツール:</b> Visual Studio Code, VirtualBox, VMware, Wine, InnoSetup, VNC",
+		"zh": "<b>开发工具:</b> Visual Studio Code, VirtualBox, VMware, Wine, InnoSetup, VNC"
+	},
+	"resume_14": {
+		"en": "<b>Design Principles:</b> Object-Oriented Programming (OOP), SOLID, KISS",
+		"es": "<b>Principios de Diseño:</b> Programación Orientada a Objetos (POO), SOLID, KISS",
+		"it": "<b>Principi di Progettazione:</b> Programmazione Orientata agli Oggetti (OOP), SOLID, KISS",
+		"pt": "<b>Princípios de Design:</b> Programação Orientada a Objetos (POO), SOLID, KISS",
+		"ja": "<b>設計原則:</b> オブジェクト指向プログラミング (OOP), SOLID, KISS",
+		"zh": "<b>设计原则:</b> 面向对象编程 (OOP), SOLID, KISS"
+	},
+	"resume_15": {
+		"en": "<b>Design Patterns:</b> Factory, Singleton, Observer, Repository, MVC",
+		"es": "<b>Patrones de Diseño:</b> Factory, Singleton, Observer, Repository, MVC",
+		"it": "<b>Pattern di Progettazione:</b> Factory, Singleton, Observer, Repository, MVC",
+		"pt": "<b>Padrões de Projeto:</b> Factory, Singleton, Observer, Repository, MVC",
+		"ja": "<b>デザインパターン:</b> Factory, Singleton, Observer, Repository, MVC",
+		"zh": "<b>设计模式:</b> Factory, Singleton, Observer, Repository, MVC"
+	},
+	"resume_16": {
+		"en": "<b>Others:</b> JSON, XML, INI, CSV, Windows Registry, Artificial Intelligence, ERP Systems, Endoscopy Recorders, Health Management Systems",
+		"es": "<b>Otros:</b> JSON, XML, INI, CSV, Registro de Windows, Inteligencia Artificial, Sistemas ERP, Registradores de Endoscopia, Sistemas de Gestión de Salud",
+		"it": "<b>Altro:</b> JSON, XML, INI, CSV, Registro di Windows, Intelligenza Artificiale, Sistemi ERP, Registratori per Endoscopia, Sistemi di Gestione Sanitaria",
+		"pt": "<b>Outros:</b> JSON, XML, INI, CSV, Registro do Windows, Inteligência Artificial, Sistemas ERP, Registradores de Endoscopia, Sistemas de Gestão em Saúde",
+		"ja": "<b>その他:</b> JSON, XML, INI, CSV, Windowsレジストリ, 人工知能, ERPシステム, 内視鏡レコーダー, 健康管理システム",
+		"zh": "<b>其他:</b> JSON, XML, INI, CSV, Windows注册表, 人工智能, ERP系统, 内窥镜记录仪, 健康管理系统"
+	},
+	"resume_17": {
+		"en": "Experience",
+		"es": "Experiencia",
+		"it": "Esperienza",
+		"pt": "Experiência",
+		"ja": "職務経歴",
+		"zh": "工作经历"
+	},
+	"resume_18": {
+		"en": "<b>Minerva Foods</b> : 02/2025 - Present",
+		"es": "<b>Minerva Foods</b> : 02/2025 - Actual",
+		"it": "<b>Minerva Foods</b> : 02/2025 - Attuale",
+		"pt": "<b>Minerva Foods</b> : 02/2025 - Agora",
+		"ja": "<b>Minerva Foods</b> : 2025年2月 - 現在",
+		"zh": "<b>Minerva Foods</b> : 2025年2月 - 至今"
+	},
+	"resume_19": {
+		"en": "Mid-level Support Analyst",
+		"es": "Analista de Soporte Pleno",
+		"it": "Analista di Supporto (Livello Intermedio)",
+		"pt": "Analista Suporte PL",
+		"ja": "ミドルレベルサポートアナリスト",
+		"zh": "中级支持分析师"
+	},
+	"resume_20": {
+		"en": "I work at Minerva providing support for the Dux system using Delphi 10/12 and SQL Server. My role includes database and code support, routine development, and providing overnight support for Australia.",
+		"es": "Trabajo en Minerva dando soporte al sistema Dux usando Delphi 10/12 y SQL Server. Mi función incluye soporte a la base de datos y al código, desarrollo de rutinas y proporcionar soporte nocturno para Australia.",
+		"it": "Lavoro in Minerva fornendo supporto al sistema Dux utilizzando Delphi 10/12 e SQL Server. Il mio ruolo include il supporto al database e al codice, lo sviluppo di routine e la fornitura di supporto notturno per l'Australia.",
+		"pt": "Trabalho na Minerva oferecendo suporte ao sistema Dux usando Delphi 10/12 e SQL Server. Minha função inclui suporte ao banco de dados e ao código, desenvolvimento de rotinas e fornecimento de suporte noturno para a Austrália.",
+		"ja": "Minerva社でDelphi 10/12とSQL Serverを使用してDuxシステムのサポートを担当しています。私の役割には、データベースとコードのサポート、ルーチンの開発、オーストラリア向けの夜間サポートの提供が含まれます。",
+		"zh": "我在Minerva工作，使用Delphi 10/12和SQL Server为Dux系统提供支持。我的职责包括数据库和代码支持、日常程序开发以及为澳大利亚提供夜间支持。"
+	},
+	"resume_21": {
+		"en": "<b>Softwell Solutions (Maker)</b> : 02/2022 - 02/2025",
+		"es": "<b>Softwell Solutions (Maker)</b> : 02/2022 - 02/2025",
+		"it": "<b>Softwell Solutions (Maker)</b> : 02/2022 - 02/2025",
+		"pt": "<b>Softwell Solutions (Maker)</b> : 02/2022 - 02/2025",
+		"ja": "<b>Softwell Solutions (Maker)</b> : 2022年2月 - 2025年2月",
+		"zh": "<b>Softwell Solutions (Maker)</b> : 2022年2月 - 2025年2月"
+	},
+	"resume_22": {
+		"en": "Senior Systems Analyst",
+		"es": "Analista de Sistemas Senior",
+		"it": "Analista di Sistemi Senior",
+		"pt": "Analista de Sistemas Sênior",
+		"ja": "シニアシステムアナリスト",
+		"zh": "高级系统分析师"
+	},
+	"resume_23": {
+		"en": "Contributed to the development of the Maker Platform (Delphi, PostgreSQL, Oracle, Firebird, MySQL, Docker) on Linux, applying OOP, SOLID, KISS, and design patterns (Factory, Singleton, Observer, Repository). Developed AI features, cross-platform solutions, and used tools like ActiveQueryBuilder, DevExpress, EurekaLog, Bash, VMware, and VirtualBox.",
+		"es": "Contribuí al desarrollo de la Plataforma Maker (Delphi, PostgreSQL, Oracle, Firebird, MySQL, Docker) en Linux, aplicando POO, SOLID, KISS y patrones de diseño (Factory, Singleton, Observer, Repository). Desarrollé funcionalidades de IA, soluciones multiplataforma y utilicé herramientas como ActiveQueryBuilder, DevExpress, EurekaLog, Bash, VMware y VirtualBox.",
+		"it": "Ho contribuito allo sviluppo della Piattaforma Maker (Delphi, PostgreSQL, Oracle, Firebird, MySQL, Docker) su Linux, applicando OOP, SOLID, KISS e pattern di progettazione (Factory, Singleton, Observer, Repository). Ho sviluppato funzionalità di intelligenza artificiale, soluzioni multipiattaforma e utilizzato strumenti come ActiveQueryBuilder, DevExpress, EurekaLog, Bash, VMware e VirtualBox.",
+		"pt": "Contribuí para o desenvolvimento da Maker Platform (Delphi, PostgreSQL, Oracle, Firebird, MySQL, Docker) em Linux, aplicando OOP, SOLID, KISS e padrões de projeto (Factory, Singleton, Observer, Repository). Desenvolvi funcionalidades de IA, soluções multiplataforma e utilizei ferramentas como ActiveQueryBuilder, DevExpress, EurekaLog, Bash, VMware e VirtualBox.",
+		"ja": "Linux上でMaker Platform（Delphi、PostgreSQL、Oracle、Firebird、MySQL、Docker）の開発に貢献し、OOP、SOLID、KISS、およびデザインパターン（Factory、Singleton、Observer、Repository）を適用しました。AI機能、クロスプラットフォームソリューションを開発し、ActiveQueryBuilder、DevExpress、EurekaLog、Bash、VMware、VirtualBoxなどのツールを使用しました。",
+		"zh": "在Linux上为Maker Platform（Delphi, PostgreSQL, Oracle, Firebird, MySQL, Docker）的开发做出了贡献，应用了OOP、SOLID、KISS和设计模式（Factory, Singleton, Observer, Repository）。开发了人工智能功能、跨平台解决方案，并使用了ActiveQueryBuilder、DevExpress、EurekaLog、Bash、VMware和VirtualBox等工具。"
+	},
+	"resume_24": {
+		"en": "<b>Felipe Menezes (Techsallus)</b> : 02/2012 – 01/2022",
+		"es": "<b>Felipe Menezes (Techsallus)</b> : 02/2012 – 01/2022",
+		"it": "<b>Felipe Menezes (Techsallus)</b> : 02/2012 – 01/2022",
+		"pt": "<b>Felipe Menezes (Techsallus)</b> : 02/2012 – 01/2022",
+		"ja": "<b>Felipe Menezes (Techsallus)</b> : 2012年2月 – 2022年1月",
+		"zh": "<b>Felipe Menezes (Techsallus)</b> : 2012年2月 – 2022年1月"
+	},
+	"resume_25": {
+		"en": "Senior Systems Analyst",
+		"es": "Analista de Sistemas Senior",
+		"it": "Analista di Sistemi Senior",
+		"pt": "Analista de Sistemas Sênior",
+		"ja": "シニアシステムアナリスト",
+		"zh": "高级系统分析师"
+	},
+	"resume_26": {
+		"en": "Developed and maintained the Techsallus hospital management system (Delphi, ASP.NET MVC, SQL Server), handling bug fixes, new features, reports, and server management. Led migration from Delphi 5 to 7 and used TFVC and Git for version control.",
+		"es": "Desarrollé y mantuve el sistema de gestión hospitalaria Techsallus (Delphi, ASP.NET MVC, SQL Server), encargándome de la corrección de errores, nuevas funcionalidades, informes y gestión de servidores. Lideré la migración de Delphi 5 a 7 y utilicé TFVC y Git para el control de versiones.",
+		"it": "Ho sviluppato e mantenuto il sistema di gestione ospedaliera Techsallus (Delphi, ASP.NET MVC, SQL Server), occupandomi della correzione di bug, nuove funzionalità, report e gestione dei server. Ho guidato la migrazione da Delphi 5 a 7 e utilizzato TFVC e Git per il controllo di versione.",
+		"pt": "Desenvolvi e mantive o sistema de gestão hospitalar Techsallus (Delphi, ASP.NET MVC, SQL Server), cuidando de correções de bugs, novas funcionalidades, relatórios e gerenciamento de servidores. Liderei a migração do Delphi 5 para o 7 e usei TFVC e Git para controle de versão.",
+		"ja": "Techsallus病院管理システム（Delphi、ASP.NET MVC、SQL Server）の開発と保守を担当し、バグ修正、新機能、レポート、サーバー管理を行いました。Delphi 5から7への移行を主導し、バージョン管理にはTFVCとGitを使用しました。",
+		"zh": "开发并维护了Techsallus医院管理系统（Delphi, ASP.NET MVC, SQL Server），负责错误修复、新功能开发、报告生成和服务器管理。主导了从Delphi 5到7的迁移，并使用TFVC和Git进行版本控制。"
+	},
+	"resume_27": {
+		"en": "<b>Felipe Menezes (Techsallus)</b> : 02/2010 – 05/2010",
+		"es": "<b>Felipe Menezes (Techsallus)</b> : 02/2010 – 05/2010",
+		"it": "<b>Felipe Menezes (Techsallus)</b> : 02/2010 – 05/2010",
+		"pt": "<b>Felipe Menezes (Techsallus)</b> : 02/2010 – 05/2010",
+		"ja": "<b>Felipe Menezes (Techsallus)</b> : 2010年2月 – 2010年5月",
+		"zh": "<b>Felipe Menezes (Techsallus)</b> : 2010年2月 – 2010年5月"
+	},
+	"resume_28": {
+		"en": "Junior Systems Analyst",
+		"es": "Analista de Sistemas Junior",
+		"it": "Analista di Sistemi Junior",
+		"pt": "Analista de Sistemas Júnior",
+		"ja": "ジュニアシステムアナリスト",
+		"zh": "初级系统分析师"
+	},
+	"resume_29": {
+		"en": "Developed reports for the Techsallus system using Delphi 5, Delphi 7, and SQL Server. Implemented reporting solutions with QuickReport and FortsReport, managing database connections via BDE.",
+		"es": "Desarrollé informes para el sistema Techsallus usando Delphi 5, Delphi 7 y SQL Server. Implementé soluciones de informes con QuickReport y FortsReport, gestionando las conexiones de base de datos a través de BDE.",
+		"it": "Ho sviluppato report per il sistema Techsallus utilizzando Delphi 5, Delphi 7 e SQL Server. Ho implementato soluzioni di reporting con QuickReport e FortsReport, gestendo le connessioni al database tramite BDE.",
+		"pt": "Desenvolvi relatórios para o sistema Techsallus usando Delphi 5, Delphi 7 e SQL Server. Implementei soluções de relatórios com QuickReport e FortsReport, gerenciando conexões de banco de dados via BDE.",
+		"ja": "Delphi 5、Delphi 7、およびSQL Serverを使用してTechsallusシステムのレポートを開発しました。QuickReportとFortsReportでレポートソリューションを実装し、BDEを介してデータベース接続を管理しました。",
+		"zh": "使用Delphi 5、Delphi 7和SQL Server为Techsallus系统开发报告。使用QuickReport和FortsReport实施报告解决方案，并通过BDE管理数据库连接。"
+	},
+	"resume_30": {
+		"en": "<b>GSI (Market Manager System)</b> : 01/2005 - 12/2011",
+		"es": "<b>GSI (Market Manager System)</b> : 01/2005 - 12/2011",
+		"it": "<b>GSI (Market Manager System)</b> : 01/2005 - 12/2011",
+		"pt": "<b>GSI (Market Manager System)</b> : 01/2005 - 12/2011",
+		"ja": "<b>GSI (Market Manager System)</b> : 2005年1月 - 2011年12月",
+		"zh": "<b>GSI (Market Manager System)</b> : 2005年1月 - 2011年12月"
+	},
+	"resume_31": {
+		"en": "Software Developer",
+		"es": "Desarrollador de Software",
+		"it": "Sviluppatore di Software",
+		"pt": "Desenvolvedor de Software",
+		"ja": "ソフトウェア開発者",
+		"zh": "软件开发人员"
+	},
+	"resume_32": {
+		"en": "Worked on the development and maintenance of GSI, a market management system for sales, inventory, and financial control for markets, construction stores, and PAX systems. Developed using Delphi 6 and Delphi 7, originally migrated from Dataflex, with continuous updates to SQL Server.",
+		"es": "Trabajé en el desarrollo y mantenimiento de GSI, un sistema de gestión de mercado para el control de ventas, inventario y finanzas para mercados, tiendas de construcción y sistemas PAX. Desarrollado con Delphi 6 y Delphi 7, originalmente migrado desde Dataflex, con actualizaciones continuas a SQL Server.",
+		"it": "Ho lavorato allo sviluppo e alla manutenzione di GSI, un sistema di gestione di mercato per il controllo delle vendite, dell'inventario e finanziario per mercati, negozi di edilizia e sistemi PAX. Sviluppato utilizzando Delphi 6 e Delphi 7, originariamente migrato da Dataflex, con aggiornamenti continui a SQL Server.",
+		"pt": "Trabalhei no desenvolvimento e manutenção do GSI, um sistema de gestão de mercado para controle de vendas, estoque e financeiro para mercados, lojas de construção e sistemas PAX. Desenvolvi utilizando Delphi 6 e Delphi 7, originalmente migrado do Dataflex, com atualizações contínuas para SQL Server.",
+		"ja": "市場、建設店、PAXシステム向けの販売、在庫、財務管理を行う市場管理システムであるGSIの開発と保守に携わりました。Dataflexから最初に移行され、継続的にSQL Serverに更新されたDelphi 6とDelphi 7を使用して開発しました。",
+		"zh": "负责GSI的开发和维护，这是一个用于市场、建材店和PAX系统的销售、库存和财务控制的市场管理系统。使用Delphi 6和Delphi 7进行开发，该系统最初从Dataflex迁移而来，并持续更新至SQL Server。"
+	},
 	"soon": {
 		"en": "Coming Soon",
 		"es": "Próximamente",
@@ -870,6 +1126,14 @@
 		"pt": "Download",
 		"ja": "Download",
 		"zh": "Download"
+	},
+	"word_executable": {
+		"en": "Executable",
+		"es": "Ejecutable",
+		"it": "Eseguibile",
+		"pt": "Executável",
+		"ja": "実行可能ファイル",
+		"zh": "可执行文件"
 	},
 	"word_github": {
 		"en": "GitHub",
@@ -887,6 +1151,14 @@
 		"ja": "Google Play",
 		"zh": "Google Play"
 	},
+	"word_installer": {
+		"en": "Installer",
+		"es": "Instalador",
+		"it": "Installatore",
+		"pt": "Instalador",
+		"ja": "インストーラー",
+		"zh": "安装程序"
+	},
 	"word_soon": {
 		"en": "Coming Soon",
 		"es": "Próximamente",
@@ -894,6 +1166,14 @@
 		"pt": "Em Breve",
 		"ja": "近日公開",
 		"zh": "即将推出"
+	},
+	"word_source": {
+		"en": "Source",
+		"es": "Fuente",
+		"it": "Fonte",
+		"pt": "Fonte",
+		"ja": "ソース",
+		"zh": "来源"
 	},
 	"zrfisaac_copyright": {
 		"en": "© 2025 Isaac Caires Santana",
