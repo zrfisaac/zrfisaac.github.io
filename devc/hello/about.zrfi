@@ -1,0 +1,159 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires Santana
+# - email : zrfisaac@gmail.com
+# - site : zrfisaac.github.io
+# - version : zrfisaac : 25.9.21.1
+
+# [ list ]
+
+# - : ./bulnix
+# . - : https://github.com/bulnix/bulnix.git
+
+# - : ./bulnix/web
+# . - : https://github.com/bulnix/bulnix.github.io.git
+
+# - : ./docker
+# . - : https://github.com/zrfisaac/zrfisaac.docker.git
+
+# - : ./docker/alpine
+# . - : https://github.com/zrfisaac/docker.alpine.git
+
+# - : ./docker/archlinux
+# . - : https://github.com/zrfisaac/docker.archlinux.git
+
+# - : ./docker/debian
+# . - : https://github.com/zrfisaac/docker.debian.git
+
+# - : ./docker/mssql
+# . - : https://github.com/zrfisaac/docker.mssql.git
+
+# - : ./docker/novnc
+# . - : https://github.com/zrfisaac/docker.novnc.git
+
+# - : ./docker/oracle
+# . - : https://github.com/zrfisaac/docker.oracle.git
+
+# - : ./docker/tomcat
+# . - : https://github.com/zrfisaac/docker.tomcat.git
+
+# - : ./docker/ubuntu
+# . - : https://github.com/zrfisaac/docker.ubuntu.git
+
+# - : ./docker/wine
+# . - : https://github.com/zrfisaac/docker.wine.git
+
+# - : ./docker/xfce
+# . - : https://github.com/zrfisaac/docker.xfce.git
+
+# - : ./github
+# . - : https://github.com/zrfisaac/zrfisaac.git
+
+# - : ./game/blind-lab
+# . - : https://github.com/zrfisaac/BlindLab.git
+
+# - : ./game/paulo
+# . - : https://github.com/zrfisaac/SuperPaulo.git
+
+# - : ./mvp/achieve-it
+# . - : https://github.com/zrfisaac/AchieveIt.git
+
+# - : ./mvp/go-sales
+# . - : https://github.com/zrfisaac/GoSales.git
+
+# - : ./mvp/home-chef
+# . - : https://github.com/zrfisaac/HomeChef.git
+
+# - : ./mvp/my-balance
+# . - : https://github.com/zrfisaac/MyBalance.git
+
+# - : ./mvp/quick-order
+# . - : https://github.com/zrfisaac/QuickOrder.git
+
+# - : ./mvp/route-plan
+# . - : https://github.com/zrfisaac/RoutePlan.git
+
+# - : ./mvp/stock-guard
+# . - : https://github.com/zrfisaac/StockGuard.git
+
+# - : ./project/bde
+# . - : https://github.com/zrfisaac/BDE.git
+
+# - : ./project/clip-note
+# . - : https://github.com/zrfisaac/ClipNote.git
+
+# - : ./project/color-d7
+# . - : https://github.com/zrfisaac/ColorD7.git
+
+# - : ./project/color-pick
+# . - : https://github.com/zrfisaac/ColorPick.git
+
+# - : ./project/dear-sql
+# . - : https://github.com/zrfisaac/DearSQL.git
+
+# - : ./project/delphi-config
+# . - : https://github.com/zrfisaac/DelphiConfig.git
+
+# - : ./project/email-sender
+# . - : https://github.com/zrfisaac/EmailSender.git
+
+# - : ./project/explorer4delphi
+# . - : https://github.com/zrfisaac/Explorer4Delphi.git
+
+# - : ./project/explorer-97
+# . - : https://github.com/zrfisaac/Explorer97.git
+
+# - : ./project/freecep
+# . - : https://github.com/FreeCep/FreeCep.github.io.git
+
+# - : ./project/mdeditor
+# . - : https://github.com/zrfisaac/MDEditor.git
+
+# - : ./project/lfs
+# . - : https://github.com/zrfisaac/lfs.git
+
+# - : ./project/odbcheck
+# . - : https://github.com/zrfisaac/ODBCheck.git
+
+# - : ./project/potencia-motores
+# . - : https://github.com/PotenciaMotores/PotenciaMotores.github.io.git
+
+# - : ./project/prn-viewer
+# . - : https://github.com/zrfisaac/PRNViewer.git
+
+# - : ./project/quick-clip
+# . - : https://github.com/zrfisaac/QuickClip.git
+
+# - : ./project/sql32
+# . - : https://github.com/zrfisaac/SQL32.git
+
+# - : ./project/tray-d7
+# . - : https://github.com/zrfisaac/TrayD7.git
+
+# - : ./project/winconfig
+# . - : https://github.com/zrfisaac/WinConfig.git
+
+# - : ./project/zrlib
+# . - : https://github.com/zrfisaac/ZRLib.git
+
+# - : ./template/docsify
+# . - : https://github.com/zrfisaac/template.docsify.git
+
+# - : ./wiki.en
+# . - : https://github.com/zrfisaac/wiki.en.git
+
+# - : ./wiki.es
+# . - : https://github.com/zrfisaac/wiki.es.git
+
+# - : ./wiki.it
+# . - : https://github.com/zrfisaac/wiki.it.git
+
+# - : ./wiki.pt
+# . - : https://github.com/zrfisaac/wiki.pt.git
+
+# - : ./wiki.ja
+# . - : https://github.com/zrfisaac/wiki.ja.git
+
+# - : ./wiki.zr
+# . - : https://github.com/zrfisaac/wiki.zr.git
