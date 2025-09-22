@@ -143,6 +143,22 @@
 		"ja": "https://github.com/zrfisaac/zrfisaac.github.io/releases/download/curriculum-3.2.1/curriculum-3.2.1-en.pdf",
 		"zh": "https://github.com/zrfisaac/zrfisaac.github.io/releases/download/curriculum-3.2.1/curriculum-3.2.1-en.pdf"
 	},
+	"game_dunjo_01": {
+		"en": "Dunjo",
+		"es": "Dunjo",
+		"it": "Dunjo",
+		"pt": "Dunjo",
+		"ja": "ダンジョ",
+		"zh": "敦霍"
+	},
+	"game_dunjo_02": {
+		"en": "Immerse yourself in a retro world full of dangers and hidden secrets. You control a small pixel art explorer, lost in mysterious ruins filled with treacherous platforms, deadly flames, and hidden enigmas.",
+		"es": "Sumérgete en un mundo retro lleno de peligros y secretos ocultos. Controlas a un pequeño explorador de pixel art, perdido en misteriosas ruinas llenas de plataformas traicioneras, llamas mortales y enigmas ocultos.",
+		"it": "Immergiti in un mondo retrò pieno di pericoli e segreti nascosti. Controlli un piccolo esploratore in pixel art, perso in rovine misteriose piene di piattaforme insidiose, fiamme mortali ed enigmi nascosti.",
+		"pt": "Mergulhe em um mundo retrô cheio de perigos e segredos escondidos. Você controla um pequeno explorador em pixel art, perdido em ruínas misteriosas cheias de plataformas traiçoeiras, chamas mortais e enigmas ocultos.",
+		"ja": "危険と隠された秘密に満ちたレトロな世界に浸りましょう。危険なプラットフォーム、致命的な炎、隠された謎に満ちた神秘的な遺跡で迷子になった、小さなピクセルアートの探検家を操作します。",
+		"zh": "沉浸在一个充满危险和隐藏秘密的复古世界中。你将控制一位小小的像素艺术探险家，迷失在充满险恶平台、致命火焰和隐藏谜题的神秘废墟中。"
+	},
 	"lang": {
 		"en": "en",
 		"es": "es",
@@ -150,6 +166,22 @@
 		"pt": "pt",
 		"ja": "ja",
 		"zh": "zh"
+	},
+	"mvp_homechef_01": {
+		"en": "<b>HomeChef :</b> Your Personalized Recipe Organizer",
+		"es": "<b>HomeChef :</b> Tu Organizador de Recetas Personalizado",
+		"it": "<b>HomeChef :</b> Il Tuo Organizzatore di Ricette Personalizzato",
+		"pt": "<b>HomeChef :</b> Seu Organizador de Receitas Personalizado",
+		"ja": "<b>HomeChef :</b> あなただけのパーソナライズされたレシピ管理ツール",
+		"zh": "<b>HomeChef :</b> 您的个性化食谱管理器"
+	},
+	"mvp_homechef_02": {
+		"en": "HomeChef is the ultimate recipe organizer for those who love to cook! Save and categorize your favorite recipes, create meal plans, and track ingredients, all in one place.",
+		"es": "¡HomeChef es el organizador de recetas definitivo para los amantes de la cocina! Guarda y categoriza tus recetas favoritas, crea planes de comidas y controla los ingredientes, todo en un solo lugar.",
+		"it": "HomeChef è l'organizzatore di ricette definitivo per chi ama cucinare! Salva e cataloga le tue ricette preferite, crea piani pasto e tieni traccia degli ingredienti, tutto in un unico posto.",
+		"pt": "HomeChef é o organizador de receitas definitivo para quem ama cozinhar! Salve e categorize suas receitas favoritas, crie planos de refeições e controle os ingredientes, tudo em um só lugar.",
+		"ja": "HomeChefは料理好きのための究極のレシピオーガナイザーです！お気に入りのレシピを保存・分類し、食事プランを作成し、材料を管理する、すべてがこの一か所で完結します。",
+		"zh": "HomeChef 是为烹饪爱好者打造的终极食谱管理器！您可以在此一站式保存和分类您最喜爱的食谱、创建膳食计划并跟踪食材。"
 	},
 	"menu_home": {
 		"en": "Home",
@@ -806,6 +838,22 @@
 		"pt": "<b>Endereço:</b> Salvador, Bahia, Brasil",
 		"ja": "<b>住所:</b> サルバドール、バイーア州、ブラジル",
 		"zh": "<b>地址：</b> 巴西巴伊亚州萨尔瓦多"
+	},
+	"product_valoriza_01": {
+		"en": "Valoriza",
+		"es": "Valoriza",
+		"it": "Valorizza",
+		"pt": "Valoriza",
+		"ja": "ヴァロリザ",
+		"zh": "瓦洛里萨"
+	},
+	"product_valoriza_02": {
+		"en": "A budgeting system that values organization and practicality: it allows you to plan income and expenses, control costs in real time, and generate clear reports to support fast and secure decisions.",
+		"es": "Un sistema de presupuestos que valora la organización y la practicidad: permite planificar ingresos y gastos, controlar costos en tiempo real y generar informes claros para apoyar decisiones rápidas y seguras.",
+		"it": "Un sistema di budgeting che valorizza organizzazione e praticità: permette di pianificare entrate e uscite, controllare i costi in tempo reale e generare report chiari per supportare decisioni rapide e sicure.",
+		"pt": "Um sistema de orçamento que valoriza organização e praticidade: permite planejar receitas e despesas, controlar custos em tempo real e gerar relatórios claros para apoiar decisões rápidas e seguras.",
+		"ja": "整理整頓と実用性を重視した予算管理システムです。収入と支出の計画、リアルタイムでのコスト管理、そして迅速かつ安全な意思決定をサポートするための明確なレポート作成が可能です。",
+		"zh": "一个重视组织性和实用性的预算系统：它允许您规划收入和支出，实时控制成本，并生成清晰的报告，以支持快速、安全的决策。"
 	},
 	"project_bde_01": {
 		"en": "BDE Installer",
