@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 25.10.10.1
+# - version : zrfisaac.gitignore : 25.10.10.2
 
 # [ gitignore ]
 
@@ -14,9 +14,11 @@ _*
 
 # : - folder
 clone
+default
 document
 download
 lfs
 old
 root
 trash
+windows
