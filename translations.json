@@ -1,0 +1,352 @@
+{
+	"lang": {
+		"en": "en",
+		"es": "es",
+		"pt": "pt"
+	},
+	"home": {
+		"en": "Home",
+		"es": "Inicio",
+		"pt": "Início"
+	},
+	"privacy": {
+		"en": "Privacy",
+		"es": "Privacidad",
+		"pt": "Privacidade"
+	},
+	"resume": {
+		"en": "Resume",
+		"es": "Currículum",
+		"pt": "Currículo"
+	},
+	"product": {
+		"en": "Products",
+		"es": "Productos",
+		"pt": "Produtos"
+	},
+	"mvp": {
+		"en": "MVP",
+		"es": "MVP",
+		"pt": "MVP"
+	},
+	"mobile": {
+		"en": "Mobile",
+		"es": "Móvil",
+		"pt": "Mobile"
+	},
+	"project": {
+		"en": "Projects",
+		"es": "Proyectos",
+		"pt": "Projetos"
+	},
+	"game": {
+		"en": "Games",
+		"es": "Juegos",
+		"pt": "Jogos"
+	},
+	"wiki": {
+		"en": "WIKI",
+		"es": "WIKI",
+		"pt": "WIKI"
+	},
+	"main_user": {
+		"en": "ZRFISAAC",
+		"es": "ZRFISAAC",
+		"pt": "ZRFISAAC"
+	},
+	"main_name": {
+		"en": "Isaac Caires Santana",
+		"es": "Isaac Caires Santana",
+		"pt": "Isaac Caires Santana"
+	},
+	"main_job": {
+		"en": "Software Developer",
+		"es": "Desarrollador de Software",
+		"pt": "Desenvolvedor de Software"
+	},
+	"basic_name": {
+		"en": "Basic Information",
+		"es": "Basic Information",
+		"pt": "Basic Information"
+	},
+	"basic_download": {
+		"en": "<a type=\"button\" class=\"btn btn-success\" href=\"https://github.com/zrfisaac/zrfisaac.github.io/releases/download/resume-3.2.0/resume-3.2.0-en.pdf\" target=\"_blank\">Download Resume</a>",
+		"es": "<a type=\"button\" class=\"btn btn-success\" href=\"https://github.com/zrfisaac/zrfisaac.github.io/releases/download/resume-3.2.0/resume-3.2.0-es.pdf\" target=\"_blank\">Descargar Currículum</a>",
+		"pt": "<a type=\"button\" class=\"btn btn-success\" href=\"https://github.com/zrfisaac/zrfisaac.github.io/releases/download/resume-3.2.0/resume-3.2.0-pt.pdf\" target=\"_blank\">Baixar Currículo</a>"
+	},
+	"education_name": {
+		"en": "Education",
+		"es": "Educación",
+		"pt": "Educação"
+	},
+	"education_01": {
+		"en": "<i class=\"fas fa-graduation-cap\"></i> <a href=\"/document/estacio.png\" target=\"_blank\">Bachelor's in Information Systems</a>",
+		"es": "<i class=\"fas fa-graduation-cap\"></i> <a href=\"/document/estacio.png\" target=\"_blank\">Licenciatura en Sistemas de Información</a>",
+		"pt": "<i class=\"fas fa-graduation-cap\"></i> <a href=\"/document/estacio.png\" target=\"_blank\">Bacharelado em Sistemas de Informação</a>"
+	},
+	"education_02": {
+		"en": "<a href=\"https://estacio.br\" target=\"_blank\">Estácio de Sá University</a> <span class=\"year\">(December 2020)</span>",
+		"es": "<a href=\"https://estacio.br\" target=\"_blank\">Universidad Estácio de Sá</a> <span class=\"year\">(Diciembre 2020)</span>",
+		"pt": "<a href=\"https://estacio.br\" target=\"_blank\">Universidade Estácio de Sá</a> <span class=\"year\">(Dezembro 2020)</span>"
+	},
+	"education_03": {
+		"en": "<i class=\"fas fa-graduation-cap\"></i> <a href=\"/document/minds.jpg\" target=\"_blank\">English Course</a>",
+		"es": "<i class=\"fas fa-graduation-cap\"></i> <a href=\"/document/minds.jpg\" target=\"_blank\">Curso de Inglés</a>",
+		"pt": "<i class=\"fas fa-graduation-cap\"></i> <a href=\"/document/minds.jpg\" target=\"_blank\">Curso de Inglês</a>"
+	},
+	"education_04": {
+		"en": "<a href=\"https://mindsidiomas.com.br\" target=\"_blank\">Minds English School</a> <span class=\"year\">(October 2016)</span>",
+		"es": "<a href=\"https://mindsidiomas.com.br\" target=\"_blank\">Minds English School</a> <span class=\"year\">(Octubre 2016)</span>",
+		"pt": "<a href=\"https://mindsidiomas.com.br\" target=\"_blank\">Minds English School</a> <span class=\"year\">(Outubro 2016)</span>"
+	},
+	"skill_name": {
+		"en": "Skills",
+		"es": "Habilidades",
+		"pt": "Habilidades"
+	},
+	"skill_01": {
+		"en": "IDEs & Code Editors",
+		"es": "IDEs y Editores de Código",
+		"pt": "IDEs e Editores de Código"
+	},
+	"skill_02": {
+		"en": "Databases",
+		"es": "Bases de Datos",
+		"pt": "Bancos de Dados"
+	},
+	"skill_03": {
+		"en": "Languages",
+		"es": "Lenguajes",
+		"pt": "Linguagens"
+	},
+	"skill_04": {
+		"en": "Frameworks",
+		"es": "Frameworks",
+		"pt": "Frameworks"
+	},
+	"skill_05": {
+		"en": "Libraries",
+		"es": "Bibliotecas",
+		"pt": "Bibliotecas"
+	},
+	"skill_06": {
+		"en": "Development Tools",
+		"es": "Herramientas de Desarrollo",
+		"pt": "Ferramentas de Desenvolvimento"
+	},
+	"skill_07": {
+		"en": "Operating Systems",
+		"es": "Sistemas Operativos",
+		"pt": "Sistemas Operacionais"
+	},
+	"skill_08": {
+		"en": "Design Patterns",
+		"es": "Patrones de Diseño",
+		"pt": "Padrões de Design"
+	},
+	"skill_09": {
+		"en": "Design Principles",
+		"es": "Principios de Diseño",
+		"pt": "Princípios de Design"
+	},
+	"skill_10": {
+		"en": "Other Technologies",
+		"es": "Otras Tecnologías",
+		"pt": "Outras Tecnologias"
+	},
+	"home_name": {
+		"en": "Home",
+		"es": "Inicio",
+		"pt": "Início"
+	},
+	"home_title": {
+		"en": "Introduction Page",
+		"es": "Página de Introducción",
+		"pt": "Página de Introdução"
+	},
+	"home_welcome": {
+		"en": "Welcome!",
+		"es": "¡Bienvenido!",
+		"pt": "Bem-vindo!"
+	},
+	"home_welcome_01": {
+		"en": "Hello! My name is Isaac Caires Santana, and I'm a passionate software developer with over 15 years of experience in full-stack development and hospital management solutions. I specialize in creating robust and efficient applications using technologies like Delphi, C#, ASP.NET, and Python.",
+		"es": "¡Hola! Mi nombre es Isaac Caires Santana y soy un apasionado desarrollador de software con más de 15 años de experiencia en desarrollo full-stack y soluciones de gestión hospitalaria. Me especializo en crear aplicaciones robustas y eficientes utilizando tecnologías como Delphi, C#, ASP.NET y Python.",
+		"pt": "Olá! Meu nome é Isaac Caires Santana e sou um desenvolvedor de software apaixonado, com mais de 15 anos de experiência em desenvolvimento full-stack e soluções de gestão hospitalar. Especializo-me na criação de aplicações robustas e eficientes utilizando tecnologias como Delphi, C#, ASP.NET e Python."
+	},
+	"home_welcome_02": {
+		"en": "If you're looking for a software developer to bring your ideas to life, you've come to the right place! I offer a wide range of services, including:",
+		"es": "Si estás buscando un desarrollador de software para hacer realidad tus ideas, ¡has llegado al lugar correcto! Ofrezco una amplia gama de servicios, incluyendo:",
+		"pt": "Se você está procurando um desenvolvedor de software para dar vida às suas ideias, você veio ao lugar certo! Ofereço uma ampla gama de serviços, incluindo:"
+	},
+	"home_welcome_03": {
+		"en": "Mobile App Development",
+		"es": "Desarrollo de aplicaciones móviles",
+		"pt": "Desenvolvimento de aplicativos móveis"
+	},
+	"home_welcome_04": {
+		"en": "Web Development",
+		"es": "Desarrollo web",
+		"pt": "Desenvolvimento web"
+	},
+	"home_welcome_05": {
+		"en": "Making your existing application run on Linux, and soon on MacOS with ARM support",
+		"es": "Hacer que tu aplicación existente funcione en Linux y, pronto, en MacOS con soporte para ARM",
+		"pt": "Fazer seu aplicativo existente rodar no Linux e, em breve, no MacOS com suporte para ARM"
+	},
+	"home_welcome_06": {
+		"en": "I am committed to delivering high-quality solutions that meet your specific needs. Whether it's building a custom application, optimizing your current systems, or ensuring cross-platform compatibility, I can help make your ideas a reality.",
+		"es": "Estoy comprometido a ofrecer soluciones de alta calidad que satisfagan sus necesidades específicas. Ya sea desarrollando una aplicación personalizada, optimizando sus sistemas actuales o garantizando la compatibilidad entre plataformas, puedo ayudar a hacer realidad sus ideas.",
+		"pt": "Estou comprometido em fornecer soluções de alta qualidade que atendam às suas necessidades específicas. Seja desenvolvendo um aplicativo personalizado, otimizando seus sistemas atuais ou garantindo compatibilidade entre plataformas, posso ajudar a transformar suas ideias em realidade."
+	},
+	"home_welcome_07": {
+		"en": "If you'd like to know more about my skills, services, and the products I’ve developed, feel free to explore my Products page for more information.",
+		"es": "Si desea saber más sobre mis habilidades, servicios y los productos que he desarrollado, no dude en explorar mi página de Productos para obtener más información.",
+		"pt": "Se quiser saber mais sobre minhas habilidades, serviços e os produtos que desenvolvi, sinta-se à vontade para explorar minha página de Produtos para mais informações."
+	},
+	"home_journey": {
+		"en": "My Journey as a Software Developer",
+		"es": "Mi Trayectoria como Desarrollador de Software",
+		"pt": "Minha Jornada como Desenvolvedor de Software"
+	},
+	"home_journey_01": {
+		"en": "Hello! I’m Isaac Caires Santana, a passionate software developer with over 15 years of experience. My journey began in 2005, when I first dove into the world of programming, working on GSI, an ERP system originally developed by my father. This was where I honed my skills in Delphi, SQL Server, and report generation, forming the foundation of my career.",
+		"es": "¡Hola! Soy Isaac Caires Santana, un apasionado desarrollador de software con más de 15 años de experiencia. Mi trayectoria comenzó en 2005, cuando me adentré en el mundo de la programación, trabajando en GSI, un sistema ERP desarrollado originalmente por mi padre. Fue allí donde perfeccioné mis habilidades en Delphi, SQL Server y generación de informes, sentando las bases de mi carrera.",
+		"pt": "Olá! Sou Isaac Caires Santana, um desenvolvedor de software apaixonado com mais de 15 anos de experiência. Minha jornada começou em 2005, quando mergulhei no mundo da programação, trabalhando no GSI, um sistema ERP originalmente desenvolvido pelo meu pai. Foi ali que aperfeiçoei minhas habilidades em Delphi, SQL Server e geração de relatórios, formando a base da minha carreira."
+	},
+	"home_journey_02": {
+		"en": "As I progressed, I joined Techsallus, where I expanded my knowledge of Delphi and SQL Server, particularly in the development and maintenance of hospital management systems. My work there involved optimizing stored procedures, creating jobs and functions, and troubleshooting complex database issues, which gave me valuable experience in large-scale system management.",
+		"es": "À medida que progredi, ingressei na Techsallus, onde expandi meu conhecimento em Delphi e SQL Server, especialmente no desenvolvimento e manutenção de sistemas de gestão hospitalar. Meu trabalho envolveu a otimização de stored procedures, criação de jobs e funções, além da resolução de problemas complexos em bancos de dados, o que me proporcionou uma experiência valiosa na gestão de sistemas em larga escala.",
+		"pt": "A medida que avancé, me uní a Techsallus, donde amplié mis conocimientos en Delphi y SQL Server, especialmente en el desarrollo y mantenimiento de sistemas de gestión hospitalaria. Mi trabajo allí incluyó la optimización de procedimientos almacenados, la creación de jobs y funciones, y la solución de problemas complejos en bases de datos, lo que me brindó una valiosa experiencia en la gestión de sistemas a gran escala."
+	},
+	"home_journey_03": {
+		"en": "In 2022, I moved to Softwell Solutions, where I made a significant impact on the Maker Platform. One of my proudest achievements was adapting the platform to run on Linux using Wine, making it more memory-efficient and cost-effective for clients. This was a game-changer that also allowed the platform to be accessed remotely via the web. I continued my work with a variety of tools and technologies such as Docker, PostgreSQL, Oracle, and Delphi, while always focusing on clean, maintainable code and cross-platform compatibility.",
+		"es": "En 2022, me uní a Softwell Solutions, donde tuve un impacto significativo en la Maker Platform. Uno de mis mayores logros fue adaptar la plataforma para ejecutarse en Linux utilizando Wine, haciéndola más eficiente en el uso de memoria y más accesible para los clientes. Este cambio fue un punto de inflexión que también permitió el acceso remoto a la plataforma a través de la web. Continué mi trabajo con una variedad de herramientas y tecnologías como Docker, PostgreSQL, Oracle y Delphi, siempre enfocándome en código limpio, mantenimiento eficiente y compatibilidad entre plataformas.",
+		"pt": "Em 2022, me juntei à Softwell Solutions, onde tive um impacto significativo na Maker Platform. Um dos meus maiores orgulhos foi adaptar a plataforma para rodar no Linux usando Wine, tornando-a mais eficiente em termos de memória e mais acessível para os clientes. Essa mudança foi um divisor de águas, permitindo também o acesso remoto à plataforma via web. Continuei meu trabalho com diversas ferramentas e tecnologias, como Docker, PostgreSQL, Oracle e Delphi, sempre com foco em código limpo, manutenção eficiente e compatibilidade entre plataformas."
+	},
+	"home_journey_04": {
+		"en": "Throughout my career, I’ve been driven by a desire to learn, grow, and apply the latest technologies to solve real-world problems. I take pride in following best practices, such as SOLID principles and design patterns, and in constantly pushing the boundaries of what I can do. Today, I continue to look for new opportunities to leverage my skills and help others bring their ideas to life.",
+		"es": "A lo largo de mi carrera, me ha impulsado el deseo de aprender, crecer y aplicar las últimas tecnologías para resolver problemas del mundo real. Me enorgullece seguir las mejores prácticas, como los principios SOLID y los patrones de diseño, y siempre buscar superar mis propios límites. Hoy en día, sigo buscando nuevas oportunidades para aprovechar mis habilidades y ayudar a otros a hacer realidad sus ideas.",
+		"pt": "Ao longo da minha carreira, fui movido pelo desejo de aprender, crescer e aplicar as tecnologias mais recentes para resolver problemas do mundo real. Tenho orgulho de seguir as melhores práticas, como os princípios SOLID e padrões de design, além de estar sempre buscando superar meus próprios limites. Hoje, continuo em busca de novas oportunidades para aproveitar minhas habilidades e ajudar outras pessoas a transformar suas ideias em realidade."
+	},
+	"privacy_name": {
+		"en": "Privacy Policy",
+		"es": "Política de Privacidad",
+		"pt": "Política de Privacidade"
+	},
+	"privacy_title": {
+		"en": "My Privacy Policy",
+		"es": "Mi Política de Privacidad",
+		"pt": "Minha Política de Privacidade"
+	},
+	"privacy_01": {
+		"en": "Effective Date:",
+		"es": "Effective Date:",
+		"pt": "Effective Date:"
+	},
+	"privacy_02": {
+		"en": "2024-11-10",
+		"es": "2024-11-10",
+		"pt": "2024-11-10"
+	},
+	"privacy_03": {
+		"en": "I, <b>Isaac Caires Santana</b>, am committed to protecting and respecting your privacy. This Privacy Policy outlines the types of personal data I collect, how I use, share, and protect it, and your rights regarding your data.",
+		"es": "I, <b>Isaac Caires Santana</b>, am committed to protecting and respecting your privacy. This Privacy Policy outlines the types of personal data I collect, how I use, share, and protect it, and your rights regarding your data.",
+		"pt": "I, <b>Isaac Caires Santana</b>, am committed to protecting and respecting your privacy. This Privacy Policy outlines the types of personal data I collect, how I use, share, and protect it, and your rights regarding your data."
+	},
+	"privacy_04": {
+		"en": "By using my mobile apps, desktop apps, web apps, games, components, and code libraries (collectively referred to as \"Services\"), you consent to the practices described in this policy.",
+		"es": "By using my mobile apps, desktop apps, web apps, games, components, and code libraries (collectively referred to as \"Services\"), you consent to the practices described in this policy.",
+		"pt": "By using my mobile apps, desktop apps, web apps, games, components, and code libraries (collectively referred to as \"Services\"), you consent to the practices described in this policy."
+	},
+	"privacy_05": {
+		"en": "1. Information I Collect",
+		"es": "1. Information I Collect",
+		"pt": "1. Information I Collect"
+	},
+	"privacy_06": {
+		"en": "I may collect the following types of information:",
+		"es": "I may collect the following types of information:",
+		"pt": "I may collect the following types of information:"
+	},
+	"privacy_07": {
+		"en": "1.1 Personal Information",
+		"es": "1.1 Personal Information",
+		"pt": "1.1 Personal Information"
+	},
+	"privacy_08": {
+		"en": "<b>Account Information:</b> When you register an account or use certain features of my Services, I may collect your name, email address, phone number, and any other information you provide.",
+		"es": "<b>Account Information:</b> When you register an account or use certain features of my Services, I may collect your name, email address, phone number, and any other information you provide.",
+		"pt": "<b>Account Information:</b> When you register an account or use certain features of my Services, I may collect your name, email address, phone number, and any other information you provide."
+	},
+	"privacy_09": {
+		"en": "<b>Payment Information:</b> For transactions, I may collect payment details (e.g., credit card information) processed by third-party payment providers.",
+		"es": "<b>Payment Information:</b> For transactions, I may collect payment details (e.g., credit card information) processed by third-party payment providers.",
+		"pt": "<b>Payment Information:</b> For transactions, I may collect payment details (e.g., credit card information) processed by third-party payment providers."
+	},
+	"privacy_10": {
+		"en": "1.2 Usage Data",
+		"es": "1.2 Usage Data",
+		"pt": "1.2 Usage Data"
+	},
+	"privacy_11": {
+		"en": "<b>Device Information:</b> I may collect information about the devices you use to access my Services, including device type, operating system, IP address, browser type, and app version.",
+		"es": "<b>Device Information:</b> I may collect information about the devices you use to access my Services, including device type, operating system, IP address, browser type, and app version.",
+		"pt": "<b>Device Information:</b> I may collect information about the devices you use to access my Services, including device type, operating system, IP address, browser type, and app version."
+	},
+	"privacy_12": {
+		"en": "<b>Log Data:</b> When you use my Services, I may automatically collect log data, such as your interactions with the apps or websites, crash reports, and performance data.",
+		"es": "<b>Log Data:</b> When you use my Services, I may automatically collect log data, such as your interactions with the apps or websites, crash reports, and performance data.",
+		"pt": "<b>Log Data:</b> When you use my Services, I may automatically collect log data, such as your interactions with the apps or websites, crash reports, and performance data."
+	},
+	"privacy_13": {
+		"en": "1.3 Game Data (For Games) ",
+		"es": "1.3 Game Data (For Games) ",
+		"pt": "1.3 Game Data (For Games) "
+	},
+	"privacy_14": {
+		"en": "",
+		"es": "",
+		"pt": ""
+	},
+	"privacy_15": {
+		"en": "",
+		"es": "",
+		"pt": ""
+	},
+	"privacy_16": {
+		"en": "",
+		"es": "",
+		"pt": ""
+	},
+	"privacy_17": {
+		"en": "",
+		"es": "",
+		"pt": ""
+	},
+	"privacy_18": {
+		"en": "",
+		"es": "",
+		"pt": ""
+	},
+	"privacy_19": {
+		"en": "",
+		"es": "",
+		"pt": ""
+	},
+	"privacy_20": {
+		"en": "",
+		"es": "",
+		"pt": ""
+	},
+	"privacy_21": {
+		"en": "",
+		"es": "",
+		"pt": ""
+	},
+	"privacy_22": {
+		"en": "",
+		"es": "",
+		"pt": ""
+	}
+}
