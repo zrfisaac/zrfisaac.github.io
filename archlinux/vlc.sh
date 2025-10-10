@@ -1,0 +1,15 @@
+#!/usr/bin/bash
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires Santana
+# - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.archlinux.vlc : 25.10.10.1
+
+# [ bash ]
+command -v sudo >/dev/null 2>&1 && sudo="sudo" || sudo=""
+${sudo} pacman -S --noconfirm vlc
+${sudo} pacman -S --noconfirm ffmpeg
+${sudo} pacman -S --noconfirm vlc-plugin-ffmpeg
+${sudo} pacman -S --noconfirm vlc-plugins-all
