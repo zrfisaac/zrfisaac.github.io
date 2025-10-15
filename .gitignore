@@ -4,7 +4,6 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 25.10.15.2
 
 # [ gitignore ]
 
@@ -23,3 +22,4 @@
 /video
 /wiki
 /work
+/zrfisaac
