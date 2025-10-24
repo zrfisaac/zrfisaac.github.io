@@ -9,7 +9,7 @@ rem # - email : zrfisaac@gmail.com
 rem # - site : zrfisaac.github.io
 
 rem # [ batch ]
-set v_target=%~dp0zrfisaac
+set v_target=%~d0\zrfisaac
 if not exist "%v_target%" (
 	git clone https://github.com/zrfisaac/zrfisaac.github.io.git "%v_target%"
 )
