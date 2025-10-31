@@ -7,10 +7,15 @@
 
 # [ gitignore ]
 
+# : - any
+.*
+
 # : - folder
 /albedo
 /crack
 /data
+/default
+/download
 /github
 /memory
 /model
@@ -22,6 +27,7 @@
 /rom
 /study
 /tool
+/trash
 /video
 /wiki
 /work
