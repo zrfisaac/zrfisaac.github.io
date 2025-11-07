@@ -4,4 +4,24 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.11.5.1
+# - version : zrfisaac : 25.11.7.1
+
+# [ list ]
+
+# - : ./fork/arkos-k36
+# . - : https://github.com/zrfisaac/install.arkos-k36.git
+
+# - : ./install/bde
+# . - : https://github.com/zrfisaac/install.bde.git
+
+# - : ./install/godot3
+# . - : https://github.com/zrfisaac/install.godot3.git
+
+# - : ./install/godot4
+# . - : https://github.com/zrfisaac/install.godot4.git
+
+# - : ./install/libresprite
+# . - : https://github.com/zrfisaac/install.libresprite.git
+
+# - : ./wiki
+# . - : https://github.com/zrfisaac/wiki.git
