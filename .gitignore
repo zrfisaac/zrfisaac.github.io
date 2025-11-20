@@ -9,6 +9,7 @@
 
 # : - any
 .*
+_*
 
 # : - folder
 /albedo

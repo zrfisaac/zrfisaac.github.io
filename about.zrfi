@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.11.10.1
+# - version : zrfisaac : 25.11.20.1
 
 # [ list ]
 
@@ -22,6 +22,12 @@
 
 # - : ./install/libresprite
 # . - : https://github.com/zrfisaac/install.libresprite.git
+
+# - : ./project/prn-view
+# . - : https://github.com/zrfisaac/project.prn-view.git
+
+# - : ./project/r36sclone
+# . - : https://github.com/zrfisaac/project.r36sclone.git
 
 # - : ./wiki
 # . - : https://github.com/zrfisaac/wiki.git
