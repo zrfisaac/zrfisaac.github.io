@@ -4,12 +4,15 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.11.20.3
+# - version : zrfisaac : 25.11.23.1
 
 # [ list ]
 
 # - : ./fork/arkos-k36
 # . - : https://github.com/zrfisaac/fork.arkos-k36.git
+
+# - : ./fork/dolphin
+# . - : https://github.com/zrfisaac/fork.dolphin.git
 
 # - : ./install/bde
 # . - : https://github.com/zrfisaac/install.bde.git
