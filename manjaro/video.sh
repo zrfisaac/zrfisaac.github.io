@@ -9,7 +9,6 @@
 
 # [ bash ]
 command -v sudo >/dev/null 2>&1 && sudo="sudo" || sudo=""
-${sudo} pacman -S --noconfirm vulkan
 ${sudo} pacman -S --noconfirm vulkan-intel
 ${sudo} pacman -S --noconfirm vulkan-radeon
 ${sudo} pacman -S --noconfirm libvpl

@@ -14,6 +14,8 @@ _*
 # : - folder
 /albedo
 /AndroidStudioProjects
+/asset
+/binary
 /crack
 /clip
 /data
@@ -23,14 +25,15 @@ _*
 /game/*/
 /github
 /install/*/
+/landscape
 /memory
 /mobile/*/
 /model
 /music
 /mvp/*/
-/private
-/mvp/*/
 /old/*/
+/private
+/portrait
 /project/*/
 /prototype
 /repository

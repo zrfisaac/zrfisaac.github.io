@@ -4,12 +4,18 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.11.23.1
+# - version : zrfisaac : 25.11.25.1
 
 # [ list ]
 
 # - : ./fork/arkos-k36
 # . - : https://github.com/zrfisaac/fork.arkos-k36.git
+
+# - : ./fork/character-animation-combiner
+# . - : https://github.com/zrfisaac/fork.character-animation-combiner.git
+
+# - : ./fork/chicago95
+# . - : https://github.com/zrfisaac/fork.chicago95.git
 
 # - : ./fork/dolphin
 # . - : https://github.com/zrfisaac/fork.dolphin.git

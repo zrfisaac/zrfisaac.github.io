@@ -1,48 +1,195 @@
+/* Base Dracula Palette (Ultra-Roxo Dark / Letras Mais Claras) */
+
+/* Cores
+#282a36: Background Base (Escuro)
+#1e1e27: Fundo Ultra Escuro (Menu/Footer)
+#383a59: Roxo Forte Escuro (Seções)
+#bd93f9: Purple (Roxo de Destaque - Usado para o Nome Principal e Links de Navegação)
+#f8f8f2: Foreground (Branco Claro - Usado para Texto Principal e Títulos Secundários)
+#6272a4: Comment (Lavanda/Cinza Azulado - Usado para Acentos/Ícones)
+*/
+
+/* Body e Fundo Principal */
 body {
-	background-color: #1a1a1a;
-	color: white;
+	background-color: #282a36; /* Background (Roxo Escuro Base) */
+	color: #f8f8f2; /* Texto Principal: Branco Claro */
 	padding-top: 70px;
+	font-family: 'Inter', sans-serif;
+	transition: background-color 0.3s;
 }
+
+/* Imagens e Avatares */
 .profile-img {
-	width: 150px;
+	width: 160px;
+	border: 4px solid #bd93f9; /* Purple */
 	border-radius: 50%;
+	object-fit: cover;
+	box-shadow: 0 0 15px rgba(189, 147, 249, 0.5); /* Efeito de brilho roxo */
 }
+
+/* Ícones Sociais */
 .social-icons a {
-	color: #eee;
-	margin-right: 10px;
-	font-size: 1.3rem;
+	color: #bd93f9; /* Purple */
+	margin-right: 15px;
+	font-size: 1.5rem;
+	transition: color 0.3s ease, transform 0.2s ease;
 }
+
+.social-icons a:hover {
+	color: #6272a4; /* Comment (Lavanda) */
+	transform: scale(1.1);
+}
+
+/* Seções (Containers) - ROXO FORTE ESCURO */
 .section {
-	background-color: #2c2c2c;
-	padding: 20px;
-	border-radius: 10px;
-	margin-bottom: 20px;
+	background-color: #383a59; /* Roxo Forte Escuro (Customizado) */
+	padding: 30px;
+	border-radius: 12px;
+	margin-bottom: 25px;
+	box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+	border: 1px solid #6272a4; /* Lavanda Borda */
+	color: #f8f8f2; /* Texto da seção é o Branco Claro */
 }
+.section p {
+	color: #f8f8f2; /* Parágrafos em Branco Claro */
+}
+
+
+/* Títulos */
 h1, h2, h3 {
-	color: #fff;
+	/* Definindo h1 com o roxo de destaque e h2/h3 com o branco claro */
+	color: #f8f8f2; 
+	font-weight: 700;
 }
-.navbar-nav {
-	flex-wrap: nowrap;
-	overflow-x: auto;
-	white-space: nowrap;
+/* Nome Principal (h1 no cabeçalho) */
+.profile-content h1:first-child { 
+	color: #bd93f9; /* Purple (Roxo de Destaque) */
 }
+/* Títulos na seção (h2) */
+.section h2 {
+	color: #bd93f9; /* Purple (Roxo de Destaque) */
+}
+.name {
+	font-size: 2.5rem;
+	color: #bd93f9 !important; /* Nome principal ZRFISAAC */
+}
+
+/* Descrição (Página de Introdução) - AGORA BRANCO CLARO */
+.desc {
+	color: #f8f8f2; /* Branco Claro, evita o rosa */
+	font-size: 1.2rem;
+	margin-top: 5px;
+}
+/* Subtítulo h5 (Desenvolvedor de Software) - AGORA BRANCO CLARO */
+.text-white {
+	color: #f8f8f2 !important;
+}
+
+/* NAVBAR (Menu) - ULTRA ESCURO */
+.navbar {
+	background-color: #1e1e27 !important; /* ULTRA ESCURO */
+	border-bottom: 3px solid #6272a4; 
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+	/* Texto do ZRFISAAC */
+	color: #bd93f9 !important; /* Purple (Roxo Claro) */
+	font-weight: bold;
+}
+.navbar-brand i {
+	color: #6272a4; /* Icone: Lavanda */
+}
+.navbar-toggler {
+	border-color: #6272a4 !important;
+}
+.navbar-toggler-icon {
+	/* Trocando o ícone do toggler para um SVG em Lavanda */
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%236272a4' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+
+/* Links de Navegação */
 .navbar-nav .nav-link {
-	color: #ccc !important;
+	color: #bd93f9 !important; /* Texto: Purple (Roxo Claro) */
+	font-weight: 600;
 	padding: 10px 15px;
+	border-radius: 8px;
+	transition: background-color 0.3s ease, color 0.3s ease;
 }
-.navbar-nav .nav-link:hover {
-	color: #fff !important;
+
+.navbar-nav .nav-link:hover, 
+.navbar-nav .nav-link.active {
+	background-color: #282a36; /* Hover BG: Background (Ainda mais escuro) */
+	color: #bd93f9 !important; /* Hover Texto: Purple (Roxo Claro) */
 }
+
+/* Dropdown (Ajustando cores do Bootstrap) */
+.dropdown-menu {
+	background-color: #383a59 !important; /* Fundo: Roxo Forte Escuro */
+	border: 1px solid #6272a4;
+	border-radius: 8px;
+}
+
+.dropdown-item {
+	color: #f8f8f2 !important; /* Texto: Branco Claro */
+	transition: background-color 0.2s;
+}
+
+.dropdown-item:hover {
+	background-color: #6272a4 !important; /* Hover: Comment (Lavanda) */
+	color: #282a36 !important; /* Hover Text: Único lugar com o tom mais escuro para garantir o contraste no hover. */
+}
+
+/* Scrollbar para o menu horizontal */
 .navbar-nav::-webkit-scrollbar {
 	height: 4px;
 }
+
 .navbar-nav::-webkit-scrollbar-thumb {
-	background: #444;
+	background: #6272a4; /* Comment (Lavanda) */
+	border-radius: 2px;
 }
+
+/* BOTÃO DE CURRÍCULO (CUSTOMIZADO) - ROXO SÓLIDO E FORTE */
+.curriculo-btn {
+	/* Fundo: Roxo Sólido e Forte */
+	background-color: #bd93f9 !important; 
+	/* Texto: Cor escura para alto contraste */
+	color: #282a36 !important; 
+	border: 2px solid #bd93f9; /* Borda da mesma cor para ser sólido */
+	padding: 12px 30px;
+	border-radius: 8px;
+	font-weight: bold;
+	text-decoration: none;
+	transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+	box-shadow: 0 4px #44475a; /* Sombra roxa escura */
+}
+
+.curriculo-btn:hover {
+	/* Hover: Apenas escurece levemente o fundo para feedback visual */
+	background-color: #a87fe0 !important;
+	color: #282a36 !important;
+	transform: translateY(2px); /* Efeito de "apertar" */
+	box-shadow: 0 2px #44475a;
+}
+
+/* Footer */
 footer {
-	background-color: #111;
-	color: #aaa;
+	background-color: #1e1e27; /* Tom mais escuro */
+	color: #6272a4; /* Comment (Lavanda) */
 	text-align: center;
 	padding: 20px 0;
 	font-size: 0.9rem;
+	border-top: 1px solid #44475a;
+}
+
+footer a {
+	color: #bd93f9 !important; /* Link no footer em Purple */
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+footer a:hover {
+	color: #6272a4 !important;
 }
