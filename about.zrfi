@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.11.25.1
+# - version : zrfisaac : 25.11.26.1
 
 # [ list ]
 
@@ -20,6 +20,9 @@
 # - : ./fork/dolphin
 # . - : https://github.com/zrfisaac/fork.dolphin.git
 
+# - : ./fork/fortes-report
+# . - : https://github.com/zrfisaac/fork.fortes-report.git
+
 # - : ./install/bde
 # . - : https://github.com/zrfisaac/install.bde.git
 
@@ -31,6 +34,9 @@
 
 # - : ./install/libresprite
 # . - : https://github.com/zrfisaac/install.libresprite.git
+
+# - : ./project/lfs
+# . - : https://github.com/zrfisaac/project.lfs.git
 
 # - : ./project/prn-view
 # . - : https://github.com/zrfisaac/project.prn-view.git
