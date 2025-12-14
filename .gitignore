@@ -8,8 +8,13 @@
 # [ gitignore ]
 
 # : - any
+.*
+!.github
 _*
+!_sidebar.md
+
 
 # : - folder
 /albedo
 /docsify
+/wiki
