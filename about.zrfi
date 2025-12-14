@@ -4,4 +4,12 @@
 # - author : Isaac Caires Santana
 # - email : zrfisaac@gmail.com
 # - site : zrfisaac.github.io
-# - version : zrfisaac : 25.12.14.3
+# - version : zrfisaac : 25.12.14.4
+
+# [ list ]
+
+# - : ./docsify
+# . - : https://github.com/zrfisaac/docsify.git
+
+# - : ./wiki
+# . - : https://github.com/zrfisaac/wiki.git
