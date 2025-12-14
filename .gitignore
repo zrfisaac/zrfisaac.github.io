@@ -1,0 +1,15 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires Santana
+# - email : zrfisaac@gmail.com
+# - site : zrfisaac.github.io
+
+# [ gitignore ]
+
+# : - any
+_*
+
+# : - folder
+/albedo
+/docsify
