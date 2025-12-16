@@ -16,6 +16,12 @@ _*
 # : - folder
 /albedo
 /docsify
+/game/*/
+/install
+/mvp/*/
 /private
+/project/*/
+/prototype
 /research
 /wiki
+/work
