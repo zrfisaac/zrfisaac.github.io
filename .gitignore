@@ -4,13 +4,13 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 26.2.5.1
+# - version : zrfisaac.gitignore : 26.2.5.2
 
 # [ gitignore ]
 
 # : - any
 $*
-.*
+#.*
 _*
 !.github
 !.gitignore
@@ -26,3 +26,45 @@ _*
 /work
 
 # : - linux
+/.android
+/.bash_logout
+/.bash_profile
+/.bashrc
+/.cache
+/.config
+/.dart-tool
+/.dartServer
+/.dir_colors
+/.dmrc
+/.dosbox
+/.eclipse
+/.emulator_console_auth_token
+/.face
+/.flutter
+/.gitconfig
+/.gnupg
+/.gradle
+/.ICEauthority
+/.java
+/.lazarus
+/.local
+/.mozilla
+/.pki
+/.profile
+/.pub-cache
+/.pulse-cookie
+/.steam
+/.steampath
+/.steampid
+/.swt
+/.viminfo
+/.vscode
+/.wine
+/.Xauthority
+/.Xclients
+/.xinitrc
+/.xsession-errors
+/.xsession-errors.old
+/.zcompdump
+/.zhistory
+/.zshrc
