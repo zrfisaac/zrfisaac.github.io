@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 26.2.5.4
+# - version : zrfisaac.gitignore : 26.2.5.5
 
 # [ gitignore ]
 
@@ -18,12 +18,14 @@ _*
 
 # : - folder
 /albedo
+/buy
 /default
 /docsify
 /download
 /fork
 /game/*
 /install/*
+/memory
 /mvp/*
 /pexels/*.png
 /private
