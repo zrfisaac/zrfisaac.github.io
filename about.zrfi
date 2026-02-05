@@ -1,0 +1,27 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires Santana
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac : 26.2.5.1
+
+# [ list ]
+
+# - : ./docsify
+# . - : https://github.com/zrfisaac/docsify.git
+
+# - : ./fork/cef4delphi
+# . - : https://github.com/zrfisaac/fork.cef4delphi.git
+
+# - : ./fork/fortes-report
+# . - : https://github.com/zrfisaac/fork.fortes-report.git
+
+# - : ./github
+# . - : https://github.com/zrfisaac/zrfisaac.git
+
+# - : ./install/bde
+# . - : https://github.com/zrfisaac/install.bde.git
+
+# - : ./wiki
+# . - : https://github.com/zrfisaac/wiki.git
