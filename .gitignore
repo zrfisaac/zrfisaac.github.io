@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 26.2.6.2
+# - version : zrfisaac.gitignore : 26.2.6.3
 
 # [ gitignore ]
 
@@ -24,6 +24,7 @@ _*
 /download
 /fork
 /game/*
+/github
 /install/*
 /memory
 /mvp/*
