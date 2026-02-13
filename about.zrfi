@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac : 26.2.6.2
+# - version : zrfisaac : 26.2.13.1
 
 # [ list ]
 
@@ -14,8 +14,17 @@
 # - : ./fork/cef4delphi
 # . - : https://github.com/zrfisaac/fork.cef4delphi.git
 
+# - : ./fork/dcpcrypt
+# . - : https://github.com/zrfisaac/fork.dcpcrypt.git
+
 # - : ./fork/fortes-report
 # . - : https://github.com/zrfisaac/fork.fortes-report.git
+
+# - : ./fork/indy
+# . - : https://github.com/zrfisaac/fork.indy.git
+
+# - : ./fork/lnstudio
+# . - : https://github.com/zrfisaac/fork.lnstudio.git
 
 # - : ./github
 # . - : https://github.com/zrfisaac/zrfisaac.git
