@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac : 26.2.17.2
+# - version : zrfisaac : 26.2.21.1
 
 # [ list ]
 
@@ -35,6 +35,15 @@
 # - : ./install/bde
 # . - : https://github.com/zrfisaac/install.bde.git
 
+# - : ./package/d7help
+# . - : https://github.com/zrfisaac/package.d7help.git
+
+# - : ./package/d7tray
+# . - : https://github.com/zrfisaac/package.d7tray.git
+
+# - : ./project/bdesafe
+# . - : https://github.com/zrfisaac/project.bdesafe.git
+
 # - : ./project/beezy
 # . - : https://github.com/zrfisaac/project.beezy.git
 
@@ -43,6 +52,9 @@
 
 # - : ./project/guara
 # . - : https://github.com/zrfisaac/project.guara.git
+
+# - : ./project/prnview
+# . - : https://github.com/zrfisaac/project.prnview.git
 
 # - : ./project/sql98
 # . - : https://github.com/zrfisaac/project.sql98.git
