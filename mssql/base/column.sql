@@ -1,0 +1,15 @@
+-- # [ zrfisaac ]
+
+-- # [ about ]
+-- # - author : Isaac Caires Santana
+-- # . - email : zrfisaac@gmail.com
+-- # . - site : zrfisaac.github.io
+-- # - version : zrfisaac.mssql.base.column : 26.2.21.1
+
+-- # [ mssql ]
+
+-- # : DEBUG - TB_TABLE - CL_COLUMN
+IF NOT EXISTS(SELECT TOP 1 NULL FROM INFORMATION_SCHEMA.TABLES WITH(NOLOCK) WHERE TABLE_NAME = 'TB_TABLE')
+CREATE TABLE TB_TABLE (CL_COLUMN DATETIME NOT NULL DEFAULT (GETDATE()))
+IF NOT EXISTS(SELECT TOP 1 NULL FROM INFORMATION_SCHEMA.COLUMNS WITH(NOLOCK) WHERE TABLE_NAME = 'TB_TABLE' AND COLUMN_NAME = 'CL_COLUMN')
+ALTER TABLE TB_TABLE ADD CL_COLUMN DATETIME NOT NULL DEFAULT (GETDATE())
