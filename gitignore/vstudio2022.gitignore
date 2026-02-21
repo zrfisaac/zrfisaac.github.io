@@ -1,0 +1,27 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires Santana
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.gitignore.vstudio2022 : 26.2.21.1
+
+# [ gitignore ]
+
+# : - vstudio2022
+*.dll
+*.exe
+*.v2
+.vs/
+bin/
+obj/
+
+# : - zrfisaac
+*.Identifier
+*.classified.*
+.DS_Store
+.git
+*.private.*
+.temp
+.vs
+_*
