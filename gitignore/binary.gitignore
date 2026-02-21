@@ -1,0 +1,41 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires Santana
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.gitignore.binary : 26.2.21.1
+
+# [ gitignore ]
+
+# : - binary
+*.bpl
+*.dll
+*.dmg
+*.exe
+*.idx
+*.iso
+*.ldf
+*.mdf
+*.mp4
+*.msi
+*.rar
+*.swf
+*.tpz
+*.vbox-extpack
+*.vob
+*.wav
+*.zip
+.vs/
+bin/
+obj/
+
+# : - zrfisaac
+*.Identifier
+*.classified.*
+.DS_Store
+.git
+*.private.*
+.temp
+.vs
+_*
