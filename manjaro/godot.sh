@@ -10,7 +10,7 @@
 # [ bash ]
 user=$(getent passwd 1000 | cut -d: -f1)
 command -v sudo >/dev/null 2>&1 && sudo="sudo" || sudo=""
-${sudo} pacman -S --noconfirm godot
-yay -S --noconfirm godot-export-templates-linu
-#yay -S --noconfirm godot3
+#${sudo} pacman -S --noconfirm godot
+#yay -S --noconfirm godot-export-templates-linu
+yay -S --noconfirm godot3
 #yay -S --noconfirm godot2
