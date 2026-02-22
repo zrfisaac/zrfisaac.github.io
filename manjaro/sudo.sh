@@ -5,9 +5,9 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.manjaro.sudo : 26.2.5.1
+# - version : zrfisaac.manjaro.sudo : 26.2.22.1
 
 # [ bash ]
 user=$(getent passwd 1000 | cut -d: -f1)
 command -v sudo >/dev/null 2>&1 && sudo="sudo" || sudo=""
-${sudo} echo "${_user} ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/${user}
+${sudo} echo "${user} ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/${user}
