@@ -823,21 +823,21 @@
 		"ja": "クライアントマシンでの設定を簡単かつ迅速に行えるよう、私が作成したカスタムBDEインストールで、実用性と標準化を保証します。",
 		"zh": "由我创建的自定义BDE安装，用于简化和加快客户端计算机上的配置，确保过程中的实用性和标准化。"
 	},
-	"project_prnviewer_01": {
-		"en": "PRN Viewer",
-		"es": "PRN Viewer",
-		"it": "PRN Viewer",
-		"pt": "PRN Viewer",
+	"project_prnview_01": {
+		"en": "PRN View",
+		"es": "PRN View",
+		"it": "PRN View",
+		"pt": "PRN View",
 		"ja": "PRNビューア",
 		"zh": "PRN查看器"
 	},
-	"project_prnviewer_02": {
-		"en": "PRN Viewer is a project developed in Lazarus that generates PDFs from existing PDF files using FortesReport CE.",
-		"es": "PRN Viewer es un proyecto desarrollado en Lazarus que genera archivos PDF a partir de archivos PDF existentes utilizando FortesReport CE.",
-		"it": "PRN Viewer è un progetto sviluppato in Lazarus che genera PDF da file PDF esistenti utilizzando FortesReport CE.",
-		"pt": "O PRN Viewer é um projeto feito em Lazarus que gera PDFs a partir de arquivos PDF existentes, utilizando o FortesReport CE.",
-		"ja": "PRN Viewerは、Lazarusで開発されたプロジェクトで、既存のPDFファイルからPDFを生成し、FortesReport CEを使用します。",
-		"zh": "PRN Viewer 是一个用 Lazarus 开发的项目，它使用 FortesReport CE 从现有的 PDF 文件生成新的 PDF。"
+	"project_prnview_02": {
+		"en": "PRN View is a project developed in Lazarus that generates PDFs from existing PDF files using FortesReport CE.",
+		"es": "PRN View es un proyecto desarrollado en Lazarus que genera archivos PDF a partir de archivos PDF existentes utilizando FortesReport CE.",
+		"it": "PRN View è un progetto sviluppato in Lazarus che genera PDF da file PDF esistenti utilizzando FortesReport CE.",
+		"pt": "O PRN View é um projeto feito em Lazarus que gera PDFs a partir de arquivos PDF existentes, utilizando o FortesReport CE.",
+		"ja": "PRN Viewは、Lazarusで開発されたプロジェクトで、既存のPDFファイルからPDFを生成し、FortesReport CEを使用します。",
+		"zh": "PRN View 是一个用 Lazarus 开发的项目，它使用 FortesReport CE 从现有的 PDF 文件生成新的 PDF。"
 	},
 	"project_sql32_01": {
 		"en": "SQL32",
@@ -887,6 +887,14 @@
 		"ja": "Google Play",
 		"zh": "Google Play"
 	},
+	"word_linux": {
+		"en": "Linux",
+		"es": "Linux",
+		"it": "Linux",
+		"pt": "Linux",
+		"ja": "リナックス",
+		"zh": "Linux"
+	},
 	"word_soon": {
 		"en": "Coming Soon",
 		"es": "Próximamente",
@@ -894,6 +902,14 @@
 		"pt": "Em Breve",
 		"ja": "近日公開",
 		"zh": "即将推出"
+	},
+	"word_windows": {
+		"en": "Windows",
+		"es": "Windows",
+		"it": "Windows",
+		"pt": "Windows",
+		"ja": "ウィンドウズ",
+		"zh": "Windows"
 	},
 	"zrfisaac_copyright": {
 		"en": "&copy; 2026 Isaac Caires Santana",
