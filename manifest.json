@@ -1,0 +1,15 @@
+{
+  "name": "Isaac Caires Santana",
+  "short_name": "ZRFISAAC",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e2124",
+  "theme_color": "#1e2124",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -4,6 +4,7 @@
 		<!-- # : - title -->
 		<title>ZRFISAAC</title>
 		<link rel="shortcut icon" href="/favicon.png">
+		<link rel="manifest" href="/manifest.json">
 
 		<!-- # : - metadata -->
 		<meta charset="utf-8">
@@ -172,5 +173,12 @@
 
 		<!-- # : - bootstrap -->
 		<script src="/library/bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- # : - service - worker -->
+		<script>
+			if ('serviceWorker' in navigator) {
+			  navigator.serviceWorker.register('/sw.js');
+			}
+		</script>
 	</body>
 </html>
