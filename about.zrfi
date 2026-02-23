@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac : 26.2.22.4
+# - version : zrfisaac : 26.2.23.1
 
 # [ list ]
 
@@ -34,6 +34,27 @@
 
 # - : ./install/bde
 # . - : https://github.com/zrfisaac/install.bde.git
+
+# - : ./mvp/achieve-it
+# . - : https://github.com/zrfisaac/mvp.achieve-it.git
+
+# - : ./mvp/go-sales
+# . - : https://github.com/zrfisaac/mvp.go-sales.git
+
+# - : ./mvp/home-chef
+# . - : https://github.com/zrfisaac/mvp.home-chef.git
+
+# - : ./mvp/my-balance
+# . - : https://github.com/zrfisaac/mvp.my-balance.git
+
+# - : ./mvp/quick-order
+# . - : https://github.com/zrfisaac/mvp.quick-order.git
+
+# - : ./mvp/route-plan
+# . - : https://github.com/zrfisaac/mvp.route-plan.git
+
+# - : ./mvp/stock-guard
+# . - : https://github.com/zrfisaac/mvp.stock-guard.git
 
 # - : ./package/d7help
 # . - : https://github.com/zrfisaac/package.d7help.git
