@@ -4,7 +4,7 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac : 26.2.23.3
+# - version : zrfisaac : 26.2.26.1
 
 # [ list ]
 
@@ -79,6 +79,9 @@
 
 # - : ./project/sql32
 # . - : https://github.com/zrfisaac/project.sql32.git
+
+# - : ./project/sql-alias
+# . - : https://github.com/zrfisaac/project.sql-alias.git
 
 # - : ./site/potencia-motores
 # . - : https://github.com/PotenciaMotores/PotenciaMotores.github.io.git
