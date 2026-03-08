@@ -6,7 +6,7 @@ rem # [ about ]
 rem # - author : Isaac Caires Santana
 rem # . - email : zrfisaac@gmail.com
 rem # . - site : zrfisaac.github.io
-rem # version : zrfisaac.batch.mssql.restore : 25.6.7.1
+rem # version : zrfisaac.batch.mssql.restore : 26.3.6.1
 
 rem # [ batch ]
 
@@ -94,7 +94,7 @@ if "!v_info_error!" equ "0" (
 			set _script=!_script!   MOVE '!_log!' TO '%c_mssql_target%\!_database!.ldf'
 			set _script=!_script! END
 			for %%a in (!c_mssql_database!) do set "_script=!_script:P_DATABASE=%%a!"
-			call !c_mssql_shell! -S "!c_mssql_server!" -U "!c_mssql_user!" -P "!c_mssql_password!" -Q "!_script!" -r1 > nul
+			call !c_mssql_shell! -C -S "!c_mssql_server!" -U "!c_mssql_user!" -P "!c_mssql_password!" -Q "!_script!" -r1 > nul
 		)
 		cd "!v_info_local_path!"
 
