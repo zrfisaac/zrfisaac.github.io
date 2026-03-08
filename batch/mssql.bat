@@ -4,9 +4,9 @@ rem # [ zrfisaac ]
 
 rem # [ about ]
 rem # - author : Isaac Caires Santana
-rem # - email : zrfisaac@gmail.com
-rem # - site : zrfisaac.github.io
-rem # version : zrfisaac.batch.mssql : 25.8.17.2
+rem # . - email : zrfisaac@gmail.com
+rem # . - site : zrfisaac.github.io
+rem # version : zrfisaac.batch.mssql : 26.3.6.1
 
 rem # [ batch ]
 
@@ -26,9 +26,9 @@ rem # - config
 set c_mssql_local=!v_info_local_path!
 set c_mssql_shell=SQLCMD.exe
 set c_mssql_server=localhost
-set c_mssql_user=test
+set c_mssql_user=debug
 set c_mssql_password=1234
-set c_mssql_database=TEST
+set c_mssql_database=DEBUG
 
 rem # - config
 if "!v_info_error!" equ "0" (
@@ -70,7 +70,7 @@ if "!v_info_error!" equ "0" (
 		set _v_script=
 		set _v_script=!_v_script! IF DB_ID^('P_DATABASE'^) IS NULL CREATE DATABASE [P_DATABASE]
 		for %%a in (!c_mssql_database!) do set "_v_script=!_v_script:P_DATABASE=%%a!"
-		call !c_mssql_shell! -S "!c_mssql_server!" -U "!c_mssql_user!" -P "!c_mssql_password!" -Q "!_v_script!" -r1 > nul
+		call !c_mssql_shell! -C -S "!c_mssql_server!" -U "!c_mssql_user!" -P "!c_mssql_password!" -Q "!_v_script!" -r1 > nul
 
 		rem # : - error
 		set v_info_error=!errorlevel!
@@ -93,7 +93,7 @@ if "!v_info_error!" equ "0" (
 			if "!_file:~-15!" neq ".postgresql.sql" (
 			if "!_file:~-11!" neq ".sqlite.sql" (
 				echo . - : %%z
-				call "!c_mssql_shell!" -S "!c_mssql_server!" -U "!c_mssql_user!" -P "!c_mssql_password!" -d "!c_mssql_database!" -i "%%z" -r1 > nul
+				call "!c_mssql_shell!" -C -S "!c_mssql_server!" -U "!c_mssql_user!" -P "!c_mssql_password!" -d "!c_mssql_database!" -i "%%z" -r1 > nul
 			)))))))))
 		)
 
