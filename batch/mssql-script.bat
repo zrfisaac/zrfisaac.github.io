@@ -6,7 +6,7 @@ rem # [ about ]
 rem # - author : Isaac Caires Santana
 rem # . - email : zrfisaac@gmail.com
 rem # . - site : zrfisaac.github.io
-rem # version : zrfisaac.batch.mssql.script : 25.6.7.1
+rem # version : zrfisaac.batch.mssql.script : 26.3.6.1
 
 rem # [ batch ]
 
@@ -77,7 +77,7 @@ if "!v_info_error!" equ "0" (
 		set _script=
 		set _script=!_script! IF DB_ID^('P_DATABASE'^) IS NULL CREATE DATABASE [P_DATABASE]
 		for %%a in (!c_mssql_database!) do set "_script=!_script:P_DATABASE=%%a!"
-		call !c_mssql_shell! -S "!c_mssql_server!" -U "!c_mssql_user!" -P "!c_mssql_password!" -Q "!_script!" -r1 > nul
+		call !c_mssql_shell! -C -S "!c_mssql_server!" -U "!c_mssql_user!" -P "!c_mssql_password!" -Q "!_script!" -r1 > nul
 
 		rem # : - error
 		set v_info_error=!errorlevel!
@@ -92,7 +92,7 @@ if "!v_info_error!" equ "0" (
 		cd "!c_mssql_local!"
 		for /r %%z in (*.sql) do (
 			echo . - : %%z
-			call "!c_mssql_shell!" -S "!c_mssql_server!" -U "!c_mssql_user!" -P "!c_mssql_password!" -d "!c_mssql_database!" -i "%%z" -r1 > nul
+			call "!c_mssql_shell!" -C -S "!c_mssql_server!" -U "!c_mssql_user!" -P "!c_mssql_password!" -d "!c_mssql_database!" -i "%%z" -r1 > nul
 		)
 		cd "!v_info_local_path!"
 
