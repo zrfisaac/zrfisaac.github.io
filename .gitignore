@@ -4,9 +4,11 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 26.5.1.2
+# - base : zrfisaac.gitignore.base : 26.5.1.1
 
 # [ gitignore ]
+
+# : - base
 $*
 _*
 !*.github
