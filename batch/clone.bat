@@ -7,14 +7,14 @@ rem # [ about ]
 rem # - author : Isaac Caires Santana
 rem # . - email : zrfisaac@gmail.com
 rem # . - site : zrfisaac.github.io
-rem # - version : zrfisaac.batch.clone : 26.5.1.1
+rem # - version : zrfisaac.batch.clone : 26.5.1.2
 
 rem # [ batch ]
 
 rem # : - config
-set c_clone=
-set c_clone=%c_clone% "https://github.com/zrfisaac/zrfisaac.git ./profile"
-set c_clone=%c_clone% "https://github.com/zrfisaac/folder.music.git ./music"
+if exist %~dp0config.bat call %~dp0config.bat
+if exist %~dp0_config.bat call %~dp0_config.bat
+if exist %~dp0_.bat call %~dp0_.bat
 
 rem # : - begin
 echo # - : %~dpnx0
