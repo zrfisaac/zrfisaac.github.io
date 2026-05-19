@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZRFISAAC</title>
+    <link rel="shortcut icon" href="logo.png">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+        }
+        
+        .hero-bg {
+            background: radial-gradient(circle at top, #2a0f4d 0%, #0a0a0a 50%);
+        }
+        
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgb(123 44 255 / 0.15);
+        }
+        
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #7b2cff;
+            transition: width 0.3s;
+        }
+        
+        .nav-link:hover:after,
+        .nav-link.active:after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="bg-[#050505] text-white min-h-screen">
+
+    <!-- HEADER -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-[#050505]/90 backdrop-blur-lg border-b border-purple-500/20">
+        <div class="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center gap-1 text-3xl font-bold tracking-tighter">
+                <span class="text-[#7b2cff]">ZRF</span>
+                <span>ISAAC</span>
+            </div>
+
+            <!-- Desktop Menu -->
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="#" class="nav-link text-gray-400 hover:text-white active">Início</a>
+                <a href="/wiki" class="nav-link text-gray-400 hover:text-white">WIKI</a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn"
+                    class="md:hidden text-3xl text-white focus:outline-none">
+                ☰
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-[#0d0d12] border-t border-purple-500/20">
+            <div class="px-6 py-8 flex flex-col gap-6 text-center">
+                <a href="#" class="text-lg font-medium py-2 text-white">Início</a>
+                <a href="/wiki" class="text-lg font-medium py-2 text-gray-400 hover:text-white">WIKI</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-24 pb-16 hero-bg">
+        <div class="max-w-6xl mx-auto px-6">
+            
+            <!-- HERO -->
+            <div class="grid md:grid-cols-2 gap-12 md:gap-16 items-center min-h-[calc(100vh-120px)]">
+                <div class="space-y-8">
+                    <h1 class="text-5xl md:text-6xl font-bold leading-tight">
+                        Compilando <span class="text-[#7b2cff]">ideias</span><span class="text-4xl">🚀</span>
+                    </h1>
+                    
+                    <p class="text-lg text-gray-400 leading-relaxed max-w-md">
+                        Desenvolvedor de jogos e aplicativos. 
+                        Transformo ideias em experiências funcionais, bonitas e com personalidade.
+                    </p>
+                    
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#" 
+                           class="bg-[#7b2cff] hover:bg-[#9b5cff] px-8 py-4 rounded-2xl font-semibold flex items-center gap-3 transition-all active:scale-95">
+                            📄 Baixar Currículo
+                        </a>
+                        <a href="#projetos" 
+                           class="border border-gray-600 hover:border-white px-8 py-4 rounded-2xl font-semibold transition-all">
+                            Ver Projetos
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Imagem -->
+                <div class="flex justify-center md:justify-end">
+                    <div class="relative">
+                        <div class="w-80 h-80 md:w-96 md:h-96 bg-gradient-to-br from-purple-600/20 to-transparent rounded-3xl p-3 border border-purple-500/30">
+                            <img src="pixel.png" 
+                                 alt="Isaac Caires Santana"
+                                 class="w-full h-full object-cover rounded-2xl shadow-2xl">
+                        </div>
+                        <div class="absolute -inset-6 bg-purple-500/10 rounded-full -z-10 blur-3xl"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARDS -->
+            <div id="projetos" class="mt-24">
+                <h2 class="text-3xl font-semibold text-center mb-12">O que eu faço</h2>
+                
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="card-hover bg-[#0d0d12] border border-gray-800 hover:border-[#7b2cff] rounded-3xl p-8">
+                        <div class="h-12 w-12 bg-purple-500/10 text-[#7b2cff] rounded-2xl flex items-center justify-center text-3xl mb-6">💻</div>
+                        <h3 class="text-2xl font-semibold mb-3">Sistemas</h3>
+                        <p class="text-gray-400 leading-relaxed">
+                            Soluções desktop e web com Delphi, ASP.NET e bancos robustos. 
+                            Foco em performance e usabilidade real.
+                        </p>
+                    </div>
+
+                    <div class="card-hover bg-[#0d0d12] border border-gray-800 hover:border-[#7b2cff] rounded-3xl p-8">
+                        <div class="h-12 w-12 bg-purple-500/10 text-[#7b2cff] rounded-2xl flex items-center justify-center text-3xl mb-6">📱</div>
+                        <h3 class="text-2xl font-semibold mb-3">Aplicativos</h3>
+                        <p class="text-gray-400 leading-relaxed">
+                            Apps modernos e multiplataforma com Flutter e Godot.
+                        </p>
+                    </div>
+
+                    <div class="card-hover bg-[#0d0d12] border border-gray-800 hover:border-[#7b2cff] rounded-3xl p-8">
+                        <div class="h-12 w-12 bg-purple-500/10 text-[#7b2cff] rounded-2xl flex items-center justify-center text-3xl mb-6">🎮</div>
+                        <h3 class="text-2xl font-semibold mb-3">Jogos</h3>
+                        <p class="text-gray-400 leading-relaxed">
+                            Jogos divertidos e criativos feitos principalmente com Godot.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-black/50 border-t border-purple-500/20 py-10">
+        <div class="max-w-6xl mx-auto px-6 text-center text-gray-500 text-sm">
+            Isaac Caires Santana © 2026 • Feito com ❤️ e café
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+            btn.textContent = menu.classList.contains('hidden') ? '☰' : '✕';
+        });
+    </script>
+</body>
+</html>
