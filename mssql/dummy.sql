@@ -1,0 +1,10 @@
+-- # [ zrfisaac ]
+
+-- # [ about ]
+-- # - author : Isaac Caires Santana
+-- # . - email : zrfisaac@gmail.com
+-- # . - site : zrfisaac.github.io
+-- # - version : zrfisaac.mssql.dummy : 26.5.19.1
+
+-- # [ mssql ]
+SELECT 'DUMMY' AS DUMMY
