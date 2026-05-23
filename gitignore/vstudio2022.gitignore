@@ -4,20 +4,9 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - base : zrfisaac.gitignore.base : 26.5.19.1
+# - version : zrfisaac.gitignore.vstudio2022 : 26.5.20.1
 
 # [ gitignore ]
-albedo/
-bare/
-data/
-folder/
-github/
-model/
-prototype/
-research/
-template/
-work/
-wiki/
 
 # : - base
 $*
@@ -25,3 +14,11 @@ _*
 !*.github
 !*.gitignore
 !*_sidebar.md
+
+# : - vstudio2022
+*.dll
+*.exe
+*.v2
+.vs/
+bin/
+obj/

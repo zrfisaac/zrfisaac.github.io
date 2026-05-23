@@ -11,10 +11,9 @@ rem # [ batch ]
 
 rem # : - config - clone
 set c_clone=
-set c_clone=%c_clone% "https://github.com/zrfisaac/folder.data.git %~d0\zrfisaac\folder\data"
 set c_clone=%c_clone% "https://github.com/zrfisaac/zrfisaac.git %~d0\zrfisaac\github"
 set c_clone=%c_clone% "https://github.com/zrfisaac/template.docsify.git %~d0\zrfisaac\template\docsify"
 set c_clone=%c_clone% "https://github.com/zrfisaac/wiki.git %~d0\zrfisaac\wiki"
 
 rem # : - config
-if exist %~d0\zrfisaac\folder\data\config.bat call %~d0\zrfisaac\folder\data\config.bat
+if exist %~d0\zrfisaac\data\config.bat call %~d0\zrfisaac\data\config.bat

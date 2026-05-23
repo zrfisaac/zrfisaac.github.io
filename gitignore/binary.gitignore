@@ -4,20 +4,9 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - base : zrfisaac.gitignore.base : 26.5.19.1
+# - version : zrfisaac.gitignore.binary : 26.5.20.1
 
 # [ gitignore ]
-albedo/
-bare/
-data/
-folder/
-github/
-model/
-prototype/
-research/
-template/
-work/
-wiki/
 
 # : - base
 $*
@@ -25,3 +14,25 @@ _*
 !*.github
 !*.gitignore
 !*_sidebar.md
+
+# : - binary
+*.bpl
+*.dll
+*.dmg
+*.exe
+*.idx
+*.iso
+*.ldf
+*.mdf
+*.mp4
+*.msi
+*.rar
+*.swf
+*.tpz
+*.vbox-extpack
+*.vob
+*.wav
+*.zip
+.vs/
+bin/
+obj/

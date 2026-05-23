@@ -4,20 +4,9 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - base : zrfisaac.gitignore.base : 26.5.19.1
+# - version : zrfisaac.gitignore.delphi2007 : 26.5.20.1
 
 # [ gitignore ]
-albedo/
-bare/
-data/
-folder/
-github/
-model/
-prototype/
-research/
-template/
-work/
-wiki/
 
 # : - base
 $*
@@ -25,3 +14,17 @@ _*
 !*.github
 !*.gitignore
 !*_sidebar.md
+
+# : - delphi2007
+*.~*
+*.exe
+*.bpi
+*.bpl
+*.dcp
+*.dcu
+*.dll
+*.local
+*.identcache
+*.ini
+__history/
+__recovery/
