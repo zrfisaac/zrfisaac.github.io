@@ -9,11 +9,14 @@
 # [ gitignore ]
 albedo/
 bare/
+debug/
 data/
 folder/
 github/
+install/
 model/
 music/
+project/
 prototype/
 research/
 template/
