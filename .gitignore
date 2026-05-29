@@ -8,12 +8,14 @@
 
 # [ gitignore ]
 albedo/
+arcane/
 bare/
 debug/
 data/
 folder/
 github/
 install/
+mobile/
 model/
 music/
 project/

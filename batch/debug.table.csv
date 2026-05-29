@@ -1,0 +1,3 @@
+TABELA			,CAMPO			,TIPO		,NULO		,UNICO		,PADRAO
+TB_DEBUG		,CL_ID			,ID			,S			,S			,
+TB_DEBUG		,CL_DATA		,DATA		,S			,S			,AGORA
