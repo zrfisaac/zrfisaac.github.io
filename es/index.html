@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZRFISAAC</title>
+    <link rel="shortcut icon" href="/logo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background:
+                radial-gradient(circle at 76% 18%, rgba(168, 85, 247, .18), transparent 28%),
+                radial-gradient(circle at 8% 8%, rgba(236, 72, 153, .12), transparent 24%),
+                linear-gradient(135deg, rgba(18, 14, 27, 0.96), rgba(5, 5, 7, 1) 44%),
+                #050507;
+        }
+
+        .nav-link {
+            position: relative;
+        }
+
+        .nav-link::after {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 2px;
+            left: 0;
+            bottom: -6px;
+            background: #a855f7;
+            transition: width .2s ease;
+        }
+
+        .nav-link:hover::after,
+        .nav-link.active::after {
+            width: 100%;
+        }
+
+        .project-card {
+            transition: transform .2s ease, border-color .2s ease, background .2s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-4px);
+        }
+    </style>
+</head>
+<body class="min-h-screen text-zinc-100">
+    <header class="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#050507]/90 backdrop-blur">
+        <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
+            <a href="/es/" class="flex items-center gap-3" aria-label="ZRFISAAC">
+                <img src="/logo.png" alt="" class="h-10 w-10 rounded-lg">
+                <span class="text-xl font-extrabold tracking-tight"><span class="text-purple-400">ZRF</span>ISAAC</span>
+            </a>
+
+            <nav class="hidden items-center gap-7 text-sm font-medium text-zinc-300 md:flex">
+                <a href="/es/" class="nav-link active text-white">Inicio</a>
+                <a href="/es/system/" class="nav-link hover:text-white">Sistemas</a>
+                <a href="/es/mobile/" class="nav-link hover:text-white">Aplicaciones</a>
+                <a href="/es/game/" class="nav-link hover:text-white">Juegos</a>
+                <a href="/es/project/" class="nav-link hover:text-white">Proyectos</a>
+                <a href="/wiki" class="nav-link hover:text-white">Wiki</a>
+            </nav>
+
+            <button id="mobile-menu-btn" class="grid h-10 w-10 place-items-center rounded-lg border border-white/10 md:hidden" aria-label="Abrir menú">
+                <i data-lucide="menu" class="h-5 w-5"></i>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden border-t border-white/10 bg-[#09090b] md:hidden">
+            <nav class="mx-auto flex max-w-6xl flex-col gap-1 px-5 py-4 text-sm font-medium">
+                <a href="/es/" class="rounded-lg bg-white/5 px-3 py-3 text-white">Inicio</a>
+                <a href="/es/system/" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">Sistemas</a>
+                <a href="/es/mobile/" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">Aplicaciones</a>
+                <a href="/es/game/" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">Juegos</a>
+                <a href="/es/project/" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">Proyectos</a>
+                <a href="/wiki" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">Wiki</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pt-24">
+        <section class="mx-auto grid min-h-[calc(100vh-96px)] max-w-6xl items-center gap-10 px-5 py-10 md:grid-cols-[1.05fr_.95fr]">
+            <div class="max-w-2xl">
+                <p class="mb-4 text-sm font-semibold uppercase tracking-[0.18em] text-purple-300">Juegos, apps e sistemas</p>
+                <h1 class="text-3xl font-extrabold leading-tight tracking-tight text-white md:text-5xl">
+                    Bienvenido a mi sitio.
+                </h1>
+                <p class="mt-6 max-w-xl text-lg leading-8 text-zinc-300">
+                    Soy Isaac Caires Santana. Creo experiencias para web, escritorio, mobile y juegos, mezclando ingeniería práctica con un estilo visual propio.
+                </p>
+                <div class="mt-8 flex flex-wrap gap-3">
+                    <a href="/es/resume/" class="inline-flex items-center gap-2 rounded-lg bg-purple-500 px-5 py-3 font-semibold text-white transition hover:bg-purple-400">
+                        <i data-lucide="file-user" class="h-5 w-5"></i>
+                        Currículum
+                    </a>
+                    <a href="/es/privacy/" class="inline-flex items-center gap-2 rounded-lg border border-white/15 px-5 py-3 font-semibold text-white transition hover:border-white/35 hover:bg-white/5">
+                        <i data-lucide="shield-check" class="h-5 w-5"></i>
+                        Privacidad
+                    </a>
+                    <a href="https://wa.me/5571983980801" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-lg border border-white/15 px-5 py-3 font-semibold text-white transition hover:border-violet-300/60 hover:bg-white/5">
+                        <i data-lucide="message-circle" class="h-5 w-5"></i>
+                        WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="relative mx-auto w-full max-w-[430px]">
+                <div class="aspect-square overflow-hidden rounded-lg border border-white/10 bg-zinc-900">
+                    <img src="/pixel.png" alt="Retrato pixel art de Isaac Caires Santana" class="h-full w-full object-cover">
+                </div>
+                <div class="mt-4 grid grid-cols-2 gap-3 text-center text-sm sm:grid-cols-4">
+                    <a href="/es/system/" class="rounded-lg border border-white/10 bg-white/[0.03] p-4 transition hover:border-purple-300/60 hover:bg-white/[0.06]">
+                        <strong class="block text-2xl text-purple-300">0</strong>
+                        <span class="text-zinc-400">Sistemas</span>
+                    </a>
+                    <a href="/es/mobile/" class="rounded-lg border border-white/10 bg-white/[0.03] p-4 transition hover:border-violet-300/60 hover:bg-white/[0.06]">
+                        <strong class="block text-2xl text-violet-300">0</strong>
+                        <span class="text-zinc-400">Aplicaciones</span>
+                    </a>
+                    <a href="/es/game/" class="rounded-lg border border-white/10 bg-white/[0.03] p-4 transition hover:border-violet-300/60 hover:bg-white/[0.06]">
+                        <strong class="block text-2xl text-violet-300">0</strong>
+                        <span class="text-zinc-400">Juegos</span>
+                    </a>
+                    <a href="/es/project/" class="rounded-lg border border-white/10 bg-white/[0.03] p-4 transition hover:border-violet-300/60 hover:bg-white/[0.06]">
+                        <strong class="block text-2xl text-violet-300">0</strong>
+                        <span class="text-zinc-400">Proyectos</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="border-y border-white/10 bg-white/[0.025] py-16">
+            <div class="mx-auto max-w-6xl px-5">
+                <div class="mb-8 flex flex-col justify-between gap-4 md:flex-row md:items-end">
+                    <div>
+                        <p class="text-sm font-semibold uppercase tracking-[0.18em] text-zinc-500">Portafolio visual</p>
+                        <h2 class="mt-2 text-3xl font-bold tracking-tight md:text-4xl">Elige un área</h2>
+                    </div>
+                    <p class="max-w-md text-zinc-400">Cada proyecto nace de una idea simple: transformar código en algo que alguien realmente quiera usar.</p>
+                </div>
+
+                <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                    <a href="/es/system/" class="project-card rounded-lg border border-white/10 bg-[#0d0d10] p-6 hover:border-purple-300/60">
+                        <i data-lucide="monitor-cog" class="mb-8 h-9 w-9 text-purple-300"></i>
+                        <h3 class="text-2xl font-bold">Sistemas</h3>
+                        <p class="mt-3 leading-7 text-zinc-400">Dashboards, ERPs ligeros, automatizaciones y herramientas internas para rutinas de empresas.</p>
+                        <span class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-purple-300">Abrir página <i data-lucide="arrow-right" class="h-4 w-4"></i></span>
+                    </a>
+
+                    <a href="/es/mobile/" class="project-card rounded-lg border border-white/10 bg-[#0d0d10] p-6 hover:border-violet-300/60">
+                        <i data-lucide="smartphone" class="mb-8 h-9 w-9 text-violet-300"></i>
+                        <h3 class="text-2xl font-bold">Aplicaciones</h3>
+                        <p class="mt-3 leading-7 text-zinc-400">Apps para organización personal, productividad, música y experiencias mobile simples.</p>
+                        <span class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-violet-300">Abrir página <i data-lucide="arrow-right" class="h-4 w-4"></i></span>
+                    </a>
+
+                    <a href="/es/game/" class="project-card rounded-lg border border-white/10 bg-[#0d0d10] p-6 hover:border-violet-300/60">
+                        <i data-lucide="gamepad-2" class="mb-8 h-9 w-9 text-violet-300"></i>
+                        <h3 class="text-2xl font-bold">Juegos</h3>
+                        <p class="mt-3 leading-7 text-zinc-400">Prototipos, game jams e ideas jugables con foco en mecánica e identidad.</p>
+                        <span class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-violet-300">Abrir página <i data-lucide="arrow-right" class="h-4 w-4"></i></span>
+                    </a>
+
+                    <a href="/es/project/" class="project-card rounded-lg border border-white/10 bg-[#0d0d10] p-6 hover:border-violet-300/60">
+                        <i data-lucide="folder-code" class="mb-8 h-9 w-9 text-violet-300"></i>
+                        <h3 class="text-2xl font-bold">Proyectos</h3>
+                        <p class="mt-3 leading-7 text-zinc-400">Herramientas, estudios y experimentos que mezclan código, diseño y curiosidad.</p>
+                        <span class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-violet-300">Abrir página <i data-lucide="arrow-right" class="h-4 w-4"></i></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-white/10 py-10">
+        <div class="mx-auto max-w-6xl px-5">
+            <div class="flex flex-col gap-5 md:flex-row md:items-start md:justify-between">
+                <div>
+                    <p class="text-sm font-semibold uppercase tracking-[0.18em] text-violet-300">Redes sociales</p>
+                    <p class="mt-2 text-sm text-zinc-500">Isaac Caires Santana © 2026</p>
+                </div>
+                <div class="flex max-w-3xl flex-wrap gap-2 text-sm font-medium text-zinc-300">
+                <a href="https://github.com/zrfisaac" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">GitHub</a>
+                <a href="https://linkedin.com/in/zrfisaac" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">LinkedIn</a>
+                <a href="https://zrfisaac.itch.io" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">Itch.io</a>
+                <a href="https://steamcommunity.com/id/zrfisaac" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">Steam</a>
+                <a href="https://instagram.com/zrfisaac.game" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">Instagram Game</a>
+                <a href="https://instagram.com/zrfisaac.public" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">Instagram Public</a>
+                <a href="https://youtube.com/@zrfisaac" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">YouTube</a>
+                <a href="https://x.com/zrfisaac" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">X</a>
+                <a href="https://dev.to/zrfisaac" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">Dev.to</a>
+                <a href="https://gitlab.com/zrfisaac" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">GitLab</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById("mobile-menu-btn");
+        const menu = document.getElementById("mobile-menu");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+            btn.setAttribute("aria-label", menu.classList.contains("hidden") ? "Abrir menú" : "Cerrar menú");
+            btn.innerHTML = menu.classList.contains("hidden")
+                ? '<i data-lucide="menu" class="h-5 w-5"></i>'
+                : '<i data-lucide="x" class="h-5 w-5"></i>';
+            lucide.createIcons();
+        });
+
+        lucide.createIcons();
+    </script>
+        <div id="language-switcher" class="fixed bottom-4 right-4 z-[60] text-sm font-semibold">
+        <button id="language-toggle" type="button" class="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-[#0d0d10]/95 px-4 py-3 text-white shadow-2xl backdrop-blur transition hover:border-violet-300/60 hover:bg-white/[0.06]" aria-haspopup="true" aria-expanded="false">
+            <i data-lucide="languages" class="h-4 w-4 text-violet-300"></i>
+            <span id="language-current">Language</span>
+            <i data-lucide="chevron-up" class="h-4 w-4"></i>
+        </button>
+        <div id="language-menu" class="absolute bottom-full right-0 mb-2 hidden min-w-40 overflow-hidden rounded-lg border border-white/10 bg-[#0d0d10]/95 text-zinc-300 shadow-2xl backdrop-blur"></div>
+    </div>
+    <script>
+        (() => {
+            const currentLanguage = location.pathname.split("/").filter(Boolean)[0] || "en";
+            const pagePath = location.pathname.split("/").filter(Boolean).slice(1).join("/");
+            const languages = [
+                { code: "pt", label: "Português" },
+                { code: "en", label: "English" },
+                { code: "es", label: "Español" },
+                { code: "zh", label: "中文" }
+            ];
+            const target = (language) => `/${language}/${pagePath ? `${pagePath}/` : ""}`;
+            const toggle = document.getElementById("language-toggle");
+            const menu = document.getElementById("language-menu");
+            const current = document.getElementById("language-current");
+            const activeLanguage = languages.find((language) => language.code === currentLanguage) || languages[1];
+
+            current.textContent = activeLanguage.label;
+            menu.innerHTML = languages.map((language) => {
+                const active = language.code === currentLanguage;
+                return `<a href="${target(language.code)}" onclick="localStorage.setItem('zrf-language','${language.code}')" class="block px-4 py-3 transition ${active ? "bg-purple-500 text-white" : "hover:bg-white/10 hover:text-white"}">${language.label}</a>`;
+            }).join("");
+
+            toggle.addEventListener("click", () => {
+                const open = menu.classList.toggle("hidden") === false;
+                toggle.setAttribute("aria-expanded", String(open));
+            });
+
+            document.addEventListener("click", (event) => {
+                if (!event.target.closest("#language-switcher")) {
+                    menu.classList.add("hidden");
+                    toggle.setAttribute("aria-expanded", "false");
+                }
+            });
+            if (window.lucide) {
+                window.lucide.createIcons();
+            }
+        })();
+    </script>
+</body>
+</html>

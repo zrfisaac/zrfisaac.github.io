@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZRFISAAC</title>
+    <title>ZRFISAAC | Resume</title>
     <link rel="shortcut icon" href="/logo.png">
     <script>
         const supported = ["en", "es", "pt", "zh"];
@@ -14,7 +14,7 @@
             ? saved
             : browser.map((lang) => aliases[lang] || lang.split("-")[0]).find((lang) => supported.includes(lang)) || "en";
 
-        window.location.replace(`/${language}/`);
+        window.location.replace(`/${language}/resume/`);
     </script>
 </head>
 <body>

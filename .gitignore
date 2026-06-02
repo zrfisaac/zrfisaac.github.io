@@ -15,11 +15,13 @@ data/
 folder/
 github/
 install/
-mobile/
+mobile/*
+!mobile/index.html
 model/
 music/
 playground/
-project/
+project/*
+!project/index.html
 prototype/
 research/
 shell/

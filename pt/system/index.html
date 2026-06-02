@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZRFISAAC | Sistemas</title>
+    <link rel="shortcut icon" href="/logo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; background: #050507; }
+        .nav-link { position: relative; }
+        .nav-link::after { content: ""; position: absolute; width: 0; height: 2px; left: 0; bottom: -6px; background: #a855f7; transition: width .2s ease; }
+        .nav-link:hover::after, .nav-link.active::after { width: 100%; }
+    </style>
+</head>
+<body class="min-h-screen text-zinc-100">
+    <header class="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#050507]/90 backdrop-blur">
+        <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
+            <a href="/pt/" class="flex items-center gap-3"><img src="/logo.png" alt="" class="h-10 w-10 rounded-lg"><span class="text-xl font-extrabold tracking-tight"><span class="text-purple-400">ZRF</span>ISAAC</span></a>
+            <nav class="hidden items-center gap-7 text-sm font-medium text-zinc-300 md:flex">
+                <a href="/pt/" class="nav-link hover:text-white">Início</a>
+                <a href="/pt/system/" class="nav-link active text-white">Sistemas</a>
+                <a href="/pt/mobile/" class="nav-link hover:text-white">Aplicativos</a>
+                <a href="/pt/game/" class="nav-link hover:text-white">Jogos</a>
+                <a href="/pt/project/" class="nav-link hover:text-white">Projetos</a>
+                <a href="/wiki" class="nav-link hover:text-white">Wiki</a>
+            </nav>
+            <button id="mobile-menu-btn" class="grid h-10 w-10 place-items-center rounded-lg border border-white/10 md:hidden" aria-label="Abrir menu"><i data-lucide="menu" class="h-5 w-5"></i></button>
+        </div>
+        <div id="mobile-menu" class="hidden border-t border-white/10 bg-[#09090b] md:hidden">
+            <nav class="mx-auto flex max-w-6xl flex-col gap-1 px-5 py-4 text-sm font-medium">
+                <a href="/pt/" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">Início</a>
+                <a href="/pt/system/" class="rounded-lg bg-white/5 px-3 py-3 text-white">Sistemas</a>
+                <a href="/pt/mobile/" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">Aplicativos</a>
+                <a href="/pt/game/" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">Jogos</a>
+                <a href="/pt/project/" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">Projetos</a>
+                <a href="/wiki" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">Wiki</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pt-24">
+        <section class="mx-auto max-w-6xl px-5 py-14">
+            <p class="text-sm font-semibold uppercase tracking-[0.18em] text-purple-300">Sistemas</p>
+            <h1 class="mt-3 max-w-4xl text-5xl font-extrabold tracking-tight md:text-6xl">Ferramentas para trabalho de verdade.</h1>
+            <p class="mt-5 max-w-2xl text-lg leading-8 text-zinc-300">Projetos fake com foco em gestão, automação e painéis internos. Cada item ocupa uma linha para ficar fácil de comparar no desktop e confortável de ler no mobile.</p>
+        </section>
+
+                <section class="border-y border-white/10 bg-white/[0.025] py-12">
+            <div class="mx-auto flex max-w-6xl flex-col gap-4 px-5">
+                <article class="grid gap-5 rounded-lg border border-white/10 bg-[#0d0d10] p-4 sm:grid-cols-[180px_1fr] md:grid-cols-[240px_1fr] md:p-5">
+                    <div class="grid min-h-40 place-items-center rounded-lg border border-dashed border-purple-300/35 bg-white text-zinc-400">
+                        <i data-lucide="image-plus" class="h-9 w-9"></i>
+                    </div>
+                    <div class="py-1">
+                        <span class="rounded bg-purple-300 px-2 py-1 text-xs font-bold text-zinc-950">Modelo</span>
+                        <h2 class="mt-6 text-2xl font-bold">Modelo de Sistema</h2>
+                        <p class="mt-3 leading-7 text-zinc-400">Este é um modelo de sistema que irei substituir por um projeto real em breve. Vou atualizar este espaço com imagem, descrição, tecnologias e detalhes do que foi construído.</p>
+                        <div class="mt-6 flex flex-wrap gap-2 text-xs font-semibold text-zinc-300"><span class="rounded bg-white/5 px-2 py-1">Sistema</span><span class="rounded bg-white/5 px-2 py-1">Em breve</span></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-white/10 py-10">
+        <div class="mx-auto max-w-6xl px-5">
+            <div class="flex flex-col gap-5 md:flex-row md:items-start md:justify-between">
+                <div>
+                    <p class="text-sm font-semibold uppercase tracking-[0.18em] text-violet-300">Redes sociais</p>
+                    <p class="mt-2 text-sm text-zinc-500">Isaac Caires Santana © 2026</p>
+                </div>
+                <div class="flex max-w-3xl flex-wrap gap-2 text-sm font-medium text-zinc-300">
+                <a href="https://github.com/zrfisaac" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">GitHub</a>
+                <a href="https://linkedin.com/in/zrfisaac" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">LinkedIn</a>
+                <a href="https://zrfisaac.itch.io" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">Itch.io</a>
+                <a href="https://steamcommunity.com/id/zrfisaac" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">Steam</a>
+                <a href="https://instagram.com/zrfisaac.game" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">Instagram Game</a>
+                <a href="https://instagram.com/zrfisaac.public" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">Instagram Public</a>
+                <a href="https://youtube.com/@zrfisaac" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">YouTube</a>
+                <a href="https://x.com/zrfisaac" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">X</a>
+                <a href="https://dev.to/zrfisaac" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">Dev.to</a>
+                <a href="https://gitlab.com/zrfisaac" target="_blank" rel="noopener noreferrer" class="rounded-lg border border-white/10 px-3 py-2 transition hover:border-violet-300/60 hover:bg-white/[0.06] hover:text-white">GitLab</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const btn = document.getElementById("mobile-menu-btn"), menu = document.getElementById("mobile-menu");
+        btn.addEventListener("click", () => { menu.classList.toggle("hidden"); btn.innerHTML = menu.classList.contains("hidden") ? '<i data-lucide="menu" class="h-5 w-5"></i>' : '<i data-lucide="x" class="h-5 w-5"></i>'; lucide.createIcons(); });
+        lucide.createIcons();
+    </script>
+        <div id="language-switcher" class="fixed bottom-4 right-4 z-[60] text-sm font-semibold">
+        <button id="language-toggle" type="button" class="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-[#0d0d10]/95 px-4 py-3 text-white shadow-2xl backdrop-blur transition hover:border-violet-300/60 hover:bg-white/[0.06]" aria-haspopup="true" aria-expanded="false">
+            <i data-lucide="languages" class="h-4 w-4 text-violet-300"></i>
+            <span id="language-current">Language</span>
+            <i data-lucide="chevron-up" class="h-4 w-4"></i>
+        </button>
+        <div id="language-menu" class="absolute bottom-full right-0 mb-2 hidden min-w-40 overflow-hidden rounded-lg border border-white/10 bg-[#0d0d10]/95 text-zinc-300 shadow-2xl backdrop-blur"></div>
+    </div>
+    <script>
+        (() => {
+            const currentLanguage = location.pathname.split("/").filter(Boolean)[0] || "en";
+            const pagePath = location.pathname.split("/").filter(Boolean).slice(1).join("/");
+            const languages = [
+                { code: "pt", label: "Português" },
+                { code: "en", label: "English" },
+                { code: "es", label: "Español" },
+                { code: "zh", label: "中文" }
+            ];
+            const target = (language) => `/${language}/${pagePath ? `${pagePath}/` : ""}`;
+            const toggle = document.getElementById("language-toggle");
+            const menu = document.getElementById("language-menu");
+            const current = document.getElementById("language-current");
+            const activeLanguage = languages.find((language) => language.code === currentLanguage) || languages[1];
+
+            current.textContent = activeLanguage.label;
+            menu.innerHTML = languages.map((language) => {
+                const active = language.code === currentLanguage;
+                return `<a href="${target(language.code)}" onclick="localStorage.setItem('zrf-language','${language.code}')" class="block px-4 py-3 transition ${active ? "bg-purple-500 text-white" : "hover:bg-white/10 hover:text-white"}">${language.label}</a>`;
+            }).join("");
+
+            toggle.addEventListener("click", () => {
+                const open = menu.classList.toggle("hidden") === false;
+                toggle.setAttribute("aria-expanded", String(open));
+            });
+
+            document.addEventListener("click", (event) => {
+                if (!event.target.closest("#language-switcher")) {
+                    menu.classList.add("hidden");
+                    toggle.setAttribute("aria-expanded", "false");
+                }
+            });
+            if (window.lucide) {
+                window.lucide.createIcons();
+            }
+        })();
+    </script>
+</body>
+</html>
