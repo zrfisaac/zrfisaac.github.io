@@ -25,7 +25,7 @@
                 <a href="/zh/mobile/" class="nav-link hover:text-white">移动应用</a>
                 <a href="/zh/game/" class="nav-link hover:text-white">游戏</a>
                 <a href="/zh/project/" class="nav-link hover:text-white">项目</a>
-                <a href="/wiki" class="nav-link hover:text-white">Wiki</a>
+                <a href="/wiki" class="nav-link hover:text-white">WIKI</a>
             </nav>
             <button id="mobile-menu-btn" class="grid h-10 w-10 place-items-center rounded-lg border border-white/10 md:hidden" aria-label="Open menu"><i data-lucide="menu" class="h-5 w-5"></i></button>
         </div>
@@ -36,7 +36,7 @@
                 <a href="/zh/mobile/" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">移动应用</a>
                 <a href="/zh/game/" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">游戏</a>
                 <a href="/zh/project/" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">项目</a>
-                <a href="/wiki" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">Wiki</a>
+                <a href="/wiki" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">WIKI</a>
             </nav>
         </div>
     </header>
@@ -50,17 +50,30 @@
 
                 <section class="border-y border-white/10 bg-white/[0.025] py-12">
             <div class="mx-auto flex max-w-6xl flex-col gap-4 px-5">
-                <article class="grid gap-5 rounded-lg border border-white/10 bg-[#0d0d10] p-4 sm:grid-cols-[180px_1fr] md:grid-cols-[240px_1fr] md:p-5">
-                    <div class="grid min-h-40 place-items-center rounded-lg border border-dashed border-purple-300/35 bg-white text-zinc-400">
-                        <i data-lucide="image-plus" class="h-9 w-9"></i>
-                    </div>
+                
+                
+<article class="grid gap-5 rounded-lg border border-white/10 bg-[#0d0d10] p-4 sm:grid-cols-[180px_1fr] md:grid-cols-[240px_1fr] md:p-5">
+                    <picture class="grid h-52 place-items-center overflow-hidden rounded-lg sm:h-44 md:h-48">
+                        <img src="/picture/system/dentist.webp" alt="Azul Smile" class="h-full w-full object-contain p-2">
+                    </picture>
                     <div class="py-1">
-                        <span class="rounded bg-purple-300 px-2 py-1 text-xs font-bold text-zinc-950">模型</span>
-                        <h2 class="mt-6 text-2xl font-bold">系统模型</h2>
-                        <p class="mt-3 leading-7 text-zinc-400">这是一个系统模型，我很快会用真实项目替换它。我会在这里更新图片、说明、技术和构建细节。</p>
-                        <div class="mt-6 flex flex-wrap gap-2 text-xs font-semibold text-zinc-300"><span class="rounded bg-white/5 px-2 py-1">系统</span><span class="rounded bg-white/5 px-2 py-1">即将更新</span></div>
+                        <span class="rounded bg-purple-300 px-2 py-1 text-xs font-bold text-zinc-950">开发中</span>
+                        <h2 class="mt-6 text-2xl font-bold">Azul Smile</h2>
+                        <p class="mt-3 leading-7 text-zinc-400">正在开发中的牙科诊所系统，重点整理就诊、患者、日程和诊所信息。</p>
+                        <div class="mt-6 flex flex-wrap gap-2 text-xs font-semibold text-zinc-300"><span class="rounded bg-white/5 px-2 py-1">系统</span><span class="rounded bg-white/5 px-2 py-1">牙科</span><span class="rounded bg-white/5 px-2 py-1">日程</span><span class="rounded bg-white/5 px-2 py-1">开发中</span></div>
                     </div>
                 </article>
+<article class="grid gap-5 rounded-lg border border-white/10 bg-[#0d0d10] p-4 sm:grid-cols-[180px_1fr] md:grid-cols-[240px_1fr] md:p-5">
+                    <picture class="grid h-52 place-items-center overflow-hidden rounded-lg sm:h-44 md:h-48">
+                        <img src="/picture/system/sell.webp" alt="Sellus" class="h-full w-full object-contain p-2">
+                    </picture>
+                    <div class="py-1">
+                        <span class="rounded bg-purple-300 px-2 py-1 text-xs font-bold text-zinc-950">开发中</span>
+                        <h2 class="mt-6 text-2xl font-bold">Sellus</h2>
+                        <p class="mt-3 leading-7 text-zinc-400">正在开发中的销售系统，用于通过简洁界面整理产品、客户、订单和商业流程。</p>
+                        <div class="mt-6 flex flex-wrap gap-2 text-xs font-semibold text-zinc-300"><span class="rounded bg-white/5 px-2 py-1">系统</span><span class="rounded bg-white/5 px-2 py-1">销售</span><span class="rounded bg-white/5 px-2 py-1">商业</span><span class="rounded bg-white/5 px-2 py-1">开发中</span></div>
+                    </div>
+                </article>                        
             </div>
         </section>
     </main>
@@ -138,5 +151,6 @@
             }
         })();
     </script>
+    <script src="/assets/project-image-zoom.js" defer></script>
 </body>
 </html>

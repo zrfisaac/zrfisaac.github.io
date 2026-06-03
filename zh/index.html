@@ -12,6 +12,7 @@
 
         body {
             font-family: 'Inter', system-ui, sans-serif;
+            overflow-wrap: anywhere;
             background:
                 radial-gradient(circle at 76% 18%, rgba(168, 85, 247, .18), transparent 28%),
                 radial-gradient(circle at 8% 8%, rgba(236, 72, 153, .12), transparent 24%),
@@ -62,7 +63,7 @@
                 <a href="/zh/mobile/" class="nav-link hover:text-white">移动应用</a>
                 <a href="/zh/game/" class="nav-link hover:text-white">游戏</a>
                 <a href="/zh/project/" class="nav-link hover:text-white">项目</a>
-                <a href="/wiki" class="nav-link hover:text-white">Wiki</a>
+                <a href="/wiki" class="nav-link hover:text-white">WIKI</a>
             </nav>
 
             <button id="mobile-menu-btn" class="grid h-10 w-10 place-items-center rounded-lg border border-white/10 md:hidden" aria-label="Open menu">
@@ -77,7 +78,7 @@
                 <a href="/zh/mobile/" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">移动应用</a>
                 <a href="/zh/game/" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">游戏</a>
                 <a href="/zh/project/" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">项目</a>
-                <a href="/wiki" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">Wiki</a>
+                <a href="/wiki" class="rounded-lg px-3 py-3 text-zinc-300 hover:bg-white/5 hover:text-white">WIKI</a>
             </nav>
         </div>
     </header>
@@ -114,19 +115,19 @@
                 </div>
                 <div class="mt-4 grid grid-cols-2 gap-3 text-center text-sm sm:grid-cols-4">
                     <a href="/zh/system/" class="rounded-lg border border-white/10 bg-white/[0.03] p-4 transition hover:border-purple-300/60 hover:bg-white/[0.06]">
-                        <strong class="block text-2xl text-purple-300">0</strong>
+                        <strong class="block text-2xl text-purple-300">2</strong>
                         <span class="text-zinc-400">系统</span>
                     </a>
                     <a href="/zh/mobile/" class="rounded-lg border border-white/10 bg-white/[0.03] p-4 transition hover:border-violet-300/60 hover:bg-white/[0.06]">
-                        <strong class="block text-2xl text-violet-300">0</strong>
+                        <strong class="block text-2xl text-violet-300">1</strong>
                         <span class="text-zinc-400">移动应用</span>
                     </a>
                     <a href="/zh/game/" class="rounded-lg border border-white/10 bg-white/[0.03] p-4 transition hover:border-violet-300/60 hover:bg-white/[0.06]">
-                        <strong class="block text-2xl text-violet-300">0</strong>
+                        <strong class="block text-2xl text-violet-300">3</strong>
                         <span class="text-zinc-400">游戏</span>
                     </a>
                     <a href="/zh/project/" class="rounded-lg border border-white/10 bg-white/[0.03] p-4 transition hover:border-violet-300/60 hover:bg-white/[0.06]">
-                        <strong class="block text-2xl text-violet-300">0</strong>
+                        <strong class="block text-2xl text-violet-300">2</strong>
                         <span class="text-zinc-400">项目</span>
                     </a>
                 </div>
@@ -147,30 +148,80 @@
                     <a href="/zh/system/" class="project-card rounded-lg border border-white/10 bg-[#0d0d10] p-6 hover:border-purple-300/60">
                         <i data-lucide="monitor-cog" class="mb-8 h-9 w-9 text-purple-300"></i>
                         <h3 class="text-2xl font-bold">系统</h3>
-                        <p class="mt-3 leading-7 text-zinc-400">仪表盘、轻量 ERP、自动化流程以及面向企业日常工作的内部工具。</p>
+                        <p class="mt-3 break-words leading-7 text-zinc-400">仪表盘、轻量 ERP、自动化流程以及面向企业日常工作的内部工具。</p>
                         <span class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-purple-300">打开页面 <i data-lucide="arrow-right" class="h-4 w-4"></i></span>
                     </a>
 
                     <a href="/zh/mobile/" class="project-card rounded-lg border border-white/10 bg-[#0d0d10] p-6 hover:border-violet-300/60">
                         <i data-lucide="smartphone" class="mb-8 h-9 w-9 text-violet-300"></i>
                         <h3 class="text-2xl font-bold">移动应用</h3>
-                        <p class="mt-3 leading-7 text-zinc-400">用于个人整理、效率、音乐和简单移动体验的应用。</p>
+                        <p class="mt-3 break-words leading-7 text-zinc-400">用于个人整理、效率、音乐和简单移动体验的应用。</p>
                         <span class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-violet-300">打开页面 <i data-lucide="arrow-right" class="h-4 w-4"></i></span>
                     </a>
 
                     <a href="/zh/game/" class="project-card rounded-lg border border-white/10 bg-[#0d0d10] p-6 hover:border-violet-300/60">
                         <i data-lucide="gamepad-2" class="mb-8 h-9 w-9 text-violet-300"></i>
                         <h3 class="text-2xl font-bold">游戏</h3>
-                        <p class="mt-3 leading-7 text-zinc-400">专注于机制和风格识别的原型、游戏 Jam 和可玩想法。</p>
+                        <p class="mt-3 break-words leading-7 text-zinc-400">专注于机制和风格识别的原型、游戏 Jam 和可玩想法。</p>
                         <span class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-violet-300">打开页面 <i data-lucide="arrow-right" class="h-4 w-4"></i></span>
                     </a>
 
                     <a href="/zh/project/" class="project-card rounded-lg border border-white/10 bg-[#0d0d10] p-6 hover:border-violet-300/60">
                         <i data-lucide="folder-code" class="mb-8 h-9 w-9 text-violet-300"></i>
                         <h3 class="text-2xl font-bold">项目</h3>
-                        <p class="mt-3 leading-7 text-zinc-400">融合代码、设计和好奇心的工具、研究与实验。</p>
+                        <p class="mt-3 break-words leading-7 text-zinc-400">融合代码、设计和好奇心的工具、研究与实验。</p>
                         <span class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-violet-300">打开页面 <i data-lucide="arrow-right" class="h-4 w-4"></i></span>
                     </a>
+                </div>
+
+                <div class="mt-12 border-t border-white/10 pt-10">
+                    <div class="mb-6 flex flex-col justify-between gap-3 md:flex-row md:items-end">
+                        <div>
+                            <p class="text-sm font-semibold uppercase tracking-[0.18em] text-zinc-500">YouTube</p>
+                            <h2 class="mt-2 text-3xl font-bold tracking-tight md:text-4xl">我的频道</h2>
+                        </div>
+                        <p class="max-w-md text-zinc-400">不同的空间，用来放想法、故事、编程和更自由的视频。</p>
+                    </div>
+                    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                        
+                        <a href="https://www.youtube.com/@zrfisaac" target="_blank" rel="noopener noreferrer" class="project-card rounded-lg border border-white/10 bg-[#0d0d10] p-5 hover:border-violet-300/60">
+                                                    
+                                                    <div class="mb-5 aspect-square overflow-hidden rounded-lg border border-white/10 bg-white/[0.03]">
+                                                        <img src="/picture/youtube/zrfisaac.webp" alt="zrfisaac" class="h-full w-full object-cover">
+                                                    </div>
+                                                    <h3 class="break-words text-xl font-bold">zrfisaac</h3>
+                                                    <p class="mt-3 break-words leading-7 text-zinc-400">个人频道，放一些随机内容和我当下想做的视频。</p>
+                                                    <span class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-violet-300">打开频道 <i data-lucide="arrow-up-right" class="h-4 w-4"></i></span>
+                                                </a>
+                        <a href="https://www.youtube.com/@AqueleQueTudoPermeia" target="_blank" rel="noopener noreferrer" class="project-card rounded-lg border border-white/10 bg-[#0d0d10] p-5 hover:border-violet-300/60">
+                                                    
+                                                    <div class="mb-5 aspect-square overflow-hidden rounded-lg border border-white/10 bg-white/[0.03]">
+                                                        <img src="/picture/youtube/aquele-que-tudo-permeia.webp" alt="Aquele Que Tudo Permeia" class="h-full w-full object-cover">
+                                                    </div>
+                                                    <h3 class="break-words text-xl font-bold">Aquele Que Tudo Permeia</h3>
+                                                    <p class="mt-3 break-words leading-7 text-zinc-400">偏暗色调的哲学思考频道。</p>
+                                                    <span class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-violet-300">打开频道 <i data-lucide="arrow-up-right" class="h-4 w-4"></i></span>
+                                                </a>
+                        <a href="https://www.youtube.com/@VigilantesDoOculto" target="_blank" rel="noopener noreferrer" class="project-card rounded-lg border border-white/10 bg-[#0d0d10] p-5 hover:border-violet-300/60">
+                                                    
+                                                    <div class="mb-5 aspect-square overflow-hidden rounded-lg border border-white/10 bg-white/[0.03]">
+                                                        <img src="/picture/youtube/vigilantes-do-oculto.webp" alt="Vigilantes Do Oculto" class="h-full w-full object-cover">
+                                                    </div>
+                                                    <h3 class="break-words text-xl font-bold">Vigilantes Do Oculto</h3>
+                                                    <p class="mt-3 break-words leading-7 text-zinc-400">恐怖故事、神秘内容和黑暗叙事。</p>
+                                                    <span class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-violet-300">打开频道 <i data-lucide="arrow-up-right" class="h-4 w-4"></i></span>
+                                                </a>
+                        <a href="https://www.youtube.com/@BugNoCafe" target="_blank" rel="noopener noreferrer" class="project-card rounded-lg border border-white/10 bg-[#0d0d10] p-5 hover:border-violet-300/60">
+                                                    
+                                                    <div class="mb-5 aspect-square overflow-hidden rounded-lg border border-white/10 bg-white/[0.03]">
+                                                        <img src="/picture/youtube/bug-no-cafe.webp" alt="Bug No Café" class="h-full w-full object-cover">
+                                                    </div>
+                                                    <h3 class="break-words text-xl font-bold">Bug No Café</h3>
+                                                    <p class="mt-3 break-words leading-7 text-zinc-400">编程、学习、代码和技术实验。</p>
+                                                    <span class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-violet-300">打开频道 <i data-lucide="arrow-up-right" class="h-4 w-4"></i></span>
+                                                </a>
+                    
+                    </div>
                 </div>
             </div>
         </section>
