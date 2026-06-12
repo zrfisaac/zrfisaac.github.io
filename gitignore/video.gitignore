@@ -1,0 +1,29 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires Santana
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.gitignore.video : 26.6.9.1
+
+# [ gitignore ]
+
+# : - base
+$*
+_*
+!*.github
+!*.gitignore
+!*_sidebar.md
+
+# : - video
+*.bmp
+*.jpeg
+*.jpg
+*.mkv
+*.mp4
+*.mp3
+*.mp3
+*.part
+*.png
+*.webm
+*.ytdl
