@@ -4,14 +4,16 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.gitignore : 26.8.30.3
+# - version : zrfisaac.gitignore : 26.8.30.4
 
 # [ gitignore ]
 */
 !.github/
 !batch/
 !chocolatey/
+!en/
 !gitignore/
+!pt/
 
 # : - base
 $*
