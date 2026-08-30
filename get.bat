@@ -7,7 +7,7 @@ rem # [ about ]
 rem # - author : Isaac Caires Santana
 rem # . - email : zrfisaac@gmail.com
 rem # . - site : zrfisaac.github.io
-rem # - version : zrfisaac.batch.get : 26.8.30.2
+rem # - version : zrfisaac.batch.get : 26.8.30.3
 
 rem # [ batch ]
 
@@ -21,7 +21,7 @@ echo # - : %~dpnx0
 
 rem # : - begin
 echo # . - get
-git clone "https://github.com/zrfisaac/zrfisaac.github.io.git" "%~d0\zrfisaac"
+git clone "https://github.com/zrfisaac/zrfisaac.github.io.git" "%~d0\zrfisaac" >nul 2>&1
 
 rem # : - end
 echo # . - end
