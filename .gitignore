@@ -12,6 +12,7 @@
 !batch/
 !chocolatey/
 !content/
+!content/**
 !en/
 !gitignore/
 !pt/
