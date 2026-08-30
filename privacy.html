@@ -1,0 +1,33 @@
+<!-- # [ zrfisaac ] -->
+
+<!-- # [ about ] -->
+<!-- # - author : Isaac Caires Santana -->
+<!-- # . - email : zrfisaac@gmail.com -->
+<!-- # . - site : zrfisaac.github.io -->
+
+<!-- # [ html ] -->
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ZRFISAAC · Privacidade</title>
+</head>
+<body>
+    <p>
+        <a href="pt/privacy.html">Português</a>
+        ·
+        <a href="en/privacy.html">English</a>
+    </p>
+
+    <script>
+        const savedLanguage = localStorage.getItem("zrf-language");
+        const browserLanguage = navigator.language || "en";
+        const defaultLanguage = browserLanguage.toLowerCase().startsWith("pt") ? "pt" : "en";
+        const language = savedLanguage || defaultLanguage;
+
+        location.replace(`${language}/privacy.html`);
+    </script>
+</body>
+</html>
