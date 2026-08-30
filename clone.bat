@@ -7,7 +7,7 @@ rem # [ about ]
 rem # - author : Isaac Caires Santana
 rem # . - email : zrfisaac@gmail.com
 rem # . - site : zrfisaac.github.io
-rem # - version : zrfisaac.batch.clone : 26.8.30.2
+rem # - version : zrfisaac.batch.clone : 26.8.30.3
 
 rem # [ batch ]
 
@@ -29,12 +29,12 @@ for %%z in (%c_clone%) do (
 )
 
 rem # : - config - private
-if exist %~dp0\private\config.bat call %~dp0\private\config.bat
-if exist %~dp0\private\_config.bat call %~dp0\private\_config.bat
-if exist %~dp0\private\_.bat call %~dp0\private\_.bat
+if exist %~dp0private\config.bat call %~dp0private\config.bat
+if exist %~dp0private\_config.bat call %~dp0private\_config.bat
+if exist %~dp0private\_.bat call %~dp0private\_.bat
 
 rem # : - clone - private
-if exist (%~dp0\private) (
+if exist "%~dp0private\config.bat" (
 	echo # . - clone - private
 	for %%z in (%c_clone%) do (
 		echo # . - clone - private : %%z
