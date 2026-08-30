@@ -7,12 +7,13 @@ rem # [ about ]
 rem # - author : Isaac Caires Santana
 rem # . - email : zrfisaac@gmail.com
 rem # . - site : zrfisaac.github.io
-rem # - version : zrfisaac.batch.all : 26.8.30.1
+rem # - version : zrfisaac.batch.all : 26.8.30.2
 
 rem # [ batch ]
 
 rem # : - config - clone
 set c_clone=
+set c_clone=%c_clone% "https://github.com/zrfisaac/zrfisaac.github.io.git %~d0\zrfisaac"
 set c_clone=%c_clone% "https://github.com/zrfisaac/wiki.git %~d0\zrfisaac\wiki"
 set c_clone=%c_clone% "https://github.com/zrfisaac/zrfisaac.git %~d0\zrfisaac\github"
 set c_clone=%c_clone% "https://github.com/zrfisaac/zrfisaac.github.io.git %~d0\zrfisaac\web"
