@@ -1,0 +1,35 @@
+# [ zrfisaac ]
+
+# [ about ]
+# - author : Isaac Caires Santana
+# . - email : zrfisaac@gmail.com
+# . - site : zrfisaac.github.io
+# - version : zrfisaac.gitignore.godot4 : 26.9.2.1
+
+# [ gitignore ]
+
+# : - base
+$*
+_*
+!*.github
+!*.gitignore
+!*_sidebar.md
+
+
+# : - godot4
+*.apk
+*.apk.idsig
+*.bin
+*.blend
+*.blend1
+*.exe
+*.import
+*.pck
+*.translation
+*.x86_64
+*.zip
+.godot/
+.import/
+android/.*
+android/build/*
+binary/zrfisaac.sh
