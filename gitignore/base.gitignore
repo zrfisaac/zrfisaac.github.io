@@ -14,3 +14,7 @@ _*
 !*.github
 !*.gitignore
 !*_sidebar.md
+*.db
+*.log
+*.rar
+*.zip
