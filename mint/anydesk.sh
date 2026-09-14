@@ -5,10 +5,14 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.mint.anydesk : 26.9.14.1
+# - version : zrfisaac.mint.anydesk : 26.9.14.2
 
 # [ bash ]
 set -e
+grep -rlE '^[[:space:]]*deb[[:space:]]+cdrom:' /etc/apt/sources.list /etc/apt/sources.list.d 2>/dev/null |
+while IFS= read -r arquivo; do
+    sudo sed -i -E 's|^[[:space:]]*(deb[[:space:]]+cdrom:)|# \1|' "$arquivo"
+done
 sudo apt update
 sudo apt install -y ca-certificates curl apt-transport-https
 sudo install -m 0755 -d /etc/apt/keyrings
