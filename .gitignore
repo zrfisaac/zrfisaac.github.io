@@ -8,6 +8,7 @@
 # [ gitignore ]
 */
 !.github/
+!arch/
 !batch/
 !chocolatey/
 !content/
@@ -17,6 +18,8 @@
 !gitignore/
 !it/
 !ja/
+!manjaro/
+!mint/
 !pt/
 !version/
 !zh/
