@@ -13,9 +13,8 @@
 document.querySelectorAll("a[href]").forEach((link) => {
     const destination = link.getAttribute("href");
     const isExternal = destination.startsWith("http://") || destination.startsWith("https://");
-    const isWiki = destination === "/wiki" || destination.startsWith("/wiki/");
 
-    if (isExternal || isWiki) {
+    if (isExternal) {
         link.target = "_blank";
         link.rel = "noopener noreferrer";
     }

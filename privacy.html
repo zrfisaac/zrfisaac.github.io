@@ -19,12 +19,22 @@
         <a href="pt/privacy.html">Português</a>
         ·
         <a href="en/privacy.html">English</a>
+        ·
+        <a href="es/privacy.html">Español</a>
+        ·
+        <a href="it/privacy.html">Italiano</a>
+        ·
+        <a href="ja/privacy.html">日本語</a>
+        ·
+        <a href="zh/privacy.html">中文</a>
     </p>
 
     <script>
         const savedLanguage = localStorage.getItem("zrf-language");
         const browserLanguage = navigator.language || "en";
-        const defaultLanguage = browserLanguage.toLowerCase().startsWith("pt") ? "pt" : "en";
+        const browserCode = browserLanguage.toLowerCase().split("-")[0];
+        const supportedLanguages = ["pt", "en", "es", "it", "ja", "zh"];
+        const defaultLanguage = supportedLanguages.includes(browserCode) ? browserCode : "en";
         const language = savedLanguage || defaultLanguage;
 
         location.replace(`${language}/privacy.html`);

@@ -13,9 +13,13 @@
 !content/
 !content/**
 !en/
+!es/
 !gitignore/
+!it/
+!ja/
 !pt/
 !version/
+!zh/
 
 # : - base
 $*
