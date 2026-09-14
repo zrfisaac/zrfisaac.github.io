@@ -12,6 +12,7 @@ rem # : - config - clone
 set c_clone=
 set c_clone=%c_clone% "https://github.com/zrfisaac/fork.assembler-simulator.git %~dp0fork\assembler-simulator"
 set c_clone=%c_clone% "https://github.com/zrfisaac/zrfisaac.git %~dp0github"
+set c_clone=%c_clone% "https://github.com/zrfisaac/mvp.home-chef.git %~dp0mvp\home-chef"
 set c_clone=%c_clone% "https://github.com/zrfisaac/private.git %~dp0private"
 set c_clone=%c_clone% "https://github.com/zrfisaac/zrfisaac.github.io.git %~dp0web"
 set c_clone=%c_clone% "https://github.com/zrfisaac/wiki.git %~dp0wiki"
