@@ -12,8 +12,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="ZRFISAACウェブサイトのプライバシーポリシー。">
-    <title>ZRFISAAC · プライバシー</title>
+    <meta name="description" content="ZRFISAACが公開するアプリのプライバシーポリシー。">
+    <title>ZRFISAAC · プライバシーポリシー</title>
     <link rel="icon" href="../logo.png">
     <link rel="stylesheet" href="../content/style.css">
 </head>
@@ -59,34 +59,26 @@
             <!-- # : - privacy hero -->
             <section class="privacy-hero">
                 <div class="container privacy-intro">
-                    <div class="eyebrow">プライバシーポリシー</div>
-                    <h1>シンプルで<span>透明性のある</span>プライバシー。</h1>
-                    <p>このページでは、サイトの閲覧時やお問い合わせ時に情報がどのように扱われるかを説明します。</p>
+                    <div class="eyebrow">アプリのプライバシーポリシー</div>
+                    <h1>データを<span>透明性をもって</span>扱います。</h1>
+                    <p>アプリが取り扱う可能性のある情報、その利用目的、権利の行使方法をご説明します。</p>
                 </div>
             </section>
 
             <!-- # : - privacy content -->
             <section class="container privacy">
+                <div class="privacy-meta"><span><strong>管理者：</strong>Isaac Caires Santana</span><span><strong>最終更新日：</strong>2026年9月15日</span></div>
                 <div class="privacy-list">
-                    <article class="privacy-card">
-                        <h2>収集するデータ</h2>
-                        <p>このサイトはフォームを通じて個人データを直接収集しません。</p>
-                    </article>
-
-                    <article class="privacy-card">
-                        <h2>情報の利用</h2>
-                        <p>メールまたはWhatsAppで送信された情報は、ご連絡への返信にのみ使用されます。</p>
-                    </article>
-
-                    <article class="privacy-card">
-                        <h2>ローカルストレージ</h2>
-                        <p>サイトは言語設定のみをブラウザに保存します。独自の広告Cookieは使用しません。</p>
-                    </article>
-
-                    <article class="privacy-card">
-                        <h2>外部サービス</h2>
-                        <p>Google Play、GitHub、Itch.io、Patreonなどの外部ページには、それぞれのポリシーがあります。</p>
-                    </article>
+                    <article class="privacy-card"><h2>1. 適用範囲</h2><p>本ポリシーは、Isaac Caires SantanaがZRFISAAC名義で公開するアプリに適用されます。機能はアプリごとに異なり、GoogleログインとFirebaseに関する説明は、それらの機能を提供するアプリにのみ適用されます。</p><p>確認したプロジェクトにはFirebase Authentication、Googleアカウントでのログイン、Cloud Firestoreが記載されています。Firebase Analytics、Crashlytics、Firebase Storageの設定は確認できなかったため、使用中のサービスとして記載していません。</p></article>
+                    <article class="privacy-card"><h2>2. Googleアカウントと認証</h2><p>「Googleでログイン」を提供する場合、Firebase AuthenticationとGoogleログインにより認証します。許可後、氏名、メールアドレス、プロフィール写真、固有識別子<code>uid</code>などの基本情報を受け取ることがあります。</p><p>アプリおよびIsaac Caires SantanaがGoogleのパスワードを受け取ったり保存したりすることはありません。アプリの情報は個人のGoogleドライブには保存されず、Googleログインに関連付けられ、アプリが使用するFirebase基盤に保存されます。</p></article>
+                    <article class="privacy-card"><h2>3. 保存するデータと目的</h2><p>アプリの機能に応じて、売上、商品・サービス、数量、金額、割引、支払方法、履歴、顧客、氏名、電話番号、メモ、債務、支払いなど、利用者が入力した情報を保存する場合があります。</p><p>これらは、機能の提供、記録の整理、合計計算、履歴表示、未払い管理、アカウント識別、同期、別の端末での復元に使用します。</p></article>
+                    <article class="privacy-card"><h2>4. 顧客・第三者のデータ</h2><p>顧客や第三者の情報は、本人がアプリを利用していなくてもFirestoreへ送信される場合があります。入力する利用者は、正当な目的と必要な通知・許可を確保し、情報を正確に保ち、過剰、機微、違法または無許可の情報を登録しない責任を負います。</p></article>
+                    <article class="privacy-card"><h2>5. Firestore、同期、オフライン利用</h2><p>同期機能のあるアプリでは、Googleが提供するFirebaseのCloud Firestoreにデータを保存します。各アカウントはFirebase Authenticationの<code>uid</code>で識別され、同じGoogleアカウントで別端末にログインすると関連データを復元できます。</p><p>オフラインでも動作できるよう端末にデータを一時保存し、接続が戻ると保留中の変更を同期する場合があります。</p></article>
+                    <article class="privacy-card"><h2>6. セキュリティと委託先</h2><p>アクセスは<code>uid</code>ごとに整理され、Firestoreのセキュリティルールは各利用者を自分のデータのみに制限する必要があります。Firebaseは通信中および対象サービスの保存データを暗号化しますが、絶対的な安全性は保証できません。</p><p>Googleは認証・データベース基盤の提供者として、サービスの提供・保護および法的義務に必要な範囲でデータを処理する場合があります。<a href="https://policies.google.com/privacy">Googleプライバシーポリシー</a>と<a href="https://firebase.google.com/support/privacy">Firebaseのプライバシー情報</a>をご覧ください。</p></article>
+                    <article class="privacy-card"><h2>7. 保存期間と削除</h2><p>データは、アカウントが有効な間、サービス提供または法的義務に必要な間保存します。アプリ内の「アカウントを削除」が利用できる場合はそこから、または下記メールから削除を申請できます。誤削除防止のため本人確認を行う場合があります。</p></article>
+                    <article class="privacy-card"><h2>8. 広告、分析、診断、データ販売</h2><p>確認したプロジェクトではFirebase Analytics、Crashlytics、Firebase Storage、広告ツールによる収集は確認されませんでした。将来導入する場合はアプリ内と本ポリシーで事前または開始時にお知らせします。個人データを販売したり、記載データから広告プロフィールを作成したりしません。</p></article>
+                    <article class="privacy-card"><h2>9. 利用者の権利</h2><p>適用法令に基づき、処理の確認、アクセス、訂正、共有先の情報、該当する場合の移行、匿名化、制限、削除、同意の撤回を請求できます。本人確認および法的・技術的な制限が適用される場合があります。</p></article>
+                    <article class="privacy-card"><h2>10. お問い合わせ</h2><p>管理者は<strong>Isaac Caires Santana</strong>です。質問、アクセス、訂正、削除の申請は<a href="mailto:zrfisaac@gmail.com">zrfisaac@gmail.com</a>までご連絡ください。ログインに使用したメールアドレスを確認する場合がありますが、Googleのパスワードを求めることはありません。</p></article>
                 </div>
             </section>
         </main>

@@ -77,35 +77,26 @@
             </section>
 
             <div class="container content">
-                <!-- # : - apps -->
-                <section id="apps" class="section">
-                    <header class="section-header">
-                        <h2 class="section-title">Aplicaciones destacadas</h2>
-                        <a class="section-link" href="https://play.google.com/store/apps/dev?id=4664158972622830717">
-                            Ver todas las aplicaciones →
-                        </a>
-                    </header>
+                <!-- # : - apps and games -->
+                <div class="showcase-grid">
+                    <section id="apps" class="showcase-panel showcase-panel--apps" aria-labelledby="apps-title">
+                        <header class="showcase-header">
+                            <div class="showcase-heading">
+                                <span class="showcase-symbol" aria-hidden="true">▣</span>
+                                <div>
+                                    <h2 id="apps-title">Aplicaciones</h2>
+                                    <p>Herramientas útiles para el día a día.</p>
+                                </div>
+                            </div>
+                            <a class="store-link" href="https://play.google.com/store/apps/dev?id=4664158972622830717">Ver en Play Store →</a>
+                        </header>
 
                     <div class="app-list">
-                        <a class="app-card" href="https://play.google.com/store/apps/details?id=zrfisaac.game.soleno">
-                            <img class="app-icon" src="../content/mobile/soleno.webp" alt="Icono de Soleno">
-                            <h3>Soleno</h3>
-                            <p>Una experiencia creada para jugar y descubrir.</p>
-                            <span class="tag">Juego</span>
-                        </a>
-
                         <a class="app-card" href="https://play.google.com/store/apps/details?id=zrfisaac.mobile.veliro">
                             <img class="app-icon" src="../content/mobile/veliro.webp" alt="Icono de Veliro">
                             <h3>Veliro</h3>
                             <p>Navegación inteligente para navegantes.</p>
                             <span class="tag">Aplicación</span>
-                        </a>
-
-                        <a class="app-card" href="https://play.google.com/store/apps/details?id=zrfisaac.game.sumaro">
-                            <img class="app-icon" src="../content/mobile/sumaro.webp" alt="Icono de Sumaro">
-                            <h3>Sumaro</h3>
-                            <p>Desafíos rápidos para ejercitar la mente.</p>
-                            <span class="tag">Juego</span>
                         </a>
 
                         <a class="app-card" href="https://play.google.com/store/apps/details?id=zrfisaac.mobile.gaura">
@@ -129,7 +120,37 @@
                             <span class="tag">Aplicación</span>
                         </a>
                     </div>
-                </section>
+                    </section>
+
+                    <section id="juegos" class="showcase-panel showcase-panel--games" aria-labelledby="games-title-es">
+                        <header class="showcase-header">
+                            <div class="showcase-heading">
+                                <span class="showcase-symbol" aria-hidden="true">✦</span>
+                                <div>
+                                    <h2 id="games-title-es">Juegos</h2>
+                                    <p>Experiencias independientes para jugar.</p>
+                                </div>
+                            </div>
+                            <a class="store-link" href="https://zrfisaac.itch.io">Ver en itch.io →</a>
+                        </header>
+
+                    <div class="app-list">
+                        <a class="app-card" href="https://zrfisaac.itch.io">
+                            <img class="app-icon" src="../content/mobile/soleno.webp" alt="Icono de Soleno">
+                            <h3>Soleno</h3>
+                            <p>Una experiencia creada para jugar y descubrir.</p>
+                            <span class="tag">Juego</span>
+                        </a>
+
+                        <a class="app-card" href="https://zrfisaac.itch.io">
+                            <img class="app-icon" src="../content/mobile/sumaro.webp" alt="Icono de Sumaro">
+                            <h3>Sumaro</h3>
+                            <p>Desafíos rápidos para ejercitar la mente.</p>
+                            <span class="tag">Juego</span>
+                        </a>
+                    </div>
+                    </section>
+                </div>
 
                 <!-- # : - categories -->
                 <section id="proyectos" class="section">
@@ -146,7 +167,7 @@
                             <span class="category-arrow">›</span>
                         </a>
 
-                        <a id="juegos" class="category-card" href="https://zrfisaac.itch.io">
+                        <a class="category-card" href="https://zrfisaac.itch.io">
                             <span class="category-icon" aria-hidden="true">
                                 <svg viewBox="0 0 24 24"><path d="M6 11h12a4 4 0 0 1 3.8 5.3l-1 3a2 2 0 0 1-3.4.7l-2.1-2.5H8.7L6.6 20a2 2 0 0 1-3.4-.7l-1-3A4 4 0 0 1 6 11Z"></path><path d="M8 14v3M6.5 15.5h3M15.5 14.5h.01M18 16.5h.01M9 11l1-3h4l1 3"></path></svg>
                             </span>

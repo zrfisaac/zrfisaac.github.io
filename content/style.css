@@ -312,22 +312,139 @@ button {
     font-weight: 700;
 }
 
-/* # : - apps */
+/* # : - apps and games */
+
+.showcase-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin-bottom: 42px;
+}
+
+.showcase-panel {
+    position: relative;
+    min-width: 0;
+    margin: 0;
+    padding: 28px;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 100% 0%, rgba(84, 24, 206, 0.18), transparent 34%),
+        linear-gradient(145deg, rgba(13, 24, 41, 0.96), rgba(5, 12, 24, 0.98));
+    border: 1px solid var(--border);
+    border-radius: 22px;
+}
+
+.showcase-panel::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 3px;
+    background: linear-gradient(180deg, var(--accent-light), transparent 78%);
+}
+
+.showcase-panel--games {
+    background:
+        radial-gradient(circle at 100% 0%, rgba(49, 134, 255, 0.2), transparent 38%),
+        linear-gradient(145deg, rgba(10, 27, 50, 0.97), rgba(5, 12, 24, 0.98));
+}
+
+.showcase-panel--games::before {
+    background: linear-gradient(180deg, #3f9cff, transparent 78%);
+}
+
+.showcase-header {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 18px;
+    margin-bottom: 22px;
+}
+
+.showcase-heading {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.showcase-symbol {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    flex: 0 0 auto;
+    place-items: center;
+    color: #fff;
+    background: linear-gradient(135deg, var(--accent-light), var(--accent-dark));
+    border-radius: 14px;
+    box-shadow: 0 10px 24px rgba(84, 24, 206, 0.3);
+    font-size: 1.35rem;
+}
+
+.showcase-panel--games .showcase-symbol {
+    background: linear-gradient(135deg, #3f9cff, #1555b8);
+    box-shadow: 0 10px 24px rgba(30, 116, 235, 0.25);
+}
+
+.showcase-heading h2,
+.showcase-heading p {
+    margin: 0;
+}
+
+.showcase-heading h2 {
+    font-size: 1.45rem;
+}
+
+.showcase-heading p {
+    margin-top: 2px;
+    color: var(--muted);
+    font-size: 0.83rem;
+}
+
+.store-link {
+    min-height: 40px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    flex: 0 0 auto;
+    padding: 0 14px;
+    background: rgba(255, 255, 255, 0.045);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    font-size: 0.76rem;
+    font-weight: 800;
+    transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.store-link:hover {
+    transform: translateY(-2px);
+    background: rgba(84, 24, 206, 0.16);
+    border-color: var(--accent-light);
+}
+
+.showcase-panel--games .store-link:hover {
+    background: rgba(49, 134, 255, 0.13);
+    border-color: #3f9cff;
+}
 
 .app-list {
+    position: relative;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 18px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.showcase-panel--games .app-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .app-card {
     position: relative;
-    min-height: 155px;
+    min-height: 142px;
     display: grid;
     grid-template-columns: 86px 1fr;
     align-content: center;
     column-gap: 18px;
-    padding: 24px;
+    padding: 20px;
     overflow: hidden;
     background:
         linear-gradient(135deg, rgba(30, 55, 100, 0.46), rgba(8, 17, 31, 0.92)),
@@ -340,6 +457,10 @@ button {
 .app-card:hover {
     transform: translateY(-3px);
     border-color: var(--border-accent);
+}
+
+.showcase-panel--games .app-card:hover {
+    border-color: #3f9cff;
 }
 
 .app-icon {
@@ -372,6 +493,10 @@ button {
     font-size: 0.7rem;
     font-weight: 800;
     text-transform: uppercase;
+}
+
+.showcase-panel--games .tag {
+    background: linear-gradient(135deg, #1555b8, #3186ff);
 }
 
 /* # : - categories */
@@ -558,7 +683,7 @@ button {
 }
 
 .privacy {
-    max-width: 900px;
+    max-width: 980px;
     padding-block: 42px 70px;
 }
 
@@ -575,25 +700,17 @@ button {
 
 .privacy-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
+    grid-template-columns: 1fr;
+    gap: 18px;
     margin-top: 0;
 }
 
 .privacy-card {
-    min-height: 180px;
+    min-height: 0;
     padding: 28px;
     background: linear-gradient(135deg, var(--surface-light), var(--surface));
     border: 1px solid var(--border);
     border-radius: 13px;
-}
-
-.privacy-card::before {
-    content: "✦";
-    display: block;
-    margin-bottom: 16px;
-    color: var(--accent);
-    font-size: 1.25rem;
 }
 
 .privacy-card h2,
@@ -604,6 +721,45 @@ button {
 .privacy-card h2 {
     margin-bottom: 8px;
     font-size: 1.15rem;
+}
+
+.privacy-card p + p,
+.privacy-card p + ul,
+.privacy-card ul + p {
+    margin-top: 12px;
+}
+
+.privacy-card ul {
+    margin-bottom: 0;
+    padding-left: 22px;
+    color: var(--muted);
+}
+
+.privacy-card li + li {
+    margin-top: 7px;
+}
+
+.privacy-card a {
+    color: var(--accent-light);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.privacy-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    margin-bottom: 20px;
+    padding: 15px 18px;
+    color: var(--muted);
+    background: rgba(84, 24, 206, 0.1);
+    border: 1px solid rgba(123, 76, 227, 0.3);
+    border-radius: 12px;
+    font-size: 0.86rem;
+}
+
+.privacy-meta strong {
+    color: var(--text);
 }
 
 /* # : - tablet */
@@ -619,6 +775,14 @@ button {
 
     .app-list {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .showcase-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .showcase-panel--games .app-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .category-list {
@@ -720,6 +884,27 @@ button {
 
     .content {
         padding-top: 22px;
+    }
+
+    .showcase-grid {
+        gap: 16px;
+        margin-bottom: 32px;
+    }
+
+    .showcase-panel {
+        padding: 20px;
+        border-radius: 18px;
+    }
+
+    .showcase-header {
+        align-items: stretch;
+        flex-direction: column;
+        margin-bottom: 18px;
+    }
+
+    .store-link {
+        width: 100%;
+        justify-content: center;
     }
 
     .section-header {
@@ -831,6 +1016,13 @@ button {
     }
 
     .privacy-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 560px) {
+    .app-list,
+    .showcase-panel--games .app-list {
         grid-template-columns: 1fr;
     }
 }

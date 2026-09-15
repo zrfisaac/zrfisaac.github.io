@@ -12,8 +12,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="ZRFISAAC 网站隐私政策。">
-    <title>ZRFISAAC · 隐私</title>
+    <meta name="description" content="ZRFISAAC 发布的应用程序隐私政策。">
+    <title>ZRFISAAC · 隐私政策</title>
     <link rel="icon" href="../logo.png">
     <link rel="stylesheet" href="../content/style.css">
 </head>
@@ -59,34 +59,26 @@
             <!-- # : - privacy hero -->
             <section class="privacy-hero">
                 <div class="container privacy-intro">
-                    <div class="eyebrow">隐私政策</div>
-                    <h1>简单而<span>透明</span>的隐私保护。</h1>
-                    <p>本页面说明您在浏览网站或联系我们时，您的信息将如何被处理。</p>
+                    <div class="eyebrow">应用程序隐私政策</div>
+                    <h1>以<span>透明</span>的方式处理您的数据。</h1>
+                    <p>了解应用可能处理哪些信息、使用目的以及您如何行使自己的权利。</p>
                 </div>
             </section>
 
             <!-- # : - privacy content -->
             <section class="container privacy">
+                <div class="privacy-meta"><span><strong>负责人：</strong>Isaac Caires Santana</span><span><strong>最后更新：</strong>2026年9月15日</span></div>
                 <div class="privacy-list">
-                    <article class="privacy-card">
-                        <h2>收集的数据</h2>
-                        <p>本网站不会通过表单直接收集个人数据。</p>
-                    </article>
-
-                    <article class="privacy-card">
-                        <h2>信息用途</h2>
-                        <p>通过电子邮件或 WhatsApp 发送的信息仅用于回复您的消息。</p>
-                    </article>
-
-                    <article class="privacy-card">
-                        <h2>本地存储</h2>
-                        <p>网站仅在浏览器中保存您的语言偏好，不使用自有广告 Cookie。</p>
-                    </article>
-
-                    <article class="privacy-card">
-                        <h2>外部服务</h2>
-                        <p>Google Play、GitHub、Itch.io、Patreon 等外部页面均有各自的政策。</p>
-                    </article>
+                    <article class="privacy-card"><h2>1. 适用范围</h2><p>本政策适用于Isaac Caires Santana以ZRFISAAC名义发布的应用。不同应用的功能可能不同，Google登录和Firebase相关内容仅适用于提供这些功能的应用。</p><p>经检查的项目文件记录了Firebase Authentication、Google账号登录和Cloud Firestore。未发现可确认Firebase Analytics、Crashlytics或Firebase Storage的配置，因此本政策不将其描述为正在使用的服务。</p></article>
+                    <article class="privacy-card"><h2>2. Google账号与身份验证</h2><p>当应用提供“使用Google登录”时，身份验证由Firebase Authentication和Google登录共同完成。获得授权后，应用可能收到姓名、电子邮箱、头像以及唯一账号标识符<code>uid</code>等基本信息。</p><p>应用和Isaac Caires Santana不会收到或保存Google账号密码。应用数据不会保存到用户个人Google云端硬盘中，而是与Google登录关联并存储在应用所使用的Firebase基础设施中。</p></article>
+                    <article class="privacy-card"><h2>3. 可能存储的数据及用途</h2><p>根据应用功能，可能存储用户主动填写的销售、产品或服务、数量、金额、折扣、付款方式、历史记录、客户、姓名、电话、备注、债务和付款信息。</p><p>这些数据用于提供功能、整理记录、计算合计、显示历史、管理欠款、识别正确账号、同步信息以及在其他设备上恢复数据。</p></article>
+                    <article class="privacy-card"><h2>4. 客户和第三方数据</h2><p>客户或其他人的信息可能会发送到Firestore，即使该人员并非应用用户。填写信息的用户有责任确保具有合法目的，履行必要的告知和授权义务，保持数据准确，并避免填写过度、敏感、违法或未经授权的信息。</p></article>
+                    <article class="privacy-card"><h2>5. Firestore、同步与离线使用</h2><p>提供同步功能的应用会将数据存储在Google提供的Firebase平台Cloud Firestore中。每个账号由Firebase Authentication提供的<code>uid</code>识别。使用同一Google账号在其他设备登录时，可以恢复与该标识符关联的数据。</p><p>Firestore可能在设备上暂时缓存数据，使应用在无网络时仍可工作，并在连接恢复后同步待处理的更改。</p></article>
+                    <article class="privacy-card"><h2>6. 安全与服务提供商</h2><p>数据访问按<code>uid</code>组织。Firestore安全规则应确保每位用户只能访问自己的记录，不能访问其他账号的数据。Firebase对传输中的数据以及适用服务中的静态数据进行加密，但任何系统都无法保证绝对安全。</p><p>Google可作为身份验证和数据库基础设施提供商，在提供和保护服务及履行法律义务所需范围内处理数据。请阅读<a href="https://policies.google.com/privacy">Google隐私权政策</a>和<a href="https://firebase.google.com/support/privacy">Firebase隐私与安全信息</a>。</p></article>
+                    <article class="privacy-card"><h2>7. 保留与删除</h2><p>数据会在账号有效期间或提供服务、解决问题、防止欺诈及履行法律义务所需期间保存。用户可在应用提供“删除账号”时使用该功能，也可通过下方邮箱提出删除请求。为防止误删，可能需要验证身份。</p></article>
+                    <article class="privacy-card"><h2>8. 广告、分析、诊断与数据出售</h2><p>经检查的项目未发现Firebase Analytics、Crashlytics、Firebase Storage或广告工具的数据收集。如未来启用，应用和本政策将在处理开始前或开始时说明。Isaac Caires Santana和ZRFISAAC应用不会出售个人数据，也不会利用本文所述数据建立广告画像。</p></article>
+                    <article class="privacy-card"><h2>9. 用户权利</h2><p>依据适用法律，数据主体可请求确认处理、访问、更正、共享信息、适用时的数据迁移、匿名化、限制或删除，以及在以同意为依据时撤回同意。请求可能需要身份验证并受法律和技术限制。</p></article>
+                    <article class="privacy-card"><h2>10. 联系方式</h2><p>负责人为<strong>Isaac Caires Santana</strong>。如有疑问或需访问、更正、删除数据，请联系<a href="mailto:zrfisaac@gmail.com">zrfisaac@gmail.com</a>。我们可能会询问登录所用邮箱，但绝不会索取Google密码。</p></article>
                 </div>
             </section>
         </main>

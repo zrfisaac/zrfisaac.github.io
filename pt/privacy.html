@@ -12,8 +12,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Política de privacidade do site ZRFISAAC.">
-    <title>ZRFISAAC · Privacidade</title>
+    <meta name="description" content="Política de privacidade dos aplicativos publicados por ZRFISAAC.">
+    <title>ZRFISAAC · Política de privacidade</title>
     <link rel="icon" href="../logo.png">
     <link rel="stylesheet" href="../content/style.css">
 </head>
@@ -59,33 +59,77 @@
             <!-- # : - privacy hero -->
             <section class="privacy-hero">
                 <div class="container privacy-intro">
-                    <div class="eyebrow">Política de privacidade</div>
-                    <h1>Privacidade simples e <span>transparente.</span></h1>
-                    <p>Esta página explica como suas informações são tratadas ao navegar pelo site e entrar em contato.</p>
+                    <div class="eyebrow">Política de privacidade dos aplicativos</div>
+                    <h1>Seus dados com <span>transparência.</span></h1>
+                    <p>Entenda quais informações podem ser tratadas pelos aplicativos, por que elas são utilizadas e como você pode exercer seus direitos.</p>
                 </div>
             </section>
 
             <!-- # : - privacy content -->
             <section class="container privacy">
+                <div class="privacy-meta">
+                    <span><strong>Responsável:</strong> Isaac Caires Santana</span>
+                    <span><strong>Última atualização:</strong> 15 de setembro de 2026</span>
+                </div>
+
                 <div class="privacy-list">
                     <article class="privacy-card">
-                        <h2>Dados coletados</h2>
-                        <p>Este site não coleta dados pessoais diretamente por formulários.</p>
+                        <h2>1. Escopo desta política</h2>
+                        <p>Esta política se aplica aos aplicativos publicados por Isaac Caires Santana sob a identidade ZRFISAAC. Cada aplicativo pode oferecer funções diferentes. Os trechos sobre login Google e Firebase aplicam-se somente aos aplicativos que apresentam esses recursos.</p>
+                        <p>Nos projetos examinados, os serviços Firebase documentados são Firebase Authentication, login com a conta Google e Cloud Firestore. Não foram encontradas configurações que comprovem o uso de Firebase Analytics, Crashlytics ou Firebase Storage; por isso, esses serviços não são apresentados nesta política como utilizados.</p>
                     </article>
 
                     <article class="privacy-card">
-                        <h2>Uso das informações</h2>
-                        <p>Informações enviadas por e-mail ou WhatsApp são usadas somente para responder ao contato.</p>
+                        <h2>2. Conta Google e autenticação</h2>
+                        <p>Quando um aplicativo oferece a opção “Entrar com Google”, a autenticação é realizada pelo Firebase Authentication em conjunto com o login Google. Após a autorização do usuário, o aplicativo pode receber informações básicas da conta, como nome, endereço de e-mail, foto do perfil e o identificador único da conta, chamado <code>uid</code>.</p>
+                        <p>A senha da conta Google não é recebida nem armazenada pelo aplicativo ou por Isaac Caires Santana. O login é processado pelos sistemas do Google. As informações do aplicativo também não são salvas no Google Drive pessoal do usuário: elas ficam associadas ao login Google e armazenadas na infraestrutura Firebase utilizada pelo aplicativo.</p>
                     </article>
 
                     <article class="privacy-card">
-                        <h2>Armazenamento local</h2>
-                        <p>O site salva apenas sua preferência de idioma no navegador. Não há cookies publicitários próprios.</p>
+                        <h2>3. Dados que podem ser armazenados e suas finalidades</h2>
+                        <p>Além dos dados básicos de identificação necessários para criar e reconhecer a conta, o aplicativo pode armazenar as informações que o próprio usuário registrar ao utilizar suas funções. Dependendo do aplicativo, isso pode incluir vendas, produtos ou serviços, quantidades, valores, descontos, formas de pagamento, históricos, clientes, nomes, telefones, observações, dívidas e pagamentos.</p>
+                        <p>Esses dados são usados para executar as funções solicitadas, organizar registros, calcular totais, apresentar históricos, controlar valores pendentes, identificar a conta correta, sincronizar informações e permitir a recuperação dos dados em outro aparelho. Não coletamos dados além do necessário para oferecer as funções descritas no aplicativo.</p>
                     </article>
 
                     <article class="privacy-card">
-                        <h2>Serviços externos</h2>
-                        <p>Google Play, GitHub, Itch.io, Patreon e outras páginas externas possuem suas próprias políticas.</p>
+                        <h2>4. Dados de clientes e outras pessoas</h2>
+                        <p>Alguns aplicativos permitem que o usuário cadastre informações de clientes ou terceiros. Esses dados também podem ser enviados ao Cloud Firestore, mesmo quando a pessoa cadastrada não utiliza o aplicativo e não possui uma conta. O usuário que realiza o cadastro é responsável por ter uma finalidade legítima, informar a pessoa quando necessário, manter os dados corretos e evitar registrar informações excessivas ou sem necessidade.</p>
+                        <p>Telefones, nomes e observações sobre terceiros devem ser utilizados somente para a atividade que motivou o cadastro. O usuário não deve inserir dados sensíveis, ofensivos, ilícitos ou que não esteja autorizado a tratar.</p>
+                    </article>
+
+                    <article class="privacy-card">
+                        <h2>5. Firestore, sincronização e funcionamento sem internet</h2>
+                        <p>Nos aplicativos com sincronização, os dados são armazenados no Cloud Firestore, serviço da plataforma Firebase fornecida pelo Google. Cada conta é identificada pelo <code>uid</code> gerado pelo Firebase Authentication. Ao entrar em outro aparelho com a mesma conta Google, o usuário pode recuperar os dados associados àquele identificador.</p>
+                        <p>O Cloud Firestore pode manter uma cópia temporária de dados no aparelho para permitir leitura e registros sem internet. Quando a conexão retorna, as alterações pendentes podem ser sincronizadas com a infraestrutura Firebase. A cópia local faz parte do funcionamento do aplicativo e pode permanecer no aparelho até ser atualizada, removida pelo sistema ou apagada pelo usuário.</p>
+                    </article>
+
+                    <article class="privacy-card">
+                        <h2>6. Segurança e compartilhamento</h2>
+                        <p>O acesso aos dados é organizado por <code>uid</code>. As regras de segurança do Firestore devem permitir que cada usuário acesse somente os próprios registros e impedir o acesso aos dados de outras contas. O Firebase utiliza conexões protegidas e criptografia para dados em trânsito e, nos serviços aplicáveis, em repouso. Nenhum sistema, porém, pode garantir segurança absoluta.</p>
+                        <p>Os dados não são compartilhados para que terceiros os utilizem para finalidades próprias. Eles podem ser processados pelo Google como prestador da infraestrutura de autenticação e banco de dados, na medida necessária para oferecer o serviço, proteger a plataforma e cumprir obrigações legais. O Firebase é fornecido pelo Google; consulte a <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a> e as <a href="https://firebase.google.com/support/privacy">informações de privacidade e segurança do Firebase</a>.</p>
+                    </article>
+
+                    <article class="privacy-card">
+                        <h2>7. Retenção, exclusão da conta e dos dados</h2>
+                        <p>Os dados permanecem armazenados enquanto a conta estiver ativa ou enquanto forem necessários para disponibilizar as funções do aplicativo, resolver problemas, prevenir fraude ou cumprir obrigações legais aplicáveis. Quando o aplicativo possuir a opção “Excluir conta”, o usuário poderá iniciar a exclusão por ela. Também é possível solicitar a exclusão pelo e-mail de contato abaixo.</p>
+                        <p>A solicitação pode exigir confirmação de identidade para impedir a exclusão indevida de dados. Depois de confirmada, a conta e os dados associados devem ser removidos dos sistemas ativos, salvo quando a conservação temporária for exigida por lei, necessária para segurança ou mantida por período limitado em cópias de recuperação.</p>
+                    </article>
+
+                    <article class="privacy-card">
+                        <h2>8. Anúncios, análises, diagnóstico e venda de dados</h2>
+                        <p>No projeto examinado não foi identificada coleta por Firebase Analytics, Crashlytics, Firebase Storage ou ferramentas de publicidade. Esta política não declara esses serviços como ativos. Se um aplicativo passar a usar anúncios, análises ou diagnóstico, a informação deverá ser apresentada no próprio aplicativo e esta política deverá ser atualizada antes ou no início desse tratamento.</p>
+                        <p>Isaac Caires Santana e os aplicativos ZRFISAAC não vendem dados pessoais. As informações descritas nesta política não são utilizadas por nós para criar perfis de publicidade.</p>
+                    </article>
+
+                    <article class="privacy-card">
+                        <h2>9. Direitos do titular</h2>
+                        <p>Nos termos da legislação aplicável, especialmente a Lei Geral de Proteção de Dados Pessoais (LGPD), o titular pode solicitar confirmação do tratamento, acesso, correção, informação sobre compartilhamentos, portabilidade quando aplicável, anonimização, bloqueio ou exclusão de dados inadequados ou desnecessários, além da revogação do consentimento quando ele for a base utilizada.</p>
+                        <p>O atendimento pode depender da verificação da identidade e das limitações técnicas e legais aplicáveis. Se os dados forem de um cliente ou terceiro cadastrado por outro usuário, a solicitação será analisada considerando também a responsabilidade de quem realizou o cadastro.</p>
+                    </article>
+
+                    <article class="privacy-card">
+                        <h2>10. Contato</h2>
+                        <p>O responsável pelos aplicativos e pelo tratamento descrito nesta política é <strong>Isaac Caires Santana</strong>. Para dúvidas, solicitações de acesso, correção ou exclusão de dados, entre em contato pelo e-mail <a href="mailto:zrfisaac@gmail.com">zrfisaac@gmail.com</a>. Para localizar a conta correta, poderá ser solicitado o endereço de e-mail usado no login, mas nunca a senha da conta Google.</p>
                     </article>
                 </div>
             </section>
