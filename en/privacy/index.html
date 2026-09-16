@@ -15,29 +15,8 @@
     <title>ZRFISAAC</title>
 </head>
 <body>
-    <p>
-        <a href="pt/index.html">Português</a>
-        ·
-        <a href="en/index.html">English</a>
-        ·
-        <a href="es/index.html">Español</a>
-        ·
-        <a href="it/index.html">Italiano</a>
-        ·
-        <a href="ja/index.html">日本語</a>
-        ·
-        <a href="zh/index.html">中文</a>
-    </p>
-
     <script>
-        const savedLanguage = localStorage.getItem("zrf-language");
-        const browserLanguage = navigator.language || "en";
-        const browserCode = browserLanguage.toLowerCase().split("-")[0];
-        const supportedLanguages = ["pt", "en", "es", "it", "ja", "zh"];
-        const defaultLanguage = supportedLanguages.includes(browserCode) ? browserCode : "en";
-        const language = savedLanguage || defaultLanguage;
-
-        location.replace(`${language}/privacy.html`);
+        location.replace(`/privacy.html`);
     </script>
 </body>
 </html>
