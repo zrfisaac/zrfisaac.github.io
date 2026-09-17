@@ -7,7 +7,7 @@ rem # [ about ]
 rem # - author : Isaac Caires Santana
 rem # . - email : zrfisaac@gmail.com
 rem # . - site : zrfisaac.github.io
-rem # - version : zrfisaac.chocolatey.ytdlp : 26.8.30.1
+rem # - version : zrfisaac.chocolatey.ytdlp : 26.9.16.1
 
 rem # [ batch ]
 
@@ -80,27 +80,38 @@ if "%v_administrator%" equ "0" if "!v_message!" equ "" (
 		set _section=
 		set _source=
 		set _target=
+		set _list=0
+
 		for /f "usebackq delims=" %%z in ("%v_about%") do (
 			set _source=
+
 			set _cut=%%z
 			set _cut=!_cut:~0,4!
 			if "!_cut!" equ "# [ " (
 				set _read=%%z
 				set _section=!_read:~4,-2!
 			)
+
 			set _cut=%%z
 			set _cut=!_cut:~0,6!
 			if "!_cut!" equ "# - : " (
 				set _read=%%z
 				set _target=!_read:~6!
 				set _target=!_target:/=\!
+
+				if "!_section!" equ "lista" (
+					set _list=0
+					if not exist "!_target!" mkdir "!_target!"
+				)
 			)
+
 			set _cut=%%z
 			set _cut=!_cut:~0,8!
 			if "!_cut!" equ "# . - : " (
 				set _read=%%z
 				set _source=!_read:~8!
 			)
+
 			if "!_section!" equ "video" if "!_source!" neq "" if not exist "!_target!" (
 				echo # . - ytdlp : !_target!
 				if exist "cookies.txt" (
@@ -109,6 +120,7 @@ if "%v_administrator%" equ "0" if "!v_message!" equ "" (
 					call "%v_ytdlp%" -f "bv*[height^<=760]+ba/b[height^<=760]" -o "!_target!" "!_source!"
 				)
 			)
+
 			if "!_section!" equ "music" if "!_source!" neq "" if not exist "!_target!" (
 				echo # . - : ytdlp !_target!
 				if exist "cookies.txt" (
@@ -117,6 +129,11 @@ if "%v_administrator%" equ "0" if "!v_message!" equ "" (
 					call "%v_ytdlp%" -f bestaudio --extract-audio --audio-format mp3 -o "!_target!" "!_source!"
 				)
 			)
+
+			if "!_section!" equ "lista" if "!_source!" neq "" (
+				set /a _list+=1
+				call :lista "!_target!" "!_source!" !_list!
+			)
 		)
 	)
 )
@@ -124,3 +141,32 @@ if "%v_administrator%" equ "0" if "!v_message!" equ "" (
 rem # : - end
 echo # . - end
 set /p _=
+exit /b
+
+
+rem # [ function ]
+
+rem # : - lista
+:lista
+set "_lista_target=%~1"
+set "_lista_source=%~2"
+set "_lista_index=%~3"
+
+rem # : - format
+set "_lista_number=00000000%_lista_index%"
+set "_lista_number=%_lista_number:~-8%"
+set "_lista_name=%_lista_number:~0,2%-%_lista_number:~2,2%-%_lista_number:~4,2%-%_lista_number:~6,2%.mp4"
+set "_lista_file=%_lista_target%\%_lista_name%"
+
+rem # : - download
+if not exist "%_lista_file%" (
+	echo # . - ytdlp : %_lista_file%
+
+	if exist "cookies.txt" (
+		call "%v_ytdlp%" -f "bv*[height^<=760]+ba/b[height^<=760]" --cookies cookies.txt -o "%_lista_file%" "%_lista_source%"
+	) else (
+		call "%v_ytdlp%" -f "bv*[height^<=760]+ba/b[height^<=760]" -o "%_lista_file%" "%_lista_source%"
+	)
+)
+
+exit /b
