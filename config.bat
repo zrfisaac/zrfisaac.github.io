@@ -23,3 +23,5 @@ set c_clone=%c_clone% "https://github.com/zrfisaac/install.godot4.git %~dp0insta
 set c_clone=%c_clone% "https://github.com/zrfisaac/fork.assembler-simulator.git %~dp0fork\assembler-simulator"
 set c_clone=%c_clone% "https://github.com/zrfisaac/fork.ps4-v01.git %~dp0fork\ps4-v01"
 set c_clone=%c_clone% "https://github.com/zrfisaac/fork.ps4-v02.git %~dp0fork\ps4-v02"
+
+set c_clone=%c_clone% "https://github.com/zrfisaac/binary.markup.git %~dp0binary\markup"
