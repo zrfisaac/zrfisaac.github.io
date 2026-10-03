@@ -232,7 +232,7 @@ button {
     background-image:
         linear-gradient(90deg, #030812 3%, rgba(3, 8, 18, 0.96) 28%, rgba(3, 8, 18, 0.25) 70%, #030812 100%),
         linear-gradient(0deg, #030812 0%, transparent 22%),
-        url("../desktop.png");
+        url("../desktop.webp");
     background-position: center, center, center;
     background-size: cover;
 }
@@ -441,7 +441,7 @@ button {
     position: relative;
     min-height: 142px;
     display: grid;
-    grid-template-columns: 86px 1fr;
+    grid-template-columns: 72px 1fr;
     align-content: center;
     column-gap: 18px;
     padding: 20px;
@@ -464,10 +464,12 @@ button {
 }
 
 .app-icon {
-    width: 86px;
-    height: 86px;
+    width: 72px;
+    height: 72px;
     grid-row: 1 / 4;
+    display: block;
     object-fit: cover;
+    background: var(--surface-light);
     border-radius: 20px;
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
 }
@@ -527,14 +529,8 @@ button {
     color: #e5e7eb;
 }
 
-.category-icon svg {
-    width: 38px;
-    height: 38px;
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 1.7;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+.category-icon i {
+    font-size: 2rem;
 }
 
 .category-card h3,
@@ -654,7 +650,7 @@ button {
     background-image:
         linear-gradient(90deg, #030812 4%, rgba(3, 8, 18, 0.88) 52%, rgba(3, 8, 18, 0.45)),
         linear-gradient(0deg, #030812 0%, transparent 35%),
-        url("../desktop.png");
+        url("../desktop.webp");
     background-position: center, center, center 43%;
     background-size: cover;
 }
@@ -862,7 +858,7 @@ button {
         align-items: flex-end;
         background-image:
             linear-gradient(0deg, #030812 2%, rgba(3, 8, 18, 0.92) 38%, rgba(3, 8, 18, 0.2) 78%),
-            url("../desktop.png");
+            url("../desktop.webp");
         background-position: center, 62% center;
     }
 
@@ -960,13 +956,13 @@ button {
 
     .app-card {
         min-height: 126px;
-        grid-template-columns: 68px 1fr;
+        grid-template-columns: 60px 1fr;
         padding: 18px;
     }
 
     .app-icon {
-        width: 68px;
-        height: 68px;
+        width: 60px;
+        height: 60px;
         border-radius: 16px;
     }
 
@@ -984,9 +980,8 @@ button {
         height: 36px;
     }
 
-    .category-icon svg {
-        width: 32px;
-        height: 32px;
+    .category-icon i {
+        font-size: 1.75rem;
     }
 
     .project-card {
@@ -1003,7 +998,7 @@ button {
         align-items: flex-end;
         background-image:
             linear-gradient(0deg, #030812 5%, rgba(3, 8, 18, 0.88) 55%, rgba(3, 8, 18, 0.2)),
-            url("../desktop.png");
+            url("../desktop.webp");
         background-position: center, 62% center;
     }
 
@@ -1024,5 +1019,447 @@ button {
     .app-list,
     .showcase-panel--games .app-list {
         grid-template-columns: 1fr;
+    }
+}
+
+
+.category-arrow {
+    font-size: 1rem;
+}
+
+/* Dedicated pages */
+.navigation-links a[aria-current="page"] {
+    color: var(--accent-light);
+}
+
+.page-content {
+    padding-block: 32px 56px;
+}
+
+.page-content > .hero-actions {
+    margin-bottom: 32px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.contact-card {
+    padding: 26px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow-wrap: anywhere;
+}
+
+.contact-card > i {
+    color: var(--accent-light);
+    font-size: 1.8rem;
+}
+
+.contact-card h2 {
+    margin: 16px 0 8px;
+    font-size: 1.2rem;
+}
+
+.contact-card p {
+    margin: 8px 0 0;
+    color: var(--muted);
+}
+
+.contact-card:hover,
+.contact-card:focus-visible {
+    border-color: var(--accent-light);
+}
+
+@media (min-width: 761px) {
+    .navigation {
+        flex-wrap: nowrap;
+        gap: clamp(12px, 1.5vw, 24px);
+    }
+
+    .navigation > .brand,
+    .language,
+    .header-contact {
+        flex-shrink: 0;
+    }
+
+    .navigation-links {
+        gap: clamp(12px, 1.6vw, 24px);
+        white-space: nowrap;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 761px) and (max-width: 1100px) {
+    .navigation > .brand small {
+        display: none;
+    }
+
+    .navigation > .brand {
+        gap: 8px;
+        letter-spacing: 0.12em;
+    }
+
+    .navigation > .brand img {
+        width: 48px;
+        height: 40px;
+    }
+
+    .navigation-links {
+        gap: 12px;
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 760px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Centered page presentation with the original character */
+main > .container,
+main > .hero-wrap > .container,
+.privacy-hero > .container,
+.footer {
+    max-width: 1100px;
+}
+
+.hero,
+.privacy-intro {
+    display: grid;
+    grid-template-columns: minmax(220px, 300px) minmax(0, 1fr);
+    align-items: center;
+    gap: 40px;
+    padding-block: 56px;
+}
+
+.hero-content,
+.hero-copy {
+    min-width: 0;
+    max-width: none;
+    text-align: center;
+}
+
+.hero h1,
+.hero p,
+.privacy-intro p {
+    max-width: none;
+    margin-inline: auto;
+}
+
+.hero-actions {
+    justify-content: center;
+}
+
+.hero-character {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    justify-self: center;
+    border-radius: 24px;
+}
+
+@media (max-width: 1040px) {
+    .hero,
+    .privacy-intro {
+        grid-template-columns: 220px minmax(0, 1fr);
+        gap: 24px;
+    }
+
+    .hero h1,
+    .privacy-intro h1 {
+        font-size: clamp(2.6rem, 5.8vw, 4.5rem);
+    }
+}
+
+@media (max-width: 760px) {
+    .hero,
+    .privacy-intro {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 24px;
+        padding-block: 40px 32px;
+    }
+
+    .hero-wrap,
+    .privacy-hero {
+        min-height: 0;
+        align-items: center;
+    }
+
+    .hero-character {
+        width: min(48vw, 200px);
+    }
+
+    .hero h1,
+    .privacy-intro h1 {
+        font-size: clamp(2.3rem, 10vw, 3.8rem);
+        overflow-wrap: anywhere;
+    }
+
+    .eyebrow {
+        letter-spacing: 0.18em;
+        overflow-wrap: anywhere;
+    }
+
+    .showcase-panel {
+        padding: 16px;
+    }
+
+    .app-card {
+        column-gap: 12px;
+        padding: 14px;
+    }
+
+    .app-card h3,
+    .app-card p {
+        overflow-wrap: anywhere;
+    }
+}
+
+@media (min-width: 761px) {
+    .hero-character {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .hero-content,
+    .hero-copy {
+        grid-column: 2;
+        grid-row: 1;
+    }
+}
+
+.hero h1.page-name-title,
+.privacy-intro h1.page-name-title {
+    max-width: none;
+    color: #fff;
+    font-size: clamp(2.8rem, 5.5vw, 4.8rem);
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    margin-block: 0 20px;
+}
+
+
+@media (max-width: 760px) {
+    .hero h1.page-name-title,
+    .privacy-intro h1.page-name-title {
+        font-size: clamp(1.9rem, 8vw, 3.5rem);
+    }
+
+}
+
+/* Resume */
+.resume-profile {
+    margin-bottom: 32px;
+}
+
+.resume-card {
+    padding: 26px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow-wrap: anywhere;
+}
+
+.resume-card h2,
+.resume-card h3 {
+    margin: 0 0 12px;
+    line-height: 1.35;
+}
+
+.resume-card h3 {
+    font-size: 1.2rem;
+}
+
+.resume-card p {
+    margin: 12px 0 0;
+    color: var(--muted);
+}
+
+.resume-card strong {
+    color: var(--text);
+}
+
+.resume-card .resume-role,
+.resume-card .resume-period {
+    margin: 0 0 12px;
+    color: var(--accent-light);
+    font-weight: 700;
+}
+
+.resume-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 24px;
+    margin-top: 24px;
+}
+
+.resume-contacts i {
+    color: var(--accent-light);
+    margin-right: 6px;
+}
+
+.resume-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: 28px;
+    align-items: start;
+}
+
+.resume-experience,
+.resume-sidebar {
+    display: grid;
+    gap: 18px;
+}
+
+.resume-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 16px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.resume-skills li {
+    padding: 4px 10px;
+    border-radius: 8px;
+    background: var(--surface-light);
+    color: var(--muted);
+    font-size: 0.85rem;
+}
+
+.resume-links {
+    display: grid;
+    gap: 12px;
+}
+
+.resume-links a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.resume-links a:hover,
+.resume-contacts a:hover {
+    color: var(--accent-light);
+}
+
+@media (min-width: 1001px) {
+    .navigation {
+        gap: 14px;
+    }
+
+    .navigation-links {
+        gap: clamp(10px, 1.1vw, 16px);
+        font-size: 0.85rem;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1250px) {
+    .navigation > .brand small {
+        display: none;
+    }
+}
+
+@media (min-width: 761px) and (max-width: 1000px) {
+    .navigation {
+        min-height: 72px;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .navigation-links {
+        display: none;
+    }
+
+    .navigation.open .navigation-links {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        order: 10;
+    }
+
+    .navigation-links a {
+        padding: 11px 0;
+        border-top: 1px solid var(--border);
+    }
+
+    .language {
+        margin-left: auto;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .header-contact {
+        display: none;
+    }
+}
+
+@media (max-width: 760px) {
+    .resume-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .resume-card {
+        padding: 20px;
+    }
+
+    .resume-contacts {
+        flex-direction: column;
+    }
+}
+
+/* Consistent header controls and readable menu */
+.navigation-links {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.navigation-links a {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.language-button {
+    min-height: 40px;
+    padding: 8px 10px;
+    font-size: 0.75rem;
+}
+
+.header-contact {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    min-height: 40px;
+    padding: 0;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+@media (min-width: 1001px) {
+    .navigation {
+        gap: 12px;
+    }
+
+    .navigation-links {
+        font-size: 1rem;
+        gap: clamp(10px, 1vw, 14px);
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1150px) {
+    .navigation > .brand span {
+        display: none;
     }
 }

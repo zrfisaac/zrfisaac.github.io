@@ -12,8 +12,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Isaac Caires Santana 开发的应用、游戏和数字解决方案。">
-    <title>ZRFISAAC · 让创意成为体验</title>
+    <meta name="description" content="让日常生活更便利的已发布应用。">
+    <title>ZRFISAAC · 应用程序</title>
     <link rel="icon" href="../logo.png">
     <link rel="stylesheet" href="../content/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../content/style.css">
@@ -32,9 +32,9 @@
                 </a>
 
                 <nav class="navigation-links" aria-label="主导航">
-                    <a href="index.html" aria-current="page">首页</a>
+                    <a href="index.html">首页</a>
                     <a href="projects.html">项目</a>
-                    <a href="apps.html">应用</a>
+                    <a href="apps.html" aria-current="page">应用</a>
                     <a href="games.html">游戏</a>
                     <a href="contact.html">联系</a>
                     <a href="resume.html">简历</a>
@@ -45,12 +45,12 @@
                 <div class="language">
                     <button class="language-button" type="button" aria-label="切换语言">ZH <i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button>
                     <div class="language-options">
-                        <a href="../pt/index.html" data-language="pt">Português</a>
-                        <a href="../en/index.html" data-language="en">English</a>
-                        <a href="../es/index.html" data-language="es">Español</a>
-                        <a href="../it/index.html" data-language="it">Italiano</a>
-                        <a href="../ja/index.html" data-language="ja">日本語</a>
-                        <a href="index.html" data-language="zh">中文</a>
+                        <a href="../pt/apps.html" data-language="pt">Português</a>
+                        <a href="../en/apps.html" data-language="en">English</a>
+                        <a href="../es/apps.html" data-language="es">Español</a>
+                        <a href="../it/apps.html" data-language="it">Italiano</a>
+                        <a href="../ja/apps.html" data-language="ja">日本語</a>
+                        <a href="apps.html" data-language="zh">中文</a>
                     </div>
                 </div>
 
@@ -60,28 +60,15 @@
             </div>
         </header>
 
-        <main>
-            <!-- # : - hero -->
-            <section class="hero-wrap">
-                <div class="container hero">
-                    <div class="hero-content">
-                        <h1 class="page-name-title">首页</h1>
-                        <p>由独立开发者创作的应用和游戏。</p>
-
-                        <div class="hero-actions">
-                            <a class="button button-primary" href="projects.html">探索项目 <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-                            <a class="button" href="https://zrfisaac.itch.io">Itch.io</a>
-                            <a class="button" href="https://www.patreon.com/zrfisaac"><i class="fa-brands fa-patreon" aria-hidden="true"></i> Patreon</a>
-                        </div>
+        <main><section class="privacy-hero">
+                <div class="container privacy-intro">
+                    <div class="hero-copy">
+                        <h1 class="page-name-title">应用程序</h1>
+                    <p>让日常生活更便利的已发布应用。</p>
                     </div>
                     <img class="hero-character" src="../character.webp" alt="" width="1254" height="1254" decoding="async">
                 </div>
-            </section>
-
-            <div class="container content">
-                <!-- # : - apps and games -->
-                <div class="showcase-grid">
-                    <section id="apps" class="showcase-panel showcase-panel--apps" aria-labelledby="apps-title">
+            </section><div class="container page-content"><section id="apps" class="showcase-panel showcase-panel--apps" aria-labelledby="apps-title">
                         <header class="showcase-header">
                             <div class="showcase-heading">
                                 <span class="showcase-symbol" aria-hidden="true"><i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i></span>
@@ -150,93 +137,7 @@
                             <span class="tag">应用程序</span>
                         </a>
                     </div>
-                    </section>
-
-                    <section id="games" class="showcase-panel showcase-panel--games" aria-labelledby="games-title-zh">
-                        <header class="showcase-header">
-                            <div class="showcase-heading">
-                                <span class="showcase-symbol" aria-hidden="true"><i class="fa-solid fa-gamepad" aria-hidden="true"></i></span>
-                                <div>
-                                    <h2 id="games-title-zh">游戏</h2>
-                                    <p>为玩家打造的独立游戏体验。</p>
-                                </div>
-                            </div>
-                            <a class="store-link" href="https://play.google.com/store/apps/dev?id=4664158972622830717">在Play Store查看 <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-                        </header>
-
-                    <div class="app-list">
-                        <a class="app-card" href="https://play.google.com/store/apps/details?id=zrfisaac.fork.minesweeper">
-                            <img class="app-icon" src="../content/mobile/minaro.webp" alt="" width="128" height="128" loading="lazy" decoding="async">
-                            <h3>Minaro</h3>
-                            <p>简洁现代的扫雷游戏。</p>
-                            <span class="tag">Game</span>
-                        </a>
-
-                        <a class="app-card" href="https://play.google.com/store/apps/details?id=zrfisaac.game.soleno">
-                            <img class="app-icon" src="../content/mobile/soleno.webp" alt="" width="128" height="128" loading="lazy" decoding="async">
-                            <h3>Soleno</h3>
-                            <p>轻松休闲的经典纸牌游戏。</p>
-                            <span class="tag">Game</span>
-                        </a>
-                    </div>
-                    </section>
-                </div>
-
-                <!-- # : - categories -->
-                <section id="projects" class="section">
-                    <header class="section-header">
-                        <h2 class="section-title">按类别探索</h2>
-                    </header>
-
-                    <div class="category-list">
-                        <a class="category-card" href="apps.html">
-                            <span class="category-icon" aria-hidden="true">
-                                <i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i>
-                            </span>
-                            <span><h3>应用</h3><p>实用的日常解决方案。</p></span>
-                            <span class="category-arrow" aria-hidden="true"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></span>
-                        </a>
-
-                        <a class="category-card" href="games.html">
-                            <span class="category-icon" aria-hidden="true">
-                                <i class="fa-solid fa-gamepad" aria-hidden="true"></i>
-                            </span>
-                            <span><h3>游戏</h3><p>探索充满乐趣的世界。</p></span>
-                            <span class="category-arrow" aria-hidden="true"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></span>
-                        </a>
-
-                        <a class="category-card" href="projects.html">
-                            <span class="category-icon" aria-hidden="true">
-                                <i class="fa-brands fa-github" aria-hidden="true"></i>
-                            </span>
-                            <span><h3>GitHub</h3><p>项目、代码和代码仓库。</p></span>
-                            <span class="category-arrow" aria-hidden="true"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></span>
-                        </a>
-                    </div>
-                </section>
-
-                <!-- # : - development -->
-                <section class="section">
-                    <header class="section-header">
-                        <h2 class="section-title">开发中</h2>
-                    </header>
-
-                    <div class="project-list">
-                        <article class="project-card">
-                            <span class="project-mark" aria-hidden="true"><i class="fa-solid fa-code" aria-hidden="true"></i></span>
-                            <span><h3>原创系统</h3><p>用于网页、桌面和自动化的工具。</p></span>
-                            <span class="tag">即将推出</span>
-                        </article>
-
-                        <a class="project-card" href="https://zrfisaac.itch.io">
-                            <span class="project-mark" aria-hidden="true"><i class="fa-solid fa-gamepad" aria-hidden="true"></i></span>
-                            <span><h3>独立游戏</h3><p>全新的世界、机制和体验。</p></span>
-                            <span class="tag">创作中</span>
-                        </a>
-                    </div>
-                </section>
-            </div>
-        </main>
+                    </section></div></main>
 
         <!-- # : - footer -->
         <footer id="contact" class="container footer">
