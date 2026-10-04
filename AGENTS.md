@@ -5,5 +5,5 @@
 - Keep Font Awesome assets and its license locally under content/fontawesome so icons do not require a third-party CDN at runtime.
 
 - Keep new website resources under content. Existing root images (logo, pixel, banner, character, desktop, mobile, profile and social) and their WebP versions are an explicit exception: preserve them at the repository root. Use optimized WebP for visible site images and retain PNG originals. Other directories are used for unrelated tools.
-- Keep the main navigation consistent across all languages: Home, Projects, Applications, Games, Contact, Resume, Privacy, WIKI. Link to local pages and preserve the current page when switching languages.
+- Keep the main navigation consistent across all languages: Home, Applications, Games, Programs, Contact, Resume, Privacy, WIKI. Link to local pages and preserve the current page when switching languages.
 
