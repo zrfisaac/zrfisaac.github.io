@@ -1835,3 +1835,10 @@ main > .hero-wrap > .container,
 .copy-email-status.visible {
     opacity: 1;
 }
+
+.brand small {
+    max-width: 260px;
+    white-space: normal;
+    letter-spacing: 0.16em;
+    line-height: 1.5;
+}
