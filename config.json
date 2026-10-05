@@ -6,7 +6,6 @@
 		["https://github.com/zrfisaac/fork.ps4-v02.git", "fork/ps4-v02"],
 		["https://github.com/zrfisaac/zrfisaac.git", "github"],
 		["https://github.com/zrfisaac/install.godot4.git", "install/godot4"],
-		["https://github.com/zrfisaac/mvp.home-chef.git", "mvp/home-chef"],
 		["https://github.com/zrfisaac/private.git", "private"],
 		["https://github.com/zrfisaac/public.lfs.git", "public/lfs"],
 		["https://github.com/zrfisaac/site.git", "site"],
