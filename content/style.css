@@ -1723,3 +1723,115 @@ main > .hero-wrap > .container,
         text-align: right;
     }
 }
+
+/* Text-only page introductions */
+.hero,
+.privacy-intro {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+}
+
+.hero-content,
+.hero-copy {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    max-width: 860px;
+    margin-inline: auto;
+}
+
+.hero p,
+.privacy-intro p {
+    max-width: 760px;
+}
+
+.resume-profile-actions {
+    margin-top: 24px;
+}
+
+.resume-profile-actions .button {
+    max-width: 100%;
+    padding-block: 12px;
+    text-align: center;
+}
+
+.copy-email {
+    padding: 0;
+    border: 0;
+    background: none;
+    color: inherit;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+    overflow-wrap: anywhere;
+}
+
+.copy-email:hover {
+    color: var(--accent-light);
+}
+
+.copy-email-status {
+    display: block;
+    min-height: 1.5em;
+    margin-top: 8px;
+    color: var(--accent-light);
+    font-size: 0.85rem;
+}
+
+.resume-profile-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+}
+
+.resume-profile-actions .button {
+    min-height: 48px;
+}
+
+.resume-profile-actions .copy-email {
+    padding: 12px 22px;
+    border: 1px solid #6f7f98;
+    border-radius: 16px;
+    background: rgba(4, 10, 22, 0.7);
+    text-align: center;
+    font-weight: 800;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 480px) {
+    .resume-profile-actions .button {
+        flex: 1 1 130px;
+    }
+}
+
+.resume-profile-actions .copy-email.button-primary {
+    color: #fff;
+    border-color: var(--accent);
+    background: linear-gradient(135deg, var(--accent-light), var(--accent));
+    box-shadow: 0 12px 30px rgba(84, 24, 206, 0.25);
+}
+
+.copy-email-status {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    z-index: 100;
+    max-width: calc(100% - 32px);
+    width: max-content;
+    margin: 0;
+    padding: 14px 20px;
+    border: 1px solid var(--accent-light);
+    border-radius: 12px;
+    background: #17102c;
+    color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    transform: translateX(-50%);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 160ms ease;
+}
+
+.copy-email-status.visible {
+    opacity: 1;
+}

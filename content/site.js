@@ -54,3 +54,53 @@ if (navigation && menuButton) {
         navigation.classList.toggle("open");
     });
 }
+
+/* [ copy email ] */
+function copyEmailFallback(email) {
+    const field = document.createElement("textarea");
+    field.value = email;
+    field.setAttribute("readonly", "");
+    field.style.position = "fixed";
+    field.style.top = "0";
+    field.style.left = "0";
+    field.style.opacity = "0";
+    document.body.appendChild(field);
+    field.focus();
+    field.select();
+    field.setSelectionRange(0, email.length);
+    try {
+        return document.execCommand("copy");
+    } catch {
+        return false;
+    } finally {
+        field.remove();
+    }
+}
+
+document.querySelectorAll("[data-copy-email]").forEach((button) => {
+    let resetStatus;
+    button.addEventListener("click", async () => {
+        const email = button.dataset.copyEmail;
+        const status = button.closest(".resume-profile").querySelector(".copy-email-status");
+        let copied = false;
+        // Run the fallback synchronously on HTTP, where Clipboard API is unavailable.
+        if (!window.isSecureContext || !navigator.clipboard?.writeText) {
+            copied = copyEmailFallback(email);
+        } else {
+            try {
+                await navigator.clipboard.writeText(email);
+                copied = true;
+            } catch {
+                copied = copyEmailFallback(email);
+            }
+        }
+        button.focus();
+        clearTimeout(resetStatus);
+        status.textContent = copied ? button.dataset.copySuccess : button.dataset.copyError;
+        status.classList.add("visible");
+        resetStatus = setTimeout(() => {
+            status.classList.remove("visible");
+            status.textContent = "";
+        }, 3000);
+    });
+});
