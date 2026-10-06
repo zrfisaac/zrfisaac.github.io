@@ -24,7 +24,8 @@
 
 		// # : - public
 		["https://github.com/zrfisaac/Hawkeye3.git", "public/hawkeye3"],
-		["https://github.com/zrfisaac/LFS.git", "public/lfs"]
-		["https://github.com/zrfisaac/PS2xPS4.git", "public/ps2xps4"]
+		["https://github.com/zrfisaac/LFS.git", "public/lfs"],
+		["https://github.com/zrfisaac/PS2xPS4.git", "public/ps2xps4"],
+		["https://github.com/zrfisaac/Repoza.git", "public/repoza"]
 	]
 }
