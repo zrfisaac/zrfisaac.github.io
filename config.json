@@ -1,15 +1,28 @@
 {
 	"c_clone": [
+		// # : - binary
 		["https://github.com/zrfisaac/binary.markup.git", "binary/markup"],
-		["https://github.com/zrfisaac/fork.assembler-simulator.git", "fork/assembler-simulator"],
-		["https://github.com/zrfisaac/fork.ps4-v01.git", "fork/ps4-v01"],
-		["https://github.com/zrfisaac/fork.ps4-v02.git", "fork/ps4-v02"],
+
+		// # : - folder
 		["https://github.com/zrfisaac/zrfisaac.git", "github"],
-		["https://github.com/zrfisaac/install.godot4.git", "install/godot4"],
 		["https://github.com/zrfisaac/private.git", "private"],
-		["https://github.com/zrfisaac/public.lfs.git", "public/lfs"],
 		["https://github.com/zrfisaac/site.git", "site"],
 		["https://github.com/zrfisaac/zrfisaac.github.io.git", "web"],
-		["https://github.com/zrfisaac/wiki.git", "wiki"]
+		["https://github.com/zrfisaac/wiki.git", "wiki"],
+
+		// # : - fork
+		["https://github.com/zrfisaac/fork.assembler-simulator.git", "fork/assembler-simulator"],
+		["https://github.com/zrfisaac/fork.dnspy.git", "fork/dnspy"],
+		["https://github.com/zrfisaac/fork.dolphin-ps4.git", "fork/dolphin-ps4"],
+		["https://github.com/zrfisaac/fork.hawkeye2.git", "fork/hawkeye2"],
+		["https://github.com/zrfisaac/fork.ps4-v01.git", "fork/ps4-v01"],
+		["https://github.com/zrfisaac/fork.ps4-v02.git", "fork/ps4-v02"],
+
+		// # : - install
+		["https://github.com/zrfisaac/install.godot4.git", "install/godot4"],
+
+		// # : - public
+		["https://github.com/zrfisaac/Hawkeye3.git", "public/hawkeye3"],
+		["https://github.com/zrfisaac/LFS.git", "public/lfs"]
 	]
 }
