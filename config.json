@@ -14,6 +14,7 @@
 		["https://github.com/zrfisaac/fork.assembler-simulator.git", "fork/assembler-simulator"],
 		["https://github.com/zrfisaac/fork.dnspy.git", "fork/dnspy"],
 		["https://github.com/zrfisaac/fork.dolphin-ps4.git", "fork/dolphin-ps4"],
+		["https://github.com/zrfisaac/fork.github.git", "fork/github"],
 		["https://github.com/zrfisaac/fork.hawkeye2.git", "fork/hawkeye2"],
 		["https://github.com/zrfisaac/fork.ps4-v01.git", "fork/ps4-v01"],
 		["https://github.com/zrfisaac/fork.ps4-v02.git", "fork/ps4-v02"],
