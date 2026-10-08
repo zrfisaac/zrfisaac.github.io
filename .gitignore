@@ -9,20 +9,32 @@
 */
 !.github/
 !arch/
+!autorun/
+!bash/
 !batch/
-!chocolatey/
+!c/
+!choco/
 !content/
 !content/**
+!cpp/
+!debian/
 !en/
 !es/
 !gitignore/
+!go/
 !it/
 !ja/
+!js/
 !manjaro/
+!mssql/
 !mint/
+!nasm/
 !pt/
 !python/
+!qemu/
+!rust/
 !version/
+!winget/
 !zh/
 
 # : - base

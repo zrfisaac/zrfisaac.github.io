@@ -1,0 +1,52 @@
+-- # [ zrfisaac ]
+
+-- # [ about ]
+-- # - author : Isaac Caires Santana
+-- # . - email : zrfisaac@gmail.com
+-- # . - site : zrfisaac.github.io
+-- # - version : zrfisaac.python.mssql.backup.all.procedure : 0.0.1
+
+-- # [ mssql ]
+SET NOCOUNT ON
+DROP TABLE IF EXISTS #DATA
+SELECT
+	 CONVERT(VARCHAR(MAX),'')	AS [DATABASE]
+	,CONVERT(VARCHAR(MAX),'')	AS [PROCEDURE]
+INTO #DATA
+WHERE 0 <> 0
+DECLARE @RUN VARCHAR(MAX) = ''
+DECLARE @SCRIPT VARCHAR(MAX) = (''
+	+ CHAR(13) + '		USE P_DATABASE'
+	+ CHAR(13) + '		INSERT INTO #DATA'
+	+ CHAR(13) + '		SELECT'
+	+ CHAR(13) + '			 ''P_DATABASE'''
+	+ CHAR(13) + '			AS [DATABASE]'
+	+ CHAR(13) + '			,NAME'
+	+ CHAR(13) + '			AS [PROCEDURE]'
+	+ CHAR(13) + '		FROM'
+	+ CHAR(13) + '			SYSOBJECTS WITH(NOLOCK)'
+	+ CHAR(13) + '		WHERE 0 = 0'
+	+ CHAR(13) + '			AND TYPE = N''P'''
+	+ CHAR(13) + '			AND NAME NOT LIKE N''dt_%'''
+)
+DECLARE @NAME VARCHAR(64)
+DECLARE CR_CURSOR CURSOR FOR SELECT [NAME]
+FROM SYSDATABASES WITH(NOLOCK)
+WHERE [NAME] NOT IN ('dbSQL2008','dw','master','tempdb','model','msdb','Northwind','Traces') ORDER BY [NAME]
+OPEN CR_CURSOR
+FETCH NEXT FROM CR_CURSOR INTO @NAME
+WHILE (@@FETCH_STATUS = 0)
+BEGIN
+	SET @RUN = REPLACE(@SCRIPT,'P_DATABASE',@NAME)
+	EXEC(@RUN)
+	FETCH NEXT FROM CR_CURSOR INTO @NAME
+END
+CLOSE CR_CURSOR
+DEALLOCATE CR_CURSOR
+SELECT
+	 [DATABASE]
+	,[PROCEDURE]
+FROM #DATA
+ORDER BY
+	 [DATABASE]		ASC
+	,[PROCEDURE]			ASC

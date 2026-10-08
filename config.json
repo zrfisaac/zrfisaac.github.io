@@ -22,10 +22,11 @@
 		// # : - install
 		["https://github.com/zrfisaac/install.godot4.git", "install/godot4"],
 
-		// # : - public
-		["https://github.com/zrfisaac/Hawkeye3.git", "public/hawkeye3"],
-		["https://github.com/zrfisaac/LFS.git", "public/lfs"],
-		["https://github.com/zrfisaac/PS2xPS4.git", "public/ps2xps4"],
-		["https://github.com/zrfisaac/Repoza.git", "public/repoza"]
+		// # : - project
+		["https://github.com/zrfisaac/Delira.git", "project/delira"],
+		["https://github.com/zrfisaac/Hawkeye3.git", "project/hawkeye3"],
+		["https://github.com/zrfisaac/LFS.git", "project/lfs"],
+		["https://github.com/zrfisaac/PS2xPS4.git", "project/ps2xps4"],
+		["https://github.com/zrfisaac/Repoza.git", "project/repoza"]
 	]
 }
