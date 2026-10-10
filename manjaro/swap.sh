@@ -9,9 +9,10 @@
 
 # [ bash ]
 command -v sudo >/dev/null 2>&1 && sudo="sudo" || sudo=""
-[ -f /swapfile ] && ${sudo} swapoff /swapfile
-[ -f /swapfile ] && ${sudo} rm -rvf /swapfile
-${sudo} fallocate -l 8G /swapfile
-${sudo} chmod 0600 /swapfile
-${sudo} mkswap /swapfile
-[ -f /swapfile ] && ${sudo} swapon /swapfile
+[ -f /swap/swapfile ] && ${sudo} swapoff /swap/swapfile
+${sudo} sudo swapoff -a
+[ -f /swap/swapfile ] && ${sudo} rm -rvf /swap/swapfile
+${sudo} fallocate -l 16G /swap/swapfile
+${sudo} chmod 0600 /swap/swapfile
+${sudo} mkswap /swap/swapfile
+[ -f /swap/swapfile ] && ${sudo} swapon /swap/swapfile
