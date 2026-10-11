@@ -5,7 +5,7 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.bash.grub : 26.10.11.1
+# - version : zrfisaac.bash.grub : 26.10.11.2
 
 # [ bash ]
 
@@ -22,7 +22,7 @@ mountpoint -q /boot || exit 1
 
 # - install
 echo "# . - install"
-pacman -S --needed --noconfirm grub efibootmgr
+pacman -S --needed --noconfirm grub efibootmgr mkinitcpio
 
 # - configure
 echo "# . - configure"
@@ -31,6 +31,10 @@ sed -i 's/^GRUB_TIMEOUT_STYLE=.*/GRUB_TIMEOUT_STYLE=hidden/' "$v_file"
 
 grep -q '^GRUB_TIMEOUT=' "$v_file" || echo 'GRUB_TIMEOUT=0' >> "$v_file"
 grep -q '^GRUB_TIMEOUT_STYLE=' "$v_file" || echo 'GRUB_TIMEOUT_STYLE=hidden' >> "$v_file"
+
+# - initramfs
+echo "# . - initramfs"
+mkinitcpio -p linux
 
 # - grub
 echo "# . - grub"
