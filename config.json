@@ -16,8 +16,10 @@
 		["https://github.com/zrfisaac/fork.dolphin-ps4.git", "fork/dolphin-ps4"],
 		["https://github.com/zrfisaac/fork.github.git", "fork/github"],
 		["https://github.com/zrfisaac/fork.hawkeye2.git", "fork/hawkeye2"],
+		["https://github.com/zrfisaac/fork.novnc.git", "fork/novnc"],
 		["https://github.com/zrfisaac/fork.ps4-v01.git", "fork/ps4-v01"],
 		["https://github.com/zrfisaac/fork.ps4-v02.git", "fork/ps4-v02"],
+		["https://github.com/zrfisaac/fork.websockify.git", "fork/websockify"],
 
 		// # : - install
 		["https://github.com/zrfisaac/install.godot4.git", "install/godot4"],
@@ -26,6 +28,7 @@
 		["https://github.com/zrfisaac/Delira.git", "project/delira"],
 		["https://github.com/zrfisaac/Hawkeye3.git", "project/hawkeye3"],
 		["https://github.com/zrfisaac/LFS.git", "project/lfs"],
+		["https://github.com/zrfisaac/novnc.git", "project/novnc"],
 		["https://github.com/zrfisaac/PS2xPS4.git", "project/ps2xps4"],
 		["https://github.com/zrfisaac/Repoza.git", "project/repoza"]
 	]

@@ -5,7 +5,7 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.arch.vnc : 26.10.11.4
+# - version : zrfisaac.arch.vnc : 26.10.11.5
 
 # [ bash ]
 
@@ -40,6 +40,7 @@ echo "# . - clone"
 # - password
 echo "# . - password"
 mkdir -p "$v_home/.config/tigervnc"
+
 if [ ! -f "$v_passwd" ]; then
     vncpasswd "$v_passwd"
 fi
@@ -70,9 +71,14 @@ kill -0 "$v_pid"
 # - session
 echo "# . - session"
 export DISPLAY="$v_display"
+
 dbus-run-session -- bash -c '
     xfwm4 &
-    exec "$@"
+
+    while true; do
+        "$@"
+        sleep 1
+    done
 ' bash "$v_app" &
 
 # - novnc
