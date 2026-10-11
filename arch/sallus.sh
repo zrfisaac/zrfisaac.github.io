@@ -5,7 +5,7 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.bash.sallus : 26.10.11.1
+# - version : zrfisaac.bash.sallus : 26.10.11.2
 
 # [ bash ]
 
@@ -63,6 +63,16 @@ EOT
     grep -q '^GRUB_TIMEOUT_STYLE=' "$v_grub" || echo 'GRUB_TIMEOUT_STYLE=hidden' >> "$v_grub"
     echo 'GRUB_GFXMODE=800x600' >> "$v_grub"
     echo 'GRUB_GFXPAYLOAD_LINUX=keep' >> "$v_grub"
+
+    # - kernel
+    echo "# . - kernel"
+    sed -i -E '/^GRUB_CMDLINE_LINUX_DEFAULT=/ {
+        s/ video=[^ "]*//g
+        s/"$/ video=800x600@60"/
+    }' "$v_grub"
+
+    grep -q '^GRUB_CMDLINE_LINUX_DEFAULT=' "$v_grub" ||
+        echo 'GRUB_CMDLINE_LINUX_DEFAULT="video=800x600@60"' >> "$v_grub"
 
     echo "# . - initramfs"
     mkinitcpio -p linux
