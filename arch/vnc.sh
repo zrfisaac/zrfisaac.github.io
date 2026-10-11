@@ -5,7 +5,7 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.arch.vnc : 26.10.11.5
+# - version : zrfisaac.arch.vnc : 26.10.11.6
 
 # [ bash ]
 
@@ -26,16 +26,12 @@ echo "# . - check"
 echo "# . - install"
 sudo pacman -S --needed --noconfirm \
     tigervnc xorg-xauth git dbus \
-    xfwm4 wine
+    xfwm4 wine python
 
 # - clone
 echo "# . - clone"
 [ -d "$v_novnc" ] ||
-    git clone https://github.com/novnc/noVNC.git "$v_novnc"
-
-[ -d "$v_novnc/utils/websockify" ] ||
-    git clone https://github.com/novnc/websockify.git \
-    "$v_novnc/utils/websockify"
+    git clone https://github.com/zrfisaac/novnc.git "$v_novnc"
 
 # - password
 echo "# . - password"
@@ -83,11 +79,11 @@ dbus-run-session -- bash -c '
 
 # - novnc
 echo "# . - novnc"
-"$v_novnc/utils/novnc_proxy" \
+sh "$v_novnc/utils/novnc_proxy" \
     --vnc localhost:5901 \
     --listen "0.0.0.0:$v_port" &
 
 # - end
 echo "# . - end"
-echo "http://localhost:$v_port/vnc.html"
+echo "http://localhost:$v_port/"
 wait
