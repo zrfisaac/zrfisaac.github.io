@@ -5,7 +5,7 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.arch.vnc : 26.10.11.6
+# - version : zrfisaac.arch.novnc : 26.10.11.1
 
 # [ bash ]
 
@@ -13,10 +13,21 @@
 set -euo pipefail
 v_display=":1"
 v_port="15443"
-v_app="${1:-winecfg}"
+v_app="winecfg"
 v_home="$HOME"
+v_repo="https://github.com/zrfisaac/novnc.git"
 v_novnc="$v_home/novnc"
 v_passwd="$v_home/.config/tigervnc/passwd"
+
+# - argument
+for v_arg in "$@"; do
+    if [ "$v_arg" == "--old" ]; then
+        v_repo="https://github.com/novnc/noVNC.git"
+        v_novnc="$v_home/vncold"
+    else
+        v_app="$v_arg"
+    fi
+done
 
 # - check
 echo "# . - check"
@@ -31,7 +42,13 @@ sudo pacman -S --needed --noconfirm \
 # - clone
 echo "# . - clone"
 [ -d "$v_novnc" ] ||
-    git clone https://github.com/zrfisaac/novnc.git "$v_novnc"
+    git clone "$v_repo" "$v_novnc"
+
+if [ "$v_novnc" == "$v_home/vncold" ]; then
+    [ -d "$v_novnc/utils/websockify" ] ||
+        git clone https://github.com/novnc/websockify.git \
+        "$v_novnc/utils/websockify"
+fi
 
 # - password
 echo "# . - password"
@@ -79,9 +96,16 @@ dbus-run-session -- bash -c '
 
 # - novnc
 echo "# . - novnc"
-sh "$v_novnc/utils/novnc_proxy" \
-    --vnc localhost:5901 \
-    --listen "0.0.0.0:$v_port" &
+
+if [ "$v_novnc" == "$v_home/vncold" ]; then
+    "$v_novnc/utils/novnc_proxy" \
+        --vnc localhost:5901 \
+        --listen "0.0.0.0:$v_port" &
+else
+    sh "$v_novnc/utils/novnc_proxy" \
+        --vnc localhost:5901 \
+        --listen "0.0.0.0:$v_port" &
+fi
 
 # - end
 echo "# . - end"
