@@ -21,6 +21,7 @@
 !debian/
 !en/
 !es/
+!get/
 !gitignore/
 !go/
 !it/
