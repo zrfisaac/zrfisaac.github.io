@@ -5,7 +5,7 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.bash.net : 26.10.11.1
+# - version : zrfisaac.bash.net : 26.10.11.2
 
 # [ bash ]
 user=""
@@ -20,6 +20,7 @@ command -v sudo >/dev/null 2>&1 && sudo="sudo" || sudo=""
 [ ! -x "$(which gufw)" ] && ${sudo} pacman -S --noconfirm gufw
 [ ! -x "$(which less)" ] && ${sudo} pacman -S --noconfirm less
 [ ! -x "$(which git)" ] && ${sudo} pacman -S --noconfirm git
+[ ! -x "$(which git)" ] && ${sudo} pacman -S --noconfirm dhcpcd
 [ ! -x "$(which gh)" ] && ${sudo} pacman -S --noconfirm github-cli
 [ ! -f "/etc/conf.d/samba" ] && ${sudo} pacman -S --noconfirm samba
 [ ! -f "/usr/lib/libwbclient.so" ] && ${sudo} pacman -S --noconfirm libwbclient
