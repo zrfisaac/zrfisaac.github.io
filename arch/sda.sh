@@ -5,7 +5,7 @@
 # - author : Isaac Caires Santana
 # . - email : zrfisaac@gmail.com
 # . - site : zrfisaac.github.io
-# - version : zrfisaac.bash.sda : 26.10.11.1
+# - version : zrfisaac.bash.sda : 26.10.11.2
 
 # [ bash ]
 
@@ -58,9 +58,17 @@ mkdir -p /mnt/boot /mnt/efi
 mount "${DISK}1" /mnt/boot
 mount "${DISK}2" /mnt/efi
 
-# - show
-echo "# . - show"
-lsblk -f "$DISK"
+# - swap
+dd if=/dev/zero of=/mnt/swap bs=1M count=8192 status=progress
+chmod 600 /mnt/swap
+mkswap /mnt/swap
+swapon /mnt/swap
+
+# - packstrap
+echo "# . - packstrap"
+pacstrap -K /mnt base linux linux-firmware
+genfstab -U /mnt > /mnt/etc/fstab
+arch-chroot /mnt
 
 # - end
 echo "# . - end"
