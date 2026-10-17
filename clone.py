@@ -52,11 +52,13 @@ def _config(_path):
 
 
 # : - clone
-def _clone(c_clone, _name, _dry_run):
-	print(f"# . - clone - {_name}", flush=True)
+def _clone(c_clone, _dry_run):
+	print("# . - clone", flush=True)
 	_error = 0
 	for _url, _path in c_clone:
-		print(f"# . - clone - {_name} : {_url} {_path}", flush=True)
+		if _path.is_dir():
+			continue
+		print(f"# . - clone : {_url} {_path}", flush=True)
 		if _dry_run:
 			continue
 		_result = subprocess.run(
@@ -71,7 +73,7 @@ def _clone(c_clone, _name, _dry_run):
 
 
 def _main():
-	_args = argparse.ArgumentParser(description="# . - clone - public / private")
+	_args = argparse.ArgumentParser(description="# . - clone")
 	_args.add_argument("--dry-run", action="store_true", help="mostrar sem clonar")
 	_args.add_argument("--no-pause", action="store_true", help="terminar sem aguardar Enter")
 	_args = _args.parse_args()
@@ -81,20 +83,9 @@ def _main():
 	# : - begin
 	print(f"# - : {Path(__file__).resolve()}", flush=True)
 	try:
-		# : - clone - public
+		# : - clone
 		c_clone = _config(_path)
-		_error |= _clone(c_clone, "public", _args.dry_run)
-
-		# : - config - private
-		_private = _path / "private"
-		if any((_private / _).is_file() for _ in ("config.json", "_config.json", "_.json")):
-			c_clone = _config(_private)
-
-			# : - clone - private
-			_error |= _clone(c_clone, "private", _args.dry_run)
-		elif (_private / "config.bat").is_file():
-			print("# . - error : converta private/config.bat para private/config.json", file=sys.stderr)
-			_error = 1
+		_error |= _clone(c_clone, _args.dry_run)
 	except (OSError, ValueError) as _:
 		print(f"# . - error : {_}", file=sys.stderr)
 		_error = 1

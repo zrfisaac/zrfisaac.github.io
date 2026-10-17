@@ -5,14 +5,15 @@
 
 		// # : - folder
 		["https://github.com/zrfisaac/zrfisaac.git", "github"],
-		["https://github.com/zrfisaac/private.git", "private"],
 		["https://github.com/zrfisaac/site.git", "site"],
 		["https://github.com/zrfisaac/zrfisaac.github.io.git", "web"],
 		["https://github.com/zrfisaac/wiki.git", "wiki"],
 
 		// # : - fork
 		["https://github.com/zrfisaac/fork.assembler-simulator.git", "fork/assembler-simulator"],
+		["https://github.com/zrfisaac/fork.blender-lpm-skill.git", "fork/blender-lpm-skill"],
 		["https://github.com/zrfisaac/fork.dnspy.git", "fork/dnspy"],
+		["https://github.com/zrfisaac/fork.claude-pxl.git", "fork/claude-pxl"],
 		["https://github.com/zrfisaac/fork.dolphin-ps4.git", "fork/dolphin-ps4"],
 		["https://github.com/zrfisaac/fork.github.git", "fork/github"],
 		["https://github.com/zrfisaac/fork.hawkeye2.git", "fork/hawkeye2"],
