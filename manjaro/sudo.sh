@@ -11,3 +11,6 @@
 command -v sudo >/dev/null 2>&1 && sudo="sudo" || sudo=""
 _user=$(getent passwd 1000 | cut -d: -f1)
 ${sudo} echo "${_user} ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/${_user}
+${sudo} ln -s /opt/flutter/bin/flutter /usr/local/bin/flutter
+${sudo} ln -s /opt/flutter/bin/dart /usr/local/bin/dart
+

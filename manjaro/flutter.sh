@@ -10,3 +10,5 @@
 # [ bash ]
 command -v sudo >/dev/null 2>&1 && sudo="sudo" || sudo=""
 yay -S --noconfirm flutter-bin
+sudo ln -s /opt/flutter/bin/flutter /usr/local/bin/flutter
+sudo ln -s /opt/flutter/bin/dart /usr/local/bin/dart

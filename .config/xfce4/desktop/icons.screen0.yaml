@@ -39,3 +39,259 @@ configs:
     "/home/zrfisaac/desktop/folix-server":
       row: 2
       col: 0
+- level: 0
+  monitors:
+  - id: "59ca6d3ae3775c196afc0b8522b0c0c206fb7d29"
+    display_name: "LG Electronics LG HD 201AZMGAM883 (HDMI-0)"
+    geometry:
+      x: 0
+      y: 0
+      width: 1366
+      height: 768
+  icons:
+    "/zrfisaac/archlinux.sh":
+      row: 0
+      col: 1
+    "/zrfisaac/banner.webp":
+      row: 4
+      col: 1
+    "/zrfisaac/logo.webp":
+      row: 2
+      col: 6
+    "/zrfisaac/old":
+      row: 0
+      col: 0
+    "/zrfisaac/it":
+      row: 3
+      col: 5
+    "/zrfisaac/logo.ico":
+      row: 6
+      col: 5
+    "/zrfisaac/logo.png":
+      row: 0
+      col: 6
+    "/zrfisaac/pt":
+      row: 5
+      col: 8
+    "/zrfisaac/version":
+      row: 4
+      col: 10
+    "/zrfisaac/en":
+      row: 0
+      col: 4
+    "/zrfisaac/profile.png":
+      row: 3
+      col: 8
+    "/zrfisaac/debian":
+      row: 2
+      col: 3
+    "/zrfisaac/mint":
+      row: 4
+      col: 6
+    "/zrfisaac/gitignore":
+      row: 6
+      col: 4
+    "/zrfisaac/python":
+      row: 0
+      col: 9
+    "/zrfisaac/shortcut":
+      row: 4
+      col: 9
+    "/zrfisaac/config.json":
+      row: 6
+      col: 2
+    "/zrfisaac/mobile.webp":
+      row: 6
+      col: 6
+    "/zrfisaac/ja":
+      row: 4
+      col: 5
+    "/zrfisaac/_":
+      row: 1
+      col: 0
+    "/zrfisaac/about.zrfi":
+      row: 2
+      col: 0
+    "/zrfisaac/clone.py":
+      row: 5
+      col: 2
+    "/zrfisaac/public":
+      row: 6
+      col: 8
+    "/zrfisaac/app-ads.txt":
+      row: 5
+      col: 0
+    "/zrfisaac/wine":
+      row: 0
+      col: 11
+    "/zrfisaac/desktop.png":
+      row: 3
+      col: 3
+    "/zrfisaac/all.bat":
+      row: 4
+      col: 0
+    "/zrfisaac/social.png":
+      row: 5
+      col: 9
+    "/zrfisaac/flash.sh":
+      row: 2
+      col: 4
+    "/zrfisaac/content":
+      row: 0
+      col: 3
+    "/zrfisaac/desktop.webp":
+      row: 4
+      col: 3
+    "/zrfisaac/techsallus":
+      row: 3
+      col: 11
+    "/zrfisaac/termux.sh":
+      row: 3
+      col: 10
+    "/zrfisaac/boot.sh":
+      row: 0
+      col: 2
+    "/zrfisaac/autorun":
+      row: 1
+      col: 1
+    "/zrfisaac/manjaro":
+      row: 3
+      col: 6
+    "/zrfisaac/music":
+      row: 1
+      col: 7
+    "/zrfisaac/es":
+      row: 1
+      col: 4
+    "/zrfisaac/ico.bat":
+      row: 1
+      col: 5
+    "/zrfisaac/pixel.webp":
+      row: 0
+      col: 8
+    "/zrfisaac/video":
+      row: 5
+      col: 10
+    "/zrfisaac/pallet":
+      row: 4
+      col: 7
+    "/zrfisaac/social.webp":
+      row: 6
+      col: 9
+    "/zrfisaac/run.sh":
+      row: 2
+      col: 9
+    "/zrfisaac/zh":
+      row: 2
+      col: 11
+    "/zrfisaac/c":
+      row: 1
+      col: 2
+    "/zrfisaac/bash":
+      row: 5
+      col: 1
+    "/zrfisaac/download":
+      row: 6
+      col: 3
+    "/zrfisaac/document":
+      row: 5
+      col: 3
+    "/zrfisaac/cpp":
+      row: 1
+      col: 3
+    "/zrfisaac/AGENTS.md":
+      row: 3
+      col: 0
+    "/zrfisaac/web.config":
+      row: 6
+      col: 10
+    "/zrfisaac/autorun.inf":
+      row: 2
+      col: 1
+    "/zrfisaac/qemu":
+      row: 1
+      col: 9
+    "/zrfisaac/pixel.png":
+      row: 6
+      col: 7
+    "/zrfisaac/profile.webp":
+      row: 4
+      col: 8
+    "/zrfisaac/template":
+      row: 2
+      col: 10
+    "/zrfisaac/arch":
+      row: 6
+      col: 0
+    "/zrfisaac/sudo.sh":
+      row: 0
+      col: 10
+    "/zrfisaac/rust":
+      row: 3
+      col: 9
+    "/zrfisaac/ollama.sh":
+      row: 3
+      col: 7
+    "/zrfisaac/banner.png":
+      row: 3
+      col: 1
+    "/zrfisaac/winget":
+      row: 1
+      col: 11
+    "/zrfisaac/get.sh":
+      row: 5
+      col: 4
+    "/zrfisaac/character.webp":
+      row: 3
+      col: 2
+    "/zrfisaac/private.bat":
+      row: 2
+      col: 8
+    "/zrfisaac/batch":
+      row: 6
+      col: 1
+    "/zrfisaac/js":
+      row: 5
+      col: 5
+    "/zrfisaac/get":
+      row: 3
+      col: 4
+    "/zrfisaac/mssql":
+      row: 0
+      col: 7
+    "/zrfisaac/character.png":
+      row: 2
+      col: 2
+    "/zrfisaac/nasm":
+      row: 2
+      col: 7
+    "/zrfisaac/go":
+      row: 0
+      col: 5
+    "/zrfisaac/logo.svg":
+      row: 1
+      col: 6
+    "/zrfisaac/get.bat":
+      row: 4
+      col: 4
+    "/zrfisaac/index.html":
+      row: 2
+      col: 5
+    "/zrfisaac/privacy.html":
+      row: 1
+      col: 8
+    "/zrfisaac/choco":
+      row: 4
+      col: 2
+    "/zrfisaac/mobile.png":
+      row: 5
+      col: 6
+    "/zrfisaac/picture":
+      row: 5
+      col: 7
+    "/zrfisaac/swap.sh":
+      row: 1
+      col: 10
+    "/zrfisaac/default":
+      row: 1
+      col: 0

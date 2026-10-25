@@ -30,9 +30,15 @@
         </property>
       </property>
       <property name="monitor0" type="empty">
-        <property name="image-path" type="string" value="/zrfisaac/desktop.png"/>
+        <property name="image-path" type="string" value="/zrfisaac/aska/wallpaper/desktop-01.png"/>
         <property name="image-show" type="bool" value="true"/>
         <property name="image-style" type="int" value="5"/>
+      </property>
+      <property name="monitorHDMI-0" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="last-image" type="string" value="/zrfisaac/aska/wallpaper/desktop-01.png"/>
+          <property name="image-style" type="int" value="5"/>
+        </property>
       </property>
     </property>
   </property>
