@@ -22,6 +22,16 @@ document.querySelectorAll("a[href]").forEach((link) => {
 
 /* [ language ] */
 
+const currentLanguage = location.pathname.match(/^\/(pt|en|es|it|ja|zh)\//)?.[1];
+if (currentLanguage) {
+    try {
+        localStorage.setItem("zrf-language", currentLanguage);
+    } catch {
+        // Navigation still works when storage is unavailable.
+    }
+}
+
+
 const language = document.querySelector(".language");
 const languageButton = document.querySelector(".language-button");
 const languageOptions = document.querySelector(".language-options");

@@ -16,28 +16,19 @@
 </head>
 <body>
     <p>
-        <a href="pt/index.html">Português</a>
+        <a hreflang="pt" href="pt/index.html">Português</a>
         ·
-        <a href="en/index.html">English</a>
+        <a hreflang="en" href="en/index.html">English</a>
         ·
-        <a href="es/index.html">Español</a>
+        <a hreflang="es" href="es/index.html">Español</a>
         ·
-        <a href="it/index.html">Italiano</a>
+        <a hreflang="it" href="it/index.html">Italiano</a>
         ·
-        <a href="ja/index.html">日本語</a>
+        <a hreflang="ja" href="ja/index.html">日本語</a>
         ·
-        <a href="zh/index.html">中文</a>
+        <a hreflang="zh" href="zh/index.html">中文</a>
     </p>
 
-    <script>
-        const savedLanguage = localStorage.getItem("zrf-language");
-        const browserLanguage = navigator.language || "en";
-        const browserCode = browserLanguage.toLowerCase().split("-")[0];
-        const supportedLanguages = ["pt", "en", "es", "it", "ja", "zh"];
-        const defaultLanguage = supportedLanguages.includes(browserCode) ? browserCode : "en";
-        const language = savedLanguage || defaultLanguage;
-
-        location.replace(`${language}/index.html`);
-    </script>
+    <script src="content/language-redirect.js"></script>
 </body>
 </html>
