@@ -7,7 +7,7 @@ rem # [ about ]
 rem # - author : Isaac Caires Santana
 rem # . - email : zrfisaac@gmail.com
 rem # . - site : zrfisaac.github.io
-rem # - version : zrfisaac.chocolatey.ytdlp : 26.9.16.1
+rem # - version : zrfisaac.chocolatey.ytdlp : 26.11.22.1
 
 rem # [ batch ]
 
@@ -124,9 +124,9 @@ if "%v_administrator%" equ "0" if "!v_message!" equ "" (
 			if "!_section!" equ "music" if "!_source!" neq "" if not exist "!_target!" (
 				echo # . - : ytdlp !_target!
 				if exist "cookies.txt" (
-					call "%v_ytdlp%" -f bestaudio --extract-audio --audio-format mp3 --cookies cookies.txt -o "!_target!" "!_source!"
+					call "%v_ytdlp%" --remote-components ejs:npm -x --audio-format mp3 --cookies cookies.txt -o "!_target!" "!_source!"
 				) else (
-					call "%v_ytdlp%" -f bestaudio --extract-audio --audio-format mp3 -o "!_target!" "!_source!"
+					call "%v_ytdlp%" --remote-components ejs:npm -x --audio-format mp3 -o "!_target!" "!_source!"
 				)
 			)
 
